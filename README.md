@@ -31,7 +31,8 @@ A production-ready intent classification pipeline for Amazon customer service co
 ### Installation
 
 ```bash
-# Clone/download the project
+# Clone the project
+git clone https://github.com/Manishrajulu/hiver-support-agent.git hivER
 cd hivER
 
 # Create virtual environment
