@@ -55,7 +55,7 @@ with open('data/baseline/baseline_train_test_split.json', 'r') as f:
 test_ids = set(split['test_ids'])
 
 test_convs = []
-with open('data/processed/amazonhelp_labeled_conversations_v21.jsonl', 'r', encoding='utf-8') as f:
+with open('data/processed/amazonhelp_labeled_conversations_v21_phase6c.jsonl', 'r', encoding='utf-8') as f:
     for line in f:
         conv = json.loads(line)
         if conv['conversation_id'] in test_ids:

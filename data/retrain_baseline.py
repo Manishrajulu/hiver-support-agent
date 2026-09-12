@@ -48,7 +48,7 @@ print("-"*40)
 
 conversations = []
 cid_to_data = {}
-with open('data/processed/amazonhelp_labeled_conversations_v21.jsonl', 'r', encoding='utf-8') as f:
+with open('data/processed/amazonhelp_labeled_conversations_v21_phase6c.jsonl', 'r', encoding='utf-8') as f:
     for line in f:
         data = json.loads(line)
         conversations.append(data)

@@ -45,7 +45,7 @@ print(f"Test IDs: {len(test_ids)}")
 
 # Load test conversations
 test_convs = []
-with open('data/processed/amazonhelp_labeled_conversations_v21.jsonl', 'r', encoding='utf-8') as f:
+with open('data/processed/amazonhelp_labeled_conversations_v21_phase6c.jsonl', 'r', encoding='utf-8') as f:
     for line in f:
         conv = json.loads(line)
         if conv['conversation_id'] in test_ids:

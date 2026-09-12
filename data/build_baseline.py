@@ -29,7 +29,7 @@ np.random.seed(RANDOM_STATE)
 random.seed(RANDOM_STATE)
 
 # Paths
-DATA_PATH = 'data/processed/amazonhelp_labeled_conversations_v21.jsonl'
+DATA_PATH = 'data/processed/amazonhelp_labeled_conversations_v21_phase6c.jsonl'
 OUTPUT_DIR = 'data/baseline'
 
 print("=" * 70)

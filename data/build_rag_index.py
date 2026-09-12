@@ -18,7 +18,7 @@ from sentence_transformers import SentenceTransformer
 sys.stdout.reconfigure(encoding='utf-8')
 
 # Config
-DATA_PATH = 'data/processed/amazonhelp_labeled_conversations_v21.jsonl'
+DATA_PATH = 'data/processed/amazonhelp_labeled_conversations_v21_phase6c.jsonl'
 INDEX_DIR = 'data/rag'
 EMBEDDING_MODEL = 'all-MiniLM-L6-v2'
 EMBEDDING_DIM = 384

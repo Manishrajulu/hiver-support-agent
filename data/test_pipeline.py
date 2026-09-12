@@ -95,7 +95,7 @@ def load_conversations_from_corpus(conversation_ids, corpus_path=None):
 
 def load_test_data_from_corpus(n=50, corpus_path=None):
     if corpus_path is None:
-        corpus_path = f'{DATA_DIR}/processed/amazonhelp_labeled_conversations_v21.jsonl'
+        corpus_path = f'{DATA_DIR}/processed/amazonhelp_labeled_conversations_v21_phase6c.jsonl'
     """
     Load test conversations from the labeled corpus.
     Uses the TEST split (excludes training IDs).
