@@ -1,0 +1,866 @@
+[
+  {
+    "example_id": "golden_0001",
+    "human_label": "RETURN_REQUEST",
+    "model_prediction": "DELIVERY_LATE",
+    "confusion_pair": "RETURN_REQUEST -> DELIVERY_LATE",
+    "error_category": "A",
+    "customer_text": "@115850 #worst_customer_service https://t.co/wgzuf8UiiR @115850 @1840 @AmazonHelp @AmazonHelp Done. @AmazonHelp Any updates ? @AmazonHelp Still the issue is not resolved. I don't know how your escalation works but this doesn't seems right. My money is stuck since 15 days. @AmazonHelp I received a mail yesterday that pickup will be done but till now nothing happened. I'm tired of chasing customer care, please help. @AmazonHelp why are you guys hassling a regular customer ?.\nThis is the first time",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0003",
+    "human_label": "REFUND_REQUEST",
+    "model_prediction": "DELIVERY_LATE",
+    "confusion_pair": "REFUND_REQUEST -> DELIVERY_LATE",
+    "error_category": "A",
+    "customer_text": "@115821 this is how Amazon India will dupe you..digital mafia..even they are telling no guarantee of refund in 2019 also @115850 @116935 @115830 @116618 @AmazonHelp @117634 @144779 @115828 @115851 https://t.co/u0Jip0hFsJ @AmazonHelp I have contacted u more than 70 times for D's order since Oct 10 @115850 @115821 @116618 @115830 @117634 @1404 @115828 @120844 @127586 @4211 @144772 @115851  #digitalmafia ..contact mob. no. :- +918018124783 suman sourav patra @AmazonHelp Don't try 2 play everytime b",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0010",
+    "human_label": "DELIVERY_MISSING",
+    "model_prediction": "OTHER",
+    "confusion_pair": "DELIVERY_MISSING -> OTHER",
+    "error_category": "A",
+    "customer_text": "@115830 Terrible service for two parcels supposedly in a locker we haven’t been able to get access to since Thursday! C’mon Amazon!",
+    "analysis_note": "Model over-predicts OTHER for delivery-related intents"
+  },
+  {
+    "example_id": "golden_0015",
+    "human_label": "ACCOUNT_ACCESS",
+    "model_prediction": "APP_USAGE",
+    "confusion_pair": "ACCOUNT_ACCESS -> APP_USAGE",
+    "error_category": "A",
+    "customer_text": "Gee, thanks for suddenly wanting me to enter a random code that you sent to my old phone without reason, @115830 .\nI sold that phone.\nAnd the password was correct.\nBut you know.\nGood job. @AmazonHelp Hi there!\nCan't do so - neglected to mention I'm a Seller and not a regular customer. Well, I'm both. But this was for the Seller side.\nI understand the 2 halves of Amazon are separate like that so a normal customer procedure wouldn't work. @AmazonHelp Haha! Link requires me to log in to do anything",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0016",
+    "human_label": "PRODUCT_ISSUE",
+    "model_prediction": "OTHER",
+    "confusion_pair": "PRODUCT_ISSUE -> OTHER",
+    "error_category": "B",
+    "customer_text": "@AmazonHelp @115850 why am I being charged 1300 at an mrp of 478,doesn't that amount to cheating? https://t.co/TZGvB7sLM1 @AmazonHelp Don't you validate prices and the seller? Where can I leave feedback for the seller?",
+    "analysis_note": "Product/return intents confused with OTHER - may need clearer definitions"
+  },
+  {
+    "example_id": "golden_0017",
+    "human_label": "PRODUCT_ISSUE",
+    "model_prediction": "OTHER",
+    "confusion_pair": "PRODUCT_ISSUE -> OTHER",
+    "error_category": "B",
+    "customer_text": "@115850 I was brought one lenovo  laptop and not providing me tax paid invoice bill to extend warranty and lenovo team not extending",
+    "analysis_note": "Product/return intents confused with OTHER - may need clearer definitions"
+  },
+  {
+    "example_id": "golden_0020",
+    "human_label": "PAYMENT_ISSUE",
+    "model_prediction": "DEVICE_ISSUE",
+    "confusion_pair": "PAYMENT_ISSUE -> DEVICE_ISSUE",
+    "error_category": "A",
+    "customer_text": "@115830 Money has been taken out of my account for a prime membership I don't even have. Both of my amazon accounts are showing that there is no prime membership. Customer services did not want to help me at all. Any advice would be appreciated.",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0023",
+    "human_label": "APP_USAGE",
+    "model_prediction": "DEVICE_ISSUE",
+    "confusion_pair": "APP_USAGE -> DEVICE_ISSUE",
+    "error_category": "A",
+    "customer_text": "@119356 @115821 - suggestion - add d option 2 filter products basis their EDD. Wil help clients when looking for gifting options. @AmazonHelp Thanks but can't find it in the app. Customer service rep also denied of this feature. Pls help. @AmazonHelp Is this feature available in Amazon India app? @119356 @AmazonHelp How can I find out for which products it's avlbl?",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0024",
+    "human_label": "DELIVERY_MISSING",
+    "model_prediction": "OTHER",
+    "confusion_pair": "DELIVERY_MISSING -> OTHER",
+    "error_category": "A",
+    "customer_text": "@115821 Do you hire delivery people who can read? Just received these 2 packages. Well over 30 misdelivered packages! 😠 https://t.co/xZoLNKidcE",
+    "analysis_note": "Model over-predicts OTHER for delivery-related intents"
+  },
+  {
+    "example_id": "golden_0025",
+    "human_label": "REFUND_REQUEST",
+    "model_prediction": "ORDER_STATUS",
+    "confusion_pair": "REFUND_REQUEST -> ORDER_STATUS",
+    "error_category": "A",
+    "customer_text": "Hello Amazon team ,please reply to my tweets, i want the refund to be processed for my order asap.. i have contacted Amazon customer service but executive could not help i can't wait for pick up. Refund the money @AmazonHelp I have already placed request for the same.. I want refund first. I am highly disappointed with Amazon. Ready to return but refund first. @AmazonHelp You are handling tweeter.. check everything yourself ban the seller it will spoil your business and customer expectations fro",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0031",
+    "human_label": "REFUND_REQUEST",
+    "model_prediction": "RETURN_REQUEST",
+    "confusion_pair": "REFUND_REQUEST -> RETURN_REQUEST",
+    "error_category": "B",
+    "customer_text": "After a back injury, Day created a DIY stand-up desk. But she didn't stop there. Become an entrepreneur on Amazon: https://t.co/RAcGOKx5Nn https://t.co/nrXr7kNTw3 @115821 Hi I want to ask you, I have two shipments from Amazon. I lost a month and until now they have returned my money to the Visa and do not replace it @AmazonHelp I contact with them many time but no benefit answer :(",
+    "analysis_note": "Product/return/refund boundary confusion"
+  },
+  {
+    "example_id": "golden_0033",
+    "human_label": "PRODUCT_ISSUE",
+    "model_prediction": "OTHER",
+    "confusion_pair": "PRODUCT_ISSUE -> OTHER",
+    "error_category": "B",
+    "customer_text": "Hey @115850 this shoe costs 1499/- across all sizes in Decathlon stores so stop cheating and increasing the price for larger sizes. https://t.co/gtvFGVYXi1",
+    "analysis_note": "Product/return intents confused with OTHER - may need clearer definitions"
+  },
+  {
+    "example_id": "golden_0035",
+    "human_label": "ACCOUNT_ACCESS",
+    "model_prediction": "OTHER",
+    "confusion_pair": "ACCOUNT_ACCESS -> OTHER",
+    "error_category": "A",
+    "customer_text": "@115821 useless at sorting out my account out had issues since Friday and still not sorted. Selling items that are not even mine. @AmazonHelp No options they are saying it is being given the highest priority. Can despatch my own orders as German items taken over 476 items to despatch. @AmazonHelp Already have done every day since Friday. Unhappy customers",
+    "analysis_note": "Model over-predicts OTHER for service-related intents"
+  },
+  {
+    "example_id": "golden_0036",
+    "human_label": "DELIVERY_LATE",
+    "model_prediction": "OTHER",
+    "confusion_pair": "DELIVERY_LATE -> OTHER",
+    "error_category": "A",
+    "customer_text": "@115850 The expected day of delivery was 16th of October. I've not received the order yet, nor am I able to track down the same",
+    "analysis_note": "Model over-predicts OTHER for delivery-related intents"
+  },
+  {
+    "example_id": "golden_0042",
+    "human_label": "DELIVERY_LATE",
+    "model_prediction": "OTHER",
+    "confusion_pair": "DELIVERY_LATE -> OTHER",
+    "error_category": "A",
+    "customer_text": "@115830 my delivery didn’t arrive for the second day yesterday. This is ridiculous. @AmazonHelp Now staring 30.11.17 to 05.12.17 #rubbish @AmazonHelp The date keeps changing. Not happy with service from amazon logistics",
+    "analysis_note": "Model over-predicts OTHER for delivery-related intents"
+  },
+  {
+    "example_id": "golden_0043",
+    "human_label": "DELIVERY_LATE",
+    "model_prediction": "OTHER",
+    "confusion_pair": "DELIVERY_LATE -> OTHER",
+    "error_category": "A",
+    "customer_text": "@115821 I'm a prime customer I placed an order due to be delivered today now not till tomorrow sometime y say prime as it's next or Sunday?",
+    "analysis_note": "Model over-predicts OTHER for delivery-related intents"
+  },
+  {
+    "example_id": "golden_0044",
+    "human_label": "PRODUCT_ISSUE",
+    "model_prediction": "ORDER_STATUS",
+    "confusion_pair": "PRODUCT_ISSUE -> ORDER_STATUS",
+    "error_category": "A",
+    "customer_text": "Hey @115830 not happy that the paint I ordered has leaked everywhere 😡 That’s going to be fun to get out... https://t.co/b6R0LYBw3W",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0045",
+    "human_label": "DELIVERY_LATE",
+    "model_prediction": "OTHER",
+    "confusion_pair": "DELIVERY_LATE -> OTHER",
+    "error_category": "A",
+    "customer_text": "Very much doubt @AmazonHelp will be delivering my copy of Xenoblade 2 today. It dispatched yesterday and I've heard nary about it since, and there's 3 hours until 8pm. @AmazonHelp The package has now completely missed the day of delivery quoted to me.",
+    "analysis_note": "Model over-predicts OTHER for delivery-related intents"
+  },
+  {
+    "example_id": "golden_0046",
+    "human_label": "DELIVERY_MISSING",
+    "model_prediction": "OTHER",
+    "confusion_pair": "DELIVERY_MISSING -> OTHER",
+    "error_category": "A",
+    "customer_text": "@AmazonHelp I was alerted that my packages were delivered but they are nowhere to be found. Help!",
+    "analysis_note": "Model over-predicts OTHER for delivery-related intents"
+  },
+  {
+    "example_id": "golden_0047",
+    "human_label": "DELIVERY_MISSING",
+    "model_prediction": "ORDER_STATUS",
+    "confusion_pair": "DELIVERY_MISSING -> ORDER_STATUS",
+    "error_category": "A",
+    "customer_text": "@AmazonHelp just been told my order on prime now couldn't be delivered. Watched as the delivery man went all across the map, then back @AmazonHelp Says I'll be getting a refund but this is still unacceptable.",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0048",
+    "human_label": "DELIVERY_LATE",
+    "model_prediction": "APP_USAGE",
+    "confusion_pair": "DELIVERY_LATE -> APP_USAGE",
+    "error_category": "D",
+    "customer_text": "@AmazonHelp Ordered 24th, Prime items, in stock, Prime one day delivery. Email: your items will be delivered on 28th. How’s that work? @AmazonHelp wonderful answer! Join Prime and get these benefits (except of course when you don’t)... Hmmm 🤔",
+    "analysis_note": "Customer text may not clearly indicate delivery issue"
+  },
+  {
+    "example_id": "golden_0051",
+    "human_label": "PRODUCT_ISSUE",
+    "model_prediction": "DELIVERY_LATE",
+    "confusion_pair": "PRODUCT_ISSUE -> DELIVERY_LATE",
+    "error_category": "A",
+    "customer_text": "The Becoming of Noah Shaw is on sale TODAY! 🎉 Happy reading, friends. I can't thank you enough. https://t.co/sBcia3GKNL https://t.co/ajRA9GMC4c @665190 hello sunshine I ordered it from amazon on the 8th but it still says unreleased HeLp @665190 this is YOUR fault @115821",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0053",
+    "human_label": "DELIVERY_MISSING",
+    "model_prediction": "DELIVERY_LATE",
+    "confusion_pair": "DELIVERY_MISSING -> DELIVERY_LATE",
+    "error_category": "B",
+    "customer_text": "@AmazonHelp hi, order says delivered but order has not been delivered - so where is it?? @AmazonHelp Ok - it says online that it has been delivered to resident at the correct address but nothing has been delivered @AmazonHelp Ok - can i DM you on here with the order and tracking number?? @AmazonHelp Ok but i can't see an 'online chat' option via that link @AmazonHelp Ok thanks - how can i get in contact with the person who apparently 'delivered' it?? @AmazonHelp Ok but they've already called....",
+    "analysis_note": "Delivery intent boundary confusion - taxonomy ambiguity"
+  },
+  {
+    "example_id": "golden_0054",
+    "human_label": "DEVICE_ISSUE",
+    "model_prediction": "OTHER",
+    "confusion_pair": "DEVICE_ISSUE -> OTHER",
+    "error_category": "A",
+    "customer_text": "I pay for @1561 already, can I link it to my @116618 account through my AmazonFireStick?",
+    "analysis_note": "Model over-predicts OTHER for service-related intents"
+  },
+  {
+    "example_id": "golden_0055",
+    "human_label": "OTHER",
+    "model_prediction": "APP_USAGE",
+    "confusion_pair": "OTHER -> APP_USAGE",
+    "error_category": "A",
+    "customer_text": "@115830 I pre ordered Battlefront 2 months ago, but you never sent me the lightsaber mastery starcard unlock code?",
+    "analysis_note": "Model predicts specific intent when human labeled OTHER - model may not learn OTHER well"
+  },
+  {
+    "example_id": "golden_0056",
+    "human_label": "CANCELLATION",
+    "model_prediction": "OTHER",
+    "confusion_pair": "CANCELLATION -> OTHER",
+    "error_category": "B",
+    "customer_text": "@AmazonHelp I have a Problem with my Account, please help me! @AmazonHelp https://t.co/bGRj6chill @AmazonHelp My Account si __email__\nThe Problem is that I Need yo cancel my prime profile. I Need a normal Account",
+    "analysis_note": "Modify/cancel intents confused with OTHER - taxonomy may need clarification"
+  },
+  {
+    "example_id": "golden_0057",
+    "human_label": "DELIVERY_LATE",
+    "model_prediction": "OTHER",
+    "confusion_pair": "DELIVERY_LATE -> OTHER",
+    "error_category": "A",
+    "customer_text": "@115830 prime seems to have failed me again. I really could have done with all the items I ordered this weekend! @AmazonHelp Yes I was meant to get the order yesterday but it has been listed as dispatched and awaiting carrier info since yesterday evening",
+    "analysis_note": "Model over-predicts OTHER for delivery-related intents"
+  },
+  {
+    "example_id": "golden_0059",
+    "human_label": "OTHER",
+    "model_prediction": "DELIVERY_LATE",
+    "confusion_pair": "OTHER -> DELIVERY_LATE",
+    "error_category": "A",
+    "customer_text": "@AmazonHelp Already dropped all my details via this link as well as via mail __email__..  All mum No reply @1840 @12934 @115851 @AmazonHelp When?  In coming new year? Busy looting other innocent customers or what? @115851 @12934 @1840 @AmazonHelp Working on it? Similarly as u worked on my order in which u delivered faulty HTc phone? @AmazonHelp When? On d auspicious new year or what? Y u ppl quoted that ur reprsntv wl gt in touch within 6 hrs? It has been more than 20 hrs. No call https://t.co/u",
+    "analysis_note": "Model predicts specific intent when human labeled OTHER - model may not learn OTHER well"
+  },
+  {
+    "example_id": "golden_0060",
+    "human_label": "DELIVERY_LATE",
+    "model_prediction": "APP_USAGE",
+    "confusion_pair": "DELIVERY_LATE -> APP_USAGE",
+    "error_category": "D",
+    "customer_text": "@AmazonHelp what is this?? I pay for 2-day shipping with my Prime membership each year and then this happens? Late packages? https://t.co/fTVe7fAebN @AmazonHelp So my membership means nothing? I might as well have ordered it somewhere else with free shipping.",
+    "analysis_note": "Customer text may not clearly indicate delivery issue"
+  },
+  {
+    "example_id": "golden_0062",
+    "human_label": "PAYMENT_ISSUE",
+    "model_prediction": "DELIVERY_LATE",
+    "confusion_pair": "PAYMENT_ISSUE -> DELIVERY_LATE",
+    "error_category": "A",
+    "customer_text": "@AmazonHelp \nDear team, I have recharged my Jio number on 9th Nov having cashback of Rs 99 but I have received cash back of only Rs 20.\nI have confirmed through customer care before recharge and they have committed for cashback of Rs 99. @AmazonHelp Dear team, please share how much you have taken to resolve my query.\nAll the details have been shared with you already. @AmazonHelp I have shared my details but i have not received any communication regarding solving my query. @AmazonHelp It's better",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0064",
+    "human_label": "ACCOUNT_ACCESS",
+    "model_prediction": "DELIVERY_MISSING",
+    "confusion_pair": "ACCOUNT_ACCESS -> DELIVERY_MISSING",
+    "error_category": "A",
+    "customer_text": "@AmazonHelp is this a fake email? https://t.co/FeJ3DoZQoB @AmazonHelp I'm worried as it says I've signed up for a year's prime and i haven't can you check please @AmazonHelp It says I'm not now because i just cancelled it!\nBut i was and i never signed up i have changed my password how can i remove my card details so this won't happen again",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0066",
+    "human_label": "PRODUCT_ISSUE",
+    "model_prediction": "DELIVERY_MISSING",
+    "confusion_pair": "PRODUCT_ISSUE -> DELIVERY_MISSING",
+    "error_category": "A",
+    "customer_text": "@115830 nobody got the nerve to call me back as promised from last Wednesday @AmazonHelp As on you tube &amp; the internet the item I bought last December is now known to be fake sold by a 3rd party,as a company you should make sure no fake item s are sold,so I want a genuine replacement ASAP &amp; was promised call backs but still haven’t received any",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0069",
+    "human_label": "DELIVERY_LATE",
+    "model_prediction": "ORDER_STATUS",
+    "confusion_pair": "DELIVERY_LATE -> ORDER_STATUS",
+    "error_category": "B",
+    "customer_text": "@AmazonHelp The original chat person said I did not order in time, the supervisor told me next day could not be honoured because of my address. @AmazonHelp It was today, but when I got the email it was tomorrow. Was using 1 click on mobile",
+    "analysis_note": "DELIVERY_LATE vs ORDER_STATUS boundary unclear"
+  },
+  {
+    "example_id": "golden_0072",
+    "human_label": "ORDER_MODIFY",
+    "model_prediction": "ORDER_STATUS",
+    "confusion_pair": "ORDER_MODIFY -> ORDER_STATUS",
+    "error_category": "A",
+    "customer_text": "@AmazonHelp is there a way to change the shipping address after it's been ordered? It's pre-ordered. Won't get it for a month",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0074",
+    "human_label": "DELIVERY_LATE",
+    "model_prediction": "DELIVERY_MISSING",
+    "confusion_pair": "DELIVERY_LATE -> DELIVERY_MISSING",
+    "error_category": "B",
+    "customer_text": "@115850 I am not get my subscription due today. __email__.\n\nWhen it delivered?",
+    "analysis_note": "Delivery intent boundary confusion - taxonomy ambiguity"
+  },
+  {
+    "example_id": "golden_0077",
+    "human_label": "ACCOUNT_ACCESS",
+    "model_prediction": "OTHER",
+    "confusion_pair": "ACCOUNT_ACCESS -> OTHER",
+    "error_category": "A",
+    "customer_text": "@AmazonHelp Hi Amazon, I signed up this week and placed an order. Now when I try sign in, it says my email isn't registered? Please help! @AmazonHelp I'm not sure, but I placed an order through prime &amp; confirmed my address for prime? @AmazonHelp Not that I can find, but the payment is taken from my account? Can I DM you my email address? @AmazonHelp No, nothing has gone in there either. Who can help then?",
+    "analysis_note": "Model over-predicts OTHER for service-related intents"
+  },
+  {
+    "example_id": "golden_0078",
+    "human_label": "DELIVERY_MISSING",
+    "model_prediction": "ORDER_STATUS",
+    "confusion_pair": "DELIVERY_MISSING -> ORDER_STATUS",
+    "error_category": "A",
+    "customer_text": "driver left my order from @115821 in front of a locked office building that definitely won’t be there in the morning. How dumb can you be?!",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0080",
+    "human_label": "DEVICE_ISSUE",
+    "model_prediction": "OTHER",
+    "confusion_pair": "DEVICE_ISSUE -> OTHER",
+    "error_category": "A",
+    "customer_text": "@115830 Thinking of investing in smart lights, but how exactly do they work? Are wall switches a redundancy? Do you have to disconnect wall switches so only the hub takes care of things? Or do you leave wall switches in a permanent \"on\" state? #CyberMonday2017 @AmazonHelp Thanks. I was thinking of the Phillips Hue light bulbs specifically.",
+    "analysis_note": "Model over-predicts OTHER for service-related intents"
+  },
+  {
+    "example_id": "golden_0081",
+    "human_label": "REFUND_REQUEST",
+    "model_prediction": "DELIVERY_LATE",
+    "confusion_pair": "REFUND_REQUEST -> DELIVERY_LATE",
+    "error_category": "A",
+    "customer_text": "@115821 @115851 you cheated me.  Delivered the faulty product and now taking 10 days to refund my money...shame on you!😠 @AmazonHelp Yes it had been retuned in 17 Oct.  Even I will have to pay higher price for the same TV as I bought this on sale so this will b montry loss @AmazonHelp Why should I wait if it is not my fault..why not immediately...shame on you...you ppl r cheaters blocking my money",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0082",
+    "human_label": "PAYMENT_ISSUE",
+    "model_prediction": "OTHER",
+    "confusion_pair": "PAYMENT_ISSUE -> OTHER",
+    "error_category": "A",
+    "customer_text": "Hey @115830 please pay my seller funds which has been held for over 115 days! __email__ https://t.co/J1QJsxco9b",
+    "analysis_note": "Model over-predicts OTHER for service-related intents"
+  },
+  {
+    "example_id": "golden_0083",
+    "human_label": "DELIVERY_LATE",
+    "model_prediction": "ORDER_STATUS",
+    "confusion_pair": "DELIVERY_LATE -> ORDER_STATUS",
+    "error_category": "B",
+    "customer_text": "Hey @115821, next time you ship to me, use @115817, @81, @118706, Carrier Pigeon, or really anything but Amazon Logistics. Thanks. \n\nMy \"1 Day Shipping\" has turned into 3 Day shipping as my package has yet to move to out for delivery status. @AmazonHelp Now expected Nov 28 - Nov 30\nOriginal Estimate: Nov 28, 2017\n\nThe last tracking data has it in the same metro area as me, so I expected it to be out for delivery today.",
+    "analysis_note": "DELIVERY_LATE vs ORDER_STATUS boundary unclear"
+  },
+  {
+    "example_id": "golden_0085",
+    "human_label": "PAYMENT_ISSUE",
+    "model_prediction": "DELIVERY_MISSING",
+    "confusion_pair": "PAYMENT_ISSUE -> DELIVERY_MISSING",
+    "error_category": "A",
+    "customer_text": "Hi! Ordered One+3T on 21-feb-17 @115850 with CashBack Rs3000. Still waiting for cashBack @AmazonHelp @115821 ..order#406-6541696-8829138 https://t.co/5yT92zxIgx @AmazonHelp Done @AmazonHelp  https://t.co/3X6m2EYavl @AmazonHelp See.. first of all I don't even care for al such privacy..you have given me chance to post my details on a public page.. @AmazonHelp Fine let's see..what after 3 business days.. @115850  @AmazonHelp @1404  @115821 @AmazonHelp Hope you guys are working and haven't put this ",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0088",
+    "human_label": "DELIVERY_MISSING",
+    "model_prediction": "DEVICE_ISSUE",
+    "confusion_pair": "DELIVERY_MISSING -> DEVICE_ISSUE",
+    "error_category": "A",
+    "customer_text": "@81 @115850  didn't deliver Amazon 403-6348377-5405953 , but showing 'item delivered' 25th sept. Complied, no solution, Unprof. FedEx.",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0089",
+    "human_label": "VIDEO_STREAMING",
+    "model_prediction": "DELIVERY_LATE",
+    "confusion_pair": "VIDEO_STREAMING -> DELIVERY_LATE",
+    "error_category": "A",
+    "customer_text": ".@115850 Love the Echo! When is Prime Music streaming going to be available? No complaints otherwise https://t.co/UgqQBjAgQ9 @AmazonHelp Thanks for the quick reply. I thought the same about Prime Music, but then checked my mail to see this paragraph 😅 https://t.co/iQOoMA3X6W @AmazonHelp Hey, totally unrelated, but do the last letters stand for the initials of the person tweeting? 😅 (Thanks for the prompt responses)",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0090",
+    "human_label": "PRODUCT_ISSUE",
+    "model_prediction": "OTHER",
+    "confusion_pair": "PRODUCT_ISSUE -> OTHER",
+    "error_category": "B",
+    "customer_text": "@115821 @115850 Had ordered Honor 8 Pro (Midnight Black, 6GB RAM + 128GB Memory - But received a marble piece in the box. https://t.co/zXGcLHbdbW @AmazonHelp Already informed your call centre telephonically and through mail. Have also intimated local police station. Try to resolve soon",
+    "analysis_note": "Product/return intents confused with OTHER - may need clearer definitions"
+  },
+  {
+    "example_id": "golden_0091",
+    "human_label": "DELIVERY_LATE",
+    "model_prediction": "OTHER",
+    "confusion_pair": "DELIVERY_LATE -> OTHER",
+    "error_category": "A",
+    "customer_text": "@AmazonHelp Yes, parcel due today waited in all day, not received after assurance on way by 9pm - no call back from manager even now @AmazonHelp Now says arriving 6-8Nov, not really on is it",
+    "analysis_note": "Model over-predicts OTHER for delivery-related intents"
+  },
+  {
+    "example_id": "golden_0101",
+    "human_label": "DELIVERY_MISSING",
+    "model_prediction": "DELIVERY_LATE",
+    "confusion_pair": "DELIVERY_MISSING -> DELIVERY_LATE",
+    "error_category": "B",
+    "customer_text": "@AmazonHelp how do I report a lost or missing package? @AmazonHelp The update says it was delivered at 5:21p to my mailbox but I’ve been sitting here since 4:00p and nothing there. @AmazonHelp USPS. I need what I ordered before a Halloween party tomorrow! Is it possible to resend??",
+    "analysis_note": "Delivery intent boundary confusion - taxonomy ambiguity"
+  },
+  {
+    "example_id": "golden_0103",
+    "human_label": "DELIVERY_LATE",
+    "model_prediction": "APP_USAGE",
+    "confusion_pair": "DELIVERY_LATE -> APP_USAGE",
+    "error_category": "D",
+    "customer_text": "Really unhappy, @AmazonHelp. I'm sitting here at home all day and I got this text a few minutes ago. https://t.co/w35PxLWI0K @AmazonHelp USPS is the carrier. They are usually here 10 am-12 pm, so I don't know what's going on. @AmazonHelp No, is USPS even contactable, esp after hours?  I'll wait and see what happens tomorrow. Two delivery mishaps this month - one UPS, one USPS",
+    "analysis_note": "Customer text may not clearly indicate delivery issue"
+  },
+  {
+    "example_id": "golden_0104",
+    "human_label": "ACCOUNT_ACCESS",
+    "model_prediction": "APP_USAGE",
+    "confusion_pair": "ACCOUNT_ACCESS -> APP_USAGE",
+    "error_category": "A",
+    "customer_text": "@116935 \n\nYr app on ipad keeps telling me my password is wrong - i am uninstalling and unsubscribing 30 mins after getting it",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0105",
+    "human_label": "DELIVERY_LATE",
+    "model_prediction": "DELIVERY_MISSING",
+    "confusion_pair": "DELIVERY_LATE -> DELIVERY_MISSING",
+    "error_category": "B",
+    "customer_text": "@AmazonHelp Ive been waiting for my TV for a month! None of your Cst svc members could help and wanted me to pay more to get it fm anti vndr @AmazonHelp My order date was sept 4th. Is was suppose to ship the next day. It has changed 3 times.",
+    "analysis_note": "Delivery intent boundary confusion - taxonomy ambiguity"
+  },
+  {
+    "example_id": "golden_0106",
+    "human_label": "PRODUCT_ISSUE",
+    "model_prediction": "OTHER",
+    "confusion_pair": "PRODUCT_ISSUE -> OTHER",
+    "error_category": "B",
+    "customer_text": "Look @115850 what you have sent to me in place of Redmi 4 which I ordered on Oct 4 @AmazonHelp (1/1) https://t.co/msgZDGr6AO",
+    "analysis_note": "Product/return intents confused with OTHER - may need clearer definitions"
+  },
+  {
+    "example_id": "golden_0108",
+    "human_label": "DELIVERY_LATE",
+    "model_prediction": "OTHER",
+    "confusion_pair": "DELIVERY_LATE -> OTHER",
+    "error_category": "A",
+    "customer_text": ".@AmazonHelp Out for delivery at 6:46 am now almost 4:00pm and still no joy. I've got a bad feeling about this!",
+    "analysis_note": "Model over-predicts OTHER for delivery-related intents"
+  },
+  {
+    "example_id": "golden_0111",
+    "human_label": "ACCOUNT_ACCESS",
+    "model_prediction": "OTHER",
+    "confusion_pair": "ACCOUNT_ACCESS -> OTHER",
+    "error_category": "A",
+    "customer_text": "@AmazonHelp I can't even begin to explain how bad this is. You clearly have a breach of security! @AmazonHelp I have no idea, the parcel is from Dublin. I live in the UK.",
+    "analysis_note": "Model over-predicts OTHER for service-related intents"
+  },
+  {
+    "example_id": "golden_0114",
+    "human_label": "DELIVERY_MISSING",
+    "model_prediction": "DELIVERY_LATE",
+    "confusion_pair": "DELIVERY_MISSING -> DELIVERY_LATE",
+    "error_category": "B",
+    "customer_text": "@115830  I was at home waiting for my delivery when there was a knock at the door which I went to answer. When I answered it there was no one there. Then a minute later a slip saying that the parcel had been delivered to my neighbour had been pushed through the letterbox. @115830 She is still sat in her poorly parked car outside. Well done @115830 for yet another delivery fail.",
+    "analysis_note": "Delivery intent boundary confusion - taxonomy ambiguity"
+  },
+  {
+    "example_id": "golden_0117",
+    "human_label": "REFUND_REQUEST",
+    "model_prediction": "DELIVERY_MISSING",
+    "confusion_pair": "REFUND_REQUEST -> DELIVERY_MISSING",
+    "error_category": "A",
+    "customer_text": "@AmazonHelp who do I contact with issues for products never being delivered and never receiving my refund for something I returned.... it’s been over a month for my refund issue and it’s been 4 days since my delivery date has passed and I can’t get in contact with anybody. HELP!!",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0119",
+    "human_label": "DELIVERY_LATE",
+    "model_prediction": "OTHER",
+    "confusion_pair": "DELIVERY_LATE -> OTHER",
+    "error_category": "A",
+    "customer_text": "So, @115821 when I order something for Sat delivery, and you push it to Sunday, I am irate when it isn't delivered Sunday. @AmazonHelp Check order 111-1915611-3377861 @AmazonHelp I'm not sure where you are trying to send me or where to report anything at that link.",
+    "analysis_note": "Model over-predicts OTHER for delivery-related intents"
+  },
+  {
+    "example_id": "golden_0120",
+    "human_label": "DELIVERY_LATE",
+    "model_prediction": "OTHER",
+    "confusion_pair": "DELIVERY_LATE -> OTHER",
+    "error_category": "A",
+    "customer_text": "I ordered Krishna dress for my  nephew for  fancy dress competition scheduled on14/11/17 but exp. delivery on 16/11/17. HELP. @AmazonHelp",
+    "analysis_note": "Model over-predicts OTHER for delivery-related intents"
+  },
+  {
+    "example_id": "golden_0124",
+    "human_label": "DELIVERY_LATE",
+    "model_prediction": "OTHER",
+    "confusion_pair": "DELIVERY_LATE -> OTHER",
+    "error_category": "A",
+    "customer_text": "@115821 nice lying to me when you said 2 day shipping",
+    "analysis_note": "Model over-predicts OTHER for delivery-related intents"
+  },
+  {
+    "example_id": "golden_0125",
+    "human_label": "CANCELLATION",
+    "model_prediction": "DELIVERY_MISSING",
+    "confusion_pair": "CANCELLATION -> DELIVERY_MISSING",
+    "error_category": "A",
+    "customer_text": "Goodbye @115830. You are a disgusting company. I've never known such poor customer service as I have just experienced, let alone your UK tax avoidance. I will be cancelling every single subscription and service I have with you and never using you again. Good riddance.",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0126",
+    "human_label": "DELIVERY_MISSING",
+    "model_prediction": "OTHER",
+    "confusion_pair": "DELIVERY_MISSING -> OTHER",
+    "error_category": "A",
+    "customer_text": "Sheesh, I leave my apartment for an hour and @115821 tries to deliver my Instant Pot to the Whole Goddamn City of San Francisco. https://t.co/ZbLTJsuf1t",
+    "analysis_note": "Model over-predicts OTHER for delivery-related intents"
+  },
+  {
+    "example_id": "golden_0128",
+    "human_label": "DELIVERY_MISSING",
+    "model_prediction": "OTHER",
+    "confusion_pair": "DELIVERY_MISSING -> OTHER",
+    "error_category": "A",
+    "customer_text": "@AmazonHelp I have an email saying my parcel was put through my letterbox but I've been in all day and it's definitely not come to me.",
+    "analysis_note": "Model over-predicts OTHER for delivery-related intents"
+  },
+  {
+    "example_id": "golden_0131",
+    "human_label": "VIDEO_STREAMING",
+    "model_prediction": "DEVICE_ISSUE",
+    "confusion_pair": "VIDEO_STREAMING -> DEVICE_ISSUE",
+    "error_category": "A",
+    "customer_text": "You can win too! 10 winners a week till 31st Oct! Watch any 5 titles (movies or TV shows). #SuperDiwali https://t.co/aQeXU8zFtj https://t.co/W4qunmQH1x @119625 Team, can you plz shoot this offer and relevant terms and conditions of the samE?",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0133",
+    "human_label": "DELIVERY_MISSING",
+    "model_prediction": "DELIVERY_LATE",
+    "confusion_pair": "DELIVERY_MISSING -> DELIVERY_LATE",
+    "error_category": "B",
+    "customer_text": "I've called @AmazonHelp FIVE times for missing package.  My refund is always delayed.  The investigation on my missing items never ends! @AmazonHelp AMZL was the carrier for both laptops.  I've spoken to you on the phone about this and you all have no idea where they are.",
+    "analysis_note": "Delivery intent boundary confusion - taxonomy ambiguity"
+  },
+  {
+    "example_id": "golden_0135",
+    "human_label": "DELIVERY_MISSING",
+    "model_prediction": "DEVICE_ISSUE",
+    "confusion_pair": "DELIVERY_MISSING -> DEVICE_ISSUE",
+    "error_category": "A",
+    "customer_text": "@115821 you said I'd get my biking shorts today. 😢Ur guy said there's a mishap &amp; not on his truck. I need them for my biking trip😔 @AmazonHelp My bike shorts didn't arrive😔Hoping it will arrive before lunch tomorrow . I'm leaving on a trip then🤞 @AmazonHelp Thanks 4getting the biking undies 2me on time. I ordered yesterday &amp; paid extra 4next day delivery👍The biking shorts r  lost they said. 🤷‍♀️ @AmazonHelp I was still hopefully waiting to see if they would show up. I'll do that next wee",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0143",
+    "human_label": "PAYMENT_ISSUE",
+    "model_prediction": "OTHER",
+    "confusion_pair": "PAYMENT_ISSUE -> OTHER",
+    "error_category": "A",
+    "customer_text": "@115850  I can know that my payment is failed even by one message. So why amazon keeps sending me messages every hour????😡😡😡😡😡 https://t.co/Rq9Oi6ON14",
+    "analysis_note": "Model over-predicts OTHER for service-related intents"
+  },
+  {
+    "example_id": "golden_0144",
+    "human_label": "PRODUCT_ISSUE",
+    "model_prediction": "DEVICE_ISSUE",
+    "confusion_pair": "PRODUCT_ISSUE -> DEVICE_ISSUE",
+    "error_category": "A",
+    "customer_text": "Happy #Halloween! What treats are you hoping to snack on this evening? 🍬🍭🍫 https://t.co/kgpz71997n @117093 Thanks for the mold amazonfresh https://t.co/0GR6LuOxAp",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0145",
+    "human_label": "DELIVERY_MISSING",
+    "model_prediction": "OTHER",
+    "confusion_pair": "DELIVERY_MISSING -> OTHER",
+    "error_category": "A",
+    "customer_text": "@115850 I have not yet got the product but still I've got message saying product is delivered. This is horrible. Pl look into this asap.",
+    "analysis_note": "Model over-predicts OTHER for delivery-related intents"
+  },
+  {
+    "example_id": "golden_0147",
+    "human_label": "DELIVERY_MISSING",
+    "model_prediction": "OTHER",
+    "confusion_pair": "DELIVERY_MISSING -> OTHER",
+    "error_category": "A",
+    "customer_text": "@115821 your customer service needs a new script. 😡 #LostMyOrder @AmazonHelp AMZL US",
+    "analysis_note": "Model over-predicts OTHER for delivery-related intents"
+  },
+  {
+    "example_id": "golden_0149",
+    "human_label": "DELIVERY_LATE",
+    "model_prediction": "ORDER_STATUS",
+    "confusion_pair": "DELIVERY_LATE -> ORDER_STATUS",
+    "error_category": "B",
+    "customer_text": "This is how @115821 &amp; @UPSHelp help -- WHAT DOES THIS SENTENCE EVEN MEAN? Has the entire world lost its mind? My Love &amp; Light is wearing thin https://t.co/z8ZB8xjQgQ @229491 @115821 @UPSHelp Remain calm. The holidays are upon us and shipping is and always will be a nightmare for the last 6 weeks of the year. Call them. @230099 @115821 @UPSHelp I just live-chatted and there is no resolution. They'll let me know new date when they get warehouse unloaded. Oh well. You're right. It is what i",
+    "analysis_note": "DELIVERY_LATE vs ORDER_STATUS boundary unclear"
+  },
+  {
+    "example_id": "golden_0150",
+    "human_label": "CANCELLATION",
+    "model_prediction": "ORDER_STATUS",
+    "confusion_pair": "CANCELLATION -> ORDER_STATUS",
+    "error_category": "A",
+    "customer_text": "@115850 very disappointed as my order cancelled on delivery date without any valid reason. Order I'd - 404-3046488-0249946 @AmazonHelp @115850 you have my order I'd, you should reach out to me with solution rather than diverting me to different option.",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0152",
+    "human_label": "DEVICE_ISSUE",
+    "model_prediction": "APP_USAGE",
+    "confusion_pair": "DEVICE_ISSUE -> APP_USAGE",
+    "error_category": "A",
+    "customer_text": "Never buy an @115858 iPhone, specially from @115850 . The phone gets so heated up that it can burn ur palm. Apple care wont acknowledge.",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0155",
+    "human_label": "ACCOUNT_ACCESS",
+    "model_prediction": "OTHER",
+    "confusion_pair": "ACCOUNT_ACCESS -> OTHER",
+    "error_category": "A",
+    "customer_text": "Someone with my same name has commandeered my email address. I have access to their debit card, their Home Depot receipts, their Amazon account, and now they've linked a bank account. WTF?! Stop giving me your info!! @AmazonHelp I'm not sure what my email provider can do - the email is working as it should, just being used by too many ppl.  I did reach out to Amazon help &amp; nothing seems to have happened tho. Maybe you can help with that? @AmazonHelp I don't have an Amazon account with that e",
+    "analysis_note": "Model over-predicts OTHER for service-related intents"
+  },
+  {
+    "example_id": "golden_0157",
+    "human_label": "DELIVERY_MISSING",
+    "model_prediction": "APP_USAGE",
+    "confusion_pair": "DELIVERY_MISSING -> APP_USAGE",
+    "error_category": "A",
+    "customer_text": "Apparently Amazon have delivered my packages. The absence of anything on my doorstep and the lack of anyone on the cameras says otherwise. Perhaps the delivery van, along with the packages, are invisible.",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0160",
+    "human_label": "DELIVERY_MISSING",
+    "model_prediction": "OTHER",
+    "confusion_pair": "DELIVERY_MISSING -> OTHER",
+    "error_category": "A",
+    "customer_text": "@117093 your Service is terrible!!!! This is the 2nd time THIS WEEK you have “Lost” my order!!!!!! This is unacceptable!!!! I will never recommend your services to ANYONE!!!! Horrible horrible horrible!!!! @117093 #amazonfresh",
+    "analysis_note": "Model over-predicts OTHER for delivery-related intents"
+  },
+  {
+    "example_id": "golden_0161",
+    "human_label": "PRODUCT_ISSUE",
+    "model_prediction": "OTHER",
+    "confusion_pair": "PRODUCT_ISSUE -> OTHER",
+    "error_category": "B",
+    "customer_text": "@AmazonHelp if I have a complaint with an order being faulty how do I go about requesting this is looked in to please? @AmazonHelp Many thanks 🙏",
+    "analysis_note": "Product/return intents confused with OTHER - may need clearer definitions"
+  },
+  {
+    "example_id": "golden_0162",
+    "human_label": "ORDER_STATUS",
+    "model_prediction": "PRODUCT_ISSUE",
+    "confusion_pair": "ORDER_STATUS -> PRODUCT_ISSUE",
+    "error_category": "A",
+    "customer_text": "@115830 I order things last week and not due til Thursday!!! Looks like coming from Germany!!",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0167",
+    "human_label": "CANCELLATION",
+    "model_prediction": "ORDER_STATUS",
+    "confusion_pair": "CANCELLATION -> ORDER_STATUS",
+    "error_category": "A",
+    "customer_text": "@115830 2 failed orders in 2 days. Paying for Prime but orders still took a week then failed altogether. Unacceptable. @AmazonHelp No I ordered 1 thing on the 24th said Out for delivery every day until getting cancelled on Friday, and the 2nd thing on the 26th that said Out for delivery all week and then got cancelled today. CS was unable to reorder either item for me either. @AmazonHelp Nope. And everyday all I got from CS is \"it is out for delivery and can take until 9pm\" over and over again. ",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0168",
+    "human_label": "DEVICE_ISSUE",
+    "model_prediction": "OTHER",
+    "confusion_pair": "DEVICE_ISSUE -> OTHER",
+    "error_category": "A",
+    "customer_text": "Do I need cable and prime to use @116439?",
+    "analysis_note": "Model over-predicts OTHER for service-related intents"
+  },
+  {
+    "example_id": "golden_0169",
+    "human_label": "DELIVERY_LATE",
+    "model_prediction": "OTHER",
+    "confusion_pair": "DELIVERY_LATE -> OTHER",
+    "error_category": "A",
+    "customer_text": "@AmazonHelp promoting false advertisement. I ordered an item on Sunday for same day delivery didn’t get it and didn’t come Monday nor today this bs and I have prime @AmazonHelp TODAY IS TUES TOMORROW IS WED YALL SUCK CANCELING MY PRIME AND SAME DAY DELIVERY IS A SCAM https://t.co/3CVS6VGyno",
+    "analysis_note": "Model over-predicts OTHER for delivery-related intents"
+  },
+  {
+    "example_id": "golden_0171",
+    "human_label": "DELIVERY_TRACKING",
+    "model_prediction": "DELIVERY_LATE",
+    "confusion_pair": "DELIVERY_TRACKING -> DELIVERY_LATE",
+    "error_category": "A",
+    "customer_text": "@AmazonHelp Hi, was notified that Prime order was 'out for delivery' this morning, has now changed to say 'expected 1 - 5 dec' - anymore info than that? Is it still out for delivery? Please can you clarify? @AmazonHelp Hi, already looked at that link. As per original tweet, it has changed to say 'expected 1 Dec - 5 Dec' but ALSO still says it's out for delivery, and that it left your Enfield Carrier Facility at 11:03AM this morning... @AmazonHelp Basically trying to figure out if I need to stay ",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0172",
+    "human_label": "REFUND_REQUEST",
+    "model_prediction": "PAYMENT_ISSUE",
+    "confusion_pair": "REFUND_REQUEST -> PAYMENT_ISSUE",
+    "error_category": "A",
+    "customer_text": "@115821 I got charged for amazon music but I didn't use it at all. I just cancelled it, can I get a refund or is it too late?",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0175",
+    "human_label": "ACCOUNT_ACCESS",
+    "model_prediction": "DELIVERY_LATE",
+    "confusion_pair": "ACCOUNT_ACCESS -> DELIVERY_LATE",
+    "error_category": "A",
+    "customer_text": "@115821 Getting a full runaround trying to get back into my account, just to be told that it is \"closed\" with no explanation.",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0177",
+    "human_label": "DELIVERY_LATE",
+    "model_prediction": "OTHER",
+    "confusion_pair": "DELIVERY_LATE -> OTHER",
+    "error_category": "A",
+    "customer_text": "@AmazonHelp my Prime package still hasn't arrived for the second day in a row now. Unfair considering I paid for a next day service? @AmazonHelp And you can't blame the carrier because the carrier is AMAZON SHIPPING",
+    "analysis_note": "Model over-predicts OTHER for delivery-related intents"
+  },
+  {
+    "example_id": "golden_0179",
+    "human_label": "ACCOUNT_ACCESS",
+    "model_prediction": "APP_USAGE",
+    "confusion_pair": "ACCOUNT_ACCESS -> APP_USAGE",
+    "error_category": "A",
+    "customer_text": "@AmazonHelp waited ages for my verification code email but nothing. Not in my junk folder. Hitting resend does nothing. Help!?",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0181",
+    "human_label": "ACCOUNT_ACCESS",
+    "model_prediction": "APP_USAGE",
+    "confusion_pair": "ACCOUNT_ACCESS -> APP_USAGE",
+    "error_category": "A",
+    "customer_text": "@AmazonHelp I have a problem i have reset my password but i have the msg \"Your password is incorect \" can you help me ? @AmazonHelp In your page the website need to login , i can't login...",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0185",
+    "human_label": "RETURN_REQUEST",
+    "model_prediction": "DELIVERY_LATE",
+    "confusion_pair": "RETURN_REQUEST -> DELIVERY_LATE",
+    "error_category": "A",
+    "customer_text": "@AmazonHelp Again I have got a msg that my pickup has been cancelled coz I have told them to cancel this is ridiculous @AmazonHelp I have shared the details on the link check now @AmazonHelp Courier guy came &amp; told me that have to check the mei no &amp;again I told him that customer care ppl told me to show invoice nw he is checking @AmazonHelp I want the pickup to be done today I can't wait for Tom u have the invoice with u with IMEI no so show them @AmazonHelp What's the update? It's 7:35 ",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0188",
+    "human_label": "DELIVERY_LATE",
+    "model_prediction": "ORDER_STATUS",
+    "confusion_pair": "DELIVERY_LATE -> ORDER_STATUS",
+    "error_category": "B",
+    "customer_text": "@115850 @85016 order said 2day delivery but after ordering it says itwill take 4days kindly checkon that Orderno402-1421551-6089915",
+    "analysis_note": "DELIVERY_LATE vs ORDER_STATUS boundary unclear"
+  },
+  {
+    "example_id": "golden_0192",
+    "human_label": "DELIVERY_LATE",
+    "model_prediction": "APP_USAGE",
+    "confusion_pair": "DELIVERY_LATE -> APP_USAGE",
+    "error_category": "D",
+    "customer_text": "@AmazonHelp so I took the day off to wait for the Christmas tree delivery and Amazon emails us at 16:20 PM to tell us there is a delay in delivery!? What kind of service is this? I wasted a whole day for this. @AmazonHelp We have only been told it may be another day or two. I can't plan my working days around Amazon deliveries. Pretty shocked at how late in the day this notification came through as well.",
+    "analysis_note": "Customer text may not clearly indicate delivery issue"
+  },
+  {
+    "example_id": "golden_0193",
+    "human_label": "ORDER_STATUS",
+    "model_prediction": "OTHER",
+    "confusion_pair": "ORDER_STATUS -> OTHER",
+    "error_category": "A",
+    "customer_text": "@116090  this book came out 3 days ago :( and my order is still “preparing to ship”! What’s with the lag time?#couldhaveboughtatchapters",
+    "analysis_note": "Model over-predicts OTHER for delivery-related intents"
+  },
+  {
+    "example_id": "golden_0195",
+    "human_label": "PRODUCT_ISSUE",
+    "model_prediction": "DELIVERY_LATE",
+    "confusion_pair": "PRODUCT_ISSUE -> DELIVERY_LATE",
+    "error_category": "A",
+    "customer_text": "Earlier issue was of delivery now it's of product that they deliver. Ordered case for iphone 8 plus got for 7 plus @115850 @AmazonHelp https://t.co/HcUCv3ON5E @AmazonHelp Details sent please check @AmazonHelp Well it's been days I haven't received the gift voucher that I was promised nor a call from Amazon regarding the issue. @AmazonHelp Obviously I did reply to that email nothing happened",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0196",
+    "human_label": "DELIVERY_LATE",
+    "model_prediction": "OTHER",
+    "confusion_pair": "DELIVERY_LATE -> OTHER",
+    "error_category": "A",
+    "customer_text": "Courier Delivery man Mr. Amit Nagar (Mob  9690906485) demanding Bribe for Delivery the courier on my address when @7734 not able to delivery any product Why booked the couriers.  Amazon. Order# 407-8101394-0361901, Courier: DTDC, Tracking #: H76506555",
+    "analysis_note": "Model over-predicts OTHER for delivery-related intents"
+  },
+  {
+    "example_id": "golden_0197",
+    "human_label": "DELIVERY_LATE",
+    "model_prediction": "OTHER",
+    "confusion_pair": "DELIVERY_LATE -> OTHER",
+    "error_category": "A",
+    "customer_text": "Why do @AmazonHelp use the Hermes courier service? Everytime I have a delivery via them its always a problem! I’ve waited in all day but apparently the delivery was attempted to the wrong address so I have to wait until tomorrow... ridiculous",
+    "analysis_note": "Model over-predicts OTHER for delivery-related intents"
+  },
+  {
+    "example_id": "golden_0200",
+    "human_label": "ORDER_STATUS",
+    "model_prediction": "PAYMENT_ISSUE",
+    "confusion_pair": "ORDER_STATUS -> PAYMENT_ISSUE",
+    "error_category": "A",
+    "customer_text": ".@115830 I pre-ordered this book with you, now you don't know when you'll be able to get a copy to me? Any updates? https://t.co/BvGKNq4cH1 @AmazonHelp I was emailed regarding the order, allowed to cancel the order free of charge, and told I'd get an email when you had a delivery date. (1)",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0215",
+    "human_label": "DELIVERY_MISSING",
+    "model_prediction": "CANCELLATION",
+    "confusion_pair": "DELIVERY_MISSING -> CANCELLATION",
+    "error_category": "A",
+    "customer_text": "No tricks! Just treats. For a fulfilling shopping experience, visit Amazon today. https://t.co/kTtcZSyN59 @115850 What a joke. Despite Prime orders are delayed, delivery boys don't come to doorstep, orders marked delivered but not delivered. Disaster!",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0218",
+    "human_label": "CANCELLATION",
+    "model_prediction": "ORDER_MODIFY",
+    "confusion_pair": "CANCELLATION -> ORDER_MODIFY",
+    "error_category": "A",
+    "customer_text": "@228164 @115850 @AmazonHelp I want to cancel my order which I placed by mistake. I am not finding cancel order icon. Help ASAP! https://t.co/DUqMTPjjOm",
+    "analysis_note": "Generic model error"
+  },
+  {
+    "example_id": "golden_0220",
+    "human_label": "CANCELLATION",
+    "model_prediction": "ORDER_MODIFY",
+    "confusion_pair": "CANCELLATION -> ORDER_MODIFY",
+    "error_category": "A",
+    "customer_text": "@115850 please cancel my Lenovo mobile order because it was placed by mistake",
+    "analysis_note": "Generic model error"
+  }
+]

@@ -1,0 +1,422 @@
+[
+  {
+    "conversation_id": "amazonhelp_095469",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "OTHER",
+    "customer_text": "@115821 I need assistance on a missing package, please. @AmazonHelp .com",
+    "assessment": "A_V2_INCORRECTLY_MOVED_FROM_DELIVERY_MISSING"
+  },
+  {
+    "conversation_id": "amazonhelp_046237",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "OTHER",
+    "customer_text": "@115850 @AmazonHelp @228164 I signed up for Amazon prime using Vodafone offer... But still i haven't received the cashback. Please help ASAP!!! I signed up for Amazon prime on 15th October 2017. U sai",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_144310",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "RETURN_REQUEST",
+    "customer_text": "@115850 dear rename ur company as Chutiyazone ! It was a mistake not to buy EPSON L361 from @118702 or @122599 !! @115850 SUCKS !! @AmazonHelp I have been calling daily Amazon cs, as my replacement wa",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_130630",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "REFUND_REQUEST",
+    "customer_text": "@115821 i have tried filing an A-Z claim and it doesn’t give me the option and i have contacted the seller twice and have not gotten a response. I would like these refunded. They never arrived. Thank ",
+    "assessment": "B_V1_SHOULD_BE_REFUND"
+  },
+  {
+    "conversation_id": "amazonhelp_117145",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "APP_USAGE",
+    "customer_text": "@AmazonHelp ordered prime delivery on Thursday, due yesterday never arrived, ordered more items yesterday, due today, still nothing arrived? @AmazonHelp Had message yesterday saying out for delivery a",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_145718",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "OTHER",
+    "customer_text": "@115850 - have written one mail. Request you to respond, as its urgent https://t.co/ZWu0SOIk3y @AmazonHelp Haven't received any",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_027936",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "OTHER",
+    "customer_text": "The winners of the @7166 Guess The Price contest have been announced. Congratulations! #KaroMilkeTayyari #AmazonGreatIndianFestival https://t.co/JaVZRm5sd4 @115850 @7166 It's been more than a month te",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_123645",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "RETURN_REQUEST",
+    "customer_text": "After three terrible experiences with @37186 sellers very close together, I might be just about done with that service. @115821 @AmazonHelp Well in 1 case the item was not as described, very poor vers",
+    "assessment": "B_V1_SHOULD_BE_REFUND"
+  },
+  {
+    "conversation_id": "amazonhelp_014134",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "ORDER_STATUS",
+    "customer_text": "#AmazonIndia \nAgain same kit kit\nDidn't get my parcel still getting delivery mails... Nonsense people\nTrace my order by my mobile 8308081314 Ok\nThank you\nI hope it get delivered\nThis is 2nd time in a ",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_026950",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "RETURN_REQUEST",
+    "customer_text": "@120781 @115850 has declined my request for replacement for manufacturing defect in phone and I received the phone very late... https://t.co/Ff5nSabrcU @120781 @115850 @57247  @115850  will I get repl",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_143117",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "ACCOUNT_ACCESS",
+    "customer_text": "@115850 More than 48 hours but still yet no response from Investigation team for my blocked I'd. Useless customer service. Thanks for stealing money from my account. @AmazonHelp My I'd has been blocke",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_014656",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "DEVICE_ISSUE",
+    "customer_text": "DM @AmazonHelp I bought Amazon echo dot wich included 1yr prime subscptin on Oct 3. On Oct 9 my prime membership exprd.it didn't get renwd. @AmazonHelp Oh great. I'll wait till November for making a n",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_034487",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "OTHER",
+    "customer_text": "@115851 @115850\nI've been cheated by a seller on Amazon India, and Amazon is not helping me reclaim my lost money. @115851 @115850 Instead of receiving the product I ordered I was sent a  piece of clo",
+    "assessment": "A_V2_INCORRECTLY_MOVED_FROM_DELIVERY_MISSING"
+  },
+  {
+    "conversation_id": "amazonhelp_005321",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "ORDER_STATUS",
+    "customer_text": "@AmazonHelp I have raised the query a lot of times under \"Where is my order?\" Please check.",
+    "assessment": "A_V2_INCORRECTLY_MOVED_FROM_DELIVERY_MISSING"
+  },
+  {
+    "conversation_id": "amazonhelp_046287",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "DELIVERY_TRACKING",
+    "customer_text": "@AmazonHelp Haven't received the order on time. Looks like Package is held by carrier. Can you look into this ASAP? Tracking ID 1Z9763EF1210861375 @AmazonHelp I used https://t.co/lwXWvcJrX9",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_139141",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "OTHER",
+    "customer_text": "love getting scammed by amazon sellers it’s the best @115821 @AmazonHelp I ordered a monitor on the 20th of September and it never arrived",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_039990",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "DEVICE_ISSUE",
+    "customer_text": "@115850 as i was the prime member and my prime membership is expired now. And i got the mail that u can buy a prime membership and get 500 cashback as a pay balance in our wallet. But no cashback show",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_116789",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "PAYMENT_ISSUE",
+    "customer_text": "#AmazonIndia @115850 ordered moto g5s+ from amazon it was no cost on emi wen I saw my credit card statement  EMI was not applied. https://t.co/WIaA16ZOoZ @115850 After long time no response from custo",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_102745",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "ORDER_STATUS",
+    "customer_text": "@115850 every time I tweet u give me a bloody form to fill. Who on earth will give me the solution. \nAmazon Sucks!!! 407-0490236-8049166. I want a solution now  no more fu...ing excuses. @AmazonHelp I",
+    "assessment": "A_V2_INCORRECTLY_MOVED_FROM_DELIVERY_MISSING"
+  },
+  {
+    "conversation_id": "amazonhelp_073569",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "ORDER_STATUS",
+    "customer_text": "@115821 why is my order showing signed and delivered?🤦🏼‍♀️🙅🏼🤷🏼‍♀️ Where’s my stuff? @AmazonHelp I’m missing these orders that show delivered by Carrier AMZL US",
+    "assessment": "A_V2_INCORRECTLY_MOVED_FROM_DELIVERY_MISSING"
+  },
+  {
+    "conversation_id": "amazonhelp_044684",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "ORDER_STATUS",
+    "customer_text": "@115850 @115821 i hope the delivery date is 3rd Oct 2017 not 3rd Oct 2018. https://t.co/u1JBR4tsGF @115850 @115821 @115850 i still haven't received my parcel. #ShameOnYou @AmazonHelp Let me know when ",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_027354",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "ORDER_STATUS",
+    "customer_text": "Not sure what the hell I pay @AmazonHelp for. Absolutely useless. @AmazonHelp In the last 14 days, I’ve had two missing orders and now my order is ‘damaged’ and I wasn’t even notified. Ridiculous. @Am",
+    "assessment": "A_V2_INCORRECTLY_MOVED_FROM_DELIVERY_MISSING"
+  },
+  {
+    "conversation_id": "amazonhelp_033152",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "OTHER",
+    "customer_text": "@115850 Not at all satisfied with your service. I did not get my cashback till now.Not able to call you.Need a call from ir side @AmazonHelp  I purchased one plus five on which there was a cashback on",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_115721",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "VIDEO_STREAMING",
+    "customer_text": "@115850 why there is Tamil, Telugu category in Amazon prime video, but Kannada missing ??? @AmazonHelp Regional languages are present. My query was about Kannada. When ?? @AmazonHelp How long?",
+    "assessment": "A_V2_INCORRECTLY_MOVED_FROM_DELIVERY_MISSING"
+  },
+  {
+    "conversation_id": "amazonhelp_092358",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "DEVICE_ISSUE",
+    "customer_text": "Guess who gave this seller a surprise visit during the festive season? https://t.co/pLVOwuxk3O @115850 How to get an invite for echo? I've registered 4th i guess. Still haven't received my invite yet",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_082445",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "OTHER",
+    "customer_text": "Yo Amazon says my New 2DS XL has already shipped but I didn't get an email saying it has shipped 🤔",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_025664",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "OTHER",
+    "customer_text": "@AmazonHelp I have currently tried 6 times to get a missing invoice for an order. Customer Services have no idea what they are doing. help? @AmazonHelp (I know how the retrieve invoices for an order f",
+    "assessment": "A_V2_INCORRECTLY_MOVED_FROM_DELIVERY_MISSING"
+  },
+  {
+    "conversation_id": "amazonhelp_023141",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "DELIVERY_TRACKING",
+    "customer_text": "@115821 @AmazonHelp another one of my packaged tracked as \"delivered\" but it never arrived. How do I submit an issue on your site? @AmazonHelp I have checked everywhere and asked all of my employees. ",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_120097",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "PAYMENT_ISSUE",
+    "customer_text": "@115850 \nWorst customers care , marking customer fools, giving  false information, to the customer.\nNeed help asap @AmazonHelp I didn't get the response yet, is this way to serve  customer, @AmazonHel",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_125545",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "RETURN_REQUEST",
+    "customer_text": "@AmazonHelp My parcel has been delivered (UK) but only contains 3 of 5 items. How/where do I complain about the missing things? @AmazonHelp One was a third party &amp; one Amazon but all 5 listed as b",
+    "assessment": "A_V2_INCORRECTLY_MOVED_FROM_DELIVERY_MISSING"
+  },
+  {
+    "conversation_id": "amazonhelp_087899",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "DELIVERY_TRACKING",
+    "customer_text": "@115821 where is my package?? It says it was delivered but it's not here @AmazonHelp Yes. Nothing helped. Next plz",
+    "assessment": "A_V2_INCORRECTLY_MOVED_FROM_DELIVERY_MISSING"
+  },
+  {
+    "conversation_id": "amazonhelp_038341",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "ORDER_STATUS",
+    "customer_text": "@115821 @AmazonHelp where is my order for #TurtlesAllTheWayDown by @127390? 🐢 been waiting all morning! 😭 @AmazonHelp Q68307858043",
+    "assessment": "C_AMBIGUOUS_COULD_BE_LATE"
+  },
+  {
+    "conversation_id": "amazonhelp_102996",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "DEVICE_ISSUE",
+    "customer_text": "@115821 I downloaded the Kindle app a few hours ago and still haven't gotten a confirmation email or $5 credit. Can you help? https://t.co/dEHxBbOrJ1 @AmazonHelp hi, i still haven't received anything.",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_154971",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "OTHER",
+    "customer_text": "@115850 @AmazonHelp is this how you deliver your Prime Orders ?? https://t.co/NvbI8BWgdp @115850 @AmazonHelp This is how your delivery agents fooling your system, give a cut ring update the status and",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_127397",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "ORDER_STATUS",
+    "customer_text": "@AmazonHelp i canceled my ordered after i got charged. And iv'e been waiting for 2 days to get my money back. The item didn't get shipped @AmazonHelp I've been waiting for 43 hours exactly!",
+    "assessment": "B_V1_SHOULD_BE_REFUND"
+  },
+  {
+    "conversation_id": "amazonhelp_112124",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "REFUND_REQUEST",
+    "customer_text": "@AmazonHelp took 9 minutes for a customer service rep to tell me i'm not receiving a refund on my one-day shipping even though i haven't received an item. #brokensystem. @AmazonHelp hi. i paid for it ",
+    "assessment": "B_V1_SHOULD_BE_REFUND"
+  },
+  {
+    "conversation_id": "amazonhelp_065439",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "ACCOUNT_ACCESS",
+    "customer_text": "@AmazonHelp When logging in, I get the messsage \"Your account has been locked for security purposes.  Please check your e-mail for instructions on how to unlock your account.\" But I haven't received a",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_115202",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "OTHER",
+    "customer_text": "@118706 @115821 I have a very sad 9yro who waited all day for the new #Diaryofawimpykid that was out for dilivery yesterday. It never arrived.",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_132296",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "REFUND_REQUEST",
+    "customer_text": "@AmazonHelp hi I paid next day delivery for an item on Friday and still haven't received my item @AmazonHelp Hi it's now saying it's being delivered on Monday, but I've paid£6 for next day delivery. I",
+    "assessment": "B_V1_SHOULD_BE_REFUND"
+  },
+  {
+    "conversation_id": "amazonhelp_051193",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "ORDER_STATUS",
+    "customer_text": "@115850 order number number 221233377824 we haven't received order but show is delivered why staff saying order missed why @AmazonHelp My order is loss who is responsible amazon.in @AmazonHelp Yes but",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_026146",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "RETURN_REQUEST",
+    "customer_text": "@AmazonHelp Got wrong products. I asked for replacement, haven't received pickup. It over 2 weeks and your company are delaying further. 🤬🤬🤬 @AmazonHelp amazon.in",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_127111",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "APP_USAGE",
+    "customer_text": "@115830 please do not use @126705 for your next day guaranteed deliveries. Completely unreliable. #stillwaiting @115830 @126705 @AmazonHelp really disappointed - waiting in all day for a delivery that",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_112341",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "DELIVERY_TRACKING",
+    "customer_text": "@AmazonHelp @116324 since not one of you useless idiots can grasp the situation here I am now just going to bombard you everyday. Explanation? Where is my package and more importantly when are you iss",
+    "assessment": "A_V2_INCORRECTLY_MOVED_FROM_DELIVERY_MISSING"
+  },
+  {
+    "conversation_id": "amazonhelp_022470",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "APP_USAGE",
+    "customer_text": "@115830 please do not use @126705 for your next day guaranteed deliveries. Completely unreliable. #stillwaiting @115830 @126705 @AmazonHelp really disappointed - waiting in all day for a delivery that",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_046924",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "DELIVERY_TRACKING",
+    "customer_text": "Got a return to @115830 – we make it easy for you, daily from 7am. \nChoose Pass My Parcel ➡️ https://t.co/ZA5ECAI9t5 https://t.co/0OkJsyUUVy @244842 @115830 I dropped off 2 parcels at one of your loca",
+    "assessment": "A_V2_INCORRECTLY_MOVED_FROM_DELIVERY_MISSING"
+  },
+  {
+    "conversation_id": "amazonhelp_007823",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "APP_USAGE",
+    "customer_text": "@AmazonHelp if I order something on my prime membership that says nextday I'm confused how it now says 2 to 3 days? @AmazonHelp 20th @AmazonHelp Email has arriving 21st but on your website now says be",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_099590",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "PRODUCT_ISSUE",
+    "customer_text": "Hey @115821, how many times do I have to complain about damaged packages at my new address until you actually do something? @AmazonHelp https://t.co/9ljZtfpdUa @AmazonHelp This has been a CONSTANT iss",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_034144",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "ORDER_STATUS",
+    "customer_text": "@115821.com@amazonIN Where is my order 402-4940440-7583541 😠 showing delivered I hv'nt received #fraud#cheating #amazon.in# @115821 Sir u HV delivered my order to 3rd person , ur cust care good for no",
+    "assessment": "A_V2_INCORRECTLY_MOVED_FROM_DELIVERY_MISSING"
+  },
+  {
+    "conversation_id": "amazonhelp_003282",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "ORDER_STATUS",
+    "customer_text": "My @115821 order says delivered but it’s no where to be found #sos https://t.co/IB2Fkn25ou @AmazonHelp USPS @AmazonHelp @115821 https://t.co/RzhGVAS8QY @AmazonHelp @115821 it has now been 36 hours and",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_039963",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "OTHER",
+    "customer_text": "@AmazonHelp I ordered the Elgato green screen it’s meant to be arriving on the 25th and we noticed that the order was cancelled not by us. I was wondering if you know anything about it as it’s saying ",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_100140",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "DEVICE_ISSUE",
+    "customer_text": "Win an Amazon Fire TV Stick - Watch your favourite movies &amp; TV shows! 10 winners a week till 31st Oct. #SuperDiwali https://t.co/8SzYpbOUax https://t.co/K4IcvnxQEY @119625 I have watched more than",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_147937",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "OTHER",
+    "customer_text": "@115830 I placed an order and it's never arrived... I have contacted the seller and heard nothing back. What do I need to do, @AmazonHelp  https://t.co/aRXrYNf0GF @AmazonHelp I can't find the option i",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_135193",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "ORDER_STATUS",
+    "customer_text": "Bad customer service. Did not receive my order yet, even after the customer service employee confirmed. @115850 @AmazonHelp @AmazonHelp I HAVE ALREADY DONE THAT. @AmazonHelp If that was the case, I wo",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_040472",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "ORDER_STATUS",
+    "customer_text": "@115850 order no.407-7748035-1883565.\nStill didn't get refund. Discussed on call 5 times. Robbing Company of India.\n#JeffBezos #shit @AmazonHelp I already drop mail and also called in customer care. N",
+    "assessment": "B_V1_SHOULD_BE_REFUND"
+  },
+  {
+    "conversation_id": "amazonhelp_129174",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "PAYMENT_ISSUE",
+    "customer_text": "@AmazonHelp yet i didn't get the cashback for the payment that i done for my first recharge over amazon pay balance..help!",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_042794",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "ORDER_MODIFY",
+    "customer_text": "@AmazonHelp I ordered a Netflix gift card yesterday &amp; I still haven't received the email with the card info &amp; I can't login to amazon. @AmazonHelp It keeps saying my password is incorrect but ",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_012175",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "OTHER",
+    "customer_text": "My Amazon package was been \"Out For Delivery\" since 7am but never arrived. Guess I gotta wait another day for my birthday presant to myself. 😔 @AmazonHelp I am aware, however my apartment office only ",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_097247",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "RETURN_REQUEST",
+    "customer_text": "@115850 \n\nI have stopped using Amazon because of the sheer negligence of them in handling one of my issue. Hiring cheap delivery boys, who misplaced my return package and now they are stalling my refu",
+    "assessment": "A_V2_INCORRECTLY_MOVED_FROM_DELIVERY_MISSING"
+  },
+  {
+    "conversation_id": "amazonhelp_141924",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "ORDER_STATUS",
+    "customer_text": "My @115821 order says delivered but it’s no where to be found #sos https://t.co/IB2Fkn25ou @AmazonHelp USPS @AmazonHelp @115821 https://t.co/RzhGVAS8QY",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_113226",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "REFUND_REQUEST",
+    "customer_text": "@AmazonHelp  i ordered bluetooth speaker worth 1799/-INR and got a prime membership of worth 459/-INR  i cancelled both bluetooth speaker and prime  membership.So they initiated my refund but unfortun",
+    "assessment": "B_V1_SHOULD_BE_REFUND"
+  }
+]

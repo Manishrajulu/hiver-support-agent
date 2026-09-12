@@ -1,0 +1,72 @@
+[
+  {
+    "conversation_id": "amazonhelp_115316",
+    "actual": "OTHER",
+    "groq": "ORDER_STATUS",
+    "baseline": "OTHER",
+    "text": "面白すぎ♪名優さんたちが皆でルームシェアとか、可愛すぎてほっこりしました♪\nバイプレイヤーズ ～もしも６人の名脇役がシェアハウスで暮らしたら～Amazon~https://t.co/p7XgF9EDk1 @116313さんから @116313 バイプレイヤーズ面白すぎてまとめ見が止まらない😂❤️✨ @AmazonHelp amazonさん御返信ありがとうございます🤗❤️✨ @AmazonHelp ありがとうございます🙏❤️✨"
+  },
+  {
+    "conversation_id": "amazonhelp_102084",
+    "actual": "OTHER",
+    "groq": "ORDER_STATUS",
+    "baseline": "DELIVERY_LATE",
+    "text": "@115850 after shopping online from last two day's still no update when'll you deliver finally? @AmazonHelp Yes you missed target date"
+  },
+  {
+    "conversation_id": "amazonhelp_011612",
+    "actual": "OTHER",
+    "groq": "ORDER_STATUS",
+    "baseline": "DELIVERY_LATE",
+    "text": "@AmazonHelp my package is supposed to be at my home by tomorrow before 8, but the package hasnt even been shipped. is that normal? @AmazonHelp never came in... @AmazonHelp  https://t.co/N13FqdyIBb"
+  },
+  {
+    "conversation_id": "amazonhelp_067975",
+    "actual": "OTHER",
+    "groq": "ORDER_STATUS",
+    "baseline": "DELIVERY_LATE",
+    "text": "@115821 when I preorder something for day of release I should get it day of release or you shouldn't try to take my money. Sort it out. @AmazonHelp This was. When I clicked \"pre-order\" it said \"Preoder guarantee.\" That's why I preordered it there. Now it's not coming till 20 days after. @AmazonHelp It's not a game. It's the Xbox One X Scorpio Edition."
+  },
+  {
+    "conversation_id": "amazonhelp_152727",
+    "actual": "OTHER",
+    "groq": "ORDER_STATUS",
+    "baseline": "DELIVERY_LATE",
+    "text": "Your service sucks @115850. #amazonprime is a scam. https://t.co/bFd9e0U7Tu @AmazonHelp I've spoken to about 5 representatives today. Don't intend to add 6th to the list of horror. One day delivery? Really? #WorstCustomerService @AmazonHelp I filled the form yesterday and still waiting for YOU to revert. 3rd day of #amazonprime delivery.#Joke @AmazonHelp Thanks Satish for sending the most unproductive message. Words like, you will get it at the earliest, not our intention, does not help."
+  },
+  {
+    "conversation_id": "amazonhelp_128451",
+    "actual": "OTHER",
+    "groq": "ORDER_STATUS",
+    "baseline": "DELIVERY_LATE",
+    "text": "@AmazonHelp @115821 automated chat says it will ship October 9th, yet your site indicates you’ll email me when you can estimate a delivery https://t.co/e3EqR9u0lu @AmazonHelp @115821 But I have yet to receive an email... also failing to fulfill orders for a product you’re selling through your treasure truck is crap"
+  },
+  {
+    "conversation_id": "amazonhelp_134412",
+    "actual": "OTHER",
+    "groq": "ORDER_STATUS",
+    "baseline": "OTHER",
+    "text": "@AmazonHelp Bonsoir, est ce que ma commande va être expédiée ce soir ? https://t.co/mVS1sdiQKm @AmazonHelp Euh j'ai un ptit de tout, j'ai articles 8 en tout, dont 5 vendu par Amazon, 2 par Klim et un par keepcalmitaly"
+  },
+  {
+    "conversation_id": "amazonhelp_004741",
+    "actual": "OTHER",
+    "groq": "ORDER_STATUS",
+    "baseline": "OTHER",
+    "text": "Comprei um box as 1:22 na @117086 e hoje quando acordei, já tinha email avisando que estava com a transportadora. IMAGINA QUE SONHO SE TODOS OS SITES FOSSEM ASSIM? @117086 Pra melhorar mais ainda: já chegou hoje em casa"
+  },
+  {
+    "conversation_id": "amazonhelp_030736",
+    "actual": "OTHER",
+    "groq": "ORDER_STATUS",
+    "baseline": "OTHER",
+    "text": "@AmazonHelp Voy al enlace entonces. @AmazonHelp Ya he recibido información y opciones, y se han ofrecido a un seguimiento para ver si llega a tiempo. Un placer una vez más contar con vuestra ayuda."
+  },
+  {
+    "conversation_id": "amazonhelp_000809",
+    "actual": "OTHER",
+    "groq": "ORDER_STATUS",
+    "baseline": "RETURN_REQUEST",
+    "text": "@AmazonHelp updated in your link as well. Please check it.@115850 https://t.co/luFPIEi7zH @AmazonHelp @115850 I hope that 20 days are enough to find out and solve issue . I did not get my money or delivery till now.Is this Amazon services to us.@115850 @131283 @15471 @144148 @30724"
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "phase": "F",
+  "audit_status": "INVALID original comparison, CORRECTED",
+  "original_issue": "Phase F evaluated on 466 examples, Phase C on 540 - different denominators",
+  "phase_c": {
+    "official_test_accuracy": 71.11,
+    "official_test_correct": 384,
+    "official_test_total": 540,
+    "golden_set_accuracy": 56.36,
+    "golden_set_correct": 124,
+    "golden_set_total": 220
+  },
+  "phase_f": {
+    "test_accuracy": 66.48,
+    "test_correct": 359,
+    "test_total": 540,
+    "golden_set_accuracy": 56.82,
+    "golden_set_correct": 125,
+    "golden_set_total": 220,
+    "on_same_540_test_set": true
+  },
+  "difference": {
+    "test_set": -4.63,
+    "golden_set": 0.45
+  },
+  "conclusion": "Phase F performs worse on test set (-4.63pp) and marginally better on golden set (+0.45pp) - does not improve generalization",
+  "recommendation": "KEEP PHASE C"
+}

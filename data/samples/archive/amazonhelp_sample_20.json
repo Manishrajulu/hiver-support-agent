@@ -1,0 +1,418 @@
+[
+  {
+    "conversation_id": "amazonhelp_000005",
+    "quality_category": "D_substantive",
+    "quality_reason": "5 turns, avg_len=82, substantive=2",
+    "turns": [
+      {
+        "turn_number": 1,
+        "tweet_id": "205221",
+        "speaker": "Customer",
+        "text": "this is the first time amazon has let me down smh, they haven’t updated me on my package"
+      },
+      {
+        "turn_number": 2,
+        "tweet_id": "205220",
+        "speaker": "AmazonHelp",
+        "text": "@164614 Have we missed the delivery date? If so, what does tracking currently show? Check here: https://t.co/PCtircFm5C ^GL"
+      },
+      {
+        "turn_number": 3,
+        "tweet_id": "205219",
+        "speaker": "Customer",
+        "text": "@AmazonHelp two of my packages haven’t even shipped yet"
+      },
+      {
+        "turn_number": 4,
+        "tweet_id": "205218",
+        "speaker": "AmazonHelp",
+        "text": "@164614 Oh no! To confirm, what was the delivery estimate provided on your order confirmation e-mail for the orders? ^MB"
+      },
+      {
+        "turn_number": 5,
+        "tweet_id": "205217",
+        "speaker": "Customer",
+        "text": "@AmazonHelp October 6th"
+      }
+    ]
+  },
+  {
+    "conversation_id": "amazonhelp_000010",
+    "quality_category": "D_substantive",
+    "quality_reason": "5 turns, avg_len=132, substantive=2",
+    "turns": [
+      {
+        "turn_number": 1,
+        "tweet_id": "528307",
+        "speaker": "Customer",
+        "text": "Hello @119625 subtitles doesn’t work in my devices from yesterday.Any solutions? #Amazon#prime"
+      },
+      {
+        "turn_number": 2,
+        "tweet_id": "528305",
+        "speaker": "AmazonHelp",
+        "text": "@242311 We'll be glad to help you. Could you please let us know the title on which you are unable to find subtitles? ^SC"
+      },
+      {
+        "turn_number": 3,
+        "tweet_id": "528306",
+        "speaker": "Customer",
+        "text": "@AmazonHelp Actually subtitles are on but it’s doesn’t displayed when the video playing. Series are person of interest and grand tour"
+      },
+      {
+        "turn_number": 4,
+        "tweet_id": "528308",
+        "speaker": "AmazonHelp",
+        "text": "@242311 Could you please confirm if you are facing this issue with all the seasons of the mentioned series?  ^SC"
+      },
+      {
+        "turn_number": 5,
+        "tweet_id": "528309",
+        "speaker": "Customer",
+        "text": "@AmazonHelp Right now I am watching s4 ep07..I have checked with other episodes and seasons,it doesn’t works there too (some days back I watched these episodes with subtitles) https://t.co/zM29rfQrl5"
+      }
+    ]
+  },
+  {
+    "conversation_id": "amazonhelp_000002",
+    "quality_category": "C_multi_turn",
+    "quality_reason": "3 turns, avg_len=85, substantive=1",
+    "turns": [
+      {
+        "turn_number": 1,
+        "tweet_id": "2074019",
+        "speaker": "Customer",
+        "text": "Amazonのミスで勝手に返品された品の返金が来ないから電話したらコンビニ払いで口座指定もしてないのにもうクレジットのところに返金しましたとか言われて今日見に行ったらやっぱり返金されてなかった"
+      },
+      {
+        "turn_number": 2,
+        "tweet_id": "2074017",
+        "speaker": "AmazonHelp",
+        "text": "@613403 ご返金についてご不便をおかけしております。カスタマーサービスにて再度確認させていただきますので、こちらのリンクよりお問い合わせください。https://t.co/NtNAX37Sr4 ET"
+      },
+      {
+        "turn_number": 3,
+        "tweet_id": "2074018",
+        "speaker": "Customer",
+        "text": "@AmazonHelp 電話はブロックされてかけれません\nメールは1度アプリの方から送りましたがなにも帰ってきません"
+      }
+    ]
+  },
+  {
+    "conversation_id": "amazonhelp_000004",
+    "quality_category": "C_multi_turn",
+    "quality_reason": "3 turns, avg_len=110, substantive=1",
+    "turns": [
+      {
+        "turn_number": 1,
+        "tweet_id": "1969329",
+        "speaker": "Customer",
+        "text": "@115851 why have you allowed companies from China to steal from loyal Amazon customers??  I’m not a billionaire like you"
+      },
+      {
+        "turn_number": 2,
+        "tweet_id": "1969326",
+        "speaker": "AmazonHelp",
+        "text": "@583426 We'd like to help. Without posting personal or account sensitive information, can you tell us more about what's going on? ^AF https://t.co/1XyLaGkcaN"
+      },
+      {
+        "turn_number": 3,
+        "tweet_id": "1969328",
+        "speaker": "Customer",
+        "text": "@AmazonHelp My orders don’t even have orders numbers!!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "amazonhelp_000006",
+    "quality_category": "C_multi_turn",
+    "quality_reason": "5 turns, avg_len=101, substantive=1",
+    "turns": [
+      {
+        "turn_number": 1,
+        "tweet_id": "2073874",
+        "speaker": "Customer",
+        "text": "@AmazonHelp Bonjour, j'ai un colis qui m'est indiqué avoir été livré dans ma boite aux lettres, cependant rien n'est présent. Numéro de commande : 403-3536538-1837141"
+      },
+      {
+        "turn_number": 2,
+        "tweet_id": "2073873",
+        "speaker": "AmazonHelp",
+        "text": "@613381 Bonjour, je suis sincèrement navrée d'apprendre cela. L'avez-vous signalé à notre SAV s'il vous plaît? ^SA"
+      },
+      {
+        "turn_number": 3,
+        "tweet_id": "2073872",
+        "speaker": "Customer",
+        "text": "@AmazonHelp Non je l'ai signalé qu'ici. Je les contactes par téléphone ?"
+      },
+      {
+        "turn_number": 4,
+        "tweet_id": "2073871",
+        "speaker": "AmazonHelp",
+        "text": "@613381 Vous pouvez contacter le service client par téléphone, chat ou mail depuis le lien suivant : https://t.co/qzuu0dgDXz . ^ASZ"
+      },
+      {
+        "turn_number": 5,
+        "tweet_id": "2073870",
+        "speaker": "Customer",
+        "text": "@AmazonHelp Cool merci !"
+      }
+    ]
+  },
+  {
+    "conversation_id": "amazonhelp_000015",
+    "quality_category": "C_multi_turn",
+    "quality_reason": "3 turns, avg_len=213, substantive=1",
+    "turns": [
+      {
+        "turn_number": 1,
+        "tweet_id": "2519257",
+        "speaker": "Customer",
+        "text": "Yelling at managers at Amazon is SO FUN LET ME TELL YOU.\n\nI do my damned best never to get angry with low-level CS-reps, but the moment you transfer me to a manager at Amazon Logistics, who've spent t..."
+      },
+      {
+        "turn_number": 2,
+        "tweet_id": "2519255",
+        "speaker": "AmazonHelp",
+        "text": "@518270 I'm sorry for the frustration! When you spoke with us, what information were we able to provide? Was this regarding a recent order? If so, can you provide us with the carrier. This information..."
+      },
+      {
+        "turn_number": 3,
+        "tweet_id": "2519256",
+        "speaker": "Customer",
+        "text": "@AmazonHelp YOU'RE the carrier. I'm still on the phone with an AMZL supervisor.\n\nYour shipping is an unmitigated disaster."
+      }
+    ]
+  },
+  {
+    "conversation_id": "amazonhelp_000016",
+    "quality_category": "C_multi_turn",
+    "quality_reason": "3 turns, avg_len=115, substantive=1",
+    "turns": [
+      {
+        "turn_number": 1,
+        "tweet_id": "1188548",
+        "speaker": "Customer",
+        "text": "@AmazonHelp My Amazon account was suddenly closed for use of \"invalid gift cards\". I have had an Amazon account since 2012. Fix this."
+      },
+      {
+        "turn_number": 2,
+        "tweet_id": "1188547",
+        "speaker": "AmazonHelp",
+        "text": "@399497 I'm sorry for the frustration. Did you receive an e-mail from an account specialist with more information about this? ^KB"
+      },
+      {
+        "turn_number": 3,
+        "tweet_id": "1188546",
+        "speaker": "Customer",
+        "text": "@AmazonHelp I received two emails with the same information. https://t.co/0o8okPYCTn"
+      }
+    ]
+  },
+  {
+    "conversation_id": "amazonhelp_000001",
+    "quality_category": "A_very_short",
+    "quality_reason": "Single turn - no real conversation",
+    "turns": [
+      {
+        "turn_number": 1,
+        "tweet_id": "1428914",
+        "speaker": "Customer",
+        "text": "Amazonさんからの荷物。納品書入ってなかったのはわざとかな？"
+      }
+    ]
+  },
+  {
+    "conversation_id": "amazonhelp_000003",
+    "quality_category": "A_very_short",
+    "quality_reason": "Single turn - no real conversation",
+    "turns": [
+      {
+        "turn_number": 1,
+        "tweet_id": "1493687",
+        "speaker": "Customer",
+        "text": "@115850 please add D2h recharge option in mobile app???? @119625"
+      }
+    ]
+  },
+  {
+    "conversation_id": "amazonhelp_000007",
+    "quality_category": "A_very_short",
+    "quality_reason": "Single turn - no real conversation",
+    "turns": [
+      {
+        "turn_number": 1,
+        "tweet_id": "1403207",
+        "speaker": "Customer",
+        "text": "Another order and the same old mistake... got a product delivered message but the product has still not been delivered... @115850 😐😐"
+      }
+    ]
+  },
+  {
+    "conversation_id": "amazonhelp_000008",
+    "quality_category": "A_very_short",
+    "quality_reason": "Single turn - no real conversation",
+    "turns": [
+      {
+        "turn_number": 1,
+        "tweet_id": "2644535",
+        "speaker": "Customer",
+        "text": "@AmazonHelp fake hopes nd extended time since i am getting this"
+      }
+    ]
+  },
+  {
+    "conversation_id": "amazonhelp_000009",
+    "quality_category": "A_very_short",
+    "quality_reason": "Single turn - no real conversation",
+    "turns": [
+      {
+        "turn_number": 1,
+        "tweet_id": "1463444",
+        "speaker": "Customer",
+        "text": "@AmazonHelp  I bought something yesterday with Prime about 1pm. Said it's arriving today and still nothing has arrived. Slow delivery maybe?"
+      }
+    ]
+  },
+  {
+    "conversation_id": "amazonhelp_000018",
+    "quality_category": "C_multi_turn",
+    "quality_reason": "3 turns, avg_len=52, substantive=1",
+    "turns": [
+      {
+        "turn_number": 1,
+        "tweet_id": "521699",
+        "speaker": "Customer",
+        "text": "8時～12時までのamazon時間指定の荷物届かないんだが"
+      },
+      {
+        "turn_number": 2,
+        "tweet_id": "521698",
+        "speaker": "AmazonHelp",
+        "text": "@240447 ご迷惑をおかけしております。状況をお調べした上でご案内させていただきますので、恐れ入りますが、以下のリンクよりカスタマーサービスにお問い合わせください。https://t.co/J6YEizFHia TN"
+      },
+      {
+        "turn_number": 3,
+        "tweet_id": "521697",
+        "speaker": "Customer",
+        "text": "@AmazonHelp はいっ！"
+      }
+    ]
+  },
+  {
+    "conversation_id": "amazonhelp_000021",
+    "quality_category": "C_multi_turn",
+    "quality_reason": "5 turns, avg_len=156, substantive=1",
+    "turns": [
+      {
+        "turn_number": 1,
+        "tweet_id": "543565",
+        "speaker": "Customer",
+        "text": "@UPSHelp my package has been showing Delayed since 11/29 with no other info given. Amazon cannot help. Can you? 1Z306A400255772136"
+      },
+      {
+        "turn_number": 2,
+        "tweet_id": "543563",
+        "speaker": "Customer",
+        "text": "@246250 Thank you for providing your tracking number.I am sorry that your package has been delayed. I am showing that this package is still with Amazon and has not been turned over to UPS as of yet. O..."
+      },
+      {
+        "turn_number": 3,
+        "tweet_id": "543561",
+        "speaker": "Customer",
+        "text": "@UPSHelp @AmazonHelp please read above. The issue is on your end."
+      },
+      {
+        "turn_number": 4,
+        "tweet_id": "543558",
+        "speaker": "AmazonHelp",
+        "text": "@246250 Thank you for contacting us, Jayme! I am sorry you have not received your package. We are here to help! Just to clarify, can you tell us what the current order status is showing here: https://..."
+      },
+      {
+        "turn_number": 5,
+        "tweet_id": "543559",
+        "speaker": "Customer",
+        "text": "@AmazonHelp It is clearly not arriving today per @UPSHelp .  Please issue me a refund today"
+      }
+    ]
+  },
+  {
+    "conversation_id": "amazonhelp_000011",
+    "quality_category": "A_very_short",
+    "quality_reason": "Single turn - no real conversation",
+    "turns": [
+      {
+        "turn_number": 1,
+        "tweet_id": "2297413",
+        "speaker": "Customer",
+        "text": "@115821 right now you're customer service is AWFUL! My account has been locked and no matter what I do I get the same \"canned\" email."
+      }
+    ]
+  },
+  {
+    "conversation_id": "amazonhelp_000012",
+    "quality_category": "A_very_short",
+    "quality_reason": "Single turn - no real conversation",
+    "turns": [
+      {
+        "turn_number": 1,
+        "tweet_id": "418780",
+        "speaker": "Customer",
+        "text": "@AmazonHelp Status says, \"Delivered yesterday\" but I didn't receive anything yet. Please assist."
+      }
+    ]
+  },
+  {
+    "conversation_id": "amazonhelp_000013",
+    "quality_category": "A_very_short",
+    "quality_reason": "Single turn - no real conversation",
+    "turns": [
+      {
+        "turn_number": 1,
+        "tweet_id": "927833",
+        "speaker": "Customer",
+        "text": "@AmazonHelp not happy wwe 2k18 didn't arrive today, 21:20 now and nothing, was supposed to arrive today, 4 days early supposed to be"
+      }
+    ]
+  },
+  {
+    "conversation_id": "amazonhelp_000014",
+    "quality_category": "A_very_short",
+    "quality_reason": "Single turn - no real conversation",
+    "turns": [
+      {
+        "turn_number": 1,
+        "tweet_id": "2471034",
+        "speaker": "Customer",
+        "text": "Mein Kindle ist wohl offiziell zu alt, die WLAN Verbindung besteht zwar aber er lässt sich nicht mehr synchronisieren oder aktualisieren 😔 Trotz Neustart @117634"
+      }
+    ]
+  },
+  {
+    "conversation_id": "amazonhelp_000017",
+    "quality_category": "A_very_short",
+    "quality_reason": "Single turn - no real conversation",
+    "turns": [
+      {
+        "turn_number": 1,
+        "tweet_id": "1619432",
+        "speaker": "Customer",
+        "text": "@115850 Again crashing https://t.co/g7eDbkDHJa"
+      }
+    ]
+  },
+  {
+    "conversation_id": "amazonhelp_000019",
+    "quality_category": "A_very_short",
+    "quality_reason": "Single turn - no real conversation",
+    "turns": [
+      {
+        "turn_number": 1,
+        "tweet_id": "1224611",
+        "speaker": "Customer",
+        "text": "Impossible de contacter le service client pour un problème de livraison (problème d'adresse) d'un article, je fais comment @120533 ?"
+      }
+    ]
+  }
+]

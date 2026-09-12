@@ -1,0 +1,765 @@
+2026-09-10 17:13:06,364 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-09-10 17:13:06,364 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-09-10 17:13:06,364 - faiss.loader - INFO - Loading faiss.
+2026-09-10 17:13:06,387 - faiss.loader - INFO - Successfully loaded faiss.
+2026-09-10 17:13:06,579 - test_pipeline - INFO - Found 540 test IDs in baseline split
+2026-09-10 17:13:06,693 - test_pipeline - INFO - Loaded 540 test conversations from corpus
+2026-09-10 17:13:06,707 - test_pipeline - INFO - ======================================================================
+2026-09-10 17:13:06,707 - test_pipeline - INFO - RUNNING PIPELINE TESTS ON 50 CONVERSATIONS
+2026-09-10 17:13:06,707 - test_pipeline - INFO - Skip generation: True
+2026-09-10 17:13:06,707 - test_pipeline - INFO - ======================================================================
+2026-09-10 17:13:06,707 - test_pipeline - INFO - Pre-loading pipeline components...
+2026-09-10 17:13:06,707 - pipeline - INFO - Loading pipeline components...
+2026-09-10 17:13:06,707 - pipeline - INFO - Loading classifier from C:\Users\DELL\Desktop\hiver\data\baseline\baseline_model.joblib
+2026-09-10 17:13:06,860 - pipeline - INFO - Classifier loaded with 14 classes
+2026-09-10 17:13:06,860 - pipeline - INFO - Loading RAG index from C:\Users\DELL\Desktop\hiver\data\rag\faiss_index_train.bin
+2026-09-10 17:13:06,861 - pipeline - INFO - Loading RAG metadata from C:\Users\DELL\Desktop\hiver\data\rag\corpus_metadata_train.jsonl
+2026-09-10 17:13:06,878 - pipeline - INFO - RAG metadata loaded: 2160 cases
+2026-09-10 17:13:06,878 - pipeline - INFO - Loading RAG embedding model: all-MiniLM-L6-v2
+2026-09-10 17:13:06,879 - sentence_transformers.base.model - INFO - No device provided, using cpu
+2026-09-10 17:13:07,591 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-10 17:13:07,593 - huggingface_hub.utils._http - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-09-10 17:13:07,618 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fmodules.json=&etag=%22952a9b81c0bfd99800fabf352f69c7ccd46c5e43%22 "HTTP/1.1 200 OK"
+2026-09-10 17:13:07,865 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-10 17:13:07,893 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig_sentence_transformers.json=&etag=%22fd1b291129c607e5d49799f87cb219b27f98acdf%22 "HTTP/1.1 200 OK"
+2026-09-10 17:13:07,896 - sentence_transformers.base.model - INFO - Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-09-10 17:13:08,142 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-10 17:13:08,169 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig_sentence_transformers.json=&etag=%22fd1b291129c607e5d49799f87cb219b27f98acdf%22 "HTTP/1.1 200 OK"
+2026-09-10 17:13:08,415 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-09-10 17:13:08,444 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2FREADME.md=&etag=%2244af2e3b0fa3a0b6239e48422972bf755f28fde0%22 "HTTP/1.1 200 OK"
+2026-09-10 17:13:08,689 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-10 17:13:08,713 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fmodules.json=&etag=%22952a9b81c0bfd99800fabf352f69c7ccd46c5e43%22 "HTTP/1.1 200 OK"
+2026-09-10 17:13:08,960 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-10 17:13:08,986 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fsentence_bert_config.json=&etag=%2259d594003bf59880a884c574bf88ef7555bb0202%22 "HTTP/1.1 200 OK"
+2026-09-10 17:13:09,246 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-09-10 17:13:09,497 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-10 17:13:09,522 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig.json=&etag=%2272b987fd805cfa2b58c4c8c952b274a11bfd5a00%22 "HTTP/1.1 200 OK"
+2026-09-10 17:13:10,145 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-09-10 17:13:10,401 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-09-10 17:13:10,695 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-09-10 17:13:10,988 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-09-10 17:13:11,240 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-10 17:13:11,278 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Ftokenizer_config.json=&etag=%22c79f2b6a0cea6f4b564fed1938984bace9d30ff0%22 "HTTP/1.1 200 OK"
+2026-09-10 17:13:11,538 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-10 17:13:11,574 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig.json=&etag=%2272b987fd805cfa2b58c4c8c952b274a11bfd5a00%22 "HTTP/1.1 200 OK"
+2026-09-10 17:13:11,833 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-10 17:13:11,866 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig.json=&etag=%2272b987fd805cfa2b58c4c8c952b274a11bfd5a00%22 "HTTP/1.1 200 OK"
+2026-09-10 17:13:12,131 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-10 17:13:12,167 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Ftokenizer_config.json=&etag=%22c79f2b6a0cea6f4b564fed1938984bace9d30ff0%22 "HTTP/1.1 200 OK"
+2026-09-10 17:13:12,427 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-09-10 17:13:12,688 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-09-10 17:13:12,993 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-10 17:13:13,032 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2F1_Pooling%2Fconfig.json=&etag=%22d1514c3162bbe87b343f565fadc62e6c06f04f03%22 "HTTP/1.1 200 OK"
+2026-09-10 17:13:13,303 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/2_Normalize/config.json "HTTP/1.1 404 Not Found"
+2026-09-10 17:13:13,561 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-09-10 17:13:13,855 - pipeline - INFO - Groq client initialized
+2026-09-10 17:13:13,856 - pipeline - INFO - All pipeline components loaded successfully
+2026-09-10 17:13:13,856 - test_pipeline - INFO - Components loaded successfully
+2026-09-10 17:13:13,856 - test_pipeline - INFO - [1/50] Processing: amazonhelp_049149
+2026-09-10 17:13:13,856 - pipeline - INFO - ============================================================
+2026-09-10 17:13:13,856 - pipeline - INFO - PIPELINE START: @115850 Never expected from a company like Amazon. You should have serious look 
+2026-09-10 17:13:13,856 - pipeline - INFO - ============================================================
+2026-09-10 17:13:13,856 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:13,878 - pipeline - INFO -   Predicted intent: DELIVERY_LATE (confidence: 0.184)
+2026-09-10 17:13:13,878 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:13,936 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.693
+2026-09-10 17:13:13,936 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:13,936 - pipeline - INFO -   Risk flag: LOW_CONF (0.184 < 0.25)
+2026-09-10 17:13:13,937 - pipeline - INFO -   Decision: ESCALATE
+2026-09-10 17:13:13,937 - pipeline - INFO - PIPELINE END: decision=ESCALATE, intent=DELIVERY_LATE, conf=0.184
+2026-09-10 17:13:13,937 - pipeline - INFO - ============================================================
+2026-09-10 17:13:13,937 - test_pipeline - INFO -   Result: decision=ESCALATE, intent=DELIVERY_LATE, conf=0.184
+2026-09-10 17:13:13,937 - test_pipeline - INFO - [2/50] Processing: amazonhelp_064362
+2026-09-10 17:13:13,937 - pipeline - INFO - ============================================================
+2026-09-10 17:13:13,938 - pipeline - INFO - PIPELINE START: @AmazonHelp: What I ordered and what I got;pls check so called "Apni Dukaan",pat
+2026-09-10 17:13:13,938 - pipeline - INFO - ============================================================
+2026-09-10 17:13:13,938 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:13,941 - pipeline - INFO -   Predicted intent: REFUND_REQUEST (confidence: 0.193)
+2026-09-10 17:13:13,941 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:14,031 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.749
+2026-09-10 17:13:14,031 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:14,031 - pipeline - INFO -   Risk flag: HIGH_RISK (REFUND_REQUEST)
+2026-09-10 17:13:14,031 - pipeline - INFO -   Risk flag: LOW_CONF (0.193 < 0.25)
+2026-09-10 17:13:14,032 - pipeline - INFO -   Decision: ESCALATE
+2026-09-10 17:13:14,032 - pipeline - INFO - PIPELINE END: decision=ESCALATE, intent=REFUND_REQUEST, conf=0.193
+2026-09-10 17:13:14,032 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,032 - test_pipeline - INFO -   Result: decision=ESCALATE, intent=REFUND_REQUEST, conf=0.193
+2026-09-10 17:13:14,032 - test_pipeline - INFO - [3/50] Processing: amazonhelp_067711
+2026-09-10 17:13:14,032 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,032 - pipeline - INFO - PIPELINE START: @120533 c'est ce que vous appelez remis en lieu sûr... Pas très pro comme pratiq
+2026-09-10 17:13:14,032 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,032 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:14,035 - pipeline - INFO -   Predicted intent: OTHER (confidence: 0.328)
+2026-09-10 17:13:14,035 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:14,134 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.677
+2026-09-10 17:13:14,134 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:14,134 - pipeline - INFO -   Decision: AUTO_HANDLE
+2026-09-10 17:13:14,135 - pipeline - INFO -   Stage 3: Reply generation skipped (skip_generation=True)
+2026-09-10 17:13:14,135 - pipeline - INFO - PIPELINE END: decision=AUTO_HANDLE, intent=OTHER, conf=0.328
+2026-09-10 17:13:14,135 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,135 - test_pipeline - INFO -   Result: decision=AUTO_HANDLE, intent=OTHER, conf=0.328
+2026-09-10 17:13:14,135 - test_pipeline - INFO - [4/50] Processing: amazonhelp_058474
+2026-09-10 17:13:14,135 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,135 - pipeline - INFO - PIPELINE START: Absolutely fuming! Amazon are great but how the fuck do you get in contact with 
+2026-09-10 17:13:14,135 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,135 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:14,138 - pipeline - INFO -   Predicted intent: APP_USAGE (confidence: 0.111)
+2026-09-10 17:13:14,139 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:14,170 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.737
+2026-09-10 17:13:14,170 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:14,170 - pipeline - INFO -   Risk flag: LOW_CONF (0.111 < 0.25)
+2026-09-10 17:13:14,170 - pipeline - INFO -   Decision: ESCALATE
+2026-09-10 17:13:14,171 - pipeline - INFO - PIPELINE END: decision=ESCALATE, intent=APP_USAGE, conf=0.111
+2026-09-10 17:13:14,171 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,171 - test_pipeline - INFO -   Result: decision=ESCALATE, intent=APP_USAGE, conf=0.111
+2026-09-10 17:13:14,171 - test_pipeline - INFO - [5/50] Processing: amazonhelp_095469
+2026-09-10 17:13:14,171 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,171 - pipeline - INFO - PIPELINE START: @115821 I need assistance on a missing package, please. @AmazonHelp .com
+2026-09-10 17:13:14,171 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,171 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:14,173 - pipeline - INFO -   Predicted intent: OTHER (confidence: 0.149)
+2026-09-10 17:13:14,173 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:14,190 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.702
+2026-09-10 17:13:14,190 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:14,190 - pipeline - INFO -   Risk flag: LOW_CONF (0.149 < 0.25)
+2026-09-10 17:13:14,190 - pipeline - INFO -   Decision: ESCALATE
+2026-09-10 17:13:14,191 - pipeline - INFO - PIPELINE END: decision=ESCALATE, intent=OTHER, conf=0.149
+2026-09-10 17:13:14,191 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,191 - test_pipeline - INFO -   Result: decision=ESCALATE, intent=OTHER, conf=0.149
+2026-09-10 17:13:14,191 - test_pipeline - INFO - [6/50] Processing: amazonhelp_014079
+2026-09-10 17:13:14,191 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,191 - pipeline - INFO - PIPELINE START: @AmazonHelp: @3375. One order tossed onto lawn. Friday pkg left overnight at gat
+2026-09-10 17:13:14,191 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,191 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:14,193 - pipeline - INFO -   Predicted intent: OTHER (confidence: 0.132)
+2026-09-10 17:13:14,193 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:14,224 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.667
+2026-09-10 17:13:14,224 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:14,224 - pipeline - INFO -   Risk flag: LOW_CONF (0.132 < 0.25)
+2026-09-10 17:13:14,224 - pipeline - INFO -   Decision: ESCALATE
+2026-09-10 17:13:14,224 - pipeline - INFO - PIPELINE END: decision=ESCALATE, intent=OTHER, conf=0.132
+2026-09-10 17:13:14,224 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,224 - test_pipeline - INFO -   Result: decision=ESCALATE, intent=OTHER, conf=0.132
+2026-09-10 17:13:14,224 - test_pipeline - INFO - [7/50] Processing: amazonhelp_127256
+2026-09-10 17:13:14,224 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,224 - pipeline - INFO - PIPELINE START: @115830 I live in Eastbourne. Tracking says parcel's gone from Littlehampton (46
+2026-09-10 17:13:14,225 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,225 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:14,226 - pipeline - INFO -   Predicted intent: DELIVERY_TRACKING (confidence: 0.166)
+2026-09-10 17:13:14,226 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:14,274 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.633
+2026-09-10 17:13:14,274 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:14,274 - pipeline - INFO -   Risk flag: LOW_CONF (0.166 < 0.25)
+2026-09-10 17:13:14,274 - pipeline - INFO -   Decision: ESCALATE
+2026-09-10 17:13:14,274 - pipeline - INFO - PIPELINE END: decision=ESCALATE, intent=DELIVERY_TRACKING, conf=0.166
+2026-09-10 17:13:14,274 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,274 - test_pipeline - INFO -   Result: decision=ESCALATE, intent=DELIVERY_TRACKING, conf=0.166
+2026-09-10 17:13:14,274 - test_pipeline - INFO - [8/50] Processing: amazonhelp_021383
+2026-09-10 17:13:14,274 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,275 - pipeline - INFO - PIPELINE START: @115821 what is this at ur Indian sales ?? https://t.co/WpMHMUDuRe
+2026-09-10 17:13:14,275 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,275 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:14,276 - pipeline - INFO -   Predicted intent: OTHER (confidence: 0.157)
+2026-09-10 17:13:14,276 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:14,292 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.635
+2026-09-10 17:13:14,292 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:14,293 - pipeline - INFO -   Risk flag: LOW_CONF (0.157 < 0.25)
+2026-09-10 17:13:14,293 - pipeline - INFO -   Decision: ESCALATE
+2026-09-10 17:13:14,293 - pipeline - INFO - PIPELINE END: decision=ESCALATE, intent=OTHER, conf=0.157
+2026-09-10 17:13:14,293 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,293 - test_pipeline - INFO -   Result: decision=ESCALATE, intent=OTHER, conf=0.157
+2026-09-10 17:13:14,293 - test_pipeline - INFO - [9/50] Processing: amazonhelp_148577
+2026-09-10 17:13:14,293 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,293 - pipeline - INFO - PIPELINE START: @AmazonHelp What's this delay ? When you assured about delivery by today ??track
+2026-09-10 17:13:14,293 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,293 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:14,295 - pipeline - INFO -   Predicted intent: DELIVERY_LATE (confidence: 0.273)
+2026-09-10 17:13:14,295 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:14,317 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.785
+2026-09-10 17:13:14,317 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:14,317 - pipeline - INFO -   Decision: AUTO_HANDLE
+2026-09-10 17:13:14,317 - pipeline - INFO -   Stage 3: Reply generation skipped (skip_generation=True)
+2026-09-10 17:13:14,317 - pipeline - INFO - PIPELINE END: decision=AUTO_HANDLE, intent=DELIVERY_LATE, conf=0.273
+2026-09-10 17:13:14,317 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,318 - test_pipeline - INFO -   Result: decision=AUTO_HANDLE, intent=DELIVERY_LATE, conf=0.273
+2026-09-10 17:13:14,318 - test_pipeline - INFO - [10/50] Processing: amazonhelp_051452
+2026-09-10 17:13:14,318 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,318 - pipeline - INFO - PIPELINE START: @115830 is there any Battlefront 2 available to pre order? I've been keeping an 
+2026-09-10 17:13:14,318 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,318 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:14,319 - pipeline - INFO -   Predicted intent: ORDER_STATUS (confidence: 0.131)
+2026-09-10 17:13:14,320 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:14,342 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.591
+2026-09-10 17:13:14,342 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:14,342 - pipeline - INFO -   Risk flag: LOW_CONF (0.131 < 0.25)
+2026-09-10 17:13:14,342 - pipeline - INFO -   Decision: ESCALATE
+2026-09-10 17:13:14,342 - pipeline - INFO - PIPELINE END: decision=ESCALATE, intent=ORDER_STATUS, conf=0.131
+2026-09-10 17:13:14,342 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,342 - test_pipeline - INFO -   Result: decision=ESCALATE, intent=ORDER_STATUS, conf=0.131
+2026-09-10 17:13:14,342 - test_pipeline - INFO - [11/50] Processing: amazonhelp_085285
+2026-09-10 17:13:14,342 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,342 - pipeline - INFO - PIPELINE START: @116439 i need some help. my remote doesnt always work. im pretty sure i bought 
+2026-09-10 17:13:14,342 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,342 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:14,344 - pipeline - INFO -   Predicted intent: DEVICE_ISSUE (confidence: 0.117)
+2026-09-10 17:13:14,345 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:14,403 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.520
+2026-09-10 17:13:14,403 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:14,403 - pipeline - INFO -   Risk flag: LOW_CONF (0.117 < 0.25)
+2026-09-10 17:13:14,403 - pipeline - INFO -   Decision: ESCALATE
+2026-09-10 17:13:14,403 - pipeline - INFO - PIPELINE END: decision=ESCALATE, intent=DEVICE_ISSUE, conf=0.117
+2026-09-10 17:13:14,403 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,403 - test_pipeline - INFO -   Result: decision=ESCALATE, intent=DEVICE_ISSUE, conf=0.117
+2026-09-10 17:13:14,403 - test_pipeline - INFO - [12/50] Processing: amazonhelp_094508
+2026-09-10 17:13:14,404 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,404 - pipeline - INFO - PIPELINE START: @AmazonHelp trying to place an order via pantry and use code PANTRY10 as its my 
+2026-09-10 17:13:14,404 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,404 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:14,405 - pipeline - INFO -   Predicted intent: APP_USAGE (confidence: 0.162)
+2026-09-10 17:13:14,406 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:14,429 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.588
+2026-09-10 17:13:14,429 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:14,429 - pipeline - INFO -   Risk flag: LOW_CONF (0.162 < 0.25)
+2026-09-10 17:13:14,430 - pipeline - INFO -   Decision: ESCALATE
+2026-09-10 17:13:14,430 - pipeline - INFO - PIPELINE END: decision=ESCALATE, intent=APP_USAGE, conf=0.162
+2026-09-10 17:13:14,430 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,430 - test_pipeline - INFO -   Result: decision=ESCALATE, intent=APP_USAGE, conf=0.162
+2026-09-10 17:13:14,430 - test_pipeline - INFO - [13/50] Processing: amazonhelp_131429
+2026-09-10 17:13:14,430 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,430 - pipeline - INFO - PIPELINE START: On my 4th support person trying to return an item. Apparently I’ve reach their “
+2026-09-10 17:13:14,430 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,430 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:14,432 - pipeline - INFO -   Predicted intent: PAYMENT_ISSUE (confidence: 0.199)
+2026-09-10 17:13:14,432 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:14,459 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.655
+2026-09-10 17:13:14,459 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:14,459 - pipeline - INFO -   Risk flag: HIGH_RISK (PAYMENT_ISSUE)
+2026-09-10 17:13:14,459 - pipeline - INFO -   Risk flag: LOW_CONF (0.199 < 0.25)
+2026-09-10 17:13:14,459 - pipeline - INFO -   Decision: ESCALATE
+2026-09-10 17:13:14,459 - pipeline - INFO - PIPELINE END: decision=ESCALATE, intent=PAYMENT_ISSUE, conf=0.199
+2026-09-10 17:13:14,460 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,460 - test_pipeline - INFO -   Result: decision=ESCALATE, intent=PAYMENT_ISSUE, conf=0.199
+2026-09-10 17:13:14,460 - test_pipeline - INFO - [14/50] Processing: amazonhelp_116908
+2026-09-10 17:13:14,460 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,460 - pipeline - INFO - PIPELINE START: dear @115821 and @135958  - why no Kindle App on Microsoft Store?
+2026-09-10 17:13:14,460 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,460 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:14,462 - pipeline - INFO -   Predicted intent: DEVICE_ISSUE (confidence: 0.317)
+2026-09-10 17:13:14,462 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:14,477 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.660
+2026-09-10 17:13:14,477 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:14,477 - pipeline - INFO -   Decision: AUTO_HANDLE
+2026-09-10 17:13:14,477 - pipeline - INFO -   Stage 3: Reply generation skipped (skip_generation=True)
+2026-09-10 17:13:14,477 - pipeline - INFO - PIPELINE END: decision=AUTO_HANDLE, intent=DEVICE_ISSUE, conf=0.317
+2026-09-10 17:13:14,477 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,477 - test_pipeline - INFO -   Result: decision=AUTO_HANDLE, intent=DEVICE_ISSUE, conf=0.317
+2026-09-10 17:13:14,477 - test_pipeline - INFO - [15/50] Processing: amazonhelp_109328
+2026-09-10 17:13:14,478 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,478 - pipeline - INFO - PIPELINE START: It very worst experience with @115850, product is still not delivered while it i
+2026-09-10 17:13:14,478 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,478 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:14,479 - pipeline - INFO -   Predicted intent: DELIVERY_TRACKING (confidence: 0.108)
+2026-09-10 17:13:14,479 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:14,510 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.720
+2026-09-10 17:13:14,510 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:14,510 - pipeline - INFO -   Risk flag: LOW_CONF (0.108 < 0.25)
+2026-09-10 17:13:14,510 - pipeline - INFO -   Decision: ESCALATE
+2026-09-10 17:13:14,510 - pipeline - INFO - PIPELINE END: decision=ESCALATE, intent=DELIVERY_TRACKING, conf=0.108
+2026-09-10 17:13:14,510 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,510 - test_pipeline - INFO -   Result: decision=ESCALATE, intent=DELIVERY_TRACKING, conf=0.108
+2026-09-10 17:13:14,510 - test_pipeline - INFO - [16/50] Processing: amazonhelp_125806
+2026-09-10 17:13:14,510 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,510 - pipeline - INFO - PIPELINE START: Hey @115830, can you tell me how to make a complaint please? Been messed about f
+2026-09-10 17:13:14,510 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,510 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:14,512 - pipeline - INFO -   Predicted intent: APP_USAGE (confidence: 0.121)
+2026-09-10 17:13:14,512 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:14,537 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.699
+2026-09-10 17:13:14,537 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:14,537 - pipeline - INFO -   Risk flag: LOW_CONF (0.121 < 0.25)
+2026-09-10 17:13:14,537 - pipeline - INFO -   Decision: ESCALATE
+2026-09-10 17:13:14,537 - pipeline - INFO - PIPELINE END: decision=ESCALATE, intent=APP_USAGE, conf=0.121
+2026-09-10 17:13:14,537 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,537 - test_pipeline - INFO -   Result: decision=ESCALATE, intent=APP_USAGE, conf=0.121
+2026-09-10 17:13:14,537 - test_pipeline - INFO - [17/50] Processing: amazonhelp_087273
+2026-09-10 17:13:14,537 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,537 - pipeline - INFO - PIPELINE START: @115850  why should you provide cash on delivery ??? @AmazonHelp But flipkart an
+2026-09-10 17:13:14,538 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,538 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:14,539 - pipeline - INFO -   Predicted intent: OTHER (confidence: 0.131)
+2026-09-10 17:13:14,539 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:14,556 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.608
+2026-09-10 17:13:14,556 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:14,556 - pipeline - INFO -   Risk flag: LOW_CONF (0.131 < 0.25)
+2026-09-10 17:13:14,557 - pipeline - INFO -   Decision: ESCALATE
+2026-09-10 17:13:14,557 - pipeline - INFO - PIPELINE END: decision=ESCALATE, intent=OTHER, conf=0.131
+2026-09-10 17:13:14,557 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,557 - test_pipeline - INFO -   Result: decision=ESCALATE, intent=OTHER, conf=0.131
+2026-09-10 17:13:14,557 - test_pipeline - INFO - [18/50] Processing: amazonhelp_108818
+2026-09-10 17:13:14,557 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,557 - pipeline - INFO - PIPELINE START: @117093 what's going on with delivery in NJ days this week orders did not come n
+2026-09-10 17:13:14,557 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,557 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:14,558 - pipeline - INFO -   Predicted intent: ORDER_STATUS (confidence: 0.272)
+2026-09-10 17:13:14,558 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:14,579 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.730
+2026-09-10 17:13:14,579 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:14,579 - pipeline - INFO -   Decision: AUTO_HANDLE
+2026-09-10 17:13:14,579 - pipeline - INFO -   Stage 3: Reply generation skipped (skip_generation=True)
+2026-09-10 17:13:14,580 - pipeline - INFO - PIPELINE END: decision=AUTO_HANDLE, intent=ORDER_STATUS, conf=0.272
+2026-09-10 17:13:14,580 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,580 - test_pipeline - INFO -   Result: decision=AUTO_HANDLE, intent=ORDER_STATUS, conf=0.272
+2026-09-10 17:13:14,580 - test_pipeline - INFO - [19/50] Processing: amazonhelp_081036
+2026-09-10 17:13:14,580 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,580 - pipeline - INFO - PIPELINE START: @AmazonHelp given unfair dismissal from Amazon Flex for an error with their app 
+2026-09-10 17:13:14,580 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,580 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:14,582 - pipeline - INFO -   Predicted intent: DELIVERY_LATE (confidence: 0.119)
+2026-09-10 17:13:14,582 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:14,607 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.723
+2026-09-10 17:13:14,607 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:14,607 - pipeline - INFO -   Risk flag: LOW_CONF (0.119 < 0.25)
+2026-09-10 17:13:14,607 - pipeline - INFO -   Decision: ESCALATE
+2026-09-10 17:13:14,607 - pipeline - INFO - PIPELINE END: decision=ESCALATE, intent=DELIVERY_LATE, conf=0.119
+2026-09-10 17:13:14,607 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,607 - test_pipeline - INFO -   Result: decision=ESCALATE, intent=DELIVERY_LATE, conf=0.119
+2026-09-10 17:13:14,607 - test_pipeline - INFO - [20/50] Processing: amazonhelp_029127
+2026-09-10 17:13:14,607 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,607 - pipeline - INFO - PIPELINE START: @AmazonHelp 35 minutes and still no help. Someone to call me back. Terrible cust
+2026-09-10 17:13:14,608 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,608 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:14,609 - pipeline - INFO -   Predicted intent: DELIVERY_LATE (confidence: 0.103)
+2026-09-10 17:13:14,609 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:14,638 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.823
+2026-09-10 17:13:14,638 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:14,638 - pipeline - INFO -   Risk flag: LOW_CONF (0.103 < 0.25)
+2026-09-10 17:13:14,638 - pipeline - INFO -   Decision: ESCALATE
+2026-09-10 17:13:14,638 - pipeline - INFO - PIPELINE END: decision=ESCALATE, intent=DELIVERY_LATE, conf=0.103
+2026-09-10 17:13:14,639 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,639 - test_pipeline - INFO -   Result: decision=ESCALATE, intent=DELIVERY_LATE, conf=0.103
+2026-09-10 17:13:14,639 - test_pipeline - INFO - [21/50] Processing: amazonhelp_023905
+2026-09-10 17:13:14,639 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,639 - pipeline - INFO - PIPELINE START: @115850 
+One of the worst  service i have received in last 18 months, so returni
+2026-09-10 17:13:14,639 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,639 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:14,640 - pipeline - INFO -   Predicted intent: DELIVERY_LATE (confidence: 0.156)
+2026-09-10 17:13:14,641 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:14,661 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.791
+2026-09-10 17:13:14,662 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:14,662 - pipeline - INFO -   Risk flag: LOW_CONF (0.156 < 0.25)
+2026-09-10 17:13:14,662 - pipeline - INFO -   Decision: ESCALATE
+2026-09-10 17:13:14,662 - pipeline - INFO - PIPELINE END: decision=ESCALATE, intent=DELIVERY_LATE, conf=0.156
+2026-09-10 17:13:14,662 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,662 - test_pipeline - INFO -   Result: decision=ESCALATE, intent=DELIVERY_LATE, conf=0.156
+2026-09-10 17:13:14,662 - test_pipeline - INFO - [22/50] Processing: amazonhelp_068531
+2026-09-10 17:13:14,662 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,662 - pipeline - INFO - PIPELINE START: @115830 weird how every time I try and make a complain the Amazon rep makes a mi
+2026-09-10 17:13:14,662 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,663 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:14,665 - pipeline - INFO -   Predicted intent: DELIVERY_LATE (confidence: 0.107)
+2026-09-10 17:13:14,665 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:14,687 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.767
+2026-09-10 17:13:14,687 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:14,687 - pipeline - INFO -   Risk flag: LOW_CONF (0.107 < 0.25)
+2026-09-10 17:13:14,687 - pipeline - INFO -   Decision: ESCALATE
+2026-09-10 17:13:14,687 - pipeline - INFO - PIPELINE END: decision=ESCALATE, intent=DELIVERY_LATE, conf=0.107
+2026-09-10 17:13:14,687 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,687 - test_pipeline - INFO -   Result: decision=ESCALATE, intent=DELIVERY_LATE, conf=0.107
+2026-09-10 17:13:14,687 - test_pipeline - INFO - [23/50] Processing: amazonhelp_067918
+2026-09-10 17:13:14,688 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,688 - pipeline - INFO - PIPELINE START: @AmazonHelp Bonjour ! J'ai un problème avec ma commande la carte bancaire passe 
+2026-09-10 17:13:14,688 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,688 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:14,689 - pipeline - INFO -   Predicted intent: OTHER (confidence: 0.299)
+2026-09-10 17:13:14,690 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:14,724 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.689
+2026-09-10 17:13:14,725 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:14,725 - pipeline - INFO -   Decision: AUTO_HANDLE
+2026-09-10 17:13:14,725 - pipeline - INFO -   Stage 3: Reply generation skipped (skip_generation=True)
+2026-09-10 17:13:14,725 - pipeline - INFO - PIPELINE END: decision=AUTO_HANDLE, intent=OTHER, conf=0.299
+2026-09-10 17:13:14,725 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,725 - test_pipeline - INFO -   Result: decision=AUTO_HANDLE, intent=OTHER, conf=0.299
+2026-09-10 17:13:14,725 - test_pipeline - INFO - [24/50] Processing: amazonhelp_115953
+2026-09-10 17:13:14,725 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,725 - pipeline - INFO - PIPELINE START: @115830 you are disgrace sending customers emails that your package will be deli
+2026-09-10 17:13:14,726 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,726 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:14,727 - pipeline - INFO -   Predicted intent: DELIVERY_LATE (confidence: 0.125)
+2026-09-10 17:13:14,727 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:14,756 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.759
+2026-09-10 17:13:14,756 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:14,757 - pipeline - INFO -   Risk flag: LOW_CONF (0.125 < 0.25)
+2026-09-10 17:13:14,757 - pipeline - INFO -   Decision: ESCALATE
+2026-09-10 17:13:14,757 - pipeline - INFO - PIPELINE END: decision=ESCALATE, intent=DELIVERY_LATE, conf=0.125
+2026-09-10 17:13:14,757 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,757 - test_pipeline - INFO -   Result: decision=ESCALATE, intent=DELIVERY_LATE, conf=0.125
+2026-09-10 17:13:14,757 - test_pipeline - INFO - [25/50] Processing: amazonhelp_008145
+2026-09-10 17:13:14,757 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,757 - pipeline - INFO - PIPELINE START: To @115850 @AmazonHelp attached the pics of conversations which I was going thro
+2026-09-10 17:13:14,757 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,757 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:14,759 - pipeline - INFO -   Predicted intent: REFUND_REQUEST (confidence: 0.458)
+2026-09-10 17:13:14,759 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:14,797 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.746
+2026-09-10 17:13:14,797 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:14,797 - pipeline - INFO -   Risk flag: HIGH_RISK (REFUND_REQUEST)
+2026-09-10 17:13:14,798 - pipeline - INFO -   Decision: ESCALATE
+2026-09-10 17:13:14,798 - pipeline - INFO - PIPELINE END: decision=ESCALATE, intent=REFUND_REQUEST, conf=0.458
+2026-09-10 17:13:14,798 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,798 - test_pipeline - INFO -   Result: decision=ESCALATE, intent=REFUND_REQUEST, conf=0.458
+2026-09-10 17:13:14,798 - test_pipeline - INFO - [26/50] Processing: amazonhelp_005672
+2026-09-10 17:13:14,798 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,798 - pipeline - INFO - PIPELINE START: Hola @116875 pudieran poner TODOS los capítulos de "Misterios Sin Resolver" en p
+2026-09-10 17:13:14,798 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,798 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:14,800 - pipeline - INFO -   Predicted intent: VIDEO_STREAMING (confidence: 0.253)
+2026-09-10 17:13:14,800 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:14,825 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.546
+2026-09-10 17:13:14,825 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:14,825 - pipeline - INFO -   Decision: AUTO_HANDLE
+2026-09-10 17:13:14,825 - pipeline - INFO -   Stage 3: Reply generation skipped (skip_generation=True)
+2026-09-10 17:13:14,825 - pipeline - INFO - PIPELINE END: decision=AUTO_HANDLE, intent=VIDEO_STREAMING, conf=0.253
+2026-09-10 17:13:14,825 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,826 - test_pipeline - INFO -   Result: decision=AUTO_HANDLE, intent=VIDEO_STREAMING, conf=0.253
+2026-09-10 17:13:14,826 - test_pipeline - INFO - [27/50] Processing: amazonhelp_006576
+2026-09-10 17:13:14,826 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,826 - pipeline - INFO - PIPELINE START: @120533 bonsoir, cela fait un peu plus d'une semaine que j'ai commandé plusieurs
+2026-09-10 17:13:14,826 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,826 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:14,828 - pipeline - INFO -   Predicted intent: APP_USAGE (confidence: 0.268)
+2026-09-10 17:13:14,828 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:14,865 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.765
+2026-09-10 17:13:14,866 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:14,866 - pipeline - INFO -   Decision: AUTO_HANDLE
+2026-09-10 17:13:14,866 - pipeline - INFO -   Stage 3: Reply generation skipped (skip_generation=True)
+2026-09-10 17:13:14,866 - pipeline - INFO - PIPELINE END: decision=AUTO_HANDLE, intent=APP_USAGE, conf=0.268
+2026-09-10 17:13:14,866 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,866 - test_pipeline - INFO -   Result: decision=AUTO_HANDLE, intent=APP_USAGE, conf=0.268
+2026-09-10 17:13:14,866 - test_pipeline - INFO - [28/50] Processing: amazonhelp_020449
+2026-09-10 17:13:14,866 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,866 - pipeline - INFO - PIPELINE START: Thankful for @115821 - unwell and stuck at home but have managed to complete all
+2026-09-10 17:13:14,867 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,867 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:14,868 - pipeline - INFO -   Predicted intent: APP_USAGE (confidence: 0.115)
+2026-09-10 17:13:14,868 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:14,893 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.599
+2026-09-10 17:13:14,893 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:14,893 - pipeline - INFO -   Risk flag: LOW_CONF (0.115 < 0.25)
+2026-09-10 17:13:14,893 - pipeline - INFO -   Decision: ESCALATE
+2026-09-10 17:13:14,893 - pipeline - INFO - PIPELINE END: decision=ESCALATE, intent=APP_USAGE, conf=0.115
+2026-09-10 17:13:14,893 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,893 - test_pipeline - INFO -   Result: decision=ESCALATE, intent=APP_USAGE, conf=0.115
+2026-09-10 17:13:14,894 - test_pipeline - INFO - [29/50] Processing: amazonhelp_012704
+2026-09-10 17:13:14,894 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,894 - pipeline - INFO - PIPELINE START: @AmazonHelp can you DM me please there is a copyright issue with a book on your 
+2026-09-10 17:13:14,894 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,894 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:14,895 - pipeline - INFO -   Predicted intent: DEVICE_ISSUE (confidence: 0.137)
+2026-09-10 17:13:14,896 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:14,917 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.653
+2026-09-10 17:13:14,917 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:14,917 - pipeline - INFO -   Risk flag: LOW_CONF (0.137 < 0.25)
+2026-09-10 17:13:14,917 - pipeline - INFO -   Decision: ESCALATE
+2026-09-10 17:13:14,917 - pipeline - INFO - PIPELINE END: decision=ESCALATE, intent=DEVICE_ISSUE, conf=0.137
+2026-09-10 17:13:14,917 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,917 - test_pipeline - INFO -   Result: decision=ESCALATE, intent=DEVICE_ISSUE, conf=0.137
+2026-09-10 17:13:14,917 - test_pipeline - INFO - [30/50] Processing: amazonhelp_128202
+2026-09-10 17:13:14,917 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,918 - pipeline - INFO - PIPELINE START: @116090 4 failed email responses by your agents Want a refund on an item that wa
+2026-09-10 17:13:14,918 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,918 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:14,920 - pipeline - INFO -   Predicted intent: DELIVERY_LATE (confidence: 0.199)
+2026-09-10 17:13:14,920 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:14,966 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.741
+2026-09-10 17:13:14,967 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:14,967 - pipeline - INFO -   Risk flag: LOW_CONF (0.199 < 0.25)
+2026-09-10 17:13:14,967 - pipeline - INFO -   Decision: ESCALATE
+2026-09-10 17:13:14,967 - pipeline - INFO - PIPELINE END: decision=ESCALATE, intent=DELIVERY_LATE, conf=0.199
+2026-09-10 17:13:14,967 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,967 - test_pipeline - INFO -   Result: decision=ESCALATE, intent=DELIVERY_LATE, conf=0.199
+2026-09-10 17:13:14,967 - test_pipeline - INFO - [31/50] Processing: amazonhelp_142136
+2026-09-10 17:13:14,967 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,967 - pipeline - INFO - PIPELINE START: @115850 Giving FAKE UPDATE INCORRECT STATUS on ORDER, 3 ITEMS ALL 3 STATUS ARE I
+2026-09-10 17:13:14,967 - pipeline - INFO - ============================================================
+2026-09-10 17:13:14,967 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:14,970 - pipeline - INFO -   Predicted intent: DELIVERY_MISSING (confidence: 0.214)
+2026-09-10 17:13:14,970 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:15,027 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.811
+2026-09-10 17:13:15,027 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:15,027 - pipeline - INFO -   Risk flag: LOW_CONF (0.214 < 0.25)
+2026-09-10 17:13:15,027 - pipeline - INFO -   Decision: ESCALATE
+2026-09-10 17:13:15,028 - pipeline - INFO - PIPELINE END: decision=ESCALATE, intent=DELIVERY_MISSING, conf=0.214
+2026-09-10 17:13:15,028 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,028 - test_pipeline - INFO -   Result: decision=ESCALATE, intent=DELIVERY_MISSING, conf=0.214
+2026-09-10 17:13:15,028 - test_pipeline - INFO - [32/50] Processing: amazonhelp_004681
+2026-09-10 17:13:15,028 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,028 - pipeline - INFO - PIPELINE START: So we got some “deliveries” via @115821 Logistics that weren’t actually delivere
+2026-09-10 17:13:15,028 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,028 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:15,030 - pipeline - INFO -   Predicted intent: DELIVERY_TRACKING (confidence: 0.131)
+2026-09-10 17:13:15,030 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:15,052 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.698
+2026-09-10 17:13:15,052 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:15,052 - pipeline - INFO -   Risk flag: LOW_CONF (0.131 < 0.25)
+2026-09-10 17:13:15,052 - pipeline - INFO -   Decision: ESCALATE
+2026-09-10 17:13:15,052 - pipeline - INFO - PIPELINE END: decision=ESCALATE, intent=DELIVERY_TRACKING, conf=0.131
+2026-09-10 17:13:15,053 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,053 - test_pipeline - INFO -   Result: decision=ESCALATE, intent=DELIVERY_TRACKING, conf=0.131
+2026-09-10 17:13:15,053 - test_pipeline - INFO - [33/50] Processing: amazonhelp_136599
+2026-09-10 17:13:15,053 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,053 - pipeline - INFO - PIPELINE START: @115850 why prices on product doesn’t match with listing price? Clear case of ch
+2026-09-10 17:13:15,053 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,053 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:15,055 - pipeline - INFO -   Predicted intent: RETURN_REQUEST (confidence: 0.149)
+2026-09-10 17:13:15,055 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:15,081 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.656
+2026-09-10 17:13:15,081 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:15,081 - pipeline - INFO -   Risk flag: LOW_CONF (0.149 < 0.25)
+2026-09-10 17:13:15,081 - pipeline - INFO -   Decision: ESCALATE
+2026-09-10 17:13:15,081 - pipeline - INFO - PIPELINE END: decision=ESCALATE, intent=RETURN_REQUEST, conf=0.149
+2026-09-10 17:13:15,081 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,082 - test_pipeline - INFO -   Result: decision=ESCALATE, intent=RETURN_REQUEST, conf=0.149
+2026-09-10 17:13:15,082 - test_pipeline - INFO - [34/50] Processing: amazonhelp_143743
+2026-09-10 17:13:15,082 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,082 - pipeline - INFO - PIPELINE START: @115830 so! You took money from account for no reason! Your customer service can
+2026-09-10 17:13:15,082 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,082 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:15,083 - pipeline - INFO -   Predicted intent: PAYMENT_ISSUE (confidence: 0.234)
+2026-09-10 17:13:15,084 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:15,107 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.747
+2026-09-10 17:13:15,107 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:15,108 - pipeline - INFO -   Risk flag: HIGH_RISK (PAYMENT_ISSUE)
+2026-09-10 17:13:15,108 - pipeline - INFO -   Risk flag: LOW_CONF (0.234 < 0.25)
+2026-09-10 17:13:15,108 - pipeline - INFO -   Decision: ESCALATE
+2026-09-10 17:13:15,108 - pipeline - INFO - PIPELINE END: decision=ESCALATE, intent=PAYMENT_ISSUE, conf=0.234
+2026-09-10 17:13:15,108 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,108 - test_pipeline - INFO -   Result: decision=ESCALATE, intent=PAYMENT_ISSUE, conf=0.234
+2026-09-10 17:13:15,108 - test_pipeline - INFO - [35/50] Processing: amazonhelp_055904
+2026-09-10 17:13:15,108 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,108 - pipeline - INFO - PIPELINE START: @115821 @69136 Amazon logistics team sucks. I highly suggest all businesses stop
+2026-09-10 17:13:15,108 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,108 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:15,110 - pipeline - INFO -   Predicted intent: DELIVERY_LATE (confidence: 0.125)
+2026-09-10 17:13:15,110 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:15,136 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.789
+2026-09-10 17:13:15,136 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:15,136 - pipeline - INFO -   Risk flag: LOW_CONF (0.125 < 0.25)
+2026-09-10 17:13:15,136 - pipeline - INFO -   Decision: ESCALATE
+2026-09-10 17:13:15,136 - pipeline - INFO - PIPELINE END: decision=ESCALATE, intent=DELIVERY_LATE, conf=0.125
+2026-09-10 17:13:15,136 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,136 - test_pipeline - INFO -   Result: decision=ESCALATE, intent=DELIVERY_LATE, conf=0.125
+2026-09-10 17:13:15,136 - test_pipeline - INFO - [36/50] Processing: amazonhelp_025260
+2026-09-10 17:13:15,136 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,136 - pipeline - INFO - PIPELINE START: Dealing with worst customer service ever @AmazonHelp ,Did not receive a refund o
+2026-09-10 17:13:15,137 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,137 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:15,139 - pipeline - INFO -   Predicted intent: ORDER_STATUS (confidence: 0.137)
+2026-09-10 17:13:15,139 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:15,196 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.683
+2026-09-10 17:13:15,196 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:15,196 - pipeline - INFO -   Risk flag: LOW_CONF (0.137 < 0.25)
+2026-09-10 17:13:15,196 - pipeline - INFO -   Decision: ESCALATE
+2026-09-10 17:13:15,196 - pipeline - INFO - PIPELINE END: decision=ESCALATE, intent=ORDER_STATUS, conf=0.137
+2026-09-10 17:13:15,196 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,196 - test_pipeline - INFO -   Result: decision=ESCALATE, intent=ORDER_STATUS, conf=0.137
+2026-09-10 17:13:15,196 - test_pipeline - INFO - [37/50] Processing: amazonhelp_144310
+2026-09-10 17:13:15,196 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,197 - pipeline - INFO - PIPELINE START: @115850 dear rename ur company as Chutiyazone ! It was a mistake not to buy EPSO
+2026-09-10 17:13:15,197 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,197 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:15,200 - pipeline - INFO -   Predicted intent: DELIVERY_MISSING (confidence: 0.182)
+2026-09-10 17:13:15,200 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:15,233 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.579
+2026-09-10 17:13:15,233 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:15,233 - pipeline - INFO -   Risk flag: LOW_CONF (0.182 < 0.25)
+2026-09-10 17:13:15,233 - pipeline - INFO -   Decision: ESCALATE
+2026-09-10 17:13:15,233 - pipeline - INFO - PIPELINE END: decision=ESCALATE, intent=DELIVERY_MISSING, conf=0.182
+2026-09-10 17:13:15,233 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,234 - test_pipeline - INFO -   Result: decision=ESCALATE, intent=DELIVERY_MISSING, conf=0.182
+2026-09-10 17:13:15,234 - test_pipeline - INFO - [38/50] Processing: amazonhelp_051894
+2026-09-10 17:13:15,234 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,234 - pipeline - INFO - PIPELINE START: bon je passerais plus par @85871 pour avoir des set de @85872 j'ai jamais recu m
+2026-09-10 17:13:15,234 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,234 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:15,235 - pipeline - INFO -   Predicted intent: OTHER (confidence: 0.273)
+2026-09-10 17:13:15,236 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:15,261 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.566
+2026-09-10 17:13:15,261 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:15,261 - pipeline - INFO -   Decision: AUTO_HANDLE
+2026-09-10 17:13:15,261 - pipeline - INFO -   Stage 3: Reply generation skipped (skip_generation=True)
+2026-09-10 17:13:15,262 - pipeline - INFO - PIPELINE END: decision=AUTO_HANDLE, intent=OTHER, conf=0.273
+2026-09-10 17:13:15,262 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,262 - test_pipeline - INFO -   Result: decision=AUTO_HANDLE, intent=OTHER, conf=0.273
+2026-09-10 17:13:15,262 - test_pipeline - INFO - [39/50] Processing: amazonhelp_101431
+2026-09-10 17:13:15,262 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,262 - pipeline - INFO - PIPELINE START: @115850 Had a Problem cuz of courier boy now I cannot return my product. Please 
+2026-09-10 17:13:15,262 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,262 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:15,264 - pipeline - INFO -   Predicted intent: RETURN_REQUEST (confidence: 0.175)
+2026-09-10 17:13:15,264 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:15,281 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.699
+2026-09-10 17:13:15,281 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:15,282 - pipeline - INFO -   Risk flag: LOW_CONF (0.175 < 0.25)
+2026-09-10 17:13:15,282 - pipeline - INFO -   Decision: ESCALATE
+2026-09-10 17:13:15,282 - pipeline - INFO - PIPELINE END: decision=ESCALATE, intent=RETURN_REQUEST, conf=0.175
+2026-09-10 17:13:15,282 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,282 - test_pipeline - INFO -   Result: decision=ESCALATE, intent=RETURN_REQUEST, conf=0.175
+2026-09-10 17:13:15,282 - test_pipeline - INFO - [40/50] Processing: amazonhelp_034236
+2026-09-10 17:13:15,282 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,282 - pipeline - INFO - PIPELINE START: New dates added for @146898’s highly anticipated UK tour! Tickets: https://t.co/
+2026-09-10 17:13:15,282 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,282 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:15,283 - pipeline - INFO -   Predicted intent: DEVICE_ISSUE (confidence: 0.141)
+2026-09-10 17:13:15,283 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:15,310 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.587
+2026-09-10 17:13:15,310 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:15,310 - pipeline - INFO -   Risk flag: LOW_CONF (0.141 < 0.25)
+2026-09-10 17:13:15,310 - pipeline - INFO -   Decision: ESCALATE
+2026-09-10 17:13:15,310 - pipeline - INFO - PIPELINE END: decision=ESCALATE, intent=DEVICE_ISSUE, conf=0.141
+2026-09-10 17:13:15,311 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,311 - test_pipeline - INFO -   Result: decision=ESCALATE, intent=DEVICE_ISSUE, conf=0.141
+2026-09-10 17:13:15,311 - test_pipeline - INFO - [41/50] Processing: amazonhelp_087446
+2026-09-10 17:13:15,311 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,311 - pipeline - INFO - PIPELINE START: @AmazonHelp normal qu’on commander un livre qui devait être livré hier avant 20h
+2026-09-10 17:13:15,311 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,311 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:15,313 - pipeline - INFO -   Predicted intent: OTHER (confidence: 0.286)
+2026-09-10 17:13:15,313 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:15,359 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.693
+2026-09-10 17:13:15,360 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:15,360 - pipeline - INFO -   Decision: AUTO_HANDLE
+2026-09-10 17:13:15,360 - pipeline - INFO -   Stage 3: Reply generation skipped (skip_generation=True)
+2026-09-10 17:13:15,360 - pipeline - INFO - PIPELINE END: decision=AUTO_HANDLE, intent=OTHER, conf=0.286
+2026-09-10 17:13:15,360 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,360 - test_pipeline - INFO -   Result: decision=AUTO_HANDLE, intent=OTHER, conf=0.285
+2026-09-10 17:13:15,360 - test_pipeline - INFO - [42/50] Processing: amazonhelp_058000
+2026-09-10 17:13:15,360 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,360 - pipeline - INFO - PIPELINE START: Muchas gracias @116928 en un mismo día perdéis un paquete y el otro no llega. Y 
+2026-09-10 17:13:15,360 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,360 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:15,362 - pipeline - INFO -   Predicted intent: OTHER (confidence: 0.310)
+2026-09-10 17:13:15,362 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:15,393 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.703
+2026-09-10 17:13:15,393 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:15,393 - pipeline - INFO -   Decision: AUTO_HANDLE
+2026-09-10 17:13:15,393 - pipeline - INFO -   Stage 3: Reply generation skipped (skip_generation=True)
+2026-09-10 17:13:15,394 - pipeline - INFO - PIPELINE END: decision=AUTO_HANDLE, intent=OTHER, conf=0.310
+2026-09-10 17:13:15,394 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,394 - test_pipeline - INFO -   Result: decision=AUTO_HANDLE, intent=OTHER, conf=0.310
+2026-09-10 17:13:15,394 - test_pipeline - INFO - [43/50] Processing: amazonhelp_151186
+2026-09-10 17:13:15,394 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,394 - pipeline - INFO - PIPELINE START: @119625 hi, please release Nannaku Prematho with subs. Thank you. @AmazonHelp Th
+2026-09-10 17:13:15,394 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,394 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:15,396 - pipeline - INFO -   Predicted intent: VIDEO_STREAMING (confidence: 0.283)
+2026-09-10 17:13:15,396 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:15,413 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.499
+2026-09-10 17:13:15,413 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:15,413 - pipeline - INFO -   Decision: AUTO_HANDLE
+2026-09-10 17:13:15,413 - pipeline - INFO -   Stage 3: Reply generation skipped (skip_generation=True)
+2026-09-10 17:13:15,413 - pipeline - INFO - PIPELINE END: decision=AUTO_HANDLE, intent=VIDEO_STREAMING, conf=0.283
+2026-09-10 17:13:15,413 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,413 - test_pipeline - INFO -   Result: decision=AUTO_HANDLE, intent=VIDEO_STREAMING, conf=0.283
+2026-09-10 17:13:15,413 - test_pipeline - INFO - [44/50] Processing: amazonhelp_143309
+2026-09-10 17:13:15,414 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,414 - pipeline - INFO - PIPELINE START: It was the top score of the 2011 @46484 - on his birthday, watch the highlights 
+2026-09-10 17:13:15,414 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,414 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:15,415 - pipeline - INFO -   Predicted intent: VIDEO_STREAMING (confidence: 0.113)
+2026-09-10 17:13:15,415 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:15,446 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.536
+2026-09-10 17:13:15,446 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:15,446 - pipeline - INFO -   Risk flag: LOW_CONF (0.113 < 0.25)
+2026-09-10 17:13:15,446 - pipeline - INFO -   Decision: ESCALATE
+2026-09-10 17:13:15,446 - pipeline - INFO - PIPELINE END: decision=ESCALATE, intent=VIDEO_STREAMING, conf=0.113
+2026-09-10 17:13:15,446 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,446 - test_pipeline - INFO -   Result: decision=ESCALATE, intent=VIDEO_STREAMING, conf=0.113
+2026-09-10 17:13:15,447 - test_pipeline - INFO - [45/50] Processing: amazonhelp_135968
+2026-09-10 17:13:15,447 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,447 - pipeline - INFO - PIPELINE START: @AmazonHelp possibly the worst customer service of all time @AmazonHelp 280 char
+2026-09-10 17:13:15,447 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,447 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:15,448 - pipeline - INFO -   Predicted intent: REFUND_REQUEST (confidence: 0.133)
+2026-09-10 17:13:15,448 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:15,478 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.702
+2026-09-10 17:13:15,478 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:15,478 - pipeline - INFO -   Risk flag: HIGH_RISK (REFUND_REQUEST)
+2026-09-10 17:13:15,478 - pipeline - INFO -   Risk flag: LOW_CONF (0.133 < 0.25)
+2026-09-10 17:13:15,478 - pipeline - INFO -   Decision: ESCALATE
+2026-09-10 17:13:15,478 - pipeline - INFO - PIPELINE END: decision=ESCALATE, intent=REFUND_REQUEST, conf=0.133
+2026-09-10 17:13:15,479 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,479 - test_pipeline - INFO -   Result: decision=ESCALATE, intent=REFUND_REQUEST, conf=0.133
+2026-09-10 17:13:15,479 - test_pipeline - INFO - [46/50] Processing: amazonhelp_138817
+2026-09-10 17:13:15,479 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,479 - pipeline - INFO - PIPELINE START: @115821 hi. I signed up for the months free trial but you've taken the £7.99 fro
+2026-09-10 17:13:15,479 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,479 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:15,480 - pipeline - INFO -   Predicted intent: PAYMENT_ISSUE (confidence: 0.263)
+2026-09-10 17:13:15,480 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:15,498 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.684
+2026-09-10 17:13:15,498 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:15,498 - pipeline - INFO -   Risk flag: HIGH_RISK (PAYMENT_ISSUE)
+2026-09-10 17:13:15,498 - pipeline - INFO -   Decision: ESCALATE
+2026-09-10 17:13:15,498 - pipeline - INFO - PIPELINE END: decision=ESCALATE, intent=PAYMENT_ISSUE, conf=0.263
+2026-09-10 17:13:15,499 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,499 - test_pipeline - INFO -   Result: decision=ESCALATE, intent=PAYMENT_ISSUE, conf=0.263
+2026-09-10 17:13:15,499 - test_pipeline - INFO - [47/50] Processing: amazonhelp_123118
+2026-09-10 17:13:15,499 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,499 - pipeline - INFO - PIPELINE START: LandMark Global is ridiculous. Missed delivery notice when I've been home? Didn'
+2026-09-10 17:13:15,499 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,499 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:15,500 - pipeline - INFO -   Predicted intent: APP_USAGE (confidence: 0.113)
+2026-09-10 17:13:15,501 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:15,521 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.591
+2026-09-10 17:13:15,521 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:15,521 - pipeline - INFO -   Risk flag: LOW_CONF (0.113 < 0.25)
+2026-09-10 17:13:15,521 - pipeline - INFO -   Decision: ESCALATE
+2026-09-10 17:13:15,521 - pipeline - INFO - PIPELINE END: decision=ESCALATE, intent=APP_USAGE, conf=0.113
+2026-09-10 17:13:15,521 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,521 - test_pipeline - INFO -   Result: decision=ESCALATE, intent=APP_USAGE, conf=0.113
+2026-09-10 17:13:15,521 - test_pipeline - INFO - [48/50] Processing: amazonhelp_038591
+2026-09-10 17:13:15,521 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,522 - pipeline - INFO - PIPELINE START: @115850 Not able to avail exchange offer being a #PrimeMember customer care is n
+2026-09-10 17:13:15,522 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,522 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:15,523 - pipeline - INFO -   Predicted intent: RETURN_REQUEST (confidence: 0.146)
+2026-09-10 17:13:15,523 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:15,548 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.653
+2026-09-10 17:13:15,548 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:15,548 - pipeline - INFO -   Risk flag: LOW_CONF (0.146 < 0.25)
+2026-09-10 17:13:15,548 - pipeline - INFO -   Decision: ESCALATE
+2026-09-10 17:13:15,548 - pipeline - INFO - PIPELINE END: decision=ESCALATE, intent=RETURN_REQUEST, conf=0.146
+2026-09-10 17:13:15,548 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,548 - test_pipeline - INFO -   Result: decision=ESCALATE, intent=RETURN_REQUEST, conf=0.146
+2026-09-10 17:13:15,549 - test_pipeline - INFO - [49/50] Processing: amazonhelp_039339
+2026-09-10 17:13:15,549 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,549 - pipeline - INFO - PIPELINE START: Yo aquí esperando que me llegue de @116928 el #StarWarsBattlefrontII @AmazonHelp
+2026-09-10 17:13:15,549 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,549 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:15,550 - pipeline - INFO -   Predicted intent: OTHER (confidence: 0.349)
+2026-09-10 17:13:15,550 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:15,569 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.657
+2026-09-10 17:13:15,569 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:15,569 - pipeline - INFO -   Decision: AUTO_HANDLE
+2026-09-10 17:13:15,569 - pipeline - INFO -   Stage 3: Reply generation skipped (skip_generation=True)
+2026-09-10 17:13:15,569 - pipeline - INFO - PIPELINE END: decision=AUTO_HANDLE, intent=OTHER, conf=0.349
+2026-09-10 17:13:15,569 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,569 - test_pipeline - INFO -   Result: decision=AUTO_HANDLE, intent=OTHER, conf=0.349
+2026-09-10 17:13:15,569 - test_pipeline - INFO - [50/50] Processing: amazonhelp_050756
+2026-09-10 17:13:15,569 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,570 - pipeline - INFO - PIPELINE START: Lesson - Never buy Mi India product and that too from 
+Amazon India. Both have c
+2026-09-10 17:13:15,570 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,570 - pipeline - INFO - Stage 1: Classification
+2026-09-10 17:13:15,572 - pipeline - INFO -   Predicted intent: RETURN_REQUEST (confidence: 0.194)
+2026-09-10 17:13:15,572 - pipeline - INFO - Stage 2: RAG Retrieval (top_k=5)
+2026-09-10 17:13:15,627 - pipeline - INFO -   Retrieved 5 cases, avg similarity: 0.704
+2026-09-10 17:13:15,627 - pipeline - INFO - Stage 4: Escalation Decision
+2026-09-10 17:13:15,628 - pipeline - INFO -   Risk flag: LOW_CONF (0.194 < 0.25)
+2026-09-10 17:13:15,628 - pipeline - INFO -   Decision: ESCALATE
+2026-09-10 17:13:15,628 - pipeline - INFO - PIPELINE END: decision=ESCALATE, intent=RETURN_REQUEST, conf=0.194
+2026-09-10 17:13:15,628 - pipeline - INFO - ============================================================
+2026-09-10 17:13:15,628 - test_pipeline - INFO -   Result: decision=ESCALATE, intent=RETURN_REQUEST, conf=0.194
+2026-09-10 17:13:15,631 - test_pipeline - INFO - Report saved to C:\Users\DELL\Desktop\hiver\data\evaluation/sprint6_test_report.json

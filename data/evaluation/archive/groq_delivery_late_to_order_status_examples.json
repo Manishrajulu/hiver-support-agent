@@ -1,0 +1,72 @@
+[
+  {
+    "conversation_id": "amazonhelp_002649",
+    "actual": "DELIVERY_LATE",
+    "groq": "ORDER_STATUS",
+    "baseline": "OTHER",
+    "text": "@120533  je fait comment sans téléphone pour le taff ? \nÀ cause d'un problème chez vous c'est super sa @AmazonHelp Ben c'est assez simple ma commande avec mon honor 9 devais arriver se matin et j'ai reçu un mail me disant que ma commande subira un retard"
+  },
+  {
+    "conversation_id": "amazonhelp_143707",
+    "actual": "DELIVERY_LATE",
+    "groq": "ORDER_STATUS",
+    "baseline": "OTHER",
+    "text": "Si dovrebbero vietare le spedizione con #GLS, meglio le Regie Poste e Telegrafi. Capito @1811? @AmazonHelp quindi, forse sarebbe meglio evitare di appoggiarsi a corrieri così inaffidabili... guardate anche i riscontri da parte degli utenti... @AmazonHelp Grazie per il vostro interesse alle 23... :-)\nL'ordine è il n. 403-6614703-1101120 e secondo quanto indicato è stato spedito da Amazon."
+  },
+  {
+    "conversation_id": "amazonhelp_152421",
+    "actual": "DELIVERY_LATE",
+    "groq": "ORDER_STATUS",
+    "baseline": "ORDER_STATUS",
+    "text": "When will I get my order @115850 @AmazonHelp @115851  #cheating still no update https://t.co/xzEcsCtKaE @AmazonHelp 3 days over my problem not resolved"
+  },
+  {
+    "conversation_id": "amazonhelp_068736",
+    "actual": "DELIVERY_LATE",
+    "groq": "ORDER_STATUS",
+    "baseline": "DELIVERY_LATE",
+    "text": "@115830 Hi Amazon, can you please explain how, if I order something today for next day Prime delivery, it is giving me Thursday as a next day delivery day? You are not keeping up your side of our contract. I pay you for this service. @AmazonHelp Not good enough. \nLast year you kept it up. \nYou have removed an option that I pay a lot of money for, with no prior advice or apology. \nYour next day was slipping before this week. \nYou are letting valued regular customers down and don't seem to care. @"
+  },
+  {
+    "conversation_id": "amazonhelp_046907",
+    "actual": "DELIVERY_LATE",
+    "groq": "ORDER_STATUS",
+    "baseline": "DELIVERY_LATE",
+    "text": "@AmazonHelp my order for my friend's wedding was placed 2 days ago with Prime next day delivery, it's only just been dispatched and the wedding was today so it's too late now :( Not a good situation having to explain why they don't have a gift! Massive let down @AmazonHelp I've sent an email as I don't have time to chat or phone currently. Thanks for your help."
+  },
+  {
+    "conversation_id": "amazonhelp_015713",
+    "actual": "DELIVERY_LATE",
+    "groq": "ORDER_STATUS",
+    "baseline": "DELIVERY_LATE",
+    "text": ".@115850 ordered Mi 2 air Purifier 5 Days back looking at #DelhiSmog conditions. No update on shipment yet. @AmazonHelp Yeah, Looking at the current state of Delhi’s  air quality this was supposed to be a quick delivery but that’s not the case right now. This is need of this hour."
+  },
+  {
+    "conversation_id": "amazonhelp_019309",
+    "actual": "DELIVERY_LATE",
+    "groq": "ORDER_STATUS",
+    "baseline": "PRODUCT_ISSUE",
+    "text": "Please announce the winers of #iphone8appquiz \n@115850 @115850 Hi...\nItz already 4 days late... when will be the results announced @AmazonHelp This result is not for 25th september quiz. I doubt that if the draw is really made or not or itz all fake."
+  },
+  {
+    "conversation_id": "amazonhelp_049149",
+    "actual": "DELIVERY_LATE",
+    "groq": "ORDER_STATUS",
+    "baseline": "DELIVERY_LATE",
+    "text": "@115850 Never expected from a company like Amazon. You should have serious look at your partner \"Gati\". @AmazonHelp Do you guys got my details and what is the issue.? @AmazonHelp I have done this many times.. escalated and spoke to manager level,but no result😞 @AmazonHelp Finally, Gati called and said they can't deliver the products. Not acceptable.😠 @AmazonHelp In spite of escalating so many times you still assigned the products to \"Gati\" again and made my life measurable.😠😠 It's been 25days. 👿"
+  },
+  {
+    "conversation_id": "amazonhelp_081358",
+    "actual": "DELIVERY_LATE",
+    "groq": "ORDER_STATUS",
+    "baseline": "REFUND_REQUEST",
+    "text": "@115850 here is the post amazon India delet d from Facebook for the cheating they have done with us. #UnamazingAmazon #StopBuyingAmazonIn https://t.co/AUKhHrJ1aO @AmazonHelp You should worry more about providing a service. How does orderid matter when you have nicked the whole money and there is no refund? @AmazonHelp Latest Print label to pickup item 12 oct attached previous label saved for ref. to pickup item on 4 Oct'17. Have enough evidence for court https://t.co/U7xywLs68F"
+  },
+  {
+    "conversation_id": "amazonhelp_064362",
+    "actual": "DELIVERY_LATE",
+    "groq": "ORDER_STATUS",
+    "baseline": "REFUND_REQUEST",
+    "text": "@AmazonHelp: What I ordered and what I got;pls check so called \"Apni Dukaan\",pathetic service,stop making people fool, pls refund my money. https://t.co/xZZRUGq9pk @AmazonHelp Are you guys listening or you have started taken things for granted. @AmazonHelp @115851\nDear Sir, need your intervention as I am chasing Amazon.in from last 13 days but they are unable to provide any resolution. ☹️ @AmazonHelp Yes @AmazonHelp @115851 no this is not helping, you r doing the same thing from last so many day"
+  }
+]

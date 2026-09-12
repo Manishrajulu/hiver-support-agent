@@ -1,0 +1,429 @@
+[
+  {
+    "conversation_id": "amazonhelp_044450",
+    "intents": [
+      "DELIVERY_LATE",
+      "APP_USAGE",
+      "DEVICE_ISSUE",
+      "ACCOUNT_ACCESS"
+    ],
+    "text": "the @115821 global service is really bad @115851  . your indian team is far better. placed an order and submitted the doc thrice &amp; still getting hounded by multiple calls &amp; mails every day. from a fan of #amazonindia @735683 @115821 @115851 thats not happening in my case. their #amazonindia team is callous!my email has been sabatoged by some spam email id and its been two months that my account is locked out and these guys have not done an inch. my kindle library is irretrievable by me! "
+  },
+  {
+    "conversation_id": "amazonhelp_049149",
+    "intents": [
+      "DELIVERY_LATE",
+      "DELIVERY_CARRIER"
+    ],
+    "text": "@115850 never expected from a company like amazon. you should have serious look at your partner \"gati\". @amazonhelp do you guys got my details and what is the issue.? @amazonhelp i have done this many times.. escalated and spoke to manager level,but no result😞 @amazonhelp finally, gati called and said they can't deliver the products. not acceptable.😠 @amazonhelp in spite of escalating so many times you still assigned the products to \"gati\" again and made my life measurable.😠😠 it's been 25days. 👿"
+  },
+  {
+    "conversation_id": "amazonhelp_064362",
+    "intents": [
+      "DELIVERY_LATE",
+      "APP_USAGE",
+      "REFUND_REQUEST",
+      "RETURN_REQUEST"
+    ],
+    "text": "@amazonhelp: what i ordered and what i got;pls check so called \"apni dukaan\",pathetic service,stop making people fool, pls refund my money. https://t.co/xzzrugq9pk @amazonhelp are you guys listening or you have started taken things for granted. @amazonhelp @115851\ndear sir, need your intervention as i am chasing amazon.in from last 13 days but they are unable to provide any resolution. ☹️ @amazonhelp yes @amazonhelp @115851 no this is not helping, you r doing the same thing from last so many day"
+  },
+  {
+    "conversation_id": "amazonhelp_093818",
+    "intents": [
+      "ORDER_STATUS",
+      "APP_USAGE",
+      "PRODUCT_ISSUE"
+    ],
+    "text": "@115850 this is the tv that we received, clearly looks like it has been manhandled :( can you help us on how to resolve this? https://t.co/jsnix25z8z @amazonhelp thank you for the response. the link is not working. i have reached out to customer care and they have assured of help for me. will jeep you posted #fingerscrossed @amazonhelp can you help us? the delivery guys says since the screen is not working will not pick it up. i thought a defective product should by default be picked up @amazonh"
+  },
+  {
+    "conversation_id": "amazonhelp_150132",
+    "intents": [
+      "APP_USAGE",
+      "REFUND_REQUEST"
+    ],
+    "text": "dear @amazonhelp\n\nif @132988 fails, yet again, to deliver a parcel on time can i have my annual prime membership fee refunded.\n\nit's getting beyond a joke now. @amazonhelp i'm not looking to cancel amazon prime. i'm looking to receive the standard of service that is offered with amazon prime. having ordered a \"prime\" item due to be delivered today i want compensation for the non delivery of that item. this is happening too often now. @amazonhelp this order is with amazon france (i also use amazo"
+  },
+  {
+    "conversation_id": "amazonhelp_003240",
+    "intents": [
+      "DEVICE_ISSUE",
+      "REFUND_REQUEST"
+    ],
+    "text": "dear @117634, why is my kindle running out of battery when recently charged when it hasn't even been turned on for hours? @117634 i fully charged it two nights ago, read it for like 4 hours maximum since, left it sitting flat turned off on my desk, and now it's dead. @amazonhelp i think it's a 7th generation kindle? bit hard to tell as many models look the same!"
+  },
+  {
+    "conversation_id": "amazonhelp_097974",
+    "intents": [
+      "APP_USAGE",
+      "RETURN_REQUEST"
+    ],
+    "text": "@115830 really? a delivery of books left in my garden in the rain? absolutely shocking. https://t.co/fdi2lxtl5n @amazonhelp thanks. i've already organised replacements but the hassle of having to return two books to the post office is quite an inconvenience. shopping online is meant to take the hassle away and make life easier. i'm really disappointed."
+  },
+  {
+    "conversation_id": "amazonhelp_070149",
+    "intents": [
+      "DEVICE_ISSUE",
+      "ACCOUNT_ACCESS"
+    ],
+    "text": "@115821 \"we're sorry, we're unable to turn on your tablet!\"\nseriously?  what do you really have to do that's so taxing on your infrastructure? @115821 ten minutes of amazon advertisements, opt-out offers and refusing to let me create a profile for my nephew after forcing an amazon login to let me start using this thing.  unacceptable"
+  },
+  {
+    "conversation_id": "amazonhelp_014079",
+    "intents": [
+      "DELIVERY_CARRIER",
+      "APP_USAGE"
+    ],
+    "text": "@amazonhelp: @3375. one order tossed onto lawn. friday pkg left overnight at gate near street. no notification until today. \nbad @amazonhelp couldn't find the amazon page. not going to waste time with carrier. have seen too many complaints about them elsewhere. @amazonhelp https://t.co/qvwcfj6yzp / usa / shipped to oregon.  ontrac is the issue.  lousy service."
+  },
+  {
+    "conversation_id": "amazonhelp_013237",
+    "intents": [
+      "REFUND_REQUEST",
+      "RETURN_REQUEST"
+    ],
+    "text": "@115850 @amazonhelp why i am not able to return substandard product bought from amazon. it feels like i have wasted my money and faith @amazonhelp it gives option to replace. what to do @amazonhelp sent the mail. waiting for response. @amazonhelp thankyou. the return is successful @amazonhelp hi. the amount is being charged again from last two months. bank people need communication from amazon that you are not receiving amount"
+  },
+  {
+    "conversation_id": "amazonhelp_016651",
+    "intents": [
+      "DELIVERY_LATE",
+      "ORDER_STATUS",
+      "APP_USAGE"
+    ],
+    "text": "hi @115850 @amazonhelp order number is 171-4216090-2817924 ordered wallet yesterday but there is no wallet in it . got empty box . see to it asap . this is a fraud happening and you will loose a valuable customer now @3645 registered number 9873513970 https://t.co/ljvbbs8zb2 @130667 @115850 @amazonhelp @3645 this should be rectified immediately. @130668 @115850 @amazonhelp @3645 yes this should be \nit was a gift to someone @130667 @115850 @amazonhelp @3645 their cc is good. they will take quick "
+  },
+  {
+    "conversation_id": "amazonhelp_127256",
+    "intents": [
+      "DELIVERY_TRACKING",
+      "APP_USAGE"
+    ],
+    "text": "@115830 i live in eastbourne. tracking says parcel's gone from littlehampton (46 miles away) to weybridge to peterborough (157 miles away) @amazonhelp ah.  never mind.  i was reading the screen top to bottom - i shoud have read it from bottom to top.  😳 @amazonhelp however, i'm subscribed to the text message service and i'm not getting any texts.\ntracking says they tried to deliver at 7.30pm: i was out. @amazonhelp i already checked the mobile number was correct, @amazonhelp that takes me to the"
+  },
+  {
+    "conversation_id": "amazonhelp_032294",
+    "intents": [
+      "DELIVERY_LATE",
+      "APP_USAGE"
+    ],
+    "text": "@115850 @amazonhelp @115851 hahahaha how many time you guys tweet same thing \"we are working on it and responded you asap\" till now i don't get any single call from you guys with a answer. and in the link you send me earlier on that link you mention that we call u in 12hours @amazonhelp i already done that.\ntell me now where you want my detail.\nand you guys tell me on earlier tweet that you have my all info.\nnow what? @amazonhelp now tell me what i can do wait more 24 hours to 48 hours .\naur you"
+  },
+  {
+    "conversation_id": "amazonhelp_018077",
+    "intents": [
+      "APP_USAGE",
+      "RETURN_REQUEST"
+    ],
+    "text": "@115821 @119356 @amazonhelp @115851 @209576 till date no response and positive action observed. even after replying through, the link mentioned by amazon. some one has to take onus and prove that customers r valuable.. 🙏🙏 https://t.co/jpeab7qq0v @115821 @119356 @amazonhelp @115851 @209576 upfront denial is neither accepted nor expected. have the value of customers' smile, feelings, emotions. don't go away from your responsibility. why customer has to pay for your failure? what's my fault? to rel"
+  },
+  {
+    "conversation_id": "amazonhelp_046967",
+    "intents": [
+      "DELIVERY_LATE",
+      "DELIVERY_TRACKING",
+      "RETURN_REQUEST"
+    ],
+    "text": "commit to being fit. get your fitness requirements at the amazon under armour store. #wewill #everydropcounts. visit https://t.co/o8hvsbdnka https://t.co/crtozwjg3p @115850 @115850, where is my pickup for return item tracking # 710400450663, scheduled for october 29 and now 8 days late?"
+  },
+  {
+    "conversation_id": "amazonhelp_148577",
+    "intents": [
+      "DELIVERY_LATE",
+      "DELIVERY_TRACKING"
+    ],
+    "text": "@amazonhelp what's this delay ? when you assured about delivery by today ??tracking id211179779318 @amazonhelp give contact details of courier"
+  },
+  {
+    "conversation_id": "amazonhelp_011331",
+    "intents": [
+      "DELIVERY_TRACKING",
+      "DELIVERY_CARRIER",
+      "REFUND_REQUEST",
+      "RETURN_REQUEST",
+      "PRODUCT_ISSUE"
+    ],
+    "text": "@115850 @115851 pathetic evr experience 4 a samsung phone. defective phone, endless wait for pickup, defective replacement, no pickup, no refund, multiple followups, no resolution, 1 month of ordeal, terrible experience! all d good work by amazon down the drain in 1 order! @amazonhelp @115850 @115851 how many slips in one order! this can be your case study for service disasters. in fact you should pay me for the time, effort and peace of mind i have lost over this awful transaction. #amazon #ser"
+  },
+  {
+    "conversation_id": "amazonhelp_099906",
+    "intents": [
+      "DELIVERY_LATE",
+      "APP_USAGE"
+    ],
+    "text": "@115850 @734 @amazonhelp . what a pathet8c customer support#onlt intrstd in selling#no customer support#poor service#can sm1 help @amazonhelp tge above link is useless#i want assistance#purchased electrnc appliaces#not happy# need assistance# shw sme care for ur cstmrs# disappntd @amazonhelp am looking for quality service# please help @amazonhelp i have shard the details @amazonhelp i have nt recvd any reply# really disappntd"
+  },
+  {
+    "conversation_id": "amazonhelp_085285",
+    "intents": [
+      "DELIVERY_TRACKING",
+      "APP_USAGE",
+      "DEVICE_ISSUE"
+    ],
+    "text": "@116439 i need some help. my remote doesnt always work. im pretty sure i bought it brand new. so what could the problem be? @amazonhelp sorry but that link there didnt help any. all it says was how to do the batteries @amazonhelp how do i know which apps are legal to use? is it ok to allow 'apps from unknown sources'? @amazonhelp do you need a photo for more help with figureing what im talking about? @amazonhelp okay. im back now. i have 9 photos to send. is it ok if i send them 1 at a time? @am"
+  },
+  {
+    "conversation_id": "amazonhelp_131429",
+    "intents": [
+      "DELIVERY_CARRIER",
+      "APP_USAGE",
+      "PAYMENT_ISSUE",
+      "RETURN_REQUEST"
+    ],
+    "text": "on my 4th support person trying to return an item. apparently i’ve reach their “leadership” @115821 https://t.co/3nug1tl5xl @amazonhelp first they sent a return email to the buyer, who is upset that their gift to us came broken. and then they offered to credit my gift card balance which is either taking a long time, or went to the person who bought us the gift?"
+  },
+  {
+    "conversation_id": "amazonhelp_037955",
+    "intents": [
+      "DELIVERY_LATE",
+      "DEVICE_ISSUE"
+    ],
+    "text": ".@122951 how will the warranty be considered by amazon if purchase frm u...as many kindle develop issue later @115850 plz advise https://t.co/yz79lm7a2u @amazonhelp yes i know tht...want to know will i get valid warranty if purchased frm othr e-commerce site? @amazonhelp thanks for information"
+  },
+  {
+    "conversation_id": "amazonhelp_088292",
+    "intents": [
+      "DELIVERY_LATE",
+      "RETURN_REQUEST"
+    ],
+    "text": "@115850 is cheating wid me. i wanna disclose all d details with @2517 . tell me, how? i hope i would get resolution by ur support. @amazonhelp i've returned a mobile on around 10 oct but till date @115850 is not giving me my money. i'll  disclose it on a higher level. #cheater @amazonhelp  https://t.co/vdlxpdvytn"
+  },
+  {
+    "conversation_id": "amazonhelp_099503",
+    "intents": [
+      "DELIVERY_LATE",
+      "APP_USAGE",
+      "ACCOUNT_ACCESS"
+    ],
+    "text": "now @115821 are telling me i'll get an email in 36-48 hours with questions to answer. this after 4 torturous days of bs customer service. @120919 @115821 dealing with them from the b2b side is honestly the worst. i have an issue open with them that is 20months old. amz staff caused this issue. @amazonhelp my issue is vendor central related and i'll be dealing with it there unless you have higher authority than the regular desk? @amazonhelp 2 days later and @amazonhelp still hasn't told me whethe"
+  },
+  {
+    "conversation_id": "amazonhelp_116908",
+    "intents": [
+      "APP_USAGE",
+      "DEVICE_ISSUE"
+    ],
+    "text": "dear @115821 and @135958  - why no kindle app on microsoft store?"
+  },
+  {
+    "conversation_id": "amazonhelp_136345",
+    "intents": [
+      "DELIVERY_LATE",
+      "DELIVERY_TRACKING",
+      "REFUND_REQUEST"
+    ],
+    "text": "want to track your refunds but don’t know how? here’s a simple answer: https://t.co/exsg0svgko #karomilketayyari #amazongreatindianfestival https://t.co/a9qpjwproc @115850 amazon.in executives are not satisfing customers they are hurting badly please take care thank you @amazonhelp me that we are not gonna issue a refund sorry"
+  },
+  {
+    "conversation_id": "amazonhelp_129015",
+    "intents": [
+      "REFUND_REQUEST",
+      "RETURN_REQUEST"
+    ],
+    "text": "@115850 i ordered based on info on your manufacturer section which was wrong and thats why i dont want replacement but refund. pls help @amazonhelp i purchased reading manufacturer section which says 'scan to email directly from printer's touchscreen.'which is wrong.i confirmed with hp. @amazonhelp thanks for prompt response. you can call me now also until midnight (2 hrs from now) if you want. @amazonhelp thanks - before taking any decision , pls call me"
+  },
+  {
+    "conversation_id": "amazonhelp_047965",
+    "intents": [
+      "DELIVERY_LATE",
+      "DELIVERY_TRACKING",
+      "DELIVERY_CARRIER"
+    ],
+    "text": "make sure your loved ones get their gifts in time for the holidays! https://t.co/lrzrvpjmey @118706 it would also help if the tracking site was working been waiting for a package that was supposed to b delivered last night. @258579 @118706 same here.  this is 2 deliveries in a row that is late and no tracking. @258579 @118706 1hr 45min til 8pm 🤔 @258579 @118706 no package still.  if not by monday i'm suppose to file a claim. 😏 @258578 @118706 how long have u been waiting now? @258579 @118706 now"
+  },
+  {
+    "conversation_id": "amazonhelp_005864",
+    "intents": [
+      "APP_USAGE",
+      "VIDEO_STREAMING"
+    ],
+    "text": "hey @119625, why do your videos stop at a point and jump back few seconds back again and again till you jump forward for 10 seconds? @amazonhelp it happened in biswa mast aadmi, haq se single and now in lakhon me ek. it's ruining my watching experience. i'm a new subscriber. @amazonhelp oneplus 3."
+  },
+  {
+    "conversation_id": "amazonhelp_029127",
+    "intents": [
+      "DELIVERY_LATE",
+      "APP_USAGE"
+    ],
+    "text": "@amazonhelp 35 minutes and still no help. someone to call me back. terrible customer service. very disappointing for such a large company. @amazonhelp no call back yet. any chance someone at amazonhelp can assist? need to get it sorted quickly. @amazonhelp one to two hours... what does amazon help help with? @amazonhelp it's not really account related. maybe i could pm you if@you could send a contact."
+  },
+  {
+    "conversation_id": "amazonhelp_043221",
+    "intents": [
+      "DELIVERY_LATE",
+      "DELIVERY_CARRIER",
+      "APP_USAGE"
+    ],
+    "text": "https://t.co/xp5fthbb5w @amazonhelp pending pickup even after 10 days. 😡 @amazonhelp what is ups? ans nobody arrived next day and even in last 10 days. do i need to call them for the pickup? you don't monitor it? 😳🤔😡 @amazonhelp hi, still waiting for someone to pick this up. have contacted your customer care. what is happening? amazon getting worse."
+  },
+  {
+    "conversation_id": "amazonhelp_147610",
+    "intents": [
+      "DEVICE_ISSUE",
+      "PRODUCT_ISSUE"
+    ],
+    "text": "@115850 i am reconsidering if buying an mi phone or any other electronic device from @115850 worth it or not. it has been pathetic response from both @115850 and @138673 @amazonhelp i have bought a gift for someone and within a week, it seems to be a defective piece. but being still in warranty, i have no direction to go"
+  },
+  {
+    "conversation_id": "amazonhelp_044956",
+    "intents": [
+      "DELIVERY_LATE",
+      "APP_USAGE"
+    ],
+    "text": "very disappointed from amazon..plz help me sir @1840 @115850 @1560 @amazonhelp https://t.co/gqfcoq4yyh @1840 @115850 @1560 @amazonhelp @amazonhelp @15958 submitted my details but what are you doing right now. @amazonhelp which type of email.. you done..again you want to make me fool..it is your passion. @amazonhelp @1840  amit sir pls help me.."
+  },
+  {
+    "conversation_id": "amazonhelp_088060",
+    "intents": [
+      "DELIVERY_MISSING",
+      "ORDER_STATUS"
+    ],
+    "text": "#amazonindia poor service from amazon, i have purchased a a phone on 6th of october and the product is not delivered yet. #amazonindia product purchased: lenovo k8 note order number: 171-8449043-3586758"
+  },
+  {
+    "conversation_id": "amazonhelp_141972",
+    "intents": [
+      "DELIVERY_LATE",
+      "DEVICE_ISSUE",
+      "PRODUCT_ISSUE"
+    ],
+    "text": "online retailer @115850 &amp; @115858 busy in unfair trade, cheat &amp; fraudulence in india. massive defective products are sold out. \n@43443 @amazonhelp look into your customer review, hundreds of iphone7 buyers received defective devices &amp; that remains unresolved. @43443"
+  },
+  {
+    "conversation_id": "amazonhelp_056417",
+    "intents": [
+      "APP_USAGE",
+      "ACCOUNT_ACCESS"
+    ],
+    "text": "dear @115830 - what's the point of sending me an app validation code with 10 mins life if it takes 5 hours to get to me? @115830 right, third attempt. request sent at 09:53. code lasts ten minutes. when will it arrive in my inbox? @amazonhelp i think my tweets are clear. i need a code to login to my app (android), i trigger the request but the email take ages to come. @amazonhelp when it comes it has a 10 minutes life on the code, but the life was from when the original request was made, so it's"
+  },
+  {
+    "conversation_id": "amazonhelp_128202",
+    "intents": [
+      "DELIVERY_LATE",
+      "DELIVERY_CARRIER",
+      "REFUND_REQUEST",
+      "PAYMENT_ISSUE",
+      "RETURN_REQUEST"
+    ],
+    "text": "@116090 4 failed email responses by your agents want a refund on an item that was promised by nov 24 now won’t be here till dec 5 #fail @amazonhelp i needed the item by dec 1 promise date was nov 24. 4 times i requested a refund because item won’t be here until at least dec 5. no refund @amazonhelp they said the item was out of stock as of yesterday. however i have a shipping notification from you from november 20 that my order shipped @amazonhelp all i hear is that i should get it my dec 5th bu"
+  },
+  {
+    "conversation_id": "amazonhelp_088796",
+    "intents": [
+      "REFUND_REQUEST",
+      "RETURN_REQUEST"
+    ],
+    "text": "@amazonhelp  sucks.  !! pathetic refund policy . they only loot ur money. @amazonhelp all 4 pick up recipt i have none of the  \nones have been  refunded ...  it's pure loot @amazonhelp no point as the agents have been saying the same thing from weeks"
+  },
+  {
+    "conversation_id": "amazonhelp_116216",
+    "intents": [
+      "REFUND_REQUEST",
+      "RETURN_REQUEST",
+      "PRODUCT_ISSUE"
+    ],
+    "text": "@115850 first u send to me a wrong item. then when i ask for the right product, u ask me to send it myself lest giving the right product. @115850 i understand. i wouldn't mind doing all this. but in this case the fault is yours. why should i bother myself with the return arrangements? @amazonhelp i understand. but i don't want a refund. i just want the product that i had actually ordered."
+  },
+  {
+    "conversation_id": "amazonhelp_142136",
+    "intents": [
+      "DELIVERY_LATE",
+      "DELIVERY_MISSING",
+      "RETURN_REQUEST"
+    ],
+    "text": "@115850 giving fake update incorrect status on order, 3 items all 3 status are incorrectly updated,1 is delivered , 2 is attempted @amazonhelp they told me to wait for 2 day's ???? what a pathetic  to know the product details @115850 need 2 day's !!!! pathetic service by couldtail @amazonhelp done, but they need 3 day's to update the status, by the time my return policy will get over ???? @amazonhelp order : 0939508 got a message saying itemthe delivery receipt was signed by chandra panikaa , i "
+  },
+  {
+    "conversation_id": "amazonhelp_092984",
+    "intents": [
+      "DELIVERY_TRACKING",
+      "RETURN_REQUEST"
+    ],
+    "text": "so @115830 were supposed to be sending me a replacement watch in emergency delivery for today. still nothing!! i’m so pissed off!! 😡😡😡 @amazonhelp the original tracking says it was delivered to me friday night, i was not in, then i spoke to preeti yesterday via web chat and they said they’d get one out to be delivered today. it’s an item i needed for work today! @amazonhelp no i didn’t."
+  },
+  {
+    "conversation_id": "amazonhelp_097191",
+    "intents": [
+      "ACCOUNT_ACCESS",
+      "PAYMENT_ISSUE"
+    ],
+    "text": "@116316 hey i need some help, how do i contact customer support? @amazonhelp thank you for the information! however, my account is locked and i can't access that link. there was some issue with the payment for my orde"
+  },
+  {
+    "conversation_id": "amazonhelp_153563",
+    "intents": [
+      "APP_USAGE",
+      "ACCOUNT_ACCESS"
+    ],
+    "text": "@115850 @115851 @118342 shipment id fba150hwv8 cancelled with appointment id 95952185 without giving any reason @115850 @115851 @118342 how can amazon people access and make changes in sellers panel without their permission. dey cancelled shipment without permission"
+  },
+  {
+    "conversation_id": "amazonhelp_034704",
+    "intents": [
+      "DELIVERY_LATE",
+      "APP_USAGE",
+      "REFUND_REQUEST"
+    ],
+    "text": "@115850 #fraud dlvring wrong product 😡 https://t.co/seuyoccbfd @amazonhelp after clicking on this link it is redirecting to my tweet page. not redirecting to sharing details page. but link shared by you in my other tweets .. i already shared info twice. @amazonhelp already shared .. this is my third time that i am sharing details. now i had dm to customer service twitter handle. what else i can do\nor now i will dm to amazon help twitter handle with my phone number . please contact me @amazonhelp"
+  },
+  {
+    "conversation_id": "amazonhelp_026200",
+    "intents": [
+      "APP_USAGE",
+      "DEVICE_ISSUE",
+      "VIDEO_STREAMING"
+    ],
+    "text": "@115830 @@amazonhelp @129773 just spent 40mins on sos to your agent and no closer am i to using a service you are charging me for @amazonhelp my issue is im paying you far a service that your agents are telling me i'm not entitled to 🤔🤔 firestick won't play content, mobile device @amazonhelp won't chromecast or cast to firestick,.. so how the heck am i supposed to watch stuff? @amazonhelp i can't watch prime content on a amazon product but i can sideload kodi and watch anything for free 🤔🤔🤔 are "
+  },
+  {
+    "conversation_id": "amazonhelp_025260",
+    "intents": [
+      "DELIVERY_MISSING",
+      "REFUND_REQUEST",
+      "RETURN_REQUEST"
+    ],
+    "text": "dealing with worst customer service ever @amazonhelp ,did not receive a refund on items returned after weeks of going back and forth with customer service i spoke to a supervisor that straight up lied to me on my orders b careful shoppers @115851 #blackfriday #amazon #bitcoin @amazonhelp i am missing 2 refunds out of 6 items i returned, i used the other 4 refunds on other items already and waiting for the last 2 to be refunded. he stated i already used the last 2 when it obviously has not been r"
+  },
+  {
+    "conversation_id": "amazonhelp_142349",
+    "intents": [
+      "APP_USAGE",
+      "PAYMENT_ISSUE"
+    ],
+    "text": "@amazonhelp a fraudulent transaction of $99 has been done from my credit card for amazon prime on 17.1.2017. why and how this happened? @amazonhelp @115850 @115821 @115821 @3021  #jetprivilege card fraud transaction. can you look into this and resolve? @amazonhelp sorry to say but i havenot opted for prime nor i ever registered my credi card. and there is no resolution after mailing cc."
+  },
+  {
+    "conversation_id": "amazonhelp_144310",
+    "intents": [
+      "APP_USAGE",
+      "RETURN_REQUEST"
+    ],
+    "text": "@115850 dear rename ur company as chutiyazone ! it was a mistake not to buy epson l361 from @118702 or @122599 !! @115850 sucks !! @amazonhelp i have been calling daily amazon cs, as my replacement was to be delivered on 25th on priority as told by agent not yet received !! @amazonhelp bought printer to print didn't get on time had to spend  rs 1200 for printing 120 pages even after ordering printer !! who will pay the loss"
+  },
+  {
+    "conversation_id": "amazonhelp_128833",
+    "intents": [
+      "DELIVERY_LATE",
+      "APP_USAGE"
+    ],
+    "text": "our customers push us to do better every day. thank you so much, mrs. lynette pereira for sharing your happy moment with us! gestures like these inspire us to continue serving our wonderful customers in the best way possible. it is still day 1! #realamazonstories https://t.co/dt6jtvz2h2 @115850 amazon sells fake mobile. it has been confirmed by manufacturer. even after sending original mail from manufacturers that the mobile is fake, it raises illogical demand of sending screenshot of mail. does"
+  },
+  {
+    "conversation_id": "amazonhelp_106453",
+    "intents": [
+      "DELIVERY_LATE",
+      "APP_USAGE"
+    ],
+    "text": "@amazonhelp 1 of your chat reps (vikram) is insisting to me that prime orders which clearly state \"prime\" and show \"guaranteed 2day delivery\" in cart, can take a completely unknown amount of time for delivery. that is wrong - customer since 2000. bonus: order hasn't shipped.. @730688 @amazonhelp exactly the same has happened to me today. @731012 @amazonhelp i ended up escalated to a new chat room and the guy was great. too nice, really! @730688 @amazonhelp i’ve spoken to two people and not got a"
+  },
+  {
+    "conversation_id": "amazonhelp_043363",
+    "intents": [
+      "DELIVERY_LATE",
+      "DELIVERY_TRACKING",
+      "APP_USAGE"
+    ],
+    "text": "#experiment https://t.co/quysfpsu4o #experiment\n#update1\ncourier - amazon transportation services\nexpectations raised\n@115850 #amazongreatindianfestival \n#amazonprime @115850 #experiment\n#update1 \ncourier is coming from #hyderabad \ninfo-562 km as per #googlemaps \n#amazongreatindianfestival #amazonprime https://t.co/4zysybj0va @115850 #experiment\n#update3\ncourier is moving forward.\nleft the courier facility.\n#amazongreatindianfestival\n#amazonprime \n@115850 https://t.co/jz83cqjtem #experiment\n#upd"
+  }
+]

@@ -1,0 +1,427 @@
+#!/usr/bin/env python3
+"""
+Phase G: Targeted Data Augmentation
+
+Creates targeted augmentation for weak/data-starved intents while preserving
+the original training data and maintaining data leakage prevention.
+"""
+
+import json
+import sys
+import os
+sys.stdout.reconfigure(encoding='utf-8')
+
+# Paths
+ORIGINAL_DATA = "data/processed/amazonhelp_labeled_conversations_v21_phase6c.jsonl"
+TRAIN_TEST_SPLIT = "data/baseline/baseline_train_test_split.json"
+OUTPUT_EXPERIMENTAL = "data/baseline/phaseG_experimental.jsonl"
+AUGMENTATION_MANIFEST = "data/evaluation/phaseG_augmentation_manifest.jsonl"
+
+# =============================================================================
+# AUGMENTATION DESIGN
+# =============================================================================
+
+# Targeted augmentation based on error analysis:
+# - ORDER_MODIFY: 2 examples -> add ~20 examples
+# - CANCELLATION: 2 examples -> add ~20 examples
+# - These are the most data-starved intents with 0% golden-set accuracy
+
+# IMPORTANT: We create synthetic examples that follow patterns in the dataset
+# but are NOT copies of golden set or test examples.
+
+# Augmentation is based on these patterns observed in errors:
+# CANCELLATION errors: model confuses with OTHER, ORDER_STATUS, ORDER_MODIFY, DELIVERY_MISSING
+# ORDER_MODIFY errors: model confuses with ORDER_STATUS
+# Need examples that clearly distinguish these intents
+
+AUGMENTATION_DATA = [
+    # CANCELLATION - more varied cancellation patterns
+    # (training had: "i want to cancel my order", "would like to cancel")
+    {
+        "conversation_id": "AUG_CANCEL_001",
+        "primary_intent": "CANCELLATION",
+        "customer_text": "please cancel my order number 123-4567890 I ordered by mistake",
+        "reason": "Basic cancellation request - training only had 2 examples",
+        "pattern": "cancel my order"
+    },
+    {
+        "conversation_id": "AUG_CANCEL_002",
+        "primary_intent": "CANCELLATION",
+        "customer_text": "I need to cancel my prime membership immediately please",
+        "reason": "Prime cancellation pattern",
+        "pattern": "cancel prime"
+    },
+    {
+        "conversation_id": "AUG_CANCEL_003",
+        "primary_intent": "CANCELLATION",
+        "customer_text": "can you cancel the subscription I no longer want it",
+        "reason": "Subscription cancellation",
+        "pattern": "cancel subscription"
+    },
+    {
+        "conversation_id": "AUG_CANCEL_004",
+        "primary_intent": "CANCELLATION",
+        "customer_text": "I want to cancel my order before it ships please",
+        "reason": "Pre-shipment cancellation",
+        "pattern": "cancel before ship"
+    },
+    {
+        "conversation_id": "AUG_CANCEL_005",
+        "primary_intent": "CANCELLATION",
+        "customer_text": "help me cancel this order I changed my mind",
+        "reason": "Changed mind cancellation",
+        "pattern": "changed my mind cancel"
+    },
+    {
+        "conversation_id": "AUG_CANCEL_006",
+        "primary_intent": "CANCELLATION",
+        "customer_text": "need to cancel amazon prime subscription right away",
+        "reason": "Another prime cancellation pattern",
+        "pattern": "cancel amazon prime"
+    },
+    {
+        "conversation_id": "AUG_CANCEL_007",
+        "primary_intent": "CANCELLATION",
+        "customer_text": "please cancel my order I dont need it anymore",
+        "reason": "Simple cancellation",
+        "pattern": "dont need it"
+    },
+    {
+        "conversation_id": "AUG_CANCEL_008",
+        "primary_intent": "CANCELLATION",
+        "customer_text": "I wish to cancel my order and get a refund",
+        "reason": "Cancellation with refund request - distinct from just return",
+        "pattern": "cancel and refund"
+    },
+    {
+        "conversation_id": "AUG_CANCEL_009",
+        "primary_intent": "CANCELLATION",
+        "customer_text": "how do I cancel my order that hasnt shipped yet",
+        "reason": "How-to cancel question",
+        "pattern": "how do I cancel"
+    },
+    {
+        "conversation_id": "AUG_CANCEL_010",
+        "primary_intent": "CANCELLATION",
+        "customer_text": "I accidentally placed an order please cancel it immediately",
+        "reason": "Accidental order cancellation",
+        "pattern": "accidentally placed"
+    },
+    {
+        "conversation_id": "AUG_CANCEL_011",
+        "primary_intent": "CANCELLATION",
+        "customer_text": "cancel my order please I no longer have need for this product",
+        "reason": "No longer need pattern",
+        "pattern": "no longer need"
+    },
+    {
+        "conversation_id": "AUG_CANCEL_012",
+        "primary_intent": "CANCELLATION",
+        "customer_text": "I want to cancel my recent order please help",
+        "reason": "Recent order cancellation",
+        "pattern": "cancel recent"
+    },
+    {
+        "conversation_id": "AUG_CANCEL_013",
+        "primary_intent": "CANCELLATION",
+        "customer_text": "please cancel and refund my order I cannot wait that long",
+        "reason": "Cancellation due to long wait time",
+        "pattern": "cannot wait"
+    },
+    {
+        "conversation_id": "AUG_CANCEL_014",
+        "primary_intent": "CANCELLATION",
+        "customer_text": "I need to cancel my order as item is no longer required",
+        "reason": "Item no longer required",
+        "pattern": "no longer required"
+    },
+    {
+        "conversation_id": "AUG_CANCEL_015",
+        "primary_intent": "CANCELLATION",
+        "customer_text": "can you stop my order from being delivered I want to cancel it",
+        "reason": "Stop delivery cancellation",
+        "pattern": "stop delivery"
+    },
+    {
+        "conversation_id": "AUG_CANCEL_016",
+        "primary_intent": "CANCELLATION",
+        "customer_text": "I want to cancel my subscription service with amazon",
+        "reason": "Service subscription cancellation",
+        "pattern": "subscription service"
+    },
+    {
+        "conversation_id": "AUG_CANCEL_017",
+        "primary_intent": "CANCELLATION",
+        "customer_text": "help me cancel my order I made error in selection",
+        "reason": "Error in selection",
+        "pattern": "error in selection"
+    },
+    {
+        "conversation_id": "AUG_CANCEL_018",
+        "primary_intent": "CANCELLATION",
+        "customer_text": "please cancel my order I found better price elsewhere",
+        "reason": "Better price elsewhere",
+        "pattern": "better price elsewhere"
+    },
+    {
+        "conversation_id": "AUG_CANCEL_019",
+        "primary_intent": "CANCELLATION",
+        "customer_text": "I want to cancel my order immediately please",
+        "reason": "Immediate cancellation",
+        "pattern": "immediately please"
+    },
+    {
+        "conversation_id": "AUG_CANCEL_020",
+        "primary_intent": "CANCELLATION",
+        "customer_text": "can I cancel my order before it is processed",
+        "reason": "Before processing cancellation",
+        "pattern": "before processed"
+    },
+
+    # ORDER_MODIFY - varied modification patterns
+    # (training had: "change shipping address", "cancel and revert")
+    {
+        "conversation_id": "AUG_MOD_001",
+        "primary_intent": "ORDER_MODIFY",
+        "customer_text": "I want to change the delivery address for my order",
+        "reason": "Change delivery address - most common modify pattern",
+        "pattern": "change delivery address"
+    },
+    {
+        "conversation_id": "AUG_MOD_002",
+        "primary_intent": "ORDER_MODIFY",
+        "customer_text": "can I modify my order to change the quantity of items",
+        "reason": "Change quantity pattern",
+        "pattern": "change quantity"
+    },
+    {
+        "conversation_id": "AUG_MOD_003",
+        "primary_intent": "ORDER_MODIFY",
+        "customer_text": "I need to update my shipping address for an existing order",
+        "reason": "Update shipping address",
+        "pattern": "update shipping"
+    },
+    {
+        "conversation_id": "AUG_MOD_004",
+        "primary_intent": "ORDER_MODIFY",
+        "customer_text": "how do I change my order details after placing it",
+        "reason": "How-to modify question",
+        "pattern": "change my order"
+    },
+    {
+        "conversation_id": "AUG_MOD_005",
+        "primary_intent": "ORDER_MODIFY",
+        "customer_text": "I want to change the payment method for my order",
+        "reason": "Change payment method",
+        "pattern": "change payment"
+    },
+    {
+        "conversation_id": "AUG_MOD_006",
+        "primary_intent": "ORDER_MODIFY",
+        "customer_text": "can you modify my order to deliver to a different address",
+        "reason": "Different delivery address",
+        "pattern": "different address"
+    },
+    {
+        "conversation_id": "AUG_MOD_007",
+        "primary_intent": "ORDER_MODIFY",
+        "customer_text": "I need to change the delivery date for my order",
+        "reason": "Change delivery date",
+        "pattern": "change delivery date"
+    },
+    {
+        "conversation_id": "AUG_MOD_008",
+        "primary_intent": "ORDER_MODIFY",
+        "customer_text": "please update my order with correct shipping address",
+        "reason": "Correct shipping address",
+        "pattern": "correct shipping"
+    },
+    {
+        "conversation_id": "AUG_MOD_009",
+        "primary_intent": "ORDER_MODIFY",
+        "customer_text": "can I add more items to my existing order",
+        "reason": "Add items to order",
+        "pattern": "add items"
+    },
+    {
+        "conversation_id": "AUG_MOD_010",
+        "primary_intent": "ORDER_MODIFY",
+        "customer_text": "I want to modify my order before it ships",
+        "reason": "Pre-shipment modification",
+        "pattern": "modify before ship"
+    },
+    {
+        "conversation_id": "AUG_MOD_011",
+        "primary_intent": "ORDER_MODIFY",
+        "customer_text": "change my delivery address please order already placed",
+        "reason": "Delivery address change after order",
+        "pattern": "change address after"
+    },
+    {
+        "conversation_id": "AUG_MOD_012",
+        "primary_intent": "ORDER_MODIFY",
+        "customer_text": "how can I edit my order details",
+        "reason": "Edit order details",
+        "pattern": "edit order"
+    },
+    {
+        "conversation_id": "AUG_MOD_013",
+        "primary_intent": "ORDER_MODIFY",
+        "customer_text": "I need to change the size and color of item in my order",
+        "reason": "Change item variant",
+        "pattern": "change size color"
+    },
+    {
+        "conversation_id": "AUG_MOD_014",
+        "primary_intent": "ORDER_MODIFY",
+        "customer_text": "can you update my order with new contact number",
+        "reason": "Update contact number",
+        "pattern": "update contact"
+    },
+    {
+        "conversation_id": "AUG_MOD_015",
+        "primary_intent": "ORDER_MODIFY",
+        "customer_text": "I want to switch my delivery to a pickup location",
+        "reason": "Switch to pickup",
+        "pattern": "switch pickup"
+    },
+    {
+        "conversation_id": "AUG_MOD_016",
+        "primary_intent": "ORDER_MODIFY",
+        "customer_text": "modify my order to change product variant",
+        "reason": "Product variant change",
+        "pattern": "product variant"
+    },
+    {
+        "conversation_id": "AUG_MOD_017",
+        "primary_intent": "ORDER_MODIFY",
+        "customer_text": "I accidentally ordered wrong item can I change it",
+        "reason": "Wrong item ordered",
+        "pattern": "wrong item"
+    },
+    {
+        "conversation_id": "AUG_MOD_018",
+        "primary_intent": "ORDER_MODIFY",
+        "customer_text": "update my amazon order with new delivery instructions",
+        "reason": "Delivery instructions update",
+        "pattern": "delivery instructions"
+    },
+    {
+        "conversation_id": "AUG_MOD_019",
+        "primary_intent": "ORDER_MODIFY",
+        "customer_text": "can you change my order to expedited shipping",
+        "reason": "Change to expedited",
+        "pattern": "expedited shipping"
+    },
+    {
+        "conversation_id": "AUG_MOD_020",
+        "primary_intent": "ORDER_MODIFY",
+        "customer_text": "I need to modify the gift options on my order",
+        "reason": "Gift options modification",
+        "pattern": "gift options"
+    },
+]
+
+
+def create_augmented_record(aug_entry):
+    """Create a record in the same format as the labeled data."""
+    return {
+        "conversation_id": aug_entry["conversation_id"],
+        "primary_intent": aug_entry["primary_intent"],
+        "secondary_intents": [],
+        "modifiers": [],
+        "escalation_signals": [],
+        "language": "en",
+        "data_quality": "AUGMENTED",
+        "confidence": "HIGH",
+        "turns": [
+            {
+                "speaker": "Customer",
+                "text": aug_entry["customer_text"],
+                "inbound": "true",
+                "turn_id": 1
+            }
+        ]
+    }
+
+
+def main():
+    print("=" * 70)
+    print("PHASE G: TARGETED DATA AUGMENTATION")
+    print("=" * 70)
+    print()
+
+    # Load original data
+    print("[1] Loading original training data...")
+    with open(TRAIN_TEST_SPLIT, 'r') as f:
+        split = json.load(f)
+        train_ids = set(split['train_ids'])
+
+    original_train = []
+    with open(ORIGINAL_DATA, 'r', encoding='utf-8') as f:
+        for line in f:
+            d = json.loads(line)
+            if d['conversation_id'] in train_ids:
+                original_train.append(d)
+
+    print(f"  Original training examples: {len(original_train)}")
+    print()
+
+    # Count augmentation by intent
+    aug_by_intent = {}
+    for aug in AUGMENTATION_DATA:
+        intent = aug['primary_intent']
+        if intent not in aug_by_intent:
+            aug_by_intent[intent] = []
+        aug_by_intent[intent].append(aug)
+
+    print("[2] Augmentation by intent:")
+    for intent, augs in aug_by_intent.items():
+        print(f"  {intent}: {len(augs)} examples")
+
+    # Create augmented records
+    augmented_records = [create_augmented_record(aug) for aug in AUGMENTATION_DATA]
+
+    # Combine original + augmentation
+    experimental_data = original_train + augmented_records
+
+    print(f"\n[3] Dataset sizes:")
+    print(f"  Original training: {len(original_train)}")
+    print(f"  Augmented: {len(augmented_records)}")
+    print(f"  Total experimental: {len(experimental_data)}")
+    print()
+
+    # Save experimental dataset
+    print("[4] Saving experimental dataset...")
+    with open(OUTPUT_EXPERIMENTAL, 'w', encoding='utf-8') as f:
+        for record in experimental_data:
+            f.write(json.dumps(record, ensure_ascii=False) + '\n')
+
+    print(f"  Saved to: {OUTPUT_EXPERIMENTAL}")
+
+    # Save augmentation manifest
+    print("\n[5] Saving augmentation manifest...")
+    with open(AUGMENTATION_MANIFEST, 'w', encoding='utf-8') as f:
+        for aug in AUGMENTATION_DATA:
+            f.write(json.dumps(aug, ensure_ascii=False) + '\n')
+
+    print(f"  Saved to: {AUGMENTATION_MANIFEST}")
+
+    # Summary
+    print("\n" + "=" * 70)
+    print("AUGMENTATION SUMMARY")
+    print("=" * 70)
+    print(f"Original training: {len(original_train)}")
+    print(f"Augmentation added: {len(augmented_records)}")
+    print(f"Final experimental: {len(experimental_data)}")
+    print()
+    print("Data leakage prevention:")
+    print("  - NO golden-set examples used")
+    print("  - NO test-set examples used")
+    print("  - NO direct copies of existing examples")
+    print("  - Patterns based on error analysis")
+    print("=" * 70)
+
+
+if __name__ == '__main__':
+    main()

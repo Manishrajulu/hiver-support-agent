@@ -1,0 +1,429 @@
+[
+  {
+    "conversation_id": "amazonhelp_095469",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "OTHER",
+    "customer_text": "@115821 I need assistance on a missing package, please. @AmazonHelp .com",
+    "should_be": "DELIVERY_LATE"
+  },
+  {
+    "conversation_id": "amazonhelp_067918",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@AmazonHelp Bonjour ! J'ai un problème avec ma commande la carte bancaire passe pas https://t.co/BHLswYEIHt @AmazonHelp Il s'agit de cartes virtuelles créés avec orange cash @AmazonHelp Déjà fait 3 fo",
+    "should_be": "PAYMENT_ISSUE"
+  },
+  {
+    "conversation_id": "amazonhelp_022747",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@115821 why am I paying for 2 day shipping if it’s guaranteed to take 4 days to get here?! Wtf, prime is turning into@a waste of money.  😤 @AmazonHelp I place an order just now, and received an email ",
+    "should_be": "PAYMENT_ISSUE"
+  },
+  {
+    "conversation_id": "amazonhelp_136599",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@115850 why prices on product doesn’t match with listing price? Clear case of cheating... https://t.co/YSqGJQTOCh @AmazonHelp That means consumer has to pay extra even if its an issue from vendor. Asi",
+    "should_be": "DELIVERY_LATE"
+  },
+  {
+    "conversation_id": "amazonhelp_046237",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "OTHER",
+    "customer_text": "@115850 @AmazonHelp @228164 I signed up for Amazon prime using Vodafone offer... But still i haven't received the cashback. Please help ASAP!!! I signed up for Amazon prime on 15th October 2017. U sai",
+    "should_be": "GENUINELY_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_104211",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@120533 j'aimais le prime, mais j'ai découvert l'envers du projet, je commende 3 trucs autre que des bouquins et je me retrouve avec 10jours de livraison alors que par la poste ça prendrais 2jours max",
+    "should_be": "PAYMENT_ISSUE"
+  },
+  {
+    "conversation_id": "amazonhelp_084962",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@120533 je m'a informé d'attendre encore plus  .. Comment peu professionnel ... Délai de livraison garanti était HIER!! #Nice06 https://t.co/dFAUdxB3jU @AmazonHelp oui - date de livraison garantie 10 ",
+    "should_be": "PAYMENT_ISSUE"
+  },
+  {
+    "conversation_id": "amazonhelp_147177",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@115830. Putting children at risk. Amazon failing to dispatch critical child safety equipment then unable to engage with their own fulfilment centre. Protect children - avoid Amazon. @AmazonHelp Yes b",
+    "should_be": "DELIVERY_LATE"
+  },
+  {
+    "conversation_id": "amazonhelp_145718",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "OTHER",
+    "customer_text": "@115850 - have written one mail. Request you to respond, as its urgent https://t.co/ZWu0SOIk3y @AmazonHelp Haven't received any",
+    "should_be": "GENUINELY_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_027936",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "OTHER",
+    "customer_text": "The winners of the @7166 Guess The Price contest have been announced. Congratulations! #KaroMilkeTayyari #AmazonGreatIndianFestival https://t.co/JaVZRm5sd4 @115850 @7166 It's been more than a month te",
+    "should_be": "GENUINELY_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_071582",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "Confused as to why we pay for prime if it's still going to take a week for our shit to get here @115821. Now we have no costumes 😫😫😫😫",
+    "should_be": "PAYMENT_ISSUE"
+  },
+  {
+    "conversation_id": "amazonhelp_098057",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "C'est la seconde fois que je ne reçois pas un paquet livré par Colis Privé, soit disant laissé dans ma boite aux lettres. @120533 pourquoi continuer à utiliser ce service ? @AmazonHelp Oui, on me répo",
+    "should_be": "PAYMENT_ISSUE"
+  },
+  {
+    "conversation_id": "amazonhelp_043579",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "This is out TODAY, @115830. And yet my Prime order says \"delivery date pending\"... @AmazonHelp https://t.co/KuY6SYvfUB @115830 @AmazonHelp Gonna have to order from somewhere else and wait ages or pay ",
+    "should_be": "DELIVERY_LATE"
+  },
+  {
+    "conversation_id": "amazonhelp_019777",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@115850 Unable to add Money to Amazon Pay.. Not receiving verification text mesaage! https://t.co/ogyF6qBqS7 @AmazonHelp Done! @AmazonHelp Still the issue is not resolved! 12hrs then 48 hrs... Wasted!",
+    "should_be": "PAYMENT_ISSUE"
+  },
+  {
+    "conversation_id": "amazonhelp_034487",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "OTHER",
+    "customer_text": "@115851 @115850\nI've been cheated by a seller on Amazon India, and Amazon is not helping me reclaim my lost money. @115851 @115850 Instead of receiving the product I ordered I was sent a  piece of clo",
+    "should_be": "GENUINELY_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_129739",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "#KaroMilkeTayyari offers ko unlock karne ki. Send us a screenshot of the deal that brightens your day. #AmazonGreatIndianFestival https://t.co/917sZo8tBj @115850 I bought product @115821 during the gr",
+    "should_be": "PAYMENT_ISSUE"
+  },
+  {
+    "conversation_id": "amazonhelp_141018",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@AmazonHelp la franchement , je suis dégoutée …  je paye un service a 49 euros par an … pour du «  on ne sait jamais «  …. J’ai pas les mots .. https://t.co/5CfU4912LU @AmazonHelp non … j’ai preco pou",
+    "should_be": "ORDER_MODIFY"
+  },
+  {
+    "conversation_id": "amazonhelp_098761",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@AmazonHelp prime delivery my arse. Ordered 2 days ago and was expecting it to arrive today and now its not expected until 25-28th? What am I even fking paying for? I stayed in all day for this shit.",
+    "should_be": "DELIVERY_LATE"
+  },
+  {
+    "conversation_id": "amazonhelp_139141",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "OTHER",
+    "customer_text": "love getting scammed by amazon sellers it’s the best @115821 @AmazonHelp I ordered a monitor on the 20th of September and it never arrived",
+    "should_be": "GENUINELY_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_039476",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@115821 same day delivery seriously let me down Yesterday.  Stayed up past my bedtime waiting for the delivery to then find out it could be Thursday before I see it.  Glad I didn't pay extra for the s",
+    "should_be": "DELIVERY_LATE"
+  },
+  {
+    "conversation_id": "amazonhelp_142481",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@115850 unable to choose COD option at all. forces to use pay balance 1st.  product link. https://t.co/XAhHCGNjQ8 https://t.co/b3xYypRTLG",
+    "should_be": "PAYMENT_ISSUE"
+  },
+  {
+    "conversation_id": "amazonhelp_097577",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "\"Poor click-through experiences lead to 70 - 80% bounce rates from social\" - @73907's @73908 #MM17NYC @115823 @73907 @73908 No one is answering from amazon india today how can i pay",
+    "should_be": "PAYMENT_ISSUE"
+  },
+  {
+    "conversation_id": "amazonhelp_025975",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "Hey @115830 if you could actually deliver the day you say you will that would be amazing. Actually have no idea why I bother paying for prime at this point.\n\nStart using reliable couriers! @AmazonHelp",
+    "should_be": "DELIVERY_LATE"
+  },
+  {
+    "conversation_id": "amazonhelp_015259",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@AmazonHelp @115821 I'm in Africa {Ghana}, I urgently need a card to pay my goods bought on your site. My mastercard is not helping. HELP @AmazonHelp ordering on the amazon site. how do i get an amazo",
+    "should_be": "PAYMENT_ISSUE"
+  },
+  {
+    "conversation_id": "amazonhelp_015730",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@115850 your customer service standards are clearly lower now. @115850 This is regarding the cancelled order for one plus 5 from __email__ Your executives are not even ready to talk. @AmazonHelp My mo",
+    "should_be": "ORDER_MODIFY"
+  },
+  {
+    "conversation_id": "amazonhelp_041911",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@115821 why do I pay for a prime membership when my last three purchases haven't made it here in two days??? @AmazonHelp No they are all different",
+    "should_be": "PAYMENT_ISSUE"
+  },
+  {
+    "conversation_id": "amazonhelp_033152",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "OTHER",
+    "customer_text": "@115850 Not at all satisfied with your service. I did not get my cashback till now.Not able to call you.Need a call from ir side @AmazonHelp  I purchased one plus five on which there was a cashback on",
+    "should_be": "GENUINELY_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_082445",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "OTHER",
+    "customer_text": "Yo Amazon says my New 2DS XL has already shipped but I didn't get an email saying it has shipped 🤔",
+    "should_be": "GENUINELY_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_025664",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "OTHER",
+    "customer_text": "@AmazonHelp I have currently tried 6 times to get a missing invoice for an order. Customer Services have no idea what they are doing. help? @AmazonHelp (I know how the retrieve invoices for an order f",
+    "should_be": "DELIVERY_MISSING"
+  },
+  {
+    "conversation_id": "amazonhelp_070621",
+    "v1_intent": "ORDER_MODIFY",
+    "v2_intent": "OTHER",
+    "customer_text": "@AmazonHelp @115850 now you started giving false information also?? really pathetic poor amazon ..read my chat with cc \nArun Prasath, @AmazonHelp they said we have cancelled your courier, they all tol",
+    "should_be": "ORDER_MODIFY"
+  },
+  {
+    "conversation_id": "amazonhelp_053878",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "Changed your mind about a product? No worries. Replace your products with ease, only on Amazon. https://t.co/vzH3KwuM7U https://t.co/ACpYu6kBUQ @115850 ONCE THE AMAZON GIFT VOUCHERS ADDED TO AMAZON PA",
+    "should_be": "ORDER_MODIFY"
+  },
+  {
+    "conversation_id": "amazonhelp_100946",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@115830 so I ordered Mario odyssey months ago from you as I pay for prime and I know you’re meant to get games to me on time @115830 yet I haven’t received it today, any reason why you can’t guarantee",
+    "should_be": "DELIVERY_LATE"
+  },
+  {
+    "conversation_id": "amazonhelp_065428",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "Hey @115830, why are things marked Prime coming up as delivered November if I order today? #shopping #payday @115931 @AmazonHelp Christy's Adults Viking Warrior Costume (M/ L) https://t.co/2vSZSteYUr ",
+    "should_be": "DELIVERY_LATE"
+  },
+  {
+    "conversation_id": "amazonhelp_154971",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "OTHER",
+    "customer_text": "@115850 @AmazonHelp is this how you deliver your Prime Orders ?? https://t.co/NvbI8BWgdp @115850 @AmazonHelp This is how your delivery agents fooling your system, give a cut ring update the status and",
+    "should_be": "DELIVERY_LATE"
+  },
+  {
+    "conversation_id": "amazonhelp_054758",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@120533 Bonsoir, c'est normal je paye 15€ de plus pour être livré avant 22h et que je reçois rien ??? @AmazonHelp en cours de livraison depuis 19h42 @AmazonHelp Amazon logistics @AmazonHelp C200285828",
+    "should_be": "PAYMENT_ISSUE"
+  },
+  {
+    "conversation_id": "amazonhelp_107523",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@AmazonHelp I’m paying for prime... 2-DAY SHIPPING my package has still hasn’t arrived. I bought it 4 DAYS AGO",
+    "should_be": "DELIVERY_LATE"
+  },
+  {
+    "conversation_id": "amazonhelp_034020",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@115850 I used to buy stuff at 0 delivery charges with Prime, delivered the next day. Now, I'm paying 75-100 bucks for a 7-day delivery! @AmazonHelp I understand. But these items (baby diapers) were d",
+    "should_be": "DELIVERY_LATE"
+  },
+  {
+    "conversation_id": "amazonhelp_013813",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@116090 if I choose one-day on my prime account, will that avoid CP as carrier? 3rd messed up delivery = lost $$ not :( @9583 @AmazonHelp Didn't think to as I never pay for shipping with Prime and you",
+    "should_be": "DELIVERY_LATE"
+  },
+  {
+    "conversation_id": "amazonhelp_126861",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@AmazonHelp j'ai une question j'ai précommander 2 jeux mais 1 jeux sur 2 pourra être payer car je peux payer que 80 Euro une solution ? @AmazonHelp j'ai préco Need For Speed PayBack mais je peux payer",
+    "should_be": "PAYMENT_ISSUE"
+  },
+  {
+    "conversation_id": "amazonhelp_028758",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "At @115830 logistics had some kind of melt down yesterday. Who knows when my stuff will arrive. Not so prime! @AmazonHelp Yep. Ordered weds. Was told yest it will arrive in 24-48 hours! . Very poor. @",
+    "should_be": "PAYMENT_ISSUE"
+  },
+  {
+    "conversation_id": "amazonhelp_108302",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "Do @115830 realise if you pay next day delivery it's meant to come next day? Where art my fookin parcel?! @AmazonHelp https://t.co/qVtKBk2a50 @AmazonHelp just got an email saying there has been a prob",
+    "should_be": "DELIVERY_LATE"
+  },
+  {
+    "conversation_id": "amazonhelp_115202",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "OTHER",
+    "customer_text": "@118706 @115821 I have a very sad 9yro who waited all day for the new #Diaryofawimpykid that was out for dilivery yesterday. It never arrived.",
+    "should_be": "GENUINELY_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_113056",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@AmazonHelp bonjour j’ai un problème pour payer avec mon solde @AmazonHelp Oui pile poile. Sauf que j’ai commandé tout ce passe bien. Je reçois un mail comme quoi mon compte est verouillé @AmazonHelp ",
+    "should_be": "PAYMENT_ISSUE"
+  },
+  {
+    "conversation_id": "amazonhelp_039954",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@115850 Is the prime subscription not built in with the fire stick anymore? @AmazonHelp I’m trying to buy the @115850 Fire Stick for my mom https://t.co/y8C9HZVf1r\nIt used to come with a year’s subscr",
+    "should_be": "PAYMENT_ISSUE"
+  },
+  {
+    "conversation_id": "amazonhelp_079535",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@AmazonHelp hi! Ive got a problem w/ an order i made on monday. I ordered a hardcover book but was delivered an audiobook instead. @AmazonHelp What should i do? @AmazonHelp There's nothing written but",
+    "should_be": "DELIVERY_LATE"
+  },
+  {
+    "conversation_id": "amazonhelp_154037",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "Merci @120533 j’ai payer 25€ de plus pour que mon produit soit livrer AVANT vendredi et là je reçois un mail comme quoi il arrive PEUT ÊTRE lundi, c’est la date de livraison prévue avec la livraison g",
+    "should_be": "PAYMENT_ISSUE"
+  },
+  {
+    "conversation_id": "amazonhelp_039963",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "OTHER",
+    "customer_text": "@AmazonHelp I ordered the Elgato green screen it’s meant to be arriving on the 25th and we noticed that the order was cancelled not by us. I was wondering if you know anything about it as it’s saying ",
+    "should_be": "ORDER_MODIFY"
+  },
+  {
+    "conversation_id": "amazonhelp_153685",
+    "v1_intent": "ORDER_MODIFY",
+    "v2_intent": "OTHER",
+    "customer_text": "So why is @116618 trying to charge me for prime membership that I already have? Ffs. It’s continued until cancelled and I never 1/2 @116618 2/2 cancelled it. I have no cancellation emails or anything ",
+    "should_be": "ORDER_MODIFY"
+  },
+  {
+    "conversation_id": "amazonhelp_070538",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@AmazonHelp so I got a notification that delivery was attempted at my warehouse but I've been here all day/the package fits in my mailbox. It's a prime item. @AmazonHelp There is absolutely no way del",
+    "should_be": "DELIVERY_LATE"
+  },
+  {
+    "conversation_id": "amazonhelp_147887",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "You pay for your @117795 monthly without fail only for you to be failed by their services !! #PayingForNothing @115821 @115830 @AmazonHelp Supposed to get a product delivered on AmozonPrime last Tuesd",
+    "should_be": "DELIVERY_LATE"
+  },
+  {
+    "conversation_id": "amazonhelp_139778",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "What is the point of having @115821 prime if everything I order gets 3-5 days tacked onto it. Get your shit together. @AmazonHelp This is a terrible response from automated customer service. I'm payin",
+    "should_be": "DELIVERY_LATE"
+  },
+  {
+    "conversation_id": "amazonhelp_147937",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "OTHER",
+    "customer_text": "@115830 I placed an order and it's never arrived... I have contacted the seller and heard nothing back. What do I need to do, @AmazonHelp  https://t.co/aRXrYNf0GF @AmazonHelp I can't find the option i",
+    "should_be": "GENUINELY_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_011111",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@115850 is there any cashback offer thru Amazon pay for @116327 recharge. @AmazonHelp",
+    "should_be": "PAYMENT_ISSUE"
+  },
+  {
+    "conversation_id": "amazonhelp_128211",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "Brace yourself for blockbuster deals on toys, get AmazonBasics lightning cables and more at the #AmazonGreatIndianFestival. #DiwaliKiTayyari https://t.co/qzaMlQ7KTW @115850 @115850 beware of paying in",
+    "should_be": "PAYMENT_ISSUE"
+  },
+  {
+    "conversation_id": "amazonhelp_048318",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@AmazonHelp why is every item I find on Amazon prime shipping 6 days out? Why isn't it 2 days like I'm paying for? @AmazonHelp You can see here it says IN STOCK.  So why is it 6 days to ship when it s",
+    "should_be": "PAYMENT_ISSUE"
+  },
+  {
+    "conversation_id": "amazonhelp_059696",
+    "v1_intent": "ORDER_MODIFY",
+    "v2_intent": "OTHER",
+    "customer_text": "@115850 I had ordered cricket gloves two days ago and then i received a mail saying i had requested a cancellation even though i did not. I had already paid for the order online. Please help me with t",
+    "should_be": "ORDER_MODIFY"
+  },
+  {
+    "conversation_id": "amazonhelp_012175",
+    "v1_intent": "DELIVERY_MISSING",
+    "v2_intent": "OTHER",
+    "customer_text": "My Amazon package was been \"Out For Delivery\" since 7am but never arrived. Guess I gotta wait another day for my birthday presant to myself. 😔 @AmazonHelp I am aware, however my apartment office only ",
+    "should_be": "DELIVERY_LATE"
+  },
+  {
+    "conversation_id": "amazonhelp_053182",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "yet another failed delivery (number 10) from @115830 . supposedly cannot find an address despite them regularly delivering to my neighbours house. go figure. @AmazonHelp I've been through all this bef",
+    "should_be": "DELIVERY_LATE"
+  },
+  {
+    "conversation_id": "amazonhelp_134637",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "Hey @AmazonHelp why can't i buy things with prime anymore?  It's all pantry and fresh and all I want to do is buy things with Prime. @AmazonHelp I tried talking to your customer service and they don't",
+    "should_be": "PAYMENT_ISSUE"
+  },
+  {
+    "conversation_id": "amazonhelp_084122",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "I HATE USPS. STOP GIVING MY PACKAGES TO THEM. WHY CANT I JUST HAVE UPS OR FEDEX EVER?! I wouldnt be paying for Amazon Prime if I wanted my packages in a WEEK. 😠😠😠😠 @118706 @115821 @AmazonHelp Yeah I h",
+    "should_be": "DELIVERY_LATE"
+  },
+  {
+    "conversation_id": "amazonhelp_113881",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "dites @120533 , quand @120535 ne livre sciemment pas un colis als que l'on a payé pour une livraison rapide,on a quoi comme recours? @AmazonHelp pour aujourd’hui. je n’ai pas bougé de chez moi, le liv",
+    "should_be": "PAYMENT_ISSUE"
+  }
+]

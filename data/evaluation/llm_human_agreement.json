@@ -1,0 +1,36 @@
+{
+  "common_examples": 17,
+  "llm_count": 40,
+  "human_count": 17,
+  "decision_agreement_rate": 0.765,
+  "cohens_kappa": 0.443,
+  "dimension_agreements": {
+    "factual_accuracy": 0.118,
+    "policy_alignment": 0.118,
+    "empathy_tone": 0.235,
+    "completeness": 0.235,
+    "coherence": 0.235
+  },
+  "dimension_avg_diff": {
+    "factual_accuracy": 1.71,
+    "policy_alignment": 1.59,
+    "empathy_tone": 1.24,
+    "completeness": 1.29,
+    "coherence": 1.0
+  },
+  "score_correlation": -0.211,
+  "confusion_matrix": {
+    "llm_accept_human_accept": 10,
+    "llm_accept_human_revise": 1,
+    "llm_revise_human_accept": 3,
+    "llm_revise_human_revise": 3
+  },
+  "llm_decisions": {
+    "REVISE": 6,
+    "ACCEPT": 11
+  },
+  "human_decisions": {
+    "REVISE": 4,
+    "ACCEPT": 13
+  }
+}

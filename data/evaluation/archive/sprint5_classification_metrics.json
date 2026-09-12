@@ -1,0 +1,156 @@
+{
+  "accuracy": 0.562962962962963,
+  "macro_f1": 0.506986801330347,
+  "weighted_f1": 0.5599090149145745,
+  "per_intent": {
+    "ACCOUNT_ACCESS": {
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "f1": 0.5,
+      "support": 6,
+      "tp": 4,
+      "fp": 6,
+      "fn": 2
+    },
+    "APP_USAGE": {
+      "precision": 0.3225806451612903,
+      "recall": 0.22727272727272727,
+      "f1": 0.26666666666666666,
+      "support": 44,
+      "tp": 10,
+      "fp": 21,
+      "fn": 34
+    },
+    "DELIVERY_LATE": {
+      "precision": 0.45217391304347826,
+      "recall": 0.5416666666666666,
+      "f1": 0.49289099526066354,
+      "support": 96,
+      "tp": 52,
+      "fp": 63,
+      "fn": 44
+    },
+    "DELIVERY_MISSING": {
+      "precision": 0.5142857142857142,
+      "recall": 0.6206896551724138,
+      "f1": 0.5625,
+      "support": 29,
+      "tp": 18,
+      "fp": 17,
+      "fn": 11
+    },
+    "DELIVERY_TRACKING": {
+      "precision": 0.5384615384615384,
+      "recall": 0.875,
+      "f1": 0.6666666666666667,
+      "support": 8,
+      "tp": 7,
+      "fp": 6,
+      "fn": 1
+    },
+    "DEVICE_ISSUE": {
+      "precision": 0.631578947368421,
+      "recall": 0.7058823529411765,
+      "f1": 0.6666666666666667,
+      "support": 34,
+      "tp": 24,
+      "fp": 14,
+      "fn": 10
+    },
+    "ORDER_MODIFY": {
+      "precision": 0,
+      "recall": 0.0,
+      "f1": 0,
+      "support": 2,
+      "tp": 0,
+      "fp": 0,
+      "fn": 2
+    },
+    "ORDER_STATUS": {
+      "precision": 0.53125,
+      "recall": 0.6538461538461539,
+      "f1": 0.5862068965517242,
+      "support": 26,
+      "tp": 17,
+      "fp": 15,
+      "fn": 9
+    },
+    "OTHER": {
+      "precision": 0.7622377622377622,
+      "recall": 0.5369458128078818,
+      "f1": 0.630057803468208,
+      "support": 203,
+      "tp": 109,
+      "fp": 34,
+      "fn": 94
+    },
+    "PAYMENT_ISSUE": {
+      "precision": 0.5,
+      "recall": 0.6521739130434783,
+      "f1": 0.5660377358490566,
+      "support": 23,
+      "tp": 15,
+      "fp": 15,
+      "fn": 8
+    },
+    "PRODUCT_ISSUE": {
+      "precision": 0.42857142857142855,
+      "recall": 0.2727272727272727,
+      "f1": 0.33333333333333326,
+      "support": 11,
+      "tp": 3,
+      "fp": 4,
+      "fn": 8
+    },
+    "REFUND_REQUEST": {
+      "precision": 0.5,
+      "recall": 0.7692307692307693,
+      "f1": 0.6060606060606061,
+      "support": 13,
+      "tp": 10,
+      "fp": 10,
+      "fn": 3
+    },
+    "RETURN_REQUEST": {
+      "precision": 0.5416666666666666,
+      "recall": 0.8387096774193549,
+      "f1": 0.6582278481012658,
+      "support": 31,
+      "tp": 26,
+      "fp": 22,
+      "fn": 5
+    },
+    "VIDEO_STREAMING": {
+      "precision": 0.5,
+      "recall": 0.6428571428571429,
+      "f1": 0.5625000000000001,
+      "support": 14,
+      "tp": 9,
+      "fp": 9,
+      "fn": 5
+    }
+  },
+  "confusions": {
+    "OTHER\u2192DELIVERY_LATE": 39,
+    "APP_USAGE\u2192OTHER": 15,
+    "OTHER\u2192APP_USAGE": 13,
+    "DELIVERY_LATE\u2192OTHER": 13,
+    "APP_USAGE\u2192DELIVERY_LATE": 8,
+    "DELIVERY_MISSING\u2192DELIVERY_LATE": 8,
+    "OTHER\u2192RETURN_REQUEST": 8,
+    "OTHER\u2192DELIVERY_MISSING": 7,
+    "OTHER\u2192ORDER_STATUS": 6,
+    "OTHER\u2192VIDEO_STREAMING": 6,
+    "OTHER\u2192DEVICE_ISSUE": 6,
+    "DELIVERY_LATE\u2192DELIVERY_MISSING": 5,
+    "PRODUCT_ISSUE\u2192REFUND_REQUEST": 4,
+    "DELIVERY_LATE\u2192ORDER_STATUS": 4,
+    "DELIVERY_LATE\u2192REFUND_REQUEST": 3,
+    "RETURN_REQUEST\u2192PAYMENT_ISSUE": 3,
+    "OTHER\u2192DELIVERY_TRACKING": 3,
+    "PAYMENT_ISSUE\u2192RETURN_REQUEST": 3,
+    "ORDER_STATUS\u2192DELIVERY_LATE": 3,
+    "DELIVERY_LATE\u2192DELIVERY_TRACKING": 3
+  },
+  "test_size": 540
+}

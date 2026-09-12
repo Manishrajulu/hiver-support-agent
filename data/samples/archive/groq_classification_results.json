@@ -1,0 +1,142 @@
+[
+  {
+    "conversation_id": "amazonhelp_088437",
+    "llm_intent": "DELIVERY_TRACKING",
+    "assigned_intent": "DEVICE_ISSUE",
+    "customer_text": "@115850 why making fool of us, when non of ur person came for delivery but it is showing attempted two times. If came y not call https://t.co/O0gxqNfvxj @AmazonHelp Had contacted ur so called customer...",
+    "success": true
+  },
+  {
+    "conversation_id": "amazonhelp_046907",
+    "llm_intent": "ORDER_STATUS",
+    "assigned_intent": "DELIVERY_LATE",
+    "customer_text": "@AmazonHelp my order for my friend's wedding was placed 2 days ago with Prime next day delivery, it's only just been dispatched and the wedding was today so it's too late now :( Not a good situation h...",
+    "success": true
+  },
+  {
+    "conversation_id": "amazonhelp_087485",
+    "llm_intent": "ORDER_STATUS",
+    "assigned_intent": "OTHER",
+    "customer_text": "@115821 where the heck is my anthology? said it left hillsboro this morning at like 4:30am, how is it not out for delivery in town yet? 😩😭💔 @AmazonHelp it says it’s coming USPS, hadn’t been scanned si...",
+    "success": true
+  },
+  {
+    "conversation_id": "amazonhelp_125123",
+    "llm_intent": "APP_USAGE",
+    "assigned_intent": "DEVICE_ISSUE",
+    "customer_text": "@117634 I have an iPad Pro and ever since I updated your app it crashes and freezes. Reinstalled and it crashed downloading first book @AmazonHelp Kindle app. No error message just locks up. I deregis...",
+    "success": true
+  },
+  {
+    "conversation_id": "amazonhelp_010428",
+    "llm_intent": "ORDER_STATUS",
+    "assigned_intent": "DELIVERY_LATE",
+    "customer_text": "Procurement Engineering Sucks.... when you get Rs. 250 max retail price item at Rs. 450 from @115850 @AmazonHelp I disagree to sell anything above it's price marked by GOI Law as max retail price. Let...",
+    "success": true
+  },
+  {
+    "conversation_id": "amazonhelp_033515",
+    "llm_intent": "ORDER_STATUS",
+    "assigned_intent": "ORDER_STATUS",
+    "customer_text": "@115850 ORDER ID:406-2187606-0997924 the delivery boy is threatening me if i dont come down to the main gate he will take the product back @AmazonHelp ok..he delivered the order after some haggling.",
+    "success": true
+  },
+  {
+    "conversation_id": "amazonhelp_102324",
+    "llm_intent": "PAYMENT_ISSUE",
+    "assigned_intent": "PAYMENT_ISSUE",
+    "customer_text": "@115850  Very unfortunate Amazon prime encouraging fraud. 4 times USD 10.99 was fraudulently gone from my SBI and Citi Bank cards which I have used online shopping in Amazon website. I have to block m...",
+    "success": true
+  },
+  {
+    "conversation_id": "amazonhelp_108785",
+    "llm_intent": "ORDER_STATUS",
+    "assigned_intent": "DELIVERY_MISSING",
+    "customer_text": "If I sell my merch through \"Merch By @115821\" will my customers never receive their pre-orders like I never got my SNES Mini? @AmazonHelp @115821 @AmazonHelp Should they just expect to give you money ...",
+    "success": true
+  },
+  {
+    "conversation_id": "amazonhelp_105640",
+    "llm_intent": "APP_USAGE",
+    "assigned_intent": "REFUND_REQUEST",
+    "customer_text": "@118797  @AmazonHelp I can't seem to activate Twitch prime, I get to this spot then it comes up with this message. Please help asap. (I've already got Amazon Video membership) https://t.co/7r9T0TRuC1 ...",
+    "success": true
+  },
+  {
+    "conversation_id": "amazonhelp_070084",
+    "llm_intent": "ORDER_STATUS",
+    "assigned_intent": "DELIVERY_LATE",
+    "customer_text": "Doesn't look like I will be getting my \"pre-ordered as soon as humanly possible\" xbox one x tomorrow thanks to @115830 - awesome. @164788 @115830 Have they emailed you or? @154242 @115830 I checked my...",
+    "success": true
+  },
+  {
+    "conversation_id": "amazonhelp_150132",
+    "llm_intent": "ORDER_STATUS",
+    "assigned_intent": "REFUND_REQUEST",
+    "customer_text": "Dear @AmazonHelp\n\nIf @132988 fails, yet again, to deliver a parcel on time can I have my annual Prime membership fee refunded.\n\nIt's getting beyond a joke now. @AmazonHelp I'm not looking to cancel Am...",
+    "success": true
+  },
+  {
+    "conversation_id": "amazonhelp_109953",
+    "llm_intent": "ORDER_MODIFY",
+    "assigned_intent": "DEVICE_ISSUE",
+    "customer_text": "@125392 will the app be available on the new Amazon fire Tv? @125391 @125391 We are happy to inform you that our app will indeed be available on the new Amazon Fire TV :) @125392 Great! Thanks for the...",
+    "success": true
+  },
+  {
+    "conversation_id": "amazonhelp_112059",
+    "llm_intent": "ORDER_STATUS",
+    "assigned_intent": "ORDER_STATUS",
+    "customer_text": "@115830 Very disappointed with the service received around my order. It appears a common sense approach is lost &amp; can’t is word of the day @AmazonHelp Please see attached note https://t.co/WdGXS9Z...",
+    "success": true
+  },
+  {
+    "conversation_id": "amazonhelp_064797",
+    "llm_intent": "ORDER_STATUS",
+    "assigned_intent": "DELIVERY_MISSING",
+    "customer_text": "@115850 I never asked for delayed delivery. Why don't you just stop writing updates as its straight 3 orders and 3 false updates.!! https://t.co/2865Vlyirp @AmazonHelp @AmazonHelp Thanks for caring, I...",
+    "success": true
+  },
+  {
+    "conversation_id": "amazonhelp_031654",
+    "llm_intent": "ORDER_MODIFY",
+    "assigned_intent": "REFUND_REQUEST",
+    "customer_text": "When @115850 doesn't give you a delivery date for your shoe, and then CANCELS it, with no refund. So much for the prime membership. https://t.co/SIeVK43Dm2 @AmazonHelp @AmazonHelp The order was auto c...",
+    "success": true
+  },
+  {
+    "conversation_id": "amazonhelp_050731",
+    "llm_intent": "PAYMENT_ISSUE",
+    "assigned_intent": "PAYMENT_ISSUE",
+    "customer_text": "@AmazonHelp @115850  @115851 You are doing fraud by selling amazon prime. U charge but do not provide services. Kindly refund my money. @AmazonHelp @115851 https://t.co/vtwqACzJ8Q @AmazonHelp @115851 ...",
+    "success": true
+  },
+  {
+    "conversation_id": "amazonhelp_070884",
+    "llm_intent": "PAYMENT_ISSUE",
+    "assigned_intent": "ORDER_STATUS",
+    "customer_text": "@115850 FRAUD done by your delivery boy .. Shipment Order Id: 404-4320622-4729142 product not rcvd yet but he feeded DELIVERED on system @115850 @115821 @115850 PLZ CALL BACK URGENT RETURN MY MONEY AS...",
+    "success": true
+  },
+  {
+    "conversation_id": "amazonhelp_029283",
+    "llm_intent": "OTHER",
+    "assigned_intent": "APP_USAGE",
+    "customer_text": "Get your hands on #RedmiY1 &amp; Redmi Y1 Lite on https://t.co/cwYEXdVQIo, @115850 and #MiHome from 12 noon, November 8th! https://t.co/yd7Km7cdUy @138673 @115850 Caterpillar like delivery speed, it w...",
+    "success": true
+  },
+  {
+    "conversation_id": "amazonhelp_099503",
+    "llm_intent": "ORDER_STATUS",
+    "assigned_intent": "DELIVERY_LATE",
+    "customer_text": "Now @115821 are telling me I'll get an email in 36-48 hours with questions to answer. This after 4 torturous days of bs customer service. @120919 @115821 Dealing with them from the B2B side is honestl...",
+    "success": true
+  },
+  {
+    "conversation_id": "amazonhelp_038645",
+    "llm_intent": "DELIVERY_TRACKING",
+    "assigned_intent": "DELIVERY_MISSING",
+    "customer_text": "Pathetic service by @115850 for order #171-8039610-2309944 .. not able to track ur delivery partner for 1 week.. @AmazonHelp No its already delayed by 2 days .. but still i have not received any call ...",
+    "success": true
+  }
+]

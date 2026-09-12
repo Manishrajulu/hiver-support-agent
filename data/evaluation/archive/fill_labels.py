@@ -1,0 +1,94 @@
+import csv
+
+# Answer key mapping: example_number -> human_label
+answer_key = {
+    1: 'RETURN_REQUEST', 2: 'DEVICE_ISSUE', 3: 'REFUND_REQUEST', 4: 'OTHER', 5: 'APP_USAGE',
+    6: 'OTHER', 7: 'OTHER', 8: 'DELIVERY_LATE', 9: 'OTHER', 10: 'DELIVERY_MISSING',
+    11: 'DELIVERY_LATE', 12: 'OTHER', 13: 'REFUND_REQUEST', 14: 'DELIVERY_LATE', 15: 'ACCOUNT_ACCESS',
+    16: 'PRODUCT_ISSUE', 17: 'PRODUCT_ISSUE', 18: 'VIDEO_STREAMING', 19: 'DELIVERY_LATE', 20: 'PAYMENT_ISSUE',
+    21: 'RETURN_REQUEST', 22: 'RETURN_REQUEST', 23: 'APP_USAGE', 24: 'DELIVERY_MISSING', 25: 'REFUND_REQUEST',
+    26: 'DELIVERY_LATE', 27: 'PRODUCT_ISSUE', 28: 'VIDEO_STREAMING', 29: 'RETURN_REQUEST', 30: 'OTHER',
+    31: 'REFUND_REQUEST', 32: 'DELIVERY_LATE', 33: 'PRODUCT_ISSUE', 34: 'RETURN_REQUEST', 35: 'ACCOUNT_ACCESS',
+    36: 'DELIVERY_LATE', 37: 'OTHER', 38: 'DELIVERY_TRACKING', 39: 'ACCOUNT_ACCESS', 40: 'OTHER',
+    41: 'DELIVERY_LATE', 42: 'DELIVERY_LATE', 43: 'DELIVERY_LATE', 44: 'PRODUCT_ISSUE', 45: 'DELIVERY_LATE',
+    46: 'DELIVERY_MISSING', 47: 'DELIVERY_MISSING', 48: 'DELIVERY_LATE', 49: 'RETURN_REQUEST', 50: 'DEVICE_ISSUE',
+    51: 'PRODUCT_ISSUE', 52: 'DELIVERY_TRACKING', 53: 'DELIVERY_MISSING', 54: 'DEVICE_ISSUE', 55: 'OTHER',
+    56: 'CANCELLATION', 57: 'DELIVERY_LATE', 58: 'DEVICE_ISSUE', 59: 'OTHER', 60: 'DELIVERY_LATE',
+    61: 'ORDER_STATUS', 62: 'PAYMENT_ISSUE', 63: 'DELIVERY_LATE', 64: 'ACCOUNT_ACCESS', 65: 'DELIVERY_MISSING',
+    66: 'PRODUCT_ISSUE', 67: 'DELIVERY_LATE', 68: 'RETURN_REQUEST', 69: 'DELIVERY_LATE', 70: 'OTHER',
+    71: 'OTHER', 72: 'ORDER_MODIFY', 73: 'RETURN_REQUEST', 74: 'DELIVERY_LATE', 75: 'ACCOUNT_ACCESS',
+    76: 'DELIVERY_LATE', 77: 'ACCOUNT_ACCESS', 78: 'DELIVERY_MISSING', 79: 'PAYMENT_ISSUE', 80: 'DEVICE_ISSUE',
+    81: 'REFUND_REQUEST', 82: 'PAYMENT_ISSUE', 83: 'DELIVERY_LATE', 84: 'OTHER', 85: 'PAYMENT_ISSUE',
+    86: 'OTHER', 87: 'DELIVERY_LATE', 88: 'DELIVERY_MISSING', 89: 'VIDEO_STREAMING', 90: 'PRODUCT_ISSUE',
+    91: 'DELIVERY_LATE', 92: 'DELIVERY_LATE', 93: 'RETURN_REQUEST', 94: 'APP_USAGE', 95: 'OTHER',
+    96: 'REFUND_REQUEST', 97: 'DELIVERY_LATE', 98: 'DELIVERY_LATE', 99: 'DELIVERY_MISSING', 100: 'DELIVERY_LATE',
+    101: 'DELIVERY_MISSING', 102: 'DEVICE_ISSUE', 103: 'DELIVERY_LATE', 104: 'ACCOUNT_ACCESS', 105: 'DELIVERY_LATE',
+    106: 'PRODUCT_ISSUE', 107: 'DELIVERY_LATE', 108: 'DELIVERY_LATE', 109: 'ORDER_STATUS', 110: 'OTHER',
+    111: 'ACCOUNT_ACCESS', 112: 'PAYMENT_ISSUE', 113: 'PAYMENT_ISSUE', 114: 'DELIVERY_MISSING', 115: 'OTHER',
+    116: 'DELIVERY_LATE', 117: 'REFUND_REQUEST', 118: 'DELIVERY_LATE', 119: 'DELIVERY_LATE', 120: 'DELIVERY_LATE',
+    121: 'OTHER', 122: 'DELIVERY_LATE', 123: 'DELIVERY_LATE', 124: 'DELIVERY_LATE', 125: 'CANCELLATION',
+    126: 'DELIVERY_MISSING', 127: 'REFUND_REQUEST', 128: 'DELIVERY_MISSING', 129: 'OTHER', 130: 'DELIVERY_LATE',
+    131: 'VIDEO_STREAMING', 132: 'DELIVERY_LATE', 133: 'DELIVERY_MISSING', 134: 'PRODUCT_ISSUE', 135: 'DELIVERY_MISSING',
+    136: 'PAYMENT_ISSUE', 137: 'PAYMENT_ISSUE', 138: 'PAYMENT_ISSUE', 139: 'APP_USAGE', 140: 'DELIVERY_LATE',
+    141: 'OTHER', 142: 'OTHER', 143: 'PAYMENT_ISSUE', 144: 'PRODUCT_ISSUE', 145: 'DELIVERY_MISSING',
+    146: 'OTHER', 147: 'DELIVERY_MISSING', 148: 'APP_USAGE', 149: 'DELIVERY_LATE', 150: 'CANCELLATION',
+    151: 'DELIVERY_MISSING', 152: 'DEVICE_ISSUE', 153: 'OTHER', 154: 'ACCOUNT_ACCESS', 155: 'ACCOUNT_ACCESS',
+    156: 'OTHER', 157: 'DELIVERY_MISSING', 158: 'REFUND_REQUEST', 159: 'DELIVERY_MISSING', 160: 'DELIVERY_MISSING',
+    161: 'PRODUCT_ISSUE', 162: 'ORDER_STATUS', 163: 'PAYMENT_ISSUE', 164: 'ORDER_STATUS', 165: 'OTHER',
+    166: 'PAYMENT_ISSUE', 167: 'CANCELLATION', 168: 'DEVICE_ISSUE', 169: 'DELIVERY_LATE', 170: 'RETURN_REQUEST',
+    171: 'DELIVERY_TRACKING', 172: 'REFUND_REQUEST', 173: 'DEVICE_ISSUE', 174: 'PAYMENT_ISSUE', 175: 'ACCOUNT_ACCESS',
+    176: 'DELIVERY_LATE', 177: 'DELIVERY_LATE', 178: 'OTHER', 179: 'ACCOUNT_ACCESS', 180: 'APP_USAGE',
+    181: 'ACCOUNT_ACCESS', 182: 'OTHER', 183: 'PRODUCT_ISSUE', 184: 'OTHER', 185: 'RETURN_REQUEST',
+    186: 'OTHER', 187: 'DELIVERY_LATE', 188: 'DELIVERY_LATE', 189: 'DELIVERY_LATE', 190: 'PAYMENT_ISSUE',
+    191: 'DEVICE_ISSUE', 192: 'DELIVERY_LATE', 193: 'ORDER_STATUS', 194: 'OTHER', 195: 'PRODUCT_ISSUE',
+    196: 'DELIVERY_LATE', 197: 'DELIVERY_LATE', 198: 'PAYMENT_ISSUE', 199: 'OTHER', 200: 'ORDER_STATUS',
+    201: 'REFUND_REQUEST', 202: 'VIDEO_STREAMING', 203: 'VIDEO_STREAMING', 204: 'VIDEO_STREAMING', 205: 'PRODUCT_ISSUE',
+    206: 'DELIVERY_TRACKING', 207: 'DELIVERY_TRACKING', 208: 'DELIVERY_TRACKING', 209: 'ACCOUNT_ACCESS',
+    210: 'ACCOUNT_ACCESS', 211: 'CANCELLATION', 212: 'CANCELLATION', 213: 'CANCELLATION', 214: 'CANCELLATION',
+    215: 'DELIVERY_MISSING', 216: 'ORDER_MODIFY', 217: 'ORDER_MODIFY', 218: 'CANCELLATION', 219: 'ORDER_MODIFY',
+    220: 'CANCELLATION'
+}
+
+VALID_INTENTS = {'ACCOUNT_ACCESS', 'APP_USAGE', 'CANCELLATION', 'DELIVERY_LATE', 'DELIVERY_MISSING',
+                 'DELIVERY_TRACKING', 'DEVICE_ISSUE', 'ORDER_MODIFY', 'ORDER_STATUS', 'OTHER',
+                 'PAYMENT_ISSUE', 'PRODUCT_ISSUE', 'REFUND_REQUEST', 'RETURN_REQUEST', 'VIDEO_STREAMING'}
+
+# Read original golden_set.csv
+rows = []
+with open('data/evaluation/golden_set.csv', 'r', encoding='utf-8') as f:
+    reader = csv.DictReader(f)
+    for row in reader:
+        rows.append(row)
+
+# Fill in human_label based on answer key
+for row in rows:
+    example_num = int(row['example_id'].split('_')[1])
+    row['human_label'] = answer_key[example_num]
+    row['human_notes'] = ''
+
+# Verify
+non_empty = [r for r in rows if r['human_label']]
+invalid = [r for r in rows if r['human_label'] not in VALID_INTENTS]
+
+print(f'Total rows: {len(rows)}')
+print(f'Non-empty human_label: {len(non_empty)}')
+print(f'Invalid intents: {len(invalid)}')
+
+if invalid:
+    print('Invalid entries:')
+    for r in invalid:
+        print(f'  {r["example_id"]}: {r["human_label"]}')
+
+# Write output
+with open('data/evaluation/golden_set_labeled.csv', 'w', newline='', encoding='utf-8') as f:
+    fieldnames = ['example_id', 'conversation_id', 'customer_text', 'current_label', 'predicted_intent', 'selection_method', 'human_label', 'human_notes']
+    writer = csv.DictWriter(f, fieldnames=fieldnames)
+    writer.writeheader()
+    writer.writerows(rows)
+
+print(f'Written to data/evaluation/golden_set_labeled.csv')
+
+# Verify first 15 labels match what was preserved
+print('\nFirst 15 labels (should match answer key):')
+for i, r in enumerate(rows[:15], 1):
+    print(f'  {r["example_id"]}: {r["human_label"]}')

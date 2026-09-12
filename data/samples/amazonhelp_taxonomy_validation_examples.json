@@ -1,0 +1,4088 @@
+{
+  "DEVICE_ISSUE": {
+    "intent_id": "DEVICE_ISSUE",
+    "example_count": 8,
+    "examples": [
+      {
+        "conversation_id": "amazonhelp_019134",
+        "num_turns": 3,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@AmazonHelp if you buy an echo plus do you no longer need the Phillips home hub to control lights?"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@287893 Hi Emma, Absolutely! The new Echo Plus comes with its very own built in home hub and even comes with a bulb included on some models https://t.co/8lh2oytTfp ^KK"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Is there anything that the Phillips home hub can control that the echo plus can’t?"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_044450",
+        "num_turns": 4,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "The @115821 global service is really bad @115851  . Your Indian team is far better. Placed an order and submitted the doc thrice &amp; still getting hounded by multiple calls &amp; mails every day. From a fan of #AmazonIndia"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@735683 @115821 @115851 Thats not happening in my case. Their #amazonindia team is callous!My email has been sabatoged by some SPAM email ID and its been two months that my account is locked out and these guys have not done an inch. My kindle library is irretrievable by me!"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "AmazonHelp",
+            "text": "@738477 You've been through an ordeal, I'm really sorry for the same. I'd like to fix this for you, please fill in your details here: https://t.co/GIJyeYqKE0 and we'll reach out to you. Please click on skip sign in and proceed with the details. ^JC"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Great. I have sent my message and contact details in the form and now I look forward to a speedy solution. Pls don't make it another cookie cutter run of the mill workaround. Thanks"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_003240",
+        "num_turns": 4,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "Dear @117634, why is my Kindle running out of battery when recently charged when it hasn't even been turned on for hours?"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@117634 I fully charged it two nights ago, read it for like 4 hours maximum since, left it sitting flat turned off on my desk, and now it's dead."
+          },
+          {
+            "turn_number": 3,
+            "speaker": "AmazonHelp",
+            "text": "@601253 I'm sorry your Kindle isn't staying charged! Can you tell us which Kindle you currently have: https://t.co/3K4vNPsUQ0 ^VS"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "Customer",
+            "text": "@AmazonHelp I think it's a 7th generation kindle? Bit hard to tell as many models look the same!"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_070149",
+        "num_turns": 2,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@115821 \"We're sorry, we're unable to TURN ON YOUR TABLET!\"\nSeriously?  What do you REALLY have to do that's so taxing on your infrastructure?"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@115821 TEN MINUTES OF AMAZON ADVERTISEMENTS, OPT-OUT OFFERS AND REFUSING TO LET ME CREATE A PROFILE FOR MY NEPHEW AFTER FORCING AN AMAZON LOGIN TO LET ME START USING THIS THING.  UNACCEPTABLE"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_085285",
+        "num_turns": 25,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@116439 i need some help. my remote doesnt always work. im pretty sure i bought it brand new. so what could the problem be?"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@213865 Hey!  We'd love to help if we can. The following link has some basic troubleshooting steps you may benefit from: https://t.co/pJpKnmV4Ge. ^DY"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp sorry but that link there didnt help any. all it says was how to do the batteries"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "AmazonHelp",
+            "text": "@213865 I'm sorry that help page didn't help. Please contact us directly via phone or chat for real time troubleshooting here: https://t.co/hApLpMlfHN ^JF"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp how do i know which apps are legal to use? is it ok to allow 'apps from unknown sources'?"
+          },
+          {
+            "turn_number": 6,
+            "speaker": "AmazonHelp",
+            "text": "@213865 Hi Rich, are these from our App store? If so, they will be fine to use.^PJ"
+          },
+          {
+            "turn_number": 7,
+            "speaker": "Customer",
+            "text": "@AmazonHelp do you need a photo for more help with figureing what im talking about?"
+          },
+          {
+            "turn_number": 8,
+            "speaker": "AmazonHelp",
+            "text": "@213865 If you can send one, that's great! We do ask that you make sure there is no personal information showing. ^AL"
+          },
+          {
+            "turn_number": 9,
+            "speaker": "Customer",
+            "text": "@AmazonHelp okay. im back now. i have 9 photos to send. is it ok if i send them 1 at a time?"
+          },
+          {
+            "turn_number": 10,
+            "speaker": "AmazonHelp",
+            "text": "@213865 Yes that will be fine, Rich. Just make sure there is no personal information in those photos.^SM"
+          },
+          {
+            "turn_number": 11,
+            "speaker": "Customer",
+            "text": "@AmazonHelp  https://t.co/44wcRYxhjB"
+          },
+          {
+            "turn_number": 12,
+            "speaker": "AmazonHelp",
+            "text": "@213865 Looking good for compatability on that one; it should work normally with your remote. Is this one having issues when in use? ^GS"
+          },
+          {
+            "turn_number": 13,
+            "speaker": "Customer",
+            "text": "@AmazonHelp okay let me show you another way"
+          },
+          {
+            "turn_number": 14,
+            "speaker": "AmazonHelp",
+            "text": "@213865 Hi Rich, for us to help better with this you should contact us directly using the link provided by my colleague ^GA. Let us know how you get on.^BZ"
+          },
+          {
+            "turn_number": 15,
+            "speaker": "Customer",
+            "text": "@AmazonHelp it cant be illegal downloading if they come from my connected \"https://t.co/yjhZAuCgEN account\" right?"
+          },
+          {
+            "turn_number": 16,
+            "speaker": "AmazonHelp",
+            "text": "@213865 Hey Rich, yes, anything downloaded from our App Store is good to go: https://t.co/yK1ongnvnT Enjoy your Fire TV Stick!^TI"
+          },
+          {
+            "turn_number": 17,
+            "speaker": "Customer",
+            "text": "@AmazonHelp  https://t.co/oDnxSueWoA"
+          },
+          {
+            "turn_number": 18,
+            "speaker": "AmazonHelp",
+            "text": "@213865 More info on that can be found here, Rich: https://t.co/lEMZW8Rups. I hope this is helpful! ^SD"
+          },
+          {
+            "turn_number": 19,
+            "speaker": "Customer",
+            "text": "@AmazonHelp i have a fire tv stick. i want to keep track of current and total space on it. wheres that feature at?"
+          },
+          {
+            "turn_number": 20,
+            "speaker": "AmazonHelp",
+            "text": "@213865 Thanks for that clarification! You can view this under settings, through applications. ^HM"
+          },
+          {
+            "turn_number": 21,
+            "speaker": "Customer",
+            "text": "@AmazonHelp hello? im waiting for a reply."
+          },
+          {
+            "turn_number": 22,
+            "speaker": "AmazonHelp",
+            "text": "@213865 Find information on storage space here:\nhttps://t.co/LUoHTsu52p \nIf you have any more questions please let us know! ^BT"
+          },
+          {
+            "turn_number": 23,
+            "speaker": "Customer",
+            "text": "@AmazonHelp i guess if i dont have a slot on my stick then i cant add storage"
+          },
+          {
+            "turn_number": 24,
+            "speaker": "AmazonHelp",
+            "text": "@213865 According to the link above, the Fire TV Stick does not support external storage. I'm sorry for any inconvenience caused. ^QJ"
+          },
+          {
+            "turn_number": 25,
+            "speaker": "Customer",
+            "text": "@AmazonHelp i want to buy a gift tomorrow for someone. how do i type in a personal message? where do i go to do that? and how much would the wrapping paper be if they wrapped it?"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_037955",
+        "num_turns": 5,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": ".@122951 How will the warranty be considered by Amazon if purchase frm u...as many kindle develop issue later @115850 plz advise https://t.co/Yz79lM7A2U"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@198858 Kindle paperwhite is sold with a limited warranty of one year provided by the manufacturer. ^AK"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Yes I know tht...want to know will I get valid warranty if purchased frm othr e-commerce site?"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "AmazonHelp",
+            "text": "@198858 Apart from the kindles sold on Amazon.in, the list of authorized sellers are here: https://t.co/31dGrMjwv7. ^EM"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Thanks for information"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_116908",
+        "num_turns": 1,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "dear @115821 and @135958  - why no Kindle App on Microsoft Store?"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_147610",
+        "num_turns": 3,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@115850 I am reconsidering if buying an Mi phone or any other electronic device from @115850 worth it or not. It has been pathetic response from both @115850 and @138673"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@216159 That's quite a comment. Could you tell us if any of your concerns went unattended so that we can assist you accordingly? ^SF"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp I have bought a gift for someone and within a week, it seems to be a defective piece. But being still in warranty, I have no direction to go"
+          }
+        ]
+      }
+    ]
+  },
+  "APP_USAGE": {
+    "intent_id": "APP_USAGE",
+    "example_count": 8,
+    "examples": [
+      {
+        "conversation_id": "amazonhelp_031388",
+        "num_turns": 4,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "1-\nSérieux j'ai l'impression d'être prise pour une conne par Amazon là 🤔\nJe vous raconte en plusieurs tweet 😐\n - J'appelle une 1ere fois pour ma commande non expédiée.\nOn me dit que c'est ma banque qui n'a pas accepté le paiement.\n .. https://t.co/NjFIbQQGVs"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "2- du coup dès que je raccroche, je teste ma banque ET Amazon en rechargeant mon compte Amazon avec ma carte bleue.\nLe paiement est accepté direct !\nDu coup je rappelle Amazon.. ils verifient en me mettant en attente bien 8 minutes !\nEt pour me dire quoi ?\nQue tout est bon, que"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "3- ca venait peut-être d'une mise à jour de ma banque.. que là c'est bon et qu'ils s'excusent de la gène occasionnée..\nNon mais sérieux ? J'ai comme l'impression que c'est une excuse bidon non ? https://t.co/bQKmDoQkaD"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "Customer",
+            "text": "4 - \nHeu @AmazonHelp .. c'est un peu BEAUCOUP abusé là.. https://t.co/Ml330ihqXU"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_044450",
+        "num_turns": 4,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "The @115821 global service is really bad @115851  . Your Indian team is far better. Placed an order and submitted the doc thrice &amp; still getting hounded by multiple calls &amp; mails every day. From a fan of #AmazonIndia"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@735683 @115821 @115851 Thats not happening in my case. Their #amazonindia team is callous!My email has been sabatoged by some SPAM email ID and its been two months that my account is locked out and these guys have not done an inch. My kindle library is irretrievable by me!"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "AmazonHelp",
+            "text": "@738477 You've been through an ordeal, I'm really sorry for the same. I'd like to fix this for you, please fill in your details here: https://t.co/GIJyeYqKE0 and we'll reach out to you. Please click on skip sign in and proceed with the details. ^JC"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Great. I have sent my message and contact details in the form and now I look forward to a speedy solution. Pls don't make it another cookie cutter run of the mill workaround. Thanks"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_058442",
+        "num_turns": 4,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@115821 ça fait plusieurs mois que je n'arrive pas à vous joindre suite à un prb technique. Moyen quand on paye un abonnement prime. https://t.co/exKL9Rrz9e"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@115821 Aucune réponse à mes emails à ce sujet..."
+          },
+          {
+            "turn_number": 3,
+            "speaker": "AmazonHelp",
+            "text": "@214945 vous pouvez contacter notre service client par téléphone au +330805101420 ^ME"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Prb toujours pas résolu malgré plusieurs appels, mails, et promesses de rappel. En tant que client prime je ne peux pas contacter le SC..."
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_064362",
+        "num_turns": 14,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@AmazonHelp: What I ordered and what I got;pls check so called \"Apni Dukaan\",pathetic service,stop making people fool, pls refund my money. https://t.co/xZZRUGq9pk"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Are you guys listening or you have started taken things for granted."
+          },
+          {
+            "turn_number": 3,
+            "speaker": "AmazonHelp",
+            "text": "@373978 I’d like to help you with the issue you're facing, please fill this form: https://t.co/beaaDlIL5C and I’ll contact you soon.^SM"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "Customer",
+            "text": "@AmazonHelp @115851\nDear Sir, need your intervention as I am chasing Amazon.in from last 13 days but they are unable to provide any resolution. ☹️"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "AmazonHelp",
+            "text": "@373978 Sorry about the stretch, Sanchit. Could you please confirm if you've shared the details in the link (1/2) ^MO"
+          },
+          {
+            "turn_number": 6,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Yes"
+          },
+          {
+            "turn_number": 7,
+            "speaker": "AmazonHelp",
+            "text": "@373978 If you have shared your details with us, you can find our correspondence here :  https://t.co/DTSNmGldJf . Hope this helps. ^CB"
+          },
+          {
+            "turn_number": 8,
+            "speaker": "Customer",
+            "text": "@AmazonHelp @115851 no this is not helping, you r doing the same thing from last so many days rather that giving replacement/refund."
+          },
+          {
+            "turn_number": 9,
+            "speaker": "AmazonHelp",
+            "text": "@373978 Apologies for the trail.Please share your details with us here: https://t.co/GIJyeYqKE0. We'll get in touch shortly. ^CB"
+          },
+          {
+            "turn_number": 10,
+            "speaker": "Customer",
+            "text": "@AmazonHelp This is the 7th time u are asking me to fill out the form for what reason? Nothing has happened till date. @115851 need ur help sir."
+          },
+          {
+            "turn_number": 11,
+            "speaker": "AmazonHelp",
+            "text": "@373978 We can't gain access to you Amazon account, till you share the details over the secure link. Kindly honor our request. ^CB"
+          },
+          {
+            "turn_number": 12,
+            "speaker": "Customer",
+            "text": "@AmazonHelp I've done that...now don't ask me to do that again. 😡"
+          },
+          {
+            "turn_number": 13,
+            "speaker": "AmazonHelp",
+            "text": "@373978 Thank you for sharing the details. We've received the information and we'll get back to you soon. ^OS"
+          },
+          {
+            "turn_number": 14,
+            "speaker": "Customer",
+            "text": "@AmazonHelp You have mailed me the same thing that u cannot do anything, that's disgusting @24294 @120319, Request you to escalate this. https://t.co/rvHSIfMDtv"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_093818",
+        "num_turns": 9,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@115850 This is the TV that we received, clearly looks like it has been manhandled :( can you help us on how to resolve this? https://t.co/JsNIx25z8z"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@191528 Sorry to see the condition of the product delivered. This isn't the kind of service we would want our customers to experience. Please report the issue to our support team using this link here: https://t.co/00q4Sqj9zL and we'll have this checked for you. ^KA"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Thank you for the response. The link is not working. I have reached out to customer care and they have assured of help for me. Will jeep you posted #fingerscrossed"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "AmazonHelp",
+            "text": "@191528 Our support team will take necessary actions to resolve this, appreciate your patience. ^MJ"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Can you help us? The delivery guys says since the screen is not working will not pick it up. I thought a defective product should by default be picked up"
+          },
+          {
+            "turn_number": 6,
+            "speaker": "AmazonHelp",
+            "text": "@191528 We'll only be able to accept the exchange, if the Used product is in working condition with its display intact and the product isn't damaged or broken. You may refer to the link here: https://t.co/hw8g3G8C0Q for more info.^GK"
+          },
+          {
+            "turn_number": 7,
+            "speaker": "Customer",
+            "text": "@AmazonHelp But that’s how we got the product. We opened the box and that’s how it was. Can you help me here?"
+          },
+          {
+            "turn_number": 8,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Okay so it’s not a used product, it’s a new TV which we purchased from Amazon"
+          },
+          {
+            "turn_number": 9,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Let me reiterate, it’s a new TV which we got from Amazon website. Order Number\n405-5258589-3564310"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_150132",
+        "num_turns": 5,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "Dear @AmazonHelp\n\nIf @132988 fails, yet again, to deliver a parcel on time can I have my annual Prime membership fee refunded.\n\nIt's getting beyond a joke now."
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@270206 Hello, If you've used your Amazon Prime benefits prior to requesting cancellation, a refund cannot be made. Are you having a problem with an ongoing delivery?\n^ARC"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp I'm not looking to cancel Amazon Prime. I'm looking to receive the standard of service that is offered with Amazon Prime. Having ordered a \"Prime\" item due to be delivered today I want compensation for the non delivery of that item. This is happening too often now."
+          },
+          {
+            "turn_number": 4,
+            "speaker": "AmazonHelp",
+            "text": "@270206 We don't have access to accounts or their details via Twitter. We want to make sure we’re providing the best solution going forward. Which one of our websites/marketplaces do you use with us? ^TG"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp This order is with Amazon France (I also use Amazon UK &amp; https://t.co/eWl2fqfSWE). I am on the phone to Amazon.fr customer services. They are currently refusing to speak English to me, which is unusual because I normally get call backs from INDIA!"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_067711",
+        "num_turns": 12,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@120533 c'est ce que vous appelez remis en lieu sûr... Pas très pro comme pratique  🤔 https://t.co/KJFFKtOfjG"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@158251 Bonjour, désolée pour cela, s'agit-il d'une de vos livraisons je vous prie ? \n^KE"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Bonjour, il s'agit des livraisons des sociétés de l'immeuble, tout étant mélangé. Carton perdu pour ma part, aucun retour du service Amazon."
+          },
+          {
+            "turn_number": 4,
+            "speaker": "AmazonHelp",
+            "text": "@158251 Vous les aviez contacté par rapport à cet incident ? ^AR"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Oui, il y a plus d'une semaine..."
+          },
+          {
+            "turn_number": 6,
+            "speaker": "AmazonHelp",
+            "text": "@158251 S'agit-il d'un article expédié par amazon ou par un tiers s'il vous plaît? ^SA"
+          },
+          {
+            "turn_number": 7,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Amazon Logistic..."
+          },
+          {
+            "turn_number": 8,
+            "speaker": "AmazonHelp",
+            "text": "@158251 Quelle a été la réponse de notre SAV ? une enquête a t-elle été ouverte ? \n^KE"
+          },
+          {
+            "turn_number": 9,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Qu une enquête est ouverte..  aucune nouvelle depuis malheureusement et un colis non livré du au manque de professionnalisme des livreurs"
+          },
+          {
+            "turn_number": 10,
+            "speaker": "Customer",
+            "text": "@AmazonHelp 15 jours après aucune nouvelle...et toujours des cartons posés au dessus des boites sans sécurité ... 👏"
+          },
+          {
+            "turn_number": 11,
+            "speaker": "AmazonHelp",
+            "text": "@158251 Merci de remplir ce formulaire afin d'avoir une visibilité sur votre compte client via: https://t.co/HtUowg2UGX\n^YL"
+          },
+          {
+            "turn_number": 12,
+            "speaker": "Customer",
+            "text": "@AmazonHelp En espérant cette fois avoir une réponse pertinente..."
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_058703",
+        "num_turns": 11,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@118919 @115850 @AmazonHelp bought tenor g under prime for 2 years wrnty,no confirmation of extended warranty\n\n171-4973433-4192335"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@375097 Please don't provide your order details, we consider it personal information. Our Twitter page is visible to public. ^HA"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Please read the reply they want information from you... @AmazonHelp  @115850 https://t.co/XNK3bVq1Hx"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "AmazonHelp",
+            "text": "@375097 Please do not provide any personal information through the email, Manish as this is not an email from Amazon. ^KS"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp I am not adding my information here, I sent email to tenor they require information from you... Service deliverables are not taken care with"
+          },
+          {
+            "turn_number": 6,
+            "speaker": "AmazonHelp",
+            "text": "@375097 I understand your concern, Manish. I'd like to check this. Please share your details here: https://t.co/GIJyeYqKE0. ^HD"
+          },
+          {
+            "turn_number": 7,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Hi @AmazonHelp  I wrote my email to tenor after your team stated for service denial letter.  No response from @122596 no acknowledgement"
+          },
+          {
+            "turn_number": 8,
+            "speaker": "AmazonHelp",
+            "text": "@375097 Hence, I would request you to kindly wait for an update from the manufacturer for further process. ^SM (2/2)"
+          },
+          {
+            "turn_number": 9,
+            "speaker": "Customer",
+            "text": "@AmazonHelp What will happen if you get that letter..."
+          },
+          {
+            "turn_number": 10,
+            "speaker": "AmazonHelp",
+            "text": "@375097 As informed earlier, it will be required for further proceedings in order to help you. ^SM"
+          },
+          {
+            "turn_number": 11,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Hi @115821 @AmazonHelp @115850 should I take this consumer rights... As I am not getting any response from @122596  this is frustrating"
+          }
+        ]
+      }
+    ]
+  },
+  "DELIVERY_LATE": {
+    "intent_id": "DELIVERY_LATE",
+    "example_count": 8,
+    "examples": [
+      {
+        "conversation_id": "amazonhelp_044450",
+        "num_turns": 4,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "The @115821 global service is really bad @115851  . Your Indian team is far better. Placed an order and submitted the doc thrice &amp; still getting hounded by multiple calls &amp; mails every day. From a fan of #AmazonIndia"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@735683 @115821 @115851 Thats not happening in my case. Their #amazonindia team is callous!My email has been sabatoged by some SPAM email ID and its been two months that my account is locked out and these guys have not done an inch. My kindle library is irretrievable by me!"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "AmazonHelp",
+            "text": "@738477 You've been through an ordeal, I'm really sorry for the same. I'd like to fix this for you, please fill in your details here: https://t.co/GIJyeYqKE0 and we'll reach out to you. Please click on skip sign in and proceed with the details. ^JC"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Great. I have sent my message and contact details in the form and now I look forward to a speedy solution. Pls don't make it another cookie cutter run of the mill workaround. Thanks"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_049149",
+        "num_turns": 11,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@115850 Never expected from a company like Amazon. You should have serious look at your partner \"Gati\"."
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@504187 I'm sorry about any inconvenience. Could you let us know what went wrong? We'd like to help. ^SG"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Do you guys got my details and what is the issue.?"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "AmazonHelp",
+            "text": "@504187 Please reach out to our support team here : https://t.co/rS49hgaADF. ^SB 2/2"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp I have done this many times.. escalated and spoke to manager level,but no result😞"
+          },
+          {
+            "turn_number": 6,
+            "speaker": "AmazonHelp",
+            "text": "@504187 Apologies for the unpleasant experience. Kindly fill in your details here: https://t.co/GIJyeYqKE0 and I'll contact you. ^GS"
+          },
+          {
+            "turn_number": 7,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Finally, Gati called and said they can't deliver the products. Not acceptable.😠"
+          },
+          {
+            "turn_number": 8,
+            "speaker": "AmazonHelp",
+            "text": "@504187 Sorry about that. Please revert to the correspondence received from our team and we'll check this for you. ^SA"
+          },
+          {
+            "turn_number": 9,
+            "speaker": "Customer",
+            "text": "@AmazonHelp In spite of escalating so many times you still assigned the products to \"Gati\" again and made my life measurable.😠😠 It's been 25days. 👿😈"
+          },
+          {
+            "turn_number": 10,
+            "speaker": "AmazonHelp",
+            "text": "@504187 by the logistics automatically based on many factors such as destination pincode, packages being carrier etc. [2/2] ^HA"
+          },
+          {
+            "turn_number": 11,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Once gain Gati not ready to deliver the products,but still you guys wanted to assign the products to Gati #NoGati #Patheticserivce"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_006595",
+        "num_turns": 5,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@115850 order no. 402-5631096-1564331 is already 22 hours late and I asked a question to amazon care ,where is your prime policy?"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@384330 Please don’t provide the order details, we consider it to be personal info. Our Twitter page is visible to public. 2/2 ^MA"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp let them know about your policy."
+          },
+          {
+            "turn_number": 4,
+            "speaker": "AmazonHelp",
+            "text": "@384330 Kindly share your details over the secure link we have shared. We'll reach out to help. ^CB"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Order date\n13-Oct-2017\nOrder #\n402-5631096-1564331 expected delivery was 14 by prime policy."
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_064362",
+        "num_turns": 14,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@AmazonHelp: What I ordered and what I got;pls check so called \"Apni Dukaan\",pathetic service,stop making people fool, pls refund my money. https://t.co/xZZRUGq9pk"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Are you guys listening or you have started taken things for granted."
+          },
+          {
+            "turn_number": 3,
+            "speaker": "AmazonHelp",
+            "text": "@373978 I’d like to help you with the issue you're facing, please fill this form: https://t.co/beaaDlIL5C and I’ll contact you soon.^SM"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "Customer",
+            "text": "@AmazonHelp @115851\nDear Sir, need your intervention as I am chasing Amazon.in from last 13 days but they are unable to provide any resolution. ☹️"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "AmazonHelp",
+            "text": "@373978 Sorry about the stretch, Sanchit. Could you please confirm if you've shared the details in the link (1/2) ^MO"
+          },
+          {
+            "turn_number": 6,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Yes"
+          },
+          {
+            "turn_number": 7,
+            "speaker": "AmazonHelp",
+            "text": "@373978 If you have shared your details with us, you can find our correspondence here :  https://t.co/DTSNmGldJf . Hope this helps. ^CB"
+          },
+          {
+            "turn_number": 8,
+            "speaker": "Customer",
+            "text": "@AmazonHelp @115851 no this is not helping, you r doing the same thing from last so many days rather that giving replacement/refund."
+          },
+          {
+            "turn_number": 9,
+            "speaker": "AmazonHelp",
+            "text": "@373978 Apologies for the trail.Please share your details with us here: https://t.co/GIJyeYqKE0. We'll get in touch shortly. ^CB"
+          },
+          {
+            "turn_number": 10,
+            "speaker": "Customer",
+            "text": "@AmazonHelp This is the 7th time u are asking me to fill out the form for what reason? Nothing has happened till date. @115851 need ur help sir."
+          },
+          {
+            "turn_number": 11,
+            "speaker": "AmazonHelp",
+            "text": "@373978 We can't gain access to you Amazon account, till you share the details over the secure link. Kindly honor our request. ^CB"
+          },
+          {
+            "turn_number": 12,
+            "speaker": "Customer",
+            "text": "@AmazonHelp I've done that...now don't ask me to do that again. 😡"
+          },
+          {
+            "turn_number": 13,
+            "speaker": "AmazonHelp",
+            "text": "@373978 Thank you for sharing the details. We've received the information and we'll get back to you soon. ^OS"
+          },
+          {
+            "turn_number": 14,
+            "speaker": "Customer",
+            "text": "@AmazonHelp You have mailed me the same thing that u cannot do anything, that's disgusting @24294 @120319, Request you to escalate this. https://t.co/rvHSIfMDtv"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_016651",
+        "num_turns": 7,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "Hi @115850 @AmazonHelp order number is 171-4216090-2817924 ordered wallet yesterday but there is no wallet in it . Got empty box . See to it asap . This is a fraud happening and you will loose a valuable customer now @3645 registered number 9873513970 https://t.co/LJvBBS8zB2"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@130667 @115850 @AmazonHelp @3645 This should be rectified immediately."
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@130668 @115850 @AmazonHelp @3645 yes this should be \nit was a gift to someone"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "Customer",
+            "text": "@130667 @115850 @AmazonHelp @3645 Their CC is good. They will take quick action for sure.."
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@130668 @115850 @AmazonHelp @3645 i am still waiting for their call now"
+          },
+          {
+            "turn_number": 6,
+            "speaker": "AmazonHelp",
+            "text": "@130667 Thank you for confirming. We would check and connect with you at the earliest. ^KK"
+          },
+          {
+            "turn_number": 7,
+            "speaker": "Customer",
+            "text": "@AmazonHelp i am still waiting for a solution for this pathetic fraud\ndidnt got any call"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_086048",
+        "num_turns": 5,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@116875 Acabo de recibir un cargo a mi tarjeta desconocido, no tengo ningún pedido pendiente en mi cuenta...."
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@395805 Hola, Dani. Sin compartir información personal, dinos, ¿cuál es la descripción del cargo? ^CR"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Dice pago Amazon, siempre me  llega un correo confirmando mi compra, ahora no llego nada ni hay pedido en mi historial, solo el cargo en TD"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "AmazonHelp",
+            "text": "@395805 Si el cargo no se explica con esta información: https://t.co/qyQhiE7xzq, por favor contáctanos acá: https://t.co/beR78zMMYB. ^JQ"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Gracias!!!"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_032294",
+        "num_turns": 13,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@115850 @AmazonHelp @115851 hahahaha how many time you guys tweet same thing \"we are working on it and responded you ASAP\" till now I don't get any single call from you guys with a answer. And in the link you send me earlier on that link you mention that we call u in 12hours"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@743843 I understand your concern. If you've shared your details, you would've received a correspondence here: https://t.co/8DAc10S7ww. Please follow the link and get back to us for further concerns. ^BV"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp I already done that.\nTell me now where you want my detail.\nAnd you guys tell me on earlier tweet that you have my all info.\nNow what?"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "AmazonHelp",
+            "text": "@743843 I'm sorry about the confusion. We've sent you a correspondence, kindly check the same here: https://t.co/ubzNHWZvL2 ^SG"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Now tell me what i can do wait more 24 hours to 48 hours .\nAur you wants my amazon id , phone no. address.\nfor checking my details."
+          },
+          {
+            "turn_number": 6,
+            "speaker": "AmazonHelp",
+            "text": "@743843 I get your disappointment. However, Twitter being a social platform, we do not have access to your account. Request you to reply to our email with your insights, we'll check and get back to you at the earliest. ^MO"
+          },
+          {
+            "turn_number": 7,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Now I got a new email from your team that I have to wait for next 6hours , after that our representative will get touch to you.\nNow this is the last time line after that I will share all recording in which your one representative told me that I get my money on Friday (17th) EOD."
+          },
+          {
+            "turn_number": 8,
+            "speaker": "AmazonHelp",
+            "text": "@743843 We've responded to via DM, please check. ^RB"
+          },
+          {
+            "turn_number": 9,
+            "speaker": "Customer",
+            "text": "@AmazonHelp @115850 @1840  @115851 I got my money but till now noone called me for customer satisfaction."
+          },
+          {
+            "turn_number": 10,
+            "speaker": "AmazonHelp",
+            "text": "@743843 I've noted your comments and have forwarded your feedback internally so that they are aware of this issue. Appreciate your understanding. ^SM"
+          },
+          {
+            "turn_number": 11,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Thanks!!!\nYour help."
+          },
+          {
+            "turn_number": 12,
+            "speaker": "AmazonHelp",
+            "text": "@743843 You're welcome! Above all, we are glad that your concern has been addressed successfully. :)"
+          },
+          {
+            "turn_number": 13,
+            "speaker": "Customer",
+            "text": "@AmazonHelp I got my money but I am totally unhappy with you guys."
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_046967",
+        "num_turns": 2,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "Commit to being fit. Get your fitness requirements at the Amazon Under Armour store. #WeWill #EveryDropCounts. Visit https://t.co/o8hVSBDNkA https://t.co/cRToZwJG3P"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@115850 @115850, where is my pickup for return item tracking # 710400450663, scheduled for October 29 and now 8 days late?"
+          }
+        ]
+      }
+    ]
+  },
+  "ACCOUNT_ACCESS": {
+    "intent_id": "ACCOUNT_ACCESS",
+    "example_count": 8,
+    "examples": [
+      {
+        "conversation_id": "amazonhelp_044450",
+        "num_turns": 4,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "The @115821 global service is really bad @115851  . Your Indian team is far better. Placed an order and submitted the doc thrice &amp; still getting hounded by multiple calls &amp; mails every day. From a fan of #AmazonIndia"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@735683 @115821 @115851 Thats not happening in my case. Their #amazonindia team is callous!My email has been sabatoged by some SPAM email ID and its been two months that my account is locked out and these guys have not done an inch. My kindle library is irretrievable by me!"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "AmazonHelp",
+            "text": "@738477 You've been through an ordeal, I'm really sorry for the same. I'd like to fix this for you, please fill in your details here: https://t.co/GIJyeYqKE0 and we'll reach out to you. Please click on skip sign in and proceed with the details. ^JC"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Great. I have sent my message and contact details in the form and now I look forward to a speedy solution. Pls don't make it another cookie cutter run of the mill workaround. Thanks"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_070149",
+        "num_turns": 2,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@115821 \"We're sorry, we're unable to TURN ON YOUR TABLET!\"\nSeriously?  What do you REALLY have to do that's so taxing on your infrastructure?"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@115821 TEN MINUTES OF AMAZON ADVERTISEMENTS, OPT-OUT OFFERS AND REFUSING TO LET ME CREATE A PROFILE FOR MY NEPHEW AFTER FORCING AN AMAZON LOGIN TO LET ME START USING THIS THING.  UNACCEPTABLE"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_112108",
+        "num_turns": 4,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "This week, @115821 lost one package, delivered another to the complete wrong address, a 3rd they didn't deliver bc couldn't \"access my door\""
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@115821 I guess I can't shop on Amazon anymore 🤷🏻‍♀️"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "AmazonHelp",
+            "text": "@542980 I'm sorry to hear we've let you down! Could you tell us who the carrier is for this delivery: https://t.co/Y5jpI9gRhE ^ML"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Says AMZL US. I assume that's you."
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_099503",
+        "num_turns": 15,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "Now @115821 are telling me I'll get an email in 36-48 hours with questions to answer. This after 4 torturous days of bs customer service."
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@120919 @115821 Dealing with them from the B2B side is honestly the worst. I have an issue open with them that is 20months old. Amz staff caused this issue."
+          },
+          {
+            "turn_number": 3,
+            "speaker": "AmazonHelp",
+            "text": "@122602 Hi, has a follow up been arranged for you? What is the most recent info we provided? ^TS"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "Customer",
+            "text": "@AmazonHelp My issue is Vendor Central related and I'll be dealing with it there unless you have higher authority than the regular desk?"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp 2 days later and @AmazonHelp still hasn't told me whether they do or do not have higher authority than the regular desk."
+          },
+          {
+            "turn_number": 6,
+            "speaker": "AmazonHelp",
+            "text": "@122602 Hello, we would not have access to your via Twitter. Please reach out to us directly and we will be glad to help. ^CR"
+          },
+          {
+            "turn_number": 7,
+            "speaker": "Customer",
+            "text": "@AmazonHelp I've been reaching out directly to your Vendor Central support staff for nearly 2 years. Problem remains unsolved."
+          },
+          {
+            "turn_number": 8,
+            "speaker": "AmazonHelp",
+            "text": "@122602 Please submit this secure form to allow us to look into it further: https://t.co/tkLCr7DNil ^AT"
+          },
+          {
+            "turn_number": 9,
+            "speaker": "Customer",
+            "text": "@AmazonHelp That's a consumer-side form. I told you our issue is Vendor Central related."
+          },
+          {
+            "turn_number": 10,
+            "speaker": "AmazonHelp",
+            "text": "@122602 Once we receive the completed Form, we will be able to escalate to the relevant team ^TD"
+          },
+          {
+            "turn_number": 11,
+            "speaker": "Customer",
+            "text": "@AmazonHelp I can't complete the form because it asks me to sign in, but because it's a consumer-side form it doesn't recognise my Vendor Central login."
+          },
+          {
+            "turn_number": 12,
+            "speaker": "AmazonHelp",
+            "text": "@122602 Can you see the option to 'Skip Sign In' when you click the previous link? ^JJ"
+          },
+          {
+            "turn_number": 13,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Hello,\n\nYes. I have now submitted via that method."
+          },
+          {
+            "turn_number": 14,
+            "speaker": "AmazonHelp",
+            "text": "@122602 Great! Thank you for letting us know. Someone will be in touch as soon as possible. ^AL"
+          },
+          {
+            "turn_number": 15,
+            "speaker": "Customer",
+            "text": "@AmazonHelp I still haven't been contacted, nor have any of my cases been responded to in VC. Every time I chase I get an email about it being \"forwarded to the concerned team\" and then nothing of any value happens."
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_056417",
+        "num_turns": 7,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "Dear @115830 - what's the point of sending me an app validation code with 10 mins life if it takes 5 hours to get to me?"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@115830 Right, third attempt. Request sent at 09:53. Code lasts ten minutes. When will it arrive in my inbox?"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "AmazonHelp",
+            "text": "@415050 Hi, are you having trouble accessing your account? If so, please contact us via this link: https://t.co/zYVX1Qi29G. ^JJ"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "Customer",
+            "text": "@AmazonHelp I think my tweets are clear. I need a code to login to my app (Android), I trigger the request but the email take ages to come."
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp When it comes it has a 10 minutes life on the code, but the life was from when the original request was made, so it's useless."
+          },
+          {
+            "turn_number": 6,
+            "speaker": "AmazonHelp",
+            "text": "@415050 When you are referring to a code, do you mean the password to your Amazon Android app? ^CD"
+          },
+          {
+            "turn_number": 7,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Nope. I put the password in and since the app updated it wants to verify my identity. So it has sent a verification code (6 digits)."
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_097191",
+        "num_turns": 3,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@116316 Hey I need some help, how do I contact customer support?"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@394183 Please use this link: https://t.co/ohyvGrpvrY My colleagues are pleased to assist you. ^DS"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Thank you for the information! However, my account is locked and I can't access that link. There was some issue with the payment for my orde"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_019230",
+        "num_turns": 3,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@AmazonHelp  I am still unable to see the new chapter of \"Mr. Robot\" Do you have an issue? Or is it blocked for Mexico? https://t.co/mCWSauw8qs"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@178443 I'm sorry for the trouble! Have you contacted our support team to report this: https://t.co/Y5jpI9gRhE? ^ST"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Not yet, but now you mentioned I will try"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_153563",
+        "num_turns": 2,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@115850 @115851 @118342 shipment id FBA150HWV8 cancelled with appointment id 95952185 without giving any reason"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@115850 @115851 @118342 How can amazon people access and make changes in sellers panel without their permission. Dey cancelled shipment without permission"
+          }
+        ]
+      }
+    ]
+  },
+  "DELIVERY_CARRIER": {
+    "intent_id": "DELIVERY_CARRIER",
+    "example_count": 8,
+    "examples": [
+      {
+        "conversation_id": "amazonhelp_049149",
+        "num_turns": 11,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@115850 Never expected from a company like Amazon. You should have serious look at your partner \"Gati\"."
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@504187 I'm sorry about any inconvenience. Could you let us know what went wrong? We'd like to help. ^SG"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Do you guys got my details and what is the issue.?"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "AmazonHelp",
+            "text": "@504187 Please reach out to our support team here : https://t.co/rS49hgaADF. ^SB 2/2"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp I have done this many times.. escalated and spoke to manager level,but no result😞"
+          },
+          {
+            "turn_number": 6,
+            "speaker": "AmazonHelp",
+            "text": "@504187 Apologies for the unpleasant experience. Kindly fill in your details here: https://t.co/GIJyeYqKE0 and I'll contact you. ^GS"
+          },
+          {
+            "turn_number": 7,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Finally, Gati called and said they can't deliver the products. Not acceptable.😠"
+          },
+          {
+            "turn_number": 8,
+            "speaker": "AmazonHelp",
+            "text": "@504187 Sorry about that. Please revert to the correspondence received from our team and we'll check this for you. ^SA"
+          },
+          {
+            "turn_number": 9,
+            "speaker": "Customer",
+            "text": "@AmazonHelp In spite of escalating so many times you still assigned the products to \"Gati\" again and made my life measurable.😠😠 It's been 25days. 👿😈"
+          },
+          {
+            "turn_number": 10,
+            "speaker": "AmazonHelp",
+            "text": "@504187 by the logistics automatically based on many factors such as destination pincode, packages being carrier etc. [2/2] ^HA"
+          },
+          {
+            "turn_number": 11,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Once gain Gati not ready to deliver the products,but still you guys wanted to assign the products to Gati #NoGati #Patheticserivce"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_014079",
+        "num_turns": 5,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@AmazonHelp: @3375. One order tossed onto lawn. Friday pkg left overnight at gate near street. No notification until today. \nBAD"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@193010 Sorry to hear about this. Have you contacted us or the carrier directly? ^PK"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Couldn't find the amazon page. Not going to waste time with carrier. have seen too many complaints about them elsewhere."
+          },
+          {
+            "turn_number": 4,
+            "speaker": "AmazonHelp",
+            "text": "@193010 Oh no! I'm sorry for the troubles w/your order Chuck! Can you tell me which site you order from, https://t.co/dDKiTL5MLy? ^FR"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp https://t.co/QVWcfJ6YzP / USA / shipped to Oregon.  Ontrac is the issue.  Lousy service."
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_106109",
+        "num_turns": 4,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "My Rationale CD didn’t come by Royal Mail 😩 So here’s me grabbing onto the final glimpse of hope that @115830 uses a carrier pigeon 🤦🏼‍♀️"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@183548 Hi, sorry to hear that. What carrier is delivering your item: https://t.co/aaDyEz1VgE? ^JJ"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp It just says Amazon Shipping? It says that it’s out for delivery and had an email saying I will receive it today. Can I DM you the order #"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "Customer",
+            "text": "@AmazonHelp See if you can make sense of it? \n\nThank you for your help"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_011331",
+        "num_turns": 5,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@115850 @115851 Pathetic evr experience 4 a Samsung phone. Defective phone, endless wait for pickup, defective replacement, no pickup, no refund, multiple followups, no resolution, 1 month of ordeal, terrible experience! All d good work by Amazon down the drain in 1 order!"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@659444 I’m sorry about this experience with your order. I’d like to assist you, please fill this form: https://t.co/beaaDm0muc and I’ll contact you at the earliest ^RW"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp @115850 @115851 How many slips in one order! This can be your case study for service disasters. In fact you should pay me for the time, effort and peace of mind I have lost over this awful transaction. #amazon #servicedisaster"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "AmazonHelp",
+            "text": "@659444 We can't gain access to your account details via Twitter. Could you confirm sharing your details in the link provided earlier? ^KA"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Won't do it over again. Pls track using order # 408-3501059-3038748"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_131429",
+        "num_turns": 3,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "On my 4th support person trying to return an item. Apparently I’ve reach their “Leadership” @115821 https://t.co/3Nug1tL5xl"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@684236 Hello, Eugene. I'm sorry for the trouble you had trying to return an item to us. Is there anything we may do to help? Please let us know, we want to make sure you're taken care of. ^KL"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp First they sent a return email to the buyer, who is upset that their gift to us came broken. And then they offered to credit my gift card balance which is either taking a long time, or went to the person who bought us the gift?"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_047965",
+        "num_turns": 9,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "Make sure your loved ones get their gifts in time for the holidays! https://t.co/LrzrVpJmeY"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@118706 It would also help if the tracking site was working been waiting for a package that was supposed to b delivered last night."
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@258579 @118706 Same here.  This is 2 deliveries in a row that is late and no tracking."
+          },
+          {
+            "turn_number": 4,
+            "speaker": "Customer",
+            "text": "@258579 @118706 1hr 45min til 8pm 🤔"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@258579 @118706 No package still.  If not by Monday I'm suppose to file a claim. 😏"
+          },
+          {
+            "turn_number": 6,
+            "speaker": "Customer",
+            "text": "@258578 @118706 How long have u been waiting now?"
+          },
+          {
+            "turn_number": 7,
+            "speaker": "Customer",
+            "text": "@258579 @118706 Now my package says Dec\n 1 to 7th but when you click on the order to see tracking it says Thursday, which is 1 week past delivery date. No one will give me an answer not even the Amazon seller."
+          },
+          {
+            "turn_number": 8,
+            "speaker": "AmazonHelp",
+            "text": "@258578 Hi, has it been longer than 2 days since you contacted the seller?^BZ"
+          },
+          {
+            "turn_number": 9,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Yes. I've contacted them twice in the past week. They don't answer. USPS has no answer,  Amazon can't answer because USPS doesn't update the tracking. It's over $100 item ."
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_043221",
+        "num_turns": 6,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "https://t.co/xp5fThBb5W"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@AmazonHelp pending pickup even after 10 days. 😡"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "AmazonHelp",
+            "text": "@771541 I'm sorry your return hasn't been picked up. Did they not arrive the next business day? Generally, UPS will attempt pick up on each of the next two business days. Have you tried to contact UPS for clarity on their pick up attempts? We'd be happy to help! ^SK"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "Customer",
+            "text": "@AmazonHelp What is UPS? Ans nobody arrived next day and even in last 10 days. Do I need to call them for the pickup? You don't monitor it? 😳🤔😡"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "AmazonHelp",
+            "text": "@771541 Hi, UPS are the couriers who do our collections in your area. We may need to book you in a new collection. We are unable to do this over Twitter so please contact us directly here and we will be happy to get this taken care of for you  https://t.co/hApLpMlfHN ^KK"
+          },
+          {
+            "turn_number": 6,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Hi, still waiting for someone to pick this up. Have contacted your customer care. What is happening? Amazon getting worse."
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_002812",
+        "num_turns": 2,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "SO LIVID. We are going to Mayo Clinic again on Thursday, and just found out @115821 took $391 out of my acct w/o my authorization! WTFFFFFF"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@115821 I noticed today but not before it drained it enough for negative charges to go through on my medical bills. I have $0. So angry!"
+          }
+        ]
+      }
+    ]
+  },
+  "VIDEO_STREAMING": {
+    "intent_id": "VIDEO_STREAMING",
+    "example_count": 8,
+    "examples": [
+      {
+        "conversation_id": "amazonhelp_007756",
+        "num_turns": 4,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "Freitagabend = Zeit für Bundesliga! Frankfurt gegen Werder live mit dem Eurosport Player bei #PrimeVideo! https://t.co/Bx72UbtuuD"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@115825 Wenn ich über amazon den Eurosport Player für 4,99 Euro im Monat bestelle. Wie lange ist die Vertragslaufzeit? Das kann ich irgendwie nirgends finden. 🤔"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "AmazonHelp",
+            "text": "@463680 Der Player ist monatlich kündbar. Alle Infos dazu findest du hier: https://t.co/qxLmqZtScU Grüße ^TR"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Also kein Abo etc. ?"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_113358",
+        "num_turns": 2,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "can someone tell me why falling skies was available for free with amazon prime as of yesterday (and as long as i can remember) but now it's charging me to watch? @117795 @AmazonHelp @123644 @115821"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@117795 @AmazonHelp @123644 @115821 @116618  ^^^^^^ what is the reason for the change?"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_084092",
+        "num_turns": 2,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "Recibe $100 pesos para tus compras en Amazon al disfrutar de una película o serie en Prime Video https://t.co/vUDFrZAfIw https://t.co/8iUfZTWJLt"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@116875 Hace unos días estuve probando el Prime Video viendo community y no me aparece el descuento ahora mismo que quiero hacer una compra, alguna solución?  hice algo mal?"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_005864",
+        "num_turns": 5,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "Hey @119625, why do your videos stop at a point and jump back few seconds back again and again till you jump forward for 10 seconds?"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@379760 That's strange. Is the issue with any particular title? ^SH"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp It happened in Biswa Mast Aadmi, Haq se Single and now in Lakhon me Ek. It's ruining my watching experience. I'm a new subscriber."
+          },
+          {
+            "turn_number": 4,
+            "speaker": "AmazonHelp",
+            "text": "@379760 Could you let us know on which device are you browsing this? ^RW"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Oneplus 3."
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_092257",
+        "num_turns": 3,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "Someone used my @115821 account to purchase $250 worth of tv/videos&amp;now @116016 is denying my fraud claim bc I \"received benefit\" I'm pissed😡"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@290390 When you spoke with us, were we able to offer any options for the charges? ^DD"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Just got the notice from chase today, will call Amazon tomorrow. They were very helpful last time I called, hoping for the same again."
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_005672",
+        "num_turns": 3,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "Hola @116875 pudieran poner TODOS los capítulos de \"Misterios Sin Resolver\" en prime video?? Porfis."
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@744265 Hola, Félix. Muchas gracias por tu recomendación, cualquier cambio en el catálogo de Prime Video será anunciado de forma oficial en nuestra página web, por lo que te recomendamos estar al tanto de la misma: https://t.co/278S14yPCU\n^CB"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Solo tiene 3 capítulos, y es la mejor serie de la historia. Espero más capítulos. Muy buen servicio!"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_092984",
+        "num_turns": 5,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "So @115830 were supposed to be sending me a replacement watch in emergency delivery for today. Still nothing!! I’m so pissed off!! 😡😡😡"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@302782 I'm so very sorry you haven't received your parcel yet! Does the tracking show it is out for delivery? Please let us know if it doesn't arrive. ^RO"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp The original tracking says it was delivered to me Friday night, I was not in, then I spoke to Preeti yesterday via web chat and they said they’d get one out to be delivered today. It’s an item I needed for work today!"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "AmazonHelp",
+            "text": "@302782 After the web chat yesterday, did you receive an email with information about the replacement order? ^CH"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp No I didn’t."
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_026200",
+        "num_turns": 10,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@115830 @@AmazonHelp @129773 just spent 40mins on sos to your agent and no closer am i to using a service you are charging me for"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@129772 I'm sorry for the frustrating experience! Without providing personal information, what is the issue you are experiencing? ^TN"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp My issue is im paying you far a service that your agents are telling me I'm not entitled to 🤔🤔 firestick won't play content, mobile device"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Won't chromecast or cast to firestick,.. So how the heck am i supposed to watch stuff?"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp I can't watch prime content on a AMAZON product but i can sideload kodi and watch anything for free 🤔🤔🤔 Are you people for real."
+          },
+          {
+            "turn_number": 6,
+            "speaker": "AmazonHelp",
+            "text": "@129772 You can see all compatible Amazon Video devices here: https://t.co/HyrAzF0NW9 ^AF"
+          },
+          {
+            "turn_number": 7,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Are you serious? I've just said i had a amazon firestick but the content won't play on it. I also have prime video app on my mobile but cant"
+          },
+          {
+            "turn_number": 8,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Cast to the firestick.\nSo can you tell me how im suppose to watch content on the tv?"
+          },
+          {
+            "turn_number": 9,
+            "speaker": "AmazonHelp",
+            "text": "@129772 When you attempt to play Amazon Video on your Fire Stick what happens? Are you getting an error message? ^VS"
+          },
+          {
+            "turn_number": 10,
+            "speaker": "Customer",
+            "text": "@AmazonHelp  https://t.co/RgXjQzVzpI"
+          }
+        ]
+      }
+    ]
+  },
+  "REFUND_REQUEST": {
+    "intent_id": "REFUND_REQUEST",
+    "example_count": 8,
+    "examples": [
+      {
+        "conversation_id": "amazonhelp_064362",
+        "num_turns": 14,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@AmazonHelp: What I ordered and what I got;pls check so called \"Apni Dukaan\",pathetic service,stop making people fool, pls refund my money. https://t.co/xZZRUGq9pk"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Are you guys listening or you have started taken things for granted."
+          },
+          {
+            "turn_number": 3,
+            "speaker": "AmazonHelp",
+            "text": "@373978 I’d like to help you with the issue you're facing, please fill this form: https://t.co/beaaDlIL5C and I’ll contact you soon.^SM"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "Customer",
+            "text": "@AmazonHelp @115851\nDear Sir, need your intervention as I am chasing Amazon.in from last 13 days but they are unable to provide any resolution. ☹️"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "AmazonHelp",
+            "text": "@373978 Sorry about the stretch, Sanchit. Could you please confirm if you've shared the details in the link (1/2) ^MO"
+          },
+          {
+            "turn_number": 6,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Yes"
+          },
+          {
+            "turn_number": 7,
+            "speaker": "AmazonHelp",
+            "text": "@373978 If you have shared your details with us, you can find our correspondence here :  https://t.co/DTSNmGldJf . Hope this helps. ^CB"
+          },
+          {
+            "turn_number": 8,
+            "speaker": "Customer",
+            "text": "@AmazonHelp @115851 no this is not helping, you r doing the same thing from last so many days rather that giving replacement/refund."
+          },
+          {
+            "turn_number": 9,
+            "speaker": "AmazonHelp",
+            "text": "@373978 Apologies for the trail.Please share your details with us here: https://t.co/GIJyeYqKE0. We'll get in touch shortly. ^CB"
+          },
+          {
+            "turn_number": 10,
+            "speaker": "Customer",
+            "text": "@AmazonHelp This is the 7th time u are asking me to fill out the form for what reason? Nothing has happened till date. @115851 need ur help sir."
+          },
+          {
+            "turn_number": 11,
+            "speaker": "AmazonHelp",
+            "text": "@373978 We can't gain access to you Amazon account, till you share the details over the secure link. Kindly honor our request. ^CB"
+          },
+          {
+            "turn_number": 12,
+            "speaker": "Customer",
+            "text": "@AmazonHelp I've done that...now don't ask me to do that again. 😡"
+          },
+          {
+            "turn_number": 13,
+            "speaker": "AmazonHelp",
+            "text": "@373978 Thank you for sharing the details. We've received the information and we'll get back to you soon. ^OS"
+          },
+          {
+            "turn_number": 14,
+            "speaker": "Customer",
+            "text": "@AmazonHelp You have mailed me the same thing that u cannot do anything, that's disgusting @24294 @120319, Request you to escalate this. https://t.co/rvHSIfMDtv"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_150132",
+        "num_turns": 5,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "Dear @AmazonHelp\n\nIf @132988 fails, yet again, to deliver a parcel on time can I have my annual Prime membership fee refunded.\n\nIt's getting beyond a joke now."
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@270206 Hello, If you've used your Amazon Prime benefits prior to requesting cancellation, a refund cannot be made. Are you having a problem with an ongoing delivery?\n^ARC"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp I'm not looking to cancel Amazon Prime. I'm looking to receive the standard of service that is offered with Amazon Prime. Having ordered a \"Prime\" item due to be delivered today I want compensation for the non delivery of that item. This is happening too often now."
+          },
+          {
+            "turn_number": 4,
+            "speaker": "AmazonHelp",
+            "text": "@270206 We don't have access to accounts or their details via Twitter. We want to make sure we’re providing the best solution going forward. Which one of our websites/marketplaces do you use with us? ^TG"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp This order is with Amazon France (I also use Amazon UK &amp; https://t.co/eWl2fqfSWE). I am on the phone to Amazon.fr customer services. They are currently refusing to speak English to me, which is unusual because I normally get call backs from INDIA!"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_047758",
+        "num_turns": 2,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@115850 your services are becoming more worst.."
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@115850 I did order set of family tshirts from one of your seller and it didn’t fit. now they are asking me to self ship. How can I trust them that they have received and they will refund me?? If we had to do it why would we buy from amazon rather we can buy from seller directly"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_003240",
+        "num_turns": 4,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "Dear @117634, why is my Kindle running out of battery when recently charged when it hasn't even been turned on for hours?"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@117634 I fully charged it two nights ago, read it for like 4 hours maximum since, left it sitting flat turned off on my desk, and now it's dead."
+          },
+          {
+            "turn_number": 3,
+            "speaker": "AmazonHelp",
+            "text": "@601253 I'm sorry your Kindle isn't staying charged! Can you tell us which Kindle you currently have: https://t.co/3K4vNPsUQ0 ^VS"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "Customer",
+            "text": "@AmazonHelp I think it's a 7th generation kindle? Bit hard to tell as many models look the same!"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_013237",
+        "num_turns": 8,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@115850 @AmazonHelp why i am not able to return substandard product bought from amazon. It feels like i have wasted my money and faith"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@174791 Sorry for the trouble. Kindly report this to our support team here: https://t.co/vlvfJr4nN9 and we'll check this. ^HN"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp It gives option to replace. What to do"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "AmazonHelp",
+            "text": "@174791 Please reach out to our support team from the link shared earlier and we'll check this. ^HN"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Sent the mail. Waiting for response."
+          },
+          {
+            "turn_number": 6,
+            "speaker": "AmazonHelp",
+            "text": "@174791 Thank you. Once we receive your correspondence, we'll check this and assist you. ^SV"
+          },
+          {
+            "turn_number": 7,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Thankyou. The return is successful"
+          },
+          {
+            "turn_number": 8,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Hi. The amount is being charged again from last two months. Bank people need communication from amazon that you are not receiving amount"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_121613",
+        "num_turns": 3,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "Just checked my bank account. Turns out amazon prime didn’t realize I just wanted a month membership &amp; charged me for a whole year"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@349832 We'd be happy to look into options with you here: https://t.co/hApLpMlfHN ^RR"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Yoooo, amazon is quick with the tweets. Thanks guys!"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_011331",
+        "num_turns": 5,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@115850 @115851 Pathetic evr experience 4 a Samsung phone. Defective phone, endless wait for pickup, defective replacement, no pickup, no refund, multiple followups, no resolution, 1 month of ordeal, terrible experience! All d good work by Amazon down the drain in 1 order!"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@659444 I’m sorry about this experience with your order. I’d like to assist you, please fill this form: https://t.co/beaaDm0muc and I’ll contact you at the earliest ^RW"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp @115850 @115851 How many slips in one order! This can be your case study for service disasters. In fact you should pay me for the time, effort and peace of mind I have lost over this awful transaction. #amazon #servicedisaster"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "AmazonHelp",
+            "text": "@659444 We can't gain access to your account details via Twitter. Could you confirm sharing your details in the link provided earlier? ^KA"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Won't do it over again. Pls track using order # 408-3501059-3038748"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_136345",
+        "num_turns": 4,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "Want to track your refunds but don’t know how? Here’s a simple answer: https://t.co/exsg0SvgkO #KaroMilkeTayyari #AmazonGreatIndianFestival https://t.co/A9qpJWPrOc"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@115850 Amazon.in executives are not satisfing customers they are hurting badly please take care thank you"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "AmazonHelp",
+            "text": "@215406 Apologies for the unpleasant experience. We'd like to know what went wrong. Could you please tell us more about it? ^AP"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Me that we are not gonna issue a refund sorry"
+          }
+        ]
+      }
+    ]
+  },
+  "RETURN_REQUEST": {
+    "intent_id": "RETURN_REQUEST",
+    "example_count": 8,
+    "examples": [
+      {
+        "conversation_id": "amazonhelp_064362",
+        "num_turns": 14,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@AmazonHelp: What I ordered and what I got;pls check so called \"Apni Dukaan\",pathetic service,stop making people fool, pls refund my money. https://t.co/xZZRUGq9pk"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Are you guys listening or you have started taken things for granted."
+          },
+          {
+            "turn_number": 3,
+            "speaker": "AmazonHelp",
+            "text": "@373978 I’d like to help you with the issue you're facing, please fill this form: https://t.co/beaaDlIL5C and I’ll contact you soon.^SM"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "Customer",
+            "text": "@AmazonHelp @115851\nDear Sir, need your intervention as I am chasing Amazon.in from last 13 days but they are unable to provide any resolution. ☹️"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "AmazonHelp",
+            "text": "@373978 Sorry about the stretch, Sanchit. Could you please confirm if you've shared the details in the link (1/2) ^MO"
+          },
+          {
+            "turn_number": 6,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Yes"
+          },
+          {
+            "turn_number": 7,
+            "speaker": "AmazonHelp",
+            "text": "@373978 If you have shared your details with us, you can find our correspondence here :  https://t.co/DTSNmGldJf . Hope this helps. ^CB"
+          },
+          {
+            "turn_number": 8,
+            "speaker": "Customer",
+            "text": "@AmazonHelp @115851 no this is not helping, you r doing the same thing from last so many days rather that giving replacement/refund."
+          },
+          {
+            "turn_number": 9,
+            "speaker": "AmazonHelp",
+            "text": "@373978 Apologies for the trail.Please share your details with us here: https://t.co/GIJyeYqKE0. We'll get in touch shortly. ^CB"
+          },
+          {
+            "turn_number": 10,
+            "speaker": "Customer",
+            "text": "@AmazonHelp This is the 7th time u are asking me to fill out the form for what reason? Nothing has happened till date. @115851 need ur help sir."
+          },
+          {
+            "turn_number": 11,
+            "speaker": "AmazonHelp",
+            "text": "@373978 We can't gain access to you Amazon account, till you share the details over the secure link. Kindly honor our request. ^CB"
+          },
+          {
+            "turn_number": 12,
+            "speaker": "Customer",
+            "text": "@AmazonHelp I've done that...now don't ask me to do that again. 😡"
+          },
+          {
+            "turn_number": 13,
+            "speaker": "AmazonHelp",
+            "text": "@373978 Thank you for sharing the details. We've received the information and we'll get back to you soon. ^OS"
+          },
+          {
+            "turn_number": 14,
+            "speaker": "Customer",
+            "text": "@AmazonHelp You have mailed me the same thing that u cannot do anything, that's disgusting @24294 @120319, Request you to escalate this. https://t.co/rvHSIfMDtv"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_076725",
+        "num_turns": 9,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@115850 wow..what pathetic service!!! Absolute disregard for a paying customer."
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@350165 Please let us know if there's any unresoved issue with your recent orders, we'll assist. ^GS"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp order 407-2163145-8177164.have spoken to 6 agents over the last 4 days.have gotten all different answers. now they say the order is returned"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "AmazonHelp",
+            "text": "@350165 I'm sorry for the trouble. Kindly share your details here: https://t.co/beaaDm0muc and we'll have this checked. (1/2) ^GK"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp after all the communication over the last 4 days, 7 agents, now you say you can't deliver!! even after it being promised! wow..brilliant!!"
+          },
+          {
+            "turn_number": 6,
+            "speaker": "AmazonHelp",
+            "text": "@350165 We've received your details. We'll have this checked and get back. ^AR"
+          },
+          {
+            "turn_number": 7,
+            "speaker": "Customer",
+            "text": "@AmazonHelp \"undeliverable for unspecified reason\" wow! what a great reply after all the time I have wasted with Amazon. Never shopping here again!!!"
+          },
+          {
+            "turn_number": 8,
+            "speaker": "AmazonHelp",
+            "text": "@350165 I shall forward the feedback to the concerned team and work on it. Appreciate your understanding in this concern. (2/2)^HR"
+          },
+          {
+            "turn_number": 9,
+            "speaker": "Customer",
+            "text": "@AmazonHelp I am still at a loss to understand what Amazon is doing. I was promised delivery yesterday! And now it is cancelled??"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_097974",
+        "num_turns": 3,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@115830 Really? A delivery of books left in my garden in the rain? Absolutely shocking. https://t.co/FDi2LXTL5n"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@763634 I am very sorry to see this Kate. Can I ask for you to reach out to us through the link below please: https://t.co/JzP7hlA23B. ^GA"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Thanks. I've already organised replacements but the hassle of having to return two books to the post office is quite an inconvenience. Shopping online is meant to take the hassle away and make life easier. I'm really disappointed."
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_013237",
+        "num_turns": 8,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@115850 @AmazonHelp why i am not able to return substandard product bought from amazon. It feels like i have wasted my money and faith"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@174791 Sorry for the trouble. Kindly report this to our support team here: https://t.co/vlvfJr4nN9 and we'll check this. ^HN"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp It gives option to replace. What to do"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "AmazonHelp",
+            "text": "@174791 Please reach out to our support team from the link shared earlier and we'll check this. ^HN"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Sent the mail. Waiting for response."
+          },
+          {
+            "turn_number": 6,
+            "speaker": "AmazonHelp",
+            "text": "@174791 Thank you. Once we receive your correspondence, we'll check this and assist you. ^SV"
+          },
+          {
+            "turn_number": 7,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Thankyou. The return is successful"
+          },
+          {
+            "turn_number": 8,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Hi. The amount is being charged again from last two months. Bank people need communication from amazon that you are not receiving amount"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_018077",
+        "num_turns": 4,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@115821 @119356 @AmazonHelp @115851 @209576 till date no response and positive action observed. Even after replying through, the link mentioned by Amazon. Some one has to take onus and prove that customers r valuable.. 🙏🙏 https://t.co/jpeaB7qq0V"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@115821 @119356 @AmazonHelp @115851 @209576 Upfront denial is neither accepted nor expected. Have the value of customers' smile, feelings, emotions. Don't go away from your responsibility. WHY CUSTOMER HAS TO PAY FOR YOUR FAILURE? What's my fault? To rely on u n place order? It has to be justified....."
+          },
+          {
+            "turn_number": 3,
+            "speaker": "AmazonHelp",
+            "text": "@209575 I apologize for the experience you had so far, Om. Could you check here: https://t.co/DTSNmGldJf and let us know If you've received an email correspondence from the social media team? ^NK"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Yes... and the response is just sorry. U can't help anymore. Which is not fair.  You have to bear the cost of this error,  as it has been originated from ur associats and there inefficiency. I JUST WANT REPLACEMENT, NOTHING ELSE.. 🙏🙏🙏 @209576 @115851 @115821 @119356"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_046967",
+        "num_turns": 2,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "Commit to being fit. Get your fitness requirements at the Amazon Under Armour store. #WeWill #EveryDropCounts. Visit https://t.co/o8hVSBDNkA https://t.co/cRToZwJG3P"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@115850 @115850, where is my pickup for return item tracking # 710400450663, scheduled for October 29 and now 8 days late?"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_011331",
+        "num_turns": 5,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@115850 @115851 Pathetic evr experience 4 a Samsung phone. Defective phone, endless wait for pickup, defective replacement, no pickup, no refund, multiple followups, no resolution, 1 month of ordeal, terrible experience! All d good work by Amazon down the drain in 1 order!"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@659444 I’m sorry about this experience with your order. I’d like to assist you, please fill this form: https://t.co/beaaDm0muc and I’ll contact you at the earliest ^RW"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp @115850 @115851 How many slips in one order! This can be your case study for service disasters. In fact you should pay me for the time, effort and peace of mind I have lost over this awful transaction. #amazon #servicedisaster"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "AmazonHelp",
+            "text": "@659444 We can't gain access to your account details via Twitter. Could you confirm sharing your details in the link provided earlier? ^KA"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Won't do it over again. Pls track using order # 408-3501059-3038748"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_131429",
+        "num_turns": 3,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "On my 4th support person trying to return an item. Apparently I’ve reach their “Leadership” @115821 https://t.co/3Nug1tL5xl"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@684236 Hello, Eugene. I'm sorry for the trouble you had trying to return an item to us. Is there anything we may do to help? Please let us know, we want to make sure you're taken care of. ^KL"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp First they sent a return email to the buyer, who is upset that their gift to us came broken. And then they offered to credit my gift card balance which is either taking a long time, or went to the person who bought us the gift?"
+          }
+        ]
+      }
+    ]
+  },
+  "ORDER_STATUS": {
+    "intent_id": "ORDER_STATUS",
+    "example_count": 8,
+    "examples": [
+      {
+        "conversation_id": "amazonhelp_093818",
+        "num_turns": 9,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@115850 This is the TV that we received, clearly looks like it has been manhandled :( can you help us on how to resolve this? https://t.co/JsNIx25z8z"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@191528 Sorry to see the condition of the product delivered. This isn't the kind of service we would want our customers to experience. Please report the issue to our support team using this link here: https://t.co/00q4Sqj9zL and we'll have this checked for you. ^KA"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Thank you for the response. The link is not working. I have reached out to customer care and they have assured of help for me. Will jeep you posted #fingerscrossed"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "AmazonHelp",
+            "text": "@191528 Our support team will take necessary actions to resolve this, appreciate your patience. ^MJ"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Can you help us? The delivery guys says since the screen is not working will not pick it up. I thought a defective product should by default be picked up"
+          },
+          {
+            "turn_number": 6,
+            "speaker": "AmazonHelp",
+            "text": "@191528 We'll only be able to accept the exchange, if the Used product is in working condition with its display intact and the product isn't damaged or broken. You may refer to the link here: https://t.co/hw8g3G8C0Q for more info.^GK"
+          },
+          {
+            "turn_number": 7,
+            "speaker": "Customer",
+            "text": "@AmazonHelp But that’s how we got the product. We opened the box and that’s how it was. Can you help me here?"
+          },
+          {
+            "turn_number": 8,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Okay so it’s not a used product, it’s a new TV which we purchased from Amazon"
+          },
+          {
+            "turn_number": 9,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Let me reiterate, it’s a new TV which we got from Amazon website. Order Number\n405-5258589-3564310"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_002010",
+        "num_turns": 4,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@115850 \nRemember there was a contest on the app during diwali, winner gets ₹10000 for 12 months. \nWhen will the winner be announced?\nI'm pretty sure it was on 25th..."
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@115850 My bad 15th Nov."
+          },
+          {
+            "turn_number": 3,
+            "speaker": "AmazonHelp",
+            "text": "@800236 I get your concern, Divyansh. Could you help us with the name of the contest which you are referring so that we can check and help you accordingly? ^NK"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Any Information?"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_016651",
+        "num_turns": 7,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "Hi @115850 @AmazonHelp order number is 171-4216090-2817924 ordered wallet yesterday but there is no wallet in it . Got empty box . See to it asap . This is a fraud happening and you will loose a valuable customer now @3645 registered number 9873513970 https://t.co/LJvBBS8zB2"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@130667 @115850 @AmazonHelp @3645 This should be rectified immediately."
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@130668 @115850 @AmazonHelp @3645 yes this should be \nit was a gift to someone"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "Customer",
+            "text": "@130667 @115850 @AmazonHelp @3645 Their CC is good. They will take quick action for sure.."
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@130668 @115850 @AmazonHelp @3645 i am still waiting for their call now"
+          },
+          {
+            "turn_number": 6,
+            "speaker": "AmazonHelp",
+            "text": "@130667 Thank you for confirming. We would check and connect with you at the earliest. ^KK"
+          },
+          {
+            "turn_number": 7,
+            "speaker": "Customer",
+            "text": "@AmazonHelp i am still waiting for a solution for this pathetic fraud\ndidnt got any call"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_088060",
+        "num_turns": 2,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "#AmazonIndia poor service from Amazon, I have purchased a a phone on 6th of October and the product is not delivered yet."
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "#AmazonIndia product purchased: Lenovo K8 Note order number: 171-8449043-3586758"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_056417",
+        "num_turns": 7,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "Dear @115830 - what's the point of sending me an app validation code with 10 mins life if it takes 5 hours to get to me?"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@115830 Right, third attempt. Request sent at 09:53. Code lasts ten minutes. When will it arrive in my inbox?"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "AmazonHelp",
+            "text": "@415050 Hi, are you having trouble accessing your account? If so, please contact us via this link: https://t.co/zYVX1Qi29G. ^JJ"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "Customer",
+            "text": "@AmazonHelp I think my tweets are clear. I need a code to login to my app (Android), I trigger the request but the email take ages to come."
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp When it comes it has a 10 minutes life on the code, but the life was from when the original request was made, so it's useless."
+          },
+          {
+            "turn_number": 6,
+            "speaker": "AmazonHelp",
+            "text": "@415050 When you are referring to a code, do you mean the password to your Amazon Android app? ^CD"
+          },
+          {
+            "turn_number": 7,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Nope. I put the password in and since the app updated it wants to verify my identity. So it has sent a verification code (6 digits)."
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_145319",
+        "num_turns": 3,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@115830 \n\nI have a problem to shipp my order up to date, and these practices are far from Amazon.\n\nAmazon is a place that has earned our confidence over the years, not to make offers.\n\norder number:\n 206-1511282-9332343"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@235055 Hi, Ahmed! We're unable to view your order or account details via Twitter, but we're here to help! Could you please let us know what's going on? ^RB"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp  https://t.co/X1YT0pYvRB"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_025260",
+        "num_turns": 11,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "Dealing with worst customer service ever @AmazonHelp ,Did not receive a refund on items returned after weeks of going back and forth with customer service I spoke to a supervisor that straight up lied to me on my orders b careful shoppers @115851 #BlackFriday #Amazon #bitcoin"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@140831 Hi, we can't see your details on social media. Without posting any of your account details here, can you tell us what the supervisor has told you about your return? ^BZ"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp I am missing 2 refunds out of 6 items I returned, I used the other 4 refunds on other items already and waiting for the last 2 to be refunded. he stated I already used the last 2 when it obviously has not been refunded, I have all transactions on my account still and saved"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "AmazonHelp",
+            "text": "@140831 Hey, did you receive emails confirming all six refunds? Also, can you see which refunds were processed here - https://t.co/ImPN7ZRn5O, select \"Order Details\". Keep us posted. ^TP"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Can you guys check my account and listen to the last phone call I had with the supervisor/customer service. He flat out lied on my account and then got aggressive and warned me when I was trying to explain ...I need Help #BlackFriday2017 #amazon #bitcoin"
+          },
+          {
+            "turn_number": 6,
+            "speaker": "AmazonHelp",
+            "text": "@140831 We wouldn't have access to your account from here for security reasons. I'm sorry to hear about your call, what was advised when you spoke with us? ^NV"
+          },
+          {
+            "turn_number": 7,
+            "speaker": "Customer",
+            "text": "@AmazonHelp I was told I was already refunded and that is it, then I tried explaining that I haven’t and he raised his voice and said that is it final warning , we can’t help you . I’m not sure what the warning was for but I just hung up after , worst service I ever dealt with"
+          },
+          {
+            "turn_number": 8,
+            "speaker": "AmazonHelp",
+            "text": "@140831 I'm sorry for the experiences you've had thus far with this situation. Our team would like to take a closer look with you.  Could you reach out to us here: https://t.co/ADtQ90Y0H8 so we can review the information with you? ^AZ"
+          },
+          {
+            "turn_number": 9,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Hello, when will I get an update? I’ve been waiting all day..."
+          },
+          {
+            "turn_number": 10,
+            "speaker": "AmazonHelp",
+            "text": "@140831 We're sorry for the wait. I can confirm we have received your information and will be reaching out to you soon to assist. ^TE"
+          },
+          {
+            "turn_number": 11,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Hello, I haven’t heard anything since, is there an update on this?"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_098004",
+        "num_turns": 4,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "Nuff said! You can now watch #ArjunReddy on #AmazonPrimeVideo https://t.co/eVMbLhiQ09 https://t.co/SdxUBxOBdB"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@119625 Please stream this in USA too\nPlease stream this in USA too\nPlease stream this in USA too\nPlease stream this in USA too\nPleaseeeeeee https://t.co/LmEM9IMxGz"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "AmazonHelp",
+            "text": "@362389 The content is geo-location specific, you will only be able to view this in India. ^SS"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "Customer",
+            "text": "@AmazonHelp I know that, but when will u guys release in USA? https://t.co/Fuoy1XDeoV"
+          }
+        ]
+      }
+    ]
+  },
+  "PRODUCT_ISSUE": {
+    "intent_id": "PRODUCT_ISSUE",
+    "example_count": 8,
+    "examples": [
+      {
+        "conversation_id": "amazonhelp_093818",
+        "num_turns": 9,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@115850 This is the TV that we received, clearly looks like it has been manhandled :( can you help us on how to resolve this? https://t.co/JsNIx25z8z"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@191528 Sorry to see the condition of the product delivered. This isn't the kind of service we would want our customers to experience. Please report the issue to our support team using this link here: https://t.co/00q4Sqj9zL and we'll have this checked for you. ^KA"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Thank you for the response. The link is not working. I have reached out to customer care and they have assured of help for me. Will jeep you posted #fingerscrossed"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "AmazonHelp",
+            "text": "@191528 Our support team will take necessary actions to resolve this, appreciate your patience. ^MJ"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Can you help us? The delivery guys says since the screen is not working will not pick it up. I thought a defective product should by default be picked up"
+          },
+          {
+            "turn_number": 6,
+            "speaker": "AmazonHelp",
+            "text": "@191528 We'll only be able to accept the exchange, if the Used product is in working condition with its display intact and the product isn't damaged or broken. You may refer to the link here: https://t.co/hw8g3G8C0Q for more info.^GK"
+          },
+          {
+            "turn_number": 7,
+            "speaker": "Customer",
+            "text": "@AmazonHelp But that’s how we got the product. We opened the box and that’s how it was. Can you help me here?"
+          },
+          {
+            "turn_number": 8,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Okay so it’s not a used product, it’s a new TV which we purchased from Amazon"
+          },
+          {
+            "turn_number": 9,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Let me reiterate, it’s a new TV which we got from Amazon website. Order Number\n405-5258589-3564310"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_011331",
+        "num_turns": 5,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@115850 @115851 Pathetic evr experience 4 a Samsung phone. Defective phone, endless wait for pickup, defective replacement, no pickup, no refund, multiple followups, no resolution, 1 month of ordeal, terrible experience! All d good work by Amazon down the drain in 1 order!"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@659444 I’m sorry about this experience with your order. I’d like to assist you, please fill this form: https://t.co/beaaDm0muc and I’ll contact you at the earliest ^RW"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp @115850 @115851 How many slips in one order! This can be your case study for service disasters. In fact you should pay me for the time, effort and peace of mind I have lost over this awful transaction. #amazon #servicedisaster"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "AmazonHelp",
+            "text": "@659444 We can't gain access to your account details via Twitter. Could you confirm sharing your details in the link provided earlier? ^KA"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Won't do it over again. Pls track using order # 408-3501059-3038748"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_131429",
+        "num_turns": 3,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "On my 4th support person trying to return an item. Apparently I’ve reach their “Leadership” @115821 https://t.co/3Nug1tL5xl"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@684236 Hello, Eugene. I'm sorry for the trouble you had trying to return an item to us. Is there anything we may do to help? Please let us know, we want to make sure you're taken care of. ^KL"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp First they sent a return email to the buyer, who is upset that their gift to us came broken. And then they offered to credit my gift card balance which is either taking a long time, or went to the person who bought us the gift?"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_147610",
+        "num_turns": 3,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@115850 I am reconsidering if buying an Mi phone or any other electronic device from @115850 worth it or not. It has been pathetic response from both @115850 and @138673"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@216159 That's quite a comment. Could you tell us if any of your concerns went unattended so that we can assist you accordingly? ^SF"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp I have bought a gift for someone and within a week, it seems to be a defective piece. But being still in warranty, I have no direction to go"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_141972",
+        "num_turns": 3,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "online retailer @115850 &amp; @115858 busy in unfair trade, cheat &amp; fraudulence in India. Massive Defective products are sold out. \n@43443"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@353912 Sorry to know that. Could you please let us know more about what went wrong? We'll definitely look into it. ^PS"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Look into your customer review, hundreds of iPhone7 buyers received defective devices &amp; that remains unresolved. @43443"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_116216",
+        "num_turns": 4,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@115850 first u send to me a wrong item. Then when I ask for the right product, u ask me to send it myself lest giving the right product."
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@115850 I understand. I wouldn't mind doing all this. But in this case the fault is yours. Why should I bother myself with the return arrangements?"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "AmazonHelp",
+            "text": "@367384 Request you to cooperate and self-return the order for a refund. (2/2)^VH"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "Customer",
+            "text": "@AmazonHelp I understand. But I don't want a refund. I just want the product that I had actually ordered."
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_064962",
+        "num_turns": 4,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@115821 @115850 Please find attached the image of the damaged coolpad phone, which was damaged while delivery, there was no proper packaging or bubble wrap, its so carelessly packed. https://t.co/3PaAHQHzem"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@115821 @115850 I have done what so ever is required, i couldn't wait any longer so bought a mobile from store, kindly refund the amount"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "AmazonHelp",
+            "text": "@294519 Apologies. Kindly reach out to our support team here: https://t.co/vlvfJr4nN9 and we'll assist you accordingly. ^GD"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "Customer",
+            "text": "@AmazonHelp As i mentioned to you, please give me the refund as i didn't wanted to wait for 4-5 days for replacement, worst service experience, I don't want replacement and you can't force me"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_124069",
+        "num_turns": 5,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "Now @115821 is saying the package is \"lost or damaged\". Well which is it? Lost or high shipping volume?#AmazonExcuses #NotSameDayDelivery"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@204717 Sorry to hear Steve- Has a replacement or refund been organized for you? ^NV"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp I'll have to do that later this morning. Absolutely infuriating"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "AmazonHelp",
+            "text": "@204717 Apologies, if the tracking states that the parcel was undeliverable you will be refunded: https://t.co/wkaoRWOIW9. ^JJ"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp This is ridiculous. Less than 9 hours ago it was high shipping volume which caused a delay. Now it's completely undeliverable???"
+          }
+        ]
+      }
+    ]
+  },
+  "DELIVERY_MISSING": {
+    "intent_id": "DELIVERY_MISSING",
+    "example_count": 8,
+    "examples": [
+      {
+        "conversation_id": "amazonhelp_095469",
+        "num_turns": 3,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@115821 I need assistance on a missing package, please."
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@621337 I'm sorry to hear your package is missing, but we're here to help! Please tell us what website you use? (.com, .es, etc) ^KN"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp .com"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_109328",
+        "num_turns": 4,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "It very worst experience with @115850, product is still not delivered while it in in destination's district since 16/10, https://t.co/wzmhi4OYP7"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@115850 @12339 product is still not delivered while it was in destination district, really it's very worst experience with @115850"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "AmazonHelp",
+            "text": "@565617 We're sorry for the disappointment. However, we request you to wait until estimated delivery date for the order delivery. ^RS"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Estimated delivery date was 16-oct-2017 and it is extended while product was at destination district on 16-Oct'17. Very worst courier servi"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_088060",
+        "num_turns": 2,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "#AmazonIndia poor service from Amazon, I have purchased a a phone on 6th of October and the product is not delivered yet."
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "#AmazonIndia product purchased: Lenovo K8 Note order number: 171-8449043-3586758"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_142136",
+        "num_turns": 28,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@115850 Giving FAKE UPDATE INCORRECT STATUS on ORDER, 3 ITEMS ALL 3 STATUS ARE INCORRECTLY UPDATED,1 is delivered , 2 is attempted"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@218249 That's odd. We'd like to check this. Please report this to our support team here: https://t.co/TdDksLo6Mf. ^HD"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp they told me to wait for 2 day's ???? what a pathetic  to know the product details @115850 need 2 day's !!!! pathetic service by couldtail"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "AmazonHelp",
+            "text": "@218249 Kindly fill up this form: https://t.co/GIJyeYqKE0. We'll look into this right away. ^HK"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp done, but they need 3 day's to update the status, by the time my return policy will get over ????"
+          },
+          {
+            "turn_number": 6,
+            "speaker": "AmazonHelp",
+            "text": "@218249 We're working on your details. We'll reach out to you soon with an update. ^SG"
+          },
+          {
+            "turn_number": 7,
+            "speaker": "Customer",
+            "text": "@AmazonHelp order : 0939508 Got a message saying itemThe delivery receipt was signed by Chandra Panikaa , i don't know whom they delivered ????,"
+          },
+          {
+            "turn_number": 8,
+            "speaker": "AmazonHelp",
+            "text": "@218249 Sorry to know you haven't received your package. Kindly connect with us here: https://t.co/R3EfhzgU8B. We'll help! ^PS"
+          },
+          {
+            "turn_number": 9,
+            "speaker": "Customer",
+            "text": "@AmazonHelp escalated 4-5 times still no action, got mail that 24-48 hrs it will get resolve ... but its been more than promissed  issue is not moving"
+          },
+          {
+            "turn_number": 10,
+            "speaker": "AmazonHelp",
+            "text": "@218249 Sorry for the trouble caused. Please be assured our team is currently working on this, you'd receive an update soon. ^EM"
+          },
+          {
+            "turn_number": 11,
+            "speaker": "Customer",
+            "text": "@AmazonHelp again i got a message saying delivery person attempted to reach you but customer is not available ?? why this FAKE UPDATE WHY @115850"
+          },
+          {
+            "turn_number": 12,
+            "speaker": "AmazonHelp",
+            "text": "@218249 Sorry to hear that, have you reported this to our support team here: https://t.co/vlvfJr4nN9? ^RB"
+          },
+          {
+            "turn_number": 13,
+            "speaker": "Customer",
+            "text": "@AmazonHelp i guess this is 10th time i'm escalatin it .. but no one is taking initiative to close this issue which i m fasing from last 4 day's ,"
+          },
+          {
+            "turn_number": 14,
+            "speaker": "AmazonHelp",
+            "text": "@218249 Sorry to know about the bad experience, please drop in the details here: https://t.co/GIJyeYqKE0 and we'll reach out. ^MS"
+          },
+          {
+            "turn_number": 15,
+            "speaker": "Customer",
+            "text": "@AmazonHelp MULTIPLE TIMES I HAVE UPDATED , IF YOU HAVE CONCERN ABOUT CUSTOMER GO THROUGH THE CONVERSATION  IT HAS COMPLETE INFORMATION"
+          },
+          {
+            "turn_number": 16,
+            "speaker": "AmazonHelp",
+            "text": "@218249 We've escalated the issue to our concerned team, we'll get back to you as soon as we receive an update from them. ^SH"
+          },
+          {
+            "turn_number": 17,
+            "speaker": "Customer",
+            "text": "@AmazonHelp FROM 4 DAY'S ISSUE IS PENDING , WORST SERVICE BY @115850 @AmazonHelp  CUSTOMER SERVICE TEAM , UNABLE TO HANDLE MY ISSUE"
+          },
+          {
+            "turn_number": 18,
+            "speaker": "AmazonHelp",
+            "text": "@218249 An email has already been sent with a reply. Kindly check it from the link shared here: https://t.co/NTkrxpaAj9 ^HR"
+          },
+          {
+            "turn_number": 19,
+            "speaker": "Customer",
+            "text": "@AmazonHelp SAME THING I'M HEARING FROM LAST 4 DAY'S AND ONE MORE ORDER # ORDER # 403-5003913-0939508, GOT DELIVERED TO SOME ONE ELSE, AND NO UPDATE ON"
+          },
+          {
+            "turn_number": 20,
+            "speaker": "AmazonHelp",
+            "text": "@218249 Sorry for the delay, Karthik. Please reply to the email you've received from our team and we'll reach out to you. ^KA"
+          },
+          {
+            "turn_number": 21,
+            "speaker": "Customer",
+            "text": "@AmazonHelp i have already replayed to your mail , please check"
+          },
+          {
+            "turn_number": 22,
+            "speaker": "AmazonHelp",
+            "text": "@218249 We have received your write back, appreciate your patience while we work on it. ^MJ"
+          },
+          {
+            "turn_number": 23,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Amazon logestic team has arrived my house and talking roude,  that he has delivered to neibour itseems, and we don't no anyone there and"
+          },
+          {
+            "turn_number": 24,
+            "speaker": "AmazonHelp",
+            "text": "@218249 That's unexpected, I'm sorry. Please respond to the email you received from the social media team, we'll look into this. ^JC"
+          },
+          {
+            "turn_number": 25,
+            "speaker": "Customer",
+            "text": "@AmazonHelp today also not delivered, its been 4th day im escalating.. agent number which i given is incorrect  which is  8660088587"
+          },
+          {
+            "turn_number": 26,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Delivery by Amazon Delivery Agent, phone number:8618878033  not reachable / switch off"
+          },
+          {
+            "turn_number": 27,
+            "speaker": "AmazonHelp",
+            "text": "@218249 That's Strange. Please respond to the email you received from the Social Media team for quick an assistance with this. ^RS"
+          },
+          {
+            "turn_number": 28,
+            "speaker": "Customer",
+            "text": "@AmazonHelp ESCALATING FROM LAST 4 DAY'S NO RESPOND FROM SOCIAL MEDIA TEAM OR NOTHING ... LEAST BOTHER TO CONTACT TO EXPLAIN THE ISSUE.. I CALLED 12TIMS"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_025260",
+        "num_turns": 11,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "Dealing with worst customer service ever @AmazonHelp ,Did not receive a refund on items returned after weeks of going back and forth with customer service I spoke to a supervisor that straight up lied to me on my orders b careful shoppers @115851 #BlackFriday #Amazon #bitcoin"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@140831 Hi, we can't see your details on social media. Without posting any of your account details here, can you tell us what the supervisor has told you about your return? ^BZ"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp I am missing 2 refunds out of 6 items I returned, I used the other 4 refunds on other items already and waiting for the last 2 to be refunded. he stated I already used the last 2 when it obviously has not been refunded, I have all transactions on my account still and saved"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "AmazonHelp",
+            "text": "@140831 Hey, did you receive emails confirming all six refunds? Also, can you see which refunds were processed here - https://t.co/ImPN7ZRn5O, select \"Order Details\". Keep us posted. ^TP"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Can you guys check my account and listen to the last phone call I had with the supervisor/customer service. He flat out lied on my account and then got aggressive and warned me when I was trying to explain ...I need Help #BlackFriday2017 #amazon #bitcoin"
+          },
+          {
+            "turn_number": 6,
+            "speaker": "AmazonHelp",
+            "text": "@140831 We wouldn't have access to your account from here for security reasons. I'm sorry to hear about your call, what was advised when you spoke with us? ^NV"
+          },
+          {
+            "turn_number": 7,
+            "speaker": "Customer",
+            "text": "@AmazonHelp I was told I was already refunded and that is it, then I tried explaining that I haven’t and he raised his voice and said that is it final warning , we can’t help you . I’m not sure what the warning was for but I just hung up after , worst service I ever dealt with"
+          },
+          {
+            "turn_number": 8,
+            "speaker": "AmazonHelp",
+            "text": "@140831 I'm sorry for the experiences you've had thus far with this situation. Our team would like to take a closer look with you.  Could you reach out to us here: https://t.co/ADtQ90Y0H8 so we can review the information with you? ^AZ"
+          },
+          {
+            "turn_number": 9,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Hello, when will I get an update? I’ve been waiting all day..."
+          },
+          {
+            "turn_number": 10,
+            "speaker": "AmazonHelp",
+            "text": "@140831 We're sorry for the wait. I can confirm we have received your information and will be reaching out to you soon to assist. ^TE"
+          },
+          {
+            "turn_number": 11,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Hello, I haven’t heard anything since, is there an update on this?"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_005953",
+        "num_turns": 3,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@AmazonHelp @115850 after several assurance still not delivered Order #407-4728589-5677939. Pissed off with ATS😢"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@338617 order details, we consider it to be personal information. Our page is visible to the public. (3/3)^SF"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp @115850 this is the worst experience from Amazon.Item returned without any delivery attempt. (1/2)"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_073630",
+        "num_turns": 3,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "I ordered 1 item for my friend from Amazon. Item never arrived. No refund. @115851 @115821 Order# 111-5895303-9259443. Is Amazon = fraud?"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@430350 I'm sorry for the trouble! What is the current tracking update for your order: https://t.co/Y5jpI9gRhE? ^JP"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp It says it is delivered but my friend never received it. Amazon customer service is also not helping me. What to do? Please help"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_106744",
+        "num_turns": 3,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@115850 Pathetic amazon service. Courier not delivered on promised date n time.courier guy intentionally lied that he attempted delivery."
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@469060 That's certainly unintended. Please report that here: https://t.co/HQhpS2qeEd and we'll check this out for you. ^MS"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Reported issue (tracking id-211179140880) 2 cs. But no one could help me.why I should receive courier 2morrow?"
+          }
+        ]
+      }
+    ]
+  },
+  "DELIVERY_TRACKING": {
+    "intent_id": "DELIVERY_TRACKING",
+    "example_count": 8,
+    "examples": [
+      {
+        "conversation_id": "amazonhelp_127256",
+        "num_turns": 12,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@115830 I live in Eastbourne. Tracking says parcel's gone from Littlehampton (46 miles away) to Weybridge to Peterborough (157 miles away)"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@186344 Who is the courier listed for your parcel here: https://t.co/aaDyEz1VgE and what is the estimated delivery date? ^LB"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Ah.  Never mind.  I was reading the screen top to bottom - I shoud have read it from bottom to top.  😳"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "AmazonHelp",
+            "text": "@186344 Thank you for letting us know! ^SB"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp However, I'm subscribed to the text message service and I'm not getting any texts.\nTracking says they tried to deliver at 7.30pm: I was out."
+          },
+          {
+            "turn_number": 6,
+            "speaker": "AmazonHelp",
+            "text": "@186344 Have you checked to make sure your Trace Text Settings are up to date? Learn more here: https://t.co/uJsRi2lvXX  ^KP"
+          },
+          {
+            "turn_number": 7,
+            "speaker": "Customer",
+            "text": "@AmazonHelp I already checked the mobile number was correct,"
+          },
+          {
+            "turn_number": 8,
+            "speaker": "AmazonHelp",
+            "text": "@186344 We're happy to take a closer look at this, and your order, with you directly here: https://t.co/JzP7hlA23B ^JR"
+          },
+          {
+            "turn_number": 9,
+            "speaker": "Customer",
+            "text": "@AmazonHelp That takes me to the page to sign up for text trace.  I was already signed up but I don't get any texts."
+          },
+          {
+            "turn_number": 10,
+            "speaker": "AmazonHelp",
+            "text": "@186344 Which carrier is it with Jo? ^AT"
+          },
+          {
+            "turn_number": 11,
+            "speaker": "Customer",
+            "text": "@AmazonHelp It says Amazon Shipping"
+          },
+          {
+            "turn_number": 12,
+            "speaker": "Customer",
+            "text": "@AmazonHelp I've set up instructions to leave with a neighbour if I'm out, so I don't know why that didn't happen yesterday evening."
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_046967",
+        "num_turns": 2,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "Commit to being fit. Get your fitness requirements at the Amazon Under Armour store. #WeWill #EveryDropCounts. Visit https://t.co/o8hVSBDNkA https://t.co/cRToZwJG3P"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@115850 @115850, where is my pickup for return item tracking # 710400450663, scheduled for October 29 and now 8 days late?"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_148577",
+        "num_turns": 3,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@AmazonHelp What's this delay ? When you assured about delivery by today ??tracking id211179779318"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@668359 Please don't provide your order details, we consider it to be personal information. Our page is visible to the public. 2/2 ^KK"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Give contact details of courier"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_011331",
+        "num_turns": 5,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@115850 @115851 Pathetic evr experience 4 a Samsung phone. Defective phone, endless wait for pickup, defective replacement, no pickup, no refund, multiple followups, no resolution, 1 month of ordeal, terrible experience! All d good work by Amazon down the drain in 1 order!"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@659444 I’m sorry about this experience with your order. I’d like to assist you, please fill this form: https://t.co/beaaDm0muc and I’ll contact you at the earliest ^RW"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp @115850 @115851 How many slips in one order! This can be your case study for service disasters. In fact you should pay me for the time, effort and peace of mind I have lost over this awful transaction. #amazon #servicedisaster"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "AmazonHelp",
+            "text": "@659444 We can't gain access to your account details via Twitter. Could you confirm sharing your details in the link provided earlier? ^KA"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Won't do it over again. Pls track using order # 408-3501059-3038748"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_085285",
+        "num_turns": 25,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@116439 i need some help. my remote doesnt always work. im pretty sure i bought it brand new. so what could the problem be?"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@213865 Hey!  We'd love to help if we can. The following link has some basic troubleshooting steps you may benefit from: https://t.co/pJpKnmV4Ge. ^DY"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp sorry but that link there didnt help any. all it says was how to do the batteries"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "AmazonHelp",
+            "text": "@213865 I'm sorry that help page didn't help. Please contact us directly via phone or chat for real time troubleshooting here: https://t.co/hApLpMlfHN ^JF"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp how do i know which apps are legal to use? is it ok to allow 'apps from unknown sources'?"
+          },
+          {
+            "turn_number": 6,
+            "speaker": "AmazonHelp",
+            "text": "@213865 Hi Rich, are these from our App store? If so, they will be fine to use.^PJ"
+          },
+          {
+            "turn_number": 7,
+            "speaker": "Customer",
+            "text": "@AmazonHelp do you need a photo for more help with figureing what im talking about?"
+          },
+          {
+            "turn_number": 8,
+            "speaker": "AmazonHelp",
+            "text": "@213865 If you can send one, that's great! We do ask that you make sure there is no personal information showing. ^AL"
+          },
+          {
+            "turn_number": 9,
+            "speaker": "Customer",
+            "text": "@AmazonHelp okay. im back now. i have 9 photos to send. is it ok if i send them 1 at a time?"
+          },
+          {
+            "turn_number": 10,
+            "speaker": "AmazonHelp",
+            "text": "@213865 Yes that will be fine, Rich. Just make sure there is no personal information in those photos.^SM"
+          },
+          {
+            "turn_number": 11,
+            "speaker": "Customer",
+            "text": "@AmazonHelp  https://t.co/44wcRYxhjB"
+          },
+          {
+            "turn_number": 12,
+            "speaker": "AmazonHelp",
+            "text": "@213865 Looking good for compatability on that one; it should work normally with your remote. Is this one having issues when in use? ^GS"
+          },
+          {
+            "turn_number": 13,
+            "speaker": "Customer",
+            "text": "@AmazonHelp okay let me show you another way"
+          },
+          {
+            "turn_number": 14,
+            "speaker": "AmazonHelp",
+            "text": "@213865 Hi Rich, for us to help better with this you should contact us directly using the link provided by my colleague ^GA. Let us know how you get on.^BZ"
+          },
+          {
+            "turn_number": 15,
+            "speaker": "Customer",
+            "text": "@AmazonHelp it cant be illegal downloading if they come from my connected \"https://t.co/yjhZAuCgEN account\" right?"
+          },
+          {
+            "turn_number": 16,
+            "speaker": "AmazonHelp",
+            "text": "@213865 Hey Rich, yes, anything downloaded from our App Store is good to go: https://t.co/yK1ongnvnT Enjoy your Fire TV Stick!^TI"
+          },
+          {
+            "turn_number": 17,
+            "speaker": "Customer",
+            "text": "@AmazonHelp  https://t.co/oDnxSueWoA"
+          },
+          {
+            "turn_number": 18,
+            "speaker": "AmazonHelp",
+            "text": "@213865 More info on that can be found here, Rich: https://t.co/lEMZW8Rups. I hope this is helpful! ^SD"
+          },
+          {
+            "turn_number": 19,
+            "speaker": "Customer",
+            "text": "@AmazonHelp i have a fire tv stick. i want to keep track of current and total space on it. wheres that feature at?"
+          },
+          {
+            "turn_number": 20,
+            "speaker": "AmazonHelp",
+            "text": "@213865 Thanks for that clarification! You can view this under settings, through applications. ^HM"
+          },
+          {
+            "turn_number": 21,
+            "speaker": "Customer",
+            "text": "@AmazonHelp hello? im waiting for a reply."
+          },
+          {
+            "turn_number": 22,
+            "speaker": "AmazonHelp",
+            "text": "@213865 Find information on storage space here:\nhttps://t.co/LUoHTsu52p \nIf you have any more questions please let us know! ^BT"
+          },
+          {
+            "turn_number": 23,
+            "speaker": "Customer",
+            "text": "@AmazonHelp i guess if i dont have a slot on my stick then i cant add storage"
+          },
+          {
+            "turn_number": 24,
+            "speaker": "AmazonHelp",
+            "text": "@213865 According to the link above, the Fire TV Stick does not support external storage. I'm sorry for any inconvenience caused. ^QJ"
+          },
+          {
+            "turn_number": 25,
+            "speaker": "Customer",
+            "text": "@AmazonHelp i want to buy a gift tomorrow for someone. how do i type in a personal message? where do i go to do that? and how much would the wrapping paper be if they wrapped it?"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_136345",
+        "num_turns": 4,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "Want to track your refunds but don’t know how? Here’s a simple answer: https://t.co/exsg0SvgkO #KaroMilkeTayyari #AmazonGreatIndianFestival https://t.co/A9qpJWPrOc"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@115850 Amazon.in executives are not satisfing customers they are hurting badly please take care thank you"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "AmazonHelp",
+            "text": "@215406 Apologies for the unpleasant experience. We'd like to know what went wrong. Could you please tell us more about it? ^AP"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Me that we are not gonna issue a refund sorry"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_047965",
+        "num_turns": 9,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "Make sure your loved ones get their gifts in time for the holidays! https://t.co/LrzrVpJmeY"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@118706 It would also help if the tracking site was working been waiting for a package that was supposed to b delivered last night."
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@258579 @118706 Same here.  This is 2 deliveries in a row that is late and no tracking."
+          },
+          {
+            "turn_number": 4,
+            "speaker": "Customer",
+            "text": "@258579 @118706 1hr 45min til 8pm 🤔"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@258579 @118706 No package still.  If not by Monday I'm suppose to file a claim. 😏"
+          },
+          {
+            "turn_number": 6,
+            "speaker": "Customer",
+            "text": "@258578 @118706 How long have u been waiting now?"
+          },
+          {
+            "turn_number": 7,
+            "speaker": "Customer",
+            "text": "@258579 @118706 Now my package says Dec\n 1 to 7th but when you click on the order to see tracking it says Thursday, which is 1 week past delivery date. No one will give me an answer not even the Amazon seller."
+          },
+          {
+            "turn_number": 8,
+            "speaker": "AmazonHelp",
+            "text": "@258578 Hi, has it been longer than 2 days since you contacted the seller?^BZ"
+          },
+          {
+            "turn_number": 9,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Yes. I've contacted them twice in the past week. They don't answer. USPS has no answer,  Amazon can't answer because USPS doesn't update the tracking. It's over $100 item ."
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_142136",
+        "num_turns": 28,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@115850 Giving FAKE UPDATE INCORRECT STATUS on ORDER, 3 ITEMS ALL 3 STATUS ARE INCORRECTLY UPDATED,1 is delivered , 2 is attempted"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@218249 That's odd. We'd like to check this. Please report this to our support team here: https://t.co/TdDksLo6Mf. ^HD"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp they told me to wait for 2 day's ???? what a pathetic  to know the product details @115850 need 2 day's !!!! pathetic service by couldtail"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "AmazonHelp",
+            "text": "@218249 Kindly fill up this form: https://t.co/GIJyeYqKE0. We'll look into this right away. ^HK"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp done, but they need 3 day's to update the status, by the time my return policy will get over ????"
+          },
+          {
+            "turn_number": 6,
+            "speaker": "AmazonHelp",
+            "text": "@218249 We're working on your details. We'll reach out to you soon with an update. ^SG"
+          },
+          {
+            "turn_number": 7,
+            "speaker": "Customer",
+            "text": "@AmazonHelp order : 0939508 Got a message saying itemThe delivery receipt was signed by Chandra Panikaa , i don't know whom they delivered ????,"
+          },
+          {
+            "turn_number": 8,
+            "speaker": "AmazonHelp",
+            "text": "@218249 Sorry to know you haven't received your package. Kindly connect with us here: https://t.co/R3EfhzgU8B. We'll help! ^PS"
+          },
+          {
+            "turn_number": 9,
+            "speaker": "Customer",
+            "text": "@AmazonHelp escalated 4-5 times still no action, got mail that 24-48 hrs it will get resolve ... but its been more than promissed  issue is not moving"
+          },
+          {
+            "turn_number": 10,
+            "speaker": "AmazonHelp",
+            "text": "@218249 Sorry for the trouble caused. Please be assured our team is currently working on this, you'd receive an update soon. ^EM"
+          },
+          {
+            "turn_number": 11,
+            "speaker": "Customer",
+            "text": "@AmazonHelp again i got a message saying delivery person attempted to reach you but customer is not available ?? why this FAKE UPDATE WHY @115850"
+          },
+          {
+            "turn_number": 12,
+            "speaker": "AmazonHelp",
+            "text": "@218249 Sorry to hear that, have you reported this to our support team here: https://t.co/vlvfJr4nN9? ^RB"
+          },
+          {
+            "turn_number": 13,
+            "speaker": "Customer",
+            "text": "@AmazonHelp i guess this is 10th time i'm escalatin it .. but no one is taking initiative to close this issue which i m fasing from last 4 day's ,"
+          },
+          {
+            "turn_number": 14,
+            "speaker": "AmazonHelp",
+            "text": "@218249 Sorry to know about the bad experience, please drop in the details here: https://t.co/GIJyeYqKE0 and we'll reach out. ^MS"
+          },
+          {
+            "turn_number": 15,
+            "speaker": "Customer",
+            "text": "@AmazonHelp MULTIPLE TIMES I HAVE UPDATED , IF YOU HAVE CONCERN ABOUT CUSTOMER GO THROUGH THE CONVERSATION  IT HAS COMPLETE INFORMATION"
+          },
+          {
+            "turn_number": 16,
+            "speaker": "AmazonHelp",
+            "text": "@218249 We've escalated the issue to our concerned team, we'll get back to you as soon as we receive an update from them. ^SH"
+          },
+          {
+            "turn_number": 17,
+            "speaker": "Customer",
+            "text": "@AmazonHelp FROM 4 DAY'S ISSUE IS PENDING , WORST SERVICE BY @115850 @AmazonHelp  CUSTOMER SERVICE TEAM , UNABLE TO HANDLE MY ISSUE"
+          },
+          {
+            "turn_number": 18,
+            "speaker": "AmazonHelp",
+            "text": "@218249 An email has already been sent with a reply. Kindly check it from the link shared here: https://t.co/NTkrxpaAj9 ^HR"
+          },
+          {
+            "turn_number": 19,
+            "speaker": "Customer",
+            "text": "@AmazonHelp SAME THING I'M HEARING FROM LAST 4 DAY'S AND ONE MORE ORDER # ORDER # 403-5003913-0939508, GOT DELIVERED TO SOME ONE ELSE, AND NO UPDATE ON"
+          },
+          {
+            "turn_number": 20,
+            "speaker": "AmazonHelp",
+            "text": "@218249 Sorry for the delay, Karthik. Please reply to the email you've received from our team and we'll reach out to you. ^KA"
+          },
+          {
+            "turn_number": 21,
+            "speaker": "Customer",
+            "text": "@AmazonHelp i have already replayed to your mail , please check"
+          },
+          {
+            "turn_number": 22,
+            "speaker": "AmazonHelp",
+            "text": "@218249 We have received your write back, appreciate your patience while we work on it. ^MJ"
+          },
+          {
+            "turn_number": 23,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Amazon logestic team has arrived my house and talking roude,  that he has delivered to neibour itseems, and we don't no anyone there and"
+          },
+          {
+            "turn_number": 24,
+            "speaker": "AmazonHelp",
+            "text": "@218249 That's unexpected, I'm sorry. Please respond to the email you received from the social media team, we'll look into this. ^JC"
+          },
+          {
+            "turn_number": 25,
+            "speaker": "Customer",
+            "text": "@AmazonHelp today also not delivered, its been 4th day im escalating.. agent number which i given is incorrect  which is  8660088587"
+          },
+          {
+            "turn_number": 26,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Delivery by Amazon Delivery Agent, phone number:8618878033  not reachable / switch off"
+          },
+          {
+            "turn_number": 27,
+            "speaker": "AmazonHelp",
+            "text": "@218249 That's Strange. Please respond to the email you received from the Social Media team for quick an assistance with this. ^RS"
+          },
+          {
+            "turn_number": 28,
+            "speaker": "Customer",
+            "text": "@AmazonHelp ESCALATING FROM LAST 4 DAY'S NO RESPOND FROM SOCIAL MEDIA TEAM OR NOTHING ... LEAST BOTHER TO CONTACT TO EXPLAIN THE ISSUE.. I CALLED 12TIMS"
+          }
+        ]
+      }
+    ]
+  },
+  "PAYMENT_ISSUE": {
+    "intent_id": "PAYMENT_ISSUE",
+    "example_count": 8,
+    "examples": [
+      {
+        "conversation_id": "amazonhelp_131429",
+        "num_turns": 3,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "On my 4th support person trying to return an item. Apparently I’ve reach their “Leadership” @115821 https://t.co/3Nug1tL5xl"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@684236 Hello, Eugene. I'm sorry for the trouble you had trying to return an item to us. Is there anything we may do to help? Please let us know, we want to make sure you're taken care of. ^KL"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp First they sent a return email to the buyer, who is upset that their gift to us came broken. And then they offered to credit my gift card balance which is either taking a long time, or went to the person who bought us the gift?"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_128202",
+        "num_turns": 11,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@116090 4 failed email responses by your agents Want a refund on an item that was promised by nov 24 now won’t be here till dec 5 #fail"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@133566 Sometimes unforeseen circumstances do occur, and I'm sorry for the delay! What insight or options did we provide when you spoke to us? Let us know! We'd like to help if we can. ^KN"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp I needed the item by dec 1 promise date was nov 24. 4 times I requested a refund because item won’t be here until at least dec 5. No refund"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "AmazonHelp",
+            "text": "@133566 What were you advised by the agents that you spoke with? Did they give a reason for the delay or a revised delivery date?^SM"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp They said the item was out of stock as of yesterday. However I have a shipping notification from you from November 20 that my order shipped"
+          },
+          {
+            "turn_number": 6,
+            "speaker": "AmazonHelp",
+            "text": "@133566 Thank you for the information! Did we reach out to the carrier about the delay? Also, have you tried to refuse the shipment? You can find more information on how to do so here: https://t.co/8RNgMZE0BS. ^AL."
+          },
+          {
+            "turn_number": 7,
+            "speaker": "Customer",
+            "text": "@AmazonHelp All I hear is that I should get it my dec 5th but this is a Xmas gift that I am shipping out of country it needs to be mailed by dec 1st"
+          },
+          {
+            "turn_number": 8,
+            "speaker": "AmazonHelp",
+            "text": "@133566 So sorry about the delay. We do aim to deliver by the delivery date given at the time the order was placed. ^KM"
+          },
+          {
+            "turn_number": 9,
+            "speaker": "Customer",
+            "text": "@AmazonHelp So I need to wait for the late item that I no longer need and return it? I needed to send it as a gift out of country n missed the cut off"
+          },
+          {
+            "turn_number": 10,
+            "speaker": "AmazonHelp",
+            "text": "@133566 Have you contacted the carrier to let them know you no longer want the item? https://t.co/6yLTryxLRD ^DJ"
+          },
+          {
+            "turn_number": 11,
+            "speaker": "Customer",
+            "text": "@AmazonHelp I am contacting you as I ordered from your site and you charged my credit card Amazon not a carrier"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_097191",
+        "num_turns": 3,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@116316 Hey I need some help, how do I contact customer support?"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@394183 Please use this link: https://t.co/ohyvGrpvrY My colleagues are pleased to assist you. ^DS"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Thank you for the information! However, my account is locked and I can't access that link. There was some issue with the payment for my orde"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_143743",
+        "num_turns": 3,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@115830 so! You took money from account for no reason! Your customer service can’t help and now I’m on hold! Great service award to you!"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@389114 Oh no! Were you able to provide the representative the following info: https://t.co/zGJcwdim2x? Please keep us in the loop! ^TG"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Yes! And im still on hold! CS tried connecting the payment to a complete different order made with a different card!👀👀🤦🏻‍♀️!!! Solution?!!!"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_142349",
+        "num_turns": 4,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@AmazonHelp A fraudulent transaction of $99 has been done from my credit card for Amazon Prime on 17.1.2017. Why and how this happened?"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@AmazonHelp @115850 @115821 @115821 @3021  #jetprivilege card fraud transaction. Can you look into this and resolve?"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "AmazonHelp",
+            "text": "@435214 Sorry to know there is an unknown charge on your account, Kindly connect with us here: https://t.co/HQhpS2qeEd. ^PS"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Sorry to say but i havenot opted for prime nor I ever registered my credi card. And there is no resolution after mailing CC."
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_076807",
+        "num_turns": 3,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@115850 Pls help!My order was COD but at the time of delivery I paid through ezetap. I've the receipt also.Do I have to pay again???"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@305360 If you have already paid for the order then you don't have to pay for it again. ^SH"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp By when delivery boy receive that I've paid so that I don't make the payment again as it's COD,n I want my ordr today, he came ystrday"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_053556",
+        "num_turns": 11,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@115851  very bad order experience in india with amazon shopping customer care is pathetic no body is helping cont 7024233728"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@192231 Please don’t provide account details as we consider them to be personal info. Our Twitter page is visible to public. (2/2) ^BS"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp still the issue was not solved \n\nshame on you amazon that u didn't deliver the item after receiving the payment"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "AmazonHelp",
+            "text": "@192231 in the link provided earlier? (2/2)^AP"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp i have provided all details but still no solution\n\nvery very bad experience"
+          },
+          {
+            "turn_number": 6,
+            "speaker": "AmazonHelp",
+            "text": "@192231 You must have received an email, Amit. Request you to check here: https://t.co/fYrzNInVt2. ^SK"
+          },
+          {
+            "turn_number": 7,
+            "speaker": "Customer",
+            "text": "@AmazonHelp still no progress in my case amazon is still asking time for internal investigation i am suffering because of the mistake of amazon why?????"
+          },
+          {
+            "turn_number": 8,
+            "speaker": "AmazonHelp",
+            "text": "@192231 I understand the disappointment, Amit. Please do respond to the email correspondence that was sent to you by our team 1/2 ^NK"
+          },
+          {
+            "turn_number": 9,
+            "speaker": "Customer",
+            "text": "@AmazonHelp no current update mail i had received"
+          },
+          {
+            "turn_number": 10,
+            "speaker": "AmazonHelp",
+            "text": "@192231 You can check it here: https://t.co/KcKBWEgvXZ ^RW"
+          },
+          {
+            "turn_number": 11,
+            "speaker": "Customer",
+            "text": "@AmazonHelp i have checked but not satisfied with reply"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_088593",
+        "num_turns": 2,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "Sir/madam I have been cheated with the product as I have not got my mobile inside the box..I have made the payment..when I contacted customer care they r not ready to help me.is this the service of Amazon..@AmazonHelp"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "Customer",
+            "text": "@AmazonHelp .I  mostly purchase things from Amazon but not I'm totally disappointed\nI m not able to get my refund @AmazonHelp"
+          }
+        ]
+      }
+    ]
+  },
+  "ORDER_MODIFY": {
+    "intent_id": "ORDER_MODIFY",
+    "example_count": 3,
+    "examples": [
+      {
+        "conversation_id": "amazonhelp_042794",
+        "num_turns": 13,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@AmazonHelp I ordered a Netflix gift card yesterday &amp; I still haven't received the email with the card info &amp; I can't login to amazon."
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@178198 Oh no! We'd like to help. Are you getting an error when you try to log in? Have you been able to clear your cache and cookies? ^NM"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp It keeps saying my password is incorrect but I know I'm using the right password. I called yesterday &amp; they said something about a hold."
+          },
+          {
+            "turn_number": 4,
+            "speaker": "AmazonHelp",
+            "text": "@178198 When you spoke directly to us, what options were we able to offer you? ^GL"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp I don't recall an offer. All they said was my account was on hold &amp; something about waiting 48 hours. Idk why it's on hold."
+          },
+          {
+            "turn_number": 6,
+            "speaker": "AmazonHelp",
+            "text": "@178198 Okay! Have you received an email from our account specialist with instructions on how to regain access to your account? ^HC"
+          },
+          {
+            "turn_number": 7,
+            "speaker": "Customer",
+            "text": "@AmazonHelp No I haven't. I've tried the reset password thing &amp; every new password I use still doesn't work."
+          },
+          {
+            "turn_number": 8,
+            "speaker": "AmazonHelp",
+            "text": "@178198 Resetting the password won't work. Please let us know if you don't get an e-mail from our Account Specialists by tomorrow. ^EZ"
+          },
+          {
+            "turn_number": 9,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Email still hasn't came. I can't login to check the order status of a gift card that I ordered 2 days ago. I would like to cancel order."
+          },
+          {
+            "turn_number": 10,
+            "speaker": "AmazonHelp",
+            "text": "@178198 If you have already provided your information to our account specialist, please allow 12-24 hours for them to reach you. ^WM"
+          },
+          {
+            "turn_number": 11,
+            "speaker": "Customer",
+            "text": "@AmazonHelp I don't have the info for an account specialist. I called 2 days ago with my email information &amp; nothing was emailed to me."
+          },
+          {
+            "turn_number": 12,
+            "speaker": "AmazonHelp",
+            "text": "@178198 I see! I'm sorry to hear that. Please reach out to us here: https://t.co/jzvkhdlrK5 and we'll be happy to take a second look. ^HC"
+          },
+          {
+            "turn_number": 13,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Having trouble with that. When I press send email it keeps saying enter your name when my name is entered. Is the a way I can just DM you"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_031681",
+        "num_turns": 3,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@115850 #AmazonMagic #AmazonFake  took money 12000 and then cancelled order..  Making customers fool.  12000 is not small amount https://t.co/CllpgqV54F"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@294417 You should have received an email communication for order cancellation. Kindly check it here: https://t.co/TGtn4IB6Ah ^RW"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Bastards..   Why you cancel order after taking money from customers!!  Using customers money without interest..  Shameful"
+          }
+        ]
+      },
+      {
+        "conversation_id": "amazonhelp_143853",
+        "num_turns": 5,
+        "turns": [
+          {
+            "turn_number": 1,
+            "speaker": "Customer",
+            "text": "@AmazonHelp @115830 used my prime account for next day delivery, now had email to say will be delivered by 4th December. Not good enough 😡😡 would like to cancel order and cancel prime account not worth the money"
+          },
+          {
+            "turn_number": 2,
+            "speaker": "AmazonHelp",
+            "text": "@823477 Apologies for the delay, Beena. Some deliveries may take slightly longer than usual due to this busy period. You can get in touch with us directly here: https://t.co/JzP7hlRCV9.^CN"
+          },
+          {
+            "turn_number": 3,
+            "speaker": "Customer",
+            "text": "@AmazonHelp Don’t offer next day service if it’s not available! What am I paying for amazon prime for? What a useless service"
+          },
+          {
+            "turn_number": 4,
+            "speaker": "AmazonHelp",
+            "text": "@823477 What was the delivery date provided during checkout and in your confirmation email? ^MI"
+          },
+          {
+            "turn_number": 5,
+            "speaker": "Customer",
+            "text": "@AmazonHelp It was 29th Nov by 9pm...."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+2026-09-10 17:03:58,389 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-09-10 17:03:58,390 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-09-10 17:03:58,390 - faiss.loader - INFO - Loading faiss.
+2026-09-10 17:03:58,415 - faiss.loader - INFO - Successfully loaded faiss.
+2026-09-10 17:03:58,645 - test_pipeline - INFO - Found 540 test IDs in baseline split
+2026-09-10 17:03:58,724 - test_pipeline - INFO - Loaded 540 test conversations from corpus
+2026-09-10 17:03:58,738 - test_pipeline - INFO - ======================================================================
+2026-09-10 17:03:58,738 - test_pipeline - INFO - RUNNING PIPELINE TESTS ON 50 CONVERSATIONS
+2026-09-10 17:03:58,738 - test_pipeline - INFO - Skip generation: True
+2026-09-10 17:03:58,738 - test_pipeline - INFO - ======================================================================
+2026-09-10 17:03:58,738 - test_pipeline - INFO - Pre-loading pipeline components...
+2026-09-10 17:03:58,738 - pipeline - INFO - Loading pipeline components...
+2026-09-10 17:03:58,739 - pipeline - INFO - Loading classifier from data/baseline/baseline_model.joblib
+2026-09-10 17:03:58,876 - pipeline - INFO - Classifier loaded with 14 classes
+2026-09-10 17:03:58,877 - pipeline - INFO - Loading RAG index from data/rag\faiss_index_train.bin
+2026-09-10 17:03:58,878 - pipeline - INFO - Loading RAG metadata from data/rag\corpus_metadata_train.jsonl
+2026-09-10 17:03:58,897 - pipeline - INFO - RAG metadata loaded: 2160 cases
+2026-09-10 17:03:58,897 - pipeline - INFO - Loading RAG embedding model: all-MiniLM-L6-v2
+2026-09-10 17:03:58,899 - sentence_transformers.base.model - INFO - No device provided, using cpu
+2026-09-10 17:04:00,739 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-10 17:04:00,739 - huggingface_hub.utils._http - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-09-10 17:04:00,793 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fmodules.json=&etag=%22952a9b81c0bfd99800fabf352f69c7ccd46c5e43%22 "HTTP/1.1 200 OK"
+2026-09-10 17:04:01,046 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-10 17:04:01,088 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig_sentence_transformers.json=&etag=%22fd1b291129c607e5d49799f87cb219b27f98acdf%22 "HTTP/1.1 200 OK"
+2026-09-10 17:04:01,090 - sentence_transformers.base.model - INFO - Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-09-10 17:04:01,404 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-10 17:04:01,469 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig_sentence_transformers.json=&etag=%22fd1b291129c607e5d49799f87cb219b27f98acdf%22 "HTTP/1.1 200 OK"
+2026-09-10 17:04:01,729 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-09-10 17:04:01,774 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2FREADME.md=&etag=%2244af2e3b0fa3a0b6239e48422972bf755f28fde0%22 "HTTP/1.1 200 OK"
+2026-09-10 17:04:02,032 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-10 17:04:02,076 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fmodules.json=&etag=%22952a9b81c0bfd99800fabf352f69c7ccd46c5e43%22 "HTTP/1.1 200 OK"
+2026-09-10 17:04:02,333 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-10 17:04:02,384 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fsentence_bert_config.json=&etag=%2259d594003bf59880a884c574bf88ef7555bb0202%22 "HTTP/1.1 200 OK"
+2026-09-10 17:04:02,658 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-09-10 17:04:02,998 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-10 17:04:03,111 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig.json=&etag=%2272b987fd805cfa2b58c4c8c952b274a11bfd5a00%22 "HTTP/1.1 200 OK"
+2026-09-10 17:04:03,666 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-09-10 17:04:03,930 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-09-10 17:04:04,206 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-09-10 17:04:04,521 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-09-10 17:04:04,829 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-10 17:04:04,878 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Ftokenizer_config.json=&etag=%22c79f2b6a0cea6f4b564fed1938984bace9d30ff0%22 "HTTP/1.1 200 OK"
+2026-09-10 17:04:05,193 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-10 17:04:05,321 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig.json=&etag=%2272b987fd805cfa2b58c4c8c952b274a11bfd5a00%22 "HTTP/1.1 200 OK"
+2026-09-10 17:04:05,756 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-10 17:04:05,859 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig.json=&etag=%2272b987fd805cfa2b58c4c8c952b274a11bfd5a00%22 "HTTP/1.1 200 OK"
+2026-09-10 17:04:06,168 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-10 17:04:06,210 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Ftokenizer_config.json=&etag=%22c79f2b6a0cea6f4b564fed1938984bace9d30ff0%22 "HTTP/1.1 200 OK"
+2026-09-10 17:04:06,533 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-09-10 17:04:06,805 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-09-10 17:04:07,153 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-10 17:04:07,211 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2F1_Pooling%2Fconfig.json=&etag=%22d1514c3162bbe87b343f565fadc62e6c06f04f03%22 "HTTP/1.1 200 OK"
+2026-09-10 17:04:07,466 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/2_Normalize/config.json "HTTP/1.1 404 Not Found"
+2026-09-10 17:04:07,713 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-09-10 17:04:08,222 - pipeline - INFO - Groq client initialized
+2026-09-10 17:04:08,223 - pipeline - INFO - All pipeline components loaded successfully
+2026-09-10 17:04:08,223 - test_pipeline - INFO - Components loaded successfully
+2026-09-10 17:04:08,223 - test_pipeline - WARNING - Skipping amazonhelp_049149 - no text
+2026-09-10 17:04:08,223 - test_pipeline - WARNING - Skipping amazonhelp_064362 - no text
+2026-09-10 17:04:08,223 - test_pipeline - WARNING - Skipping amazonhelp_067711 - no text
+2026-09-10 17:04:08,223 - test_pipeline - WARNING - Skipping amazonhelp_058474 - no text
+2026-09-10 17:04:08,223 - test_pipeline - WARNING - Skipping amazonhelp_095469 - no text
+2026-09-10 17:04:08,223 - test_pipeline - WARNING - Skipping amazonhelp_014079 - no text
+2026-09-10 17:04:08,223 - test_pipeline - WARNING - Skipping amazonhelp_127256 - no text
+2026-09-10 17:04:08,223 - test_pipeline - WARNING - Skipping amazonhelp_021383 - no text
+2026-09-10 17:04:08,223 - test_pipeline - WARNING - Skipping amazonhelp_148577 - no text
+2026-09-10 17:04:08,224 - test_pipeline - WARNING - Skipping amazonhelp_051452 - no text
+2026-09-10 17:04:08,224 - test_pipeline - WARNING - Skipping amazonhelp_085285 - no text
+2026-09-10 17:04:08,224 - test_pipeline - WARNING - Skipping amazonhelp_094508 - no text
+2026-09-10 17:04:08,224 - test_pipeline - WARNING - Skipping amazonhelp_131429 - no text
+2026-09-10 17:04:08,224 - test_pipeline - WARNING - Skipping amazonhelp_116908 - no text
+2026-09-10 17:04:08,224 - test_pipeline - WARNING - Skipping amazonhelp_109328 - no text
+2026-09-10 17:04:08,224 - test_pipeline - WARNING - Skipping amazonhelp_125806 - no text
+2026-09-10 17:04:08,224 - test_pipeline - WARNING - Skipping amazonhelp_087273 - no text
+2026-09-10 17:04:08,224 - test_pipeline - WARNING - Skipping amazonhelp_108818 - no text
+2026-09-10 17:04:08,224 - test_pipeline - WARNING - Skipping amazonhelp_081036 - no text
+2026-09-10 17:04:08,224 - test_pipeline - WARNING - Skipping amazonhelp_029127 - no text
+2026-09-10 17:04:08,225 - test_pipeline - WARNING - Skipping amazonhelp_023905 - no text
+2026-09-10 17:04:08,225 - test_pipeline - WARNING - Skipping amazonhelp_068531 - no text
+2026-09-10 17:04:08,225 - test_pipeline - WARNING - Skipping amazonhelp_067918 - no text
+2026-09-10 17:04:08,225 - test_pipeline - WARNING - Skipping amazonhelp_115953 - no text
+2026-09-10 17:04:08,225 - test_pipeline - WARNING - Skipping amazonhelp_008145 - no text
+2026-09-10 17:04:08,225 - test_pipeline - WARNING - Skipping amazonhelp_005672 - no text
+2026-09-10 17:04:08,225 - test_pipeline - WARNING - Skipping amazonhelp_006576 - no text
+2026-09-10 17:04:08,225 - test_pipeline - WARNING - Skipping amazonhelp_020449 - no text
+2026-09-10 17:04:08,225 - test_pipeline - WARNING - Skipping amazonhelp_012704 - no text
+2026-09-10 17:04:08,225 - test_pipeline - WARNING - Skipping amazonhelp_128202 - no text
+2026-09-10 17:04:08,225 - test_pipeline - WARNING - Skipping amazonhelp_142136 - no text
+2026-09-10 17:04:08,225 - test_pipeline - WARNING - Skipping amazonhelp_004681 - no text
+2026-09-10 17:04:08,226 - test_pipeline - WARNING - Skipping amazonhelp_136599 - no text
+2026-09-10 17:04:08,226 - test_pipeline - WARNING - Skipping amazonhelp_143743 - no text
+2026-09-10 17:04:08,226 - test_pipeline - WARNING - Skipping amazonhelp_055904 - no text
+2026-09-10 17:04:08,226 - test_pipeline - WARNING - Skipping amazonhelp_025260 - no text
+2026-09-10 17:04:08,226 - test_pipeline - WARNING - Skipping amazonhelp_144310 - no text
+2026-09-10 17:04:08,226 - test_pipeline - WARNING - Skipping amazonhelp_051894 - no text
+2026-09-10 17:04:08,226 - test_pipeline - WARNING - Skipping amazonhelp_101431 - no text
+2026-09-10 17:04:08,226 - test_pipeline - WARNING - Skipping amazonhelp_034236 - no text
+2026-09-10 17:04:08,226 - test_pipeline - WARNING - Skipping amazonhelp_087446 - no text
+2026-09-10 17:04:08,226 - test_pipeline - WARNING - Skipping amazonhelp_058000 - no text
+2026-09-10 17:04:08,226 - test_pipeline - WARNING - Skipping amazonhelp_151186 - no text
+2026-09-10 17:04:08,226 - test_pipeline - WARNING - Skipping amazonhelp_143309 - no text
+2026-09-10 17:04:08,226 - test_pipeline - WARNING - Skipping amazonhelp_135968 - no text
+2026-09-10 17:04:08,227 - test_pipeline - WARNING - Skipping amazonhelp_138817 - no text
+2026-09-10 17:04:08,227 - test_pipeline - WARNING - Skipping amazonhelp_123118 - no text
+2026-09-10 17:04:08,227 - test_pipeline - WARNING - Skipping amazonhelp_038591 - no text
+2026-09-10 17:04:08,227 - test_pipeline - WARNING - Skipping amazonhelp_039339 - no text
+2026-09-10 17:04:08,227 - test_pipeline - WARNING - Skipping amazonhelp_050756 - no text
+2026-09-10 17:04:08,228 - test_pipeline - INFO - Report saved to data/evaluation/sprint6_test_report.json

@@ -1,0 +1,514 @@
+{
+  "PAYMENT_ISSUE -> OTHER": [
+    {
+      "conversation_id": "amazonhelp_067918",
+      "v1_intent": "PAYMENT_ISSUE",
+      "v2_intent": "OTHER",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "LOW",
+      "customer_text": "@AmazonHelp Bonjour ! J'ai un problème avec ma commande la carte bancaire passe pas https://t.co/BHLswYEIHt @AmazonHelp Il s'agit de cartes virtuelles créés avec orange cash @AmazonHelp Déjà fait 3 fois @AmazonHelp Merci de votre réponse ! Une autre question : est t il prévu que PayPal soit un jour compatible avec Amazon ? @AmazonHelp D'accord. Non jamais mais j'essaierai peut-être"
+    },
+    {
+      "conversation_id": "amazonhelp_022747",
+      "v1_intent": "PAYMENT_ISSUE",
+      "v2_intent": "OTHER",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "LOW",
+      "customer_text": "@115821 why am I paying for 2 day shipping if it’s guaranteed to take 4 days to get here?! Wtf, prime is turning into@a waste of money.  😤 @AmazonHelp I place an order just now, and received an email saying it was guaranteed by November 20th. @AmazonHelp It says its expect to ship today. @AmazonHelp So what if its not the same as the confirmation email? https://t.co/H3AhCcCNyj"
+    },
+    {
+      "conversation_id": "amazonhelp_136599",
+      "v1_intent": "PAYMENT_ISSUE",
+      "v2_intent": "OTHER",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "LOW",
+      "customer_text": "@115850 why prices on product doesn’t match with listing price? Clear case of cheating... https://t.co/YSqGJQTOCh @AmazonHelp That means consumer has to pay extra even if its an issue from vendor. Aside i agreed to pay delivery charges but that doesn’t mean product product should be sold more than MRP."
+    }
+  ],
+  "PAYMENT_ISSUE -> APP_USAGE": [
+    {
+      "conversation_id": "amazonhelp_058442",
+      "v1_intent": "PAYMENT_ISSUE",
+      "v2_intent": "APP_USAGE",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "MEDIUM",
+      "customer_text": "@115821 ça fait plusieurs mois que je n'arrive pas à vous joindre suite à un prb technique. Moyen quand on paye un abonnement prime. https://t.co/exKL9Rrz9e @115821 Aucune réponse à mes emails à ce sujet... @AmazonHelp Prb toujours pas résolu malgré plusieurs appels, mails, et promesses de rappel. En tant que client prime je ne peux pas contacter le SC..."
+    },
+    {
+      "conversation_id": "amazonhelp_004081",
+      "v1_intent": "PAYMENT_ISSUE",
+      "v2_intent": "APP_USAGE",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "MEDIUM",
+      "customer_text": "Play the #AmazonPayQuiz contest now. 100 winners stand a to win ₹3000 Amazon Pay balance. Live now on the Amazon App https://t.co/jw4O1OVYDS @115850 @115850 @AmazonHelp  Contest winners? @AmazonHelp Oh thank you! Waiting 😇"
+    },
+    {
+      "conversation_id": "amazonhelp_014372",
+      "v1_intent": "PAYMENT_ISSUE",
+      "v2_intent": "APP_USAGE",
+      "v1_confidence": "HIGH",
+      "v2_confidence": "HIGH",
+      "customer_text": "Play the #AmazonPayQuiz contest now. 100 winners stand a to win ₹3000 Amazon Pay balance. Live now on the Amazon App https://t.co/jw4O1OVYDS @115850 Announcement of winner please"
+    }
+  ],
+  "DELIVERY_MISSING -> OTHER": [
+    {
+      "conversation_id": "amazonhelp_095469",
+      "v1_intent": "DELIVERY_MISSING",
+      "v2_intent": "OTHER",
+      "v1_confidence": "HIGH",
+      "v2_confidence": "LOW",
+      "customer_text": "@115821 I need assistance on a missing package, please. @AmazonHelp .com"
+    },
+    {
+      "conversation_id": "amazonhelp_046237",
+      "v1_intent": "DELIVERY_MISSING",
+      "v2_intent": "OTHER",
+      "v1_confidence": "HIGH",
+      "v2_confidence": "LOW",
+      "customer_text": "@115850 @AmazonHelp @228164 I signed up for Amazon prime using Vodafone offer... But still i haven't received the cashback. Please help ASAP!!! I signed up for Amazon prime on 15th October 2017. U said that i will receive cashback in 1 month. Still haven't received IT! @AmazonHelp Yes sent the mail @AmazonHelp Still no support from your side team. Haven't received the cashback. Help ASAP!!! @AmazonHelp Sent @AmazonHelp Thanks team. Received the cashback ✌️"
+    },
+    {
+      "conversation_id": "amazonhelp_145718",
+      "v1_intent": "DELIVERY_MISSING",
+      "v2_intent": "OTHER",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "LOW",
+      "customer_text": "@115850 - have written one mail. Request you to respond, as its urgent https://t.co/ZWu0SOIk3y @AmazonHelp Haven't received any"
+    }
+  ],
+  "DELIVERY_MISSING -> ORDER_STATUS": [
+    {
+      "conversation_id": "amazonhelp_014134",
+      "v1_intent": "DELIVERY_MISSING",
+      "v2_intent": "ORDER_STATUS",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "MEDIUM",
+      "customer_text": "#AmazonIndia \nAgain same kit kit\nDidn't get my parcel still getting delivery mails... Nonsense people\nTrace my order by my mobile 8308081314 Ok\nThank you\nI hope it get delivered\nThis is 2nd time in a row\n#AmazonIndia @AmazonHelp I hope u r still positive"
+    },
+    {
+      "conversation_id": "amazonhelp_005321",
+      "v1_intent": "DELIVERY_MISSING",
+      "v2_intent": "ORDER_STATUS",
+      "v1_confidence": "HIGH",
+      "v2_confidence": "HIGH",
+      "customer_text": "@AmazonHelp I have raised the query a lot of times under \"Where is my order?\" Please check."
+    },
+    {
+      "conversation_id": "amazonhelp_102745",
+      "v1_intent": "DELIVERY_MISSING",
+      "v2_intent": "ORDER_STATUS",
+      "v1_confidence": "HIGH",
+      "v2_confidence": "HIGH",
+      "customer_text": "@115850 every time I tweet u give me a bloody form to fill. Who on earth will give me the solution. \nAmazon Sucks!!! 407-0490236-8049166. I want a solution now  no more fu...ing excuses. @AmazonHelp I hope u people are not sleeping, where is my order?\nIf cant track your own courier hire some better employees. I want an update now on my order."
+    }
+  ],
+  "PAYMENT_ISSUE -> DEVICE_ISSUE": [
+    {
+      "conversation_id": "amazonhelp_026200",
+      "v1_intent": "PAYMENT_ISSUE",
+      "v2_intent": "DEVICE_ISSUE",
+      "v1_confidence": "HIGH",
+      "v2_confidence": "HIGH",
+      "customer_text": "@115830 @@AmazonHelp @129773 just spent 40mins on sos to your agent and no closer am i to using a service you are charging me for @AmazonHelp My issue is im paying you far a service that your agents are telling me I'm not entitled to 🤔🤔 firestick won't play content, mobile device @AmazonHelp Won't chromecast or cast to firestick,.. So how the heck am i supposed to watch stuff? @AmazonHelp I can't watch prime content on a AMAZON product but i can sideload kodi and watch anything for free 🤔🤔🤔 Are "
+    },
+    {
+      "conversation_id": "amazonhelp_136994",
+      "v1_intent": "PAYMENT_ISSUE",
+      "v2_intent": "DEVICE_ISSUE",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "MEDIUM",
+      "customer_text": "@115850 never prepay Amazon or use Amazon Pay. They wil cheat u by showing purchases delivered without delivering!! @115850 In the extremely limited options on your website, have tried reaching you but to no avail. Amazon least bothered coz money rec'd in advance."
+    },
+    {
+      "conversation_id": "amazonhelp_152454",
+      "v1_intent": "PAYMENT_ISSUE",
+      "v2_intent": "DEVICE_ISSUE",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "MEDIUM",
+      "customer_text": "@AmazonHelp How come Halloween 2 Rob Zombie “isn’t available in my location” I pay for prime and starz. And still don’t get it. @AmazonHelp *showtime subscription*"
+    }
+  ],
+  "DELIVERY_LATE -> APP_USAGE": [
+    {
+      "conversation_id": "amazonhelp_099503",
+      "v1_intent": "DELIVERY_LATE",
+      "v2_intent": "APP_USAGE",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "MEDIUM",
+      "customer_text": "Now @115821 are telling me I'll get an email in 36-48 hours with questions to answer. This after 4 torturous days of bs customer service. @120919 @115821 Dealing with them from the B2B side is honestly the worst. I have an issue open with them that is 20months old. Amz staff caused this issue. @AmazonHelp My issue is Vendor Central related and I'll be dealing with it there unless you have higher authority than the regular desk? @AmazonHelp 2 days later and @AmazonHelp still hasn't told me whethe"
+    },
+    {
+      "conversation_id": "amazonhelp_029127",
+      "v1_intent": "DELIVERY_LATE",
+      "v2_intent": "APP_USAGE",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "MEDIUM",
+      "customer_text": "@AmazonHelp 35 minutes and still no help. Someone to call me back. Terrible customer service. Very disappointing for such a large company. @AmazonHelp No call back yet. Any chance someone at AmazonHelp can assist? Need to get it sorted quickly. @AmazonHelp One to two hours... What does Amazon Help help with? @AmazonHelp It's not really account related. Maybe I could PM you if@you could send a contact."
+    },
+    {
+      "conversation_id": "amazonhelp_013260",
+      "v1_intent": "DELIVERY_LATE",
+      "v2_intent": "APP_USAGE",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "MEDIUM",
+      "customer_text": "@AmazonHelp  Pls let me know when will I get credit in Amazon pay for balance load. https://t.co/t9VYdMtePz @AmazonHelp Unable to register complaint via link given.pls help."
+    }
+  ],
+  "DELIVERY_LATE -> RETURN_REQUEST": [
+    {
+      "conversation_id": "amazonhelp_146032",
+      "v1_intent": "DELIVERY_LATE",
+      "v2_intent": "RETURN_REQUEST",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "MEDIUM",
+      "customer_text": "Iss #DiwaliKiTayyari Karo Amazon deals ke saath poori. Take a screenshot of your favourite offer &amp; show it to us. #AmazonGreatIndianFestival https://t.co/Z4r0R3dKPD @115850 Wanted to buy OnePlus 5 under exchange offer but all of a sudden I couldn't see the exchange button. Offer was supposed to be till midnight. @AmazonHelp Done everything. It has been pulled down"
+    },
+    {
+      "conversation_id": "amazonhelp_105834",
+      "v1_intent": "DELIVERY_LATE",
+      "v2_intent": "RETURN_REQUEST",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "MEDIUM",
+      "customer_text": "@115850 example of  #mishandleinnocentppl\nNo refund no replacement\nBut status says replaced https://t.co/di8mg9gMBn @AmazonHelp Shining example of customer harassment\nDo u follow a SLA.. ur representative said on call due to festivals expect delay\n\nWill u ever refund https://t.co/wo6qaiNsTm @AmazonHelp What nonsense is this how many times should I fill the same form\nAnyways I have filled 2nd time\n\nHighly nonsense !! More than 1 month now https://t.co/pkTPH7I7Gm @AmazonHelp Instead of just plane "
+    },
+    {
+      "conversation_id": "amazonhelp_012983",
+      "v1_intent": "DELIVERY_LATE",
+      "v2_intent": "RETURN_REQUEST",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "MEDIUM",
+      "customer_text": "@115850 Received my boat  stone 700 before EDT. Wowsome service!\nBut have received a used speaker i guess, with seal broken and scratches on speaker and box. 😪😪 https://t.co/rgmdI3UJlL @AmazonHelp That's not cool @AmazonHelp this was supposed to be a gift for my brother on 22nd nov, the replace would take atleat 4-5 days now. @AmazonHelp @AmazonHelp No one has visited yet for the replacement pick-up. Thank you for the inconvenience 😊. I've contacted Boat service center and they're replacing it r"
+    }
+  ],
+  "DELIVERY_MISSING -> RETURN_REQUEST": [
+    {
+      "conversation_id": "amazonhelp_144310",
+      "v1_intent": "DELIVERY_MISSING",
+      "v2_intent": "RETURN_REQUEST",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "MEDIUM",
+      "customer_text": "@115850 dear rename ur company as Chutiyazone ! It was a mistake not to buy EPSON L361 from @118702 or @122599 !! @115850 SUCKS !! @AmazonHelp I have been calling daily Amazon cs, as my replacement was to be delivered on 25th on priority as told by agent not yet received !! @AmazonHelp Bought printer to print didn't get on time had to spend  rs 1200 for printing 120 pages even after ordering printer !! Who will pay the loss"
+    },
+    {
+      "conversation_id": "amazonhelp_123645",
+      "v1_intent": "DELIVERY_MISSING",
+      "v2_intent": "RETURN_REQUEST",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "MEDIUM",
+      "customer_text": "After three terrible experiences with @37186 sellers very close together, I might be just about done with that service. @115821 @AmazonHelp Well in 1 case the item was not as described, very poor version of what was advertised. Had to pay for postage to return it, I know 1/? @AmazonHelp Seller has received item, but still no refund and it's been a few days. Another book arrived w/pages falling out but was described in 2/ @AmazonHelp good condition. Just started refund process. Another item never"
+    },
+    {
+      "conversation_id": "amazonhelp_026950",
+      "v1_intent": "DELIVERY_MISSING",
+      "v2_intent": "RETURN_REQUEST",
+      "v1_confidence": "HIGH",
+      "v2_confidence": "MEDIUM",
+      "customer_text": "@120781 @115850 has declined my request for replacement for manufacturing defect in phone and I received the phone very late... https://t.co/Ff5nSabrcU @120781 @115850 @57247  @115850  will I get replacement or not ....??? And what about your T&amp;C's for replacement..??? @AmazonHelp But I haven't received any email from your correspondence..."
+    }
+  ],
+  "DELIVERY_LATE -> DEVICE_ISSUE": [
+    {
+      "conversation_id": "amazonhelp_037955",
+      "v1_intent": "DELIVERY_LATE",
+      "v2_intent": "DEVICE_ISSUE",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "MEDIUM",
+      "customer_text": ".@122951 How will the warranty be considered by Amazon if purchase frm u...as many kindle develop issue later @115850 plz advise https://t.co/Yz79lM7A2U @AmazonHelp Yes I know tht...want to know will I get valid warranty if purchased frm othr e-commerce site? @AmazonHelp Thanks for information"
+    },
+    {
+      "conversation_id": "amazonhelp_142662",
+      "v1_intent": "DELIVERY_LATE",
+      "v2_intent": "DEVICE_ISSUE",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "MEDIUM",
+      "customer_text": "Just ask, \"Alexa, let's shop Oprah's Favorite Things\" to get holiday ready with Butter London. #OprahsFavoriteThings https://t.co/hTiKZM2EYK https://t.co/d1B9NyMm1x @115821 @115833 I used to enjoy the shopping list feature w/ the Echo. Not anymore! In the latest version of the app, after U open the app, when you tap lists, it takes the lists FOREVER to load. While trying to work within the lists, the app becomes EXTREMELY slow and unresponsive. Plz fix it!"
+    },
+    {
+      "conversation_id": "amazonhelp_028962",
+      "v1_intent": "DELIVERY_LATE",
+      "v2_intent": "DEVICE_ISSUE",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "MEDIUM",
+      "customer_text": "@116618 After updating Sony 4k Android TV firmware, ‘Amazon video’ playback in the beginning of a movie or when changing sound volume audio stutters. Very annoying. Is there a fix? @116618 @AmazonHelp After updating Sony 4k Android TV firmware, ‘Amazon video’ playback in the beginning of a movie or when changing sound volume audio stutters. Very annoying. Is there a fix? @AmazonHelp The link recommends updating device’s firmware. That’s exactly when this issue has started! Netflix streams with n"
+    }
+  ],
+  "DELIVERY_LATE -> PRODUCT_ISSUE": [
+    {
+      "conversation_id": "amazonhelp_027389",
+      "v1_intent": "DELIVERY_LATE",
+      "v2_intent": "PRODUCT_ISSUE",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "MEDIUM",
+      "customer_text": "@115850 Received my boat  stone 700 before EDT. Wowsome service!\nBut have received a used speaker i guess, with seal broken and scratches on speaker and box. 😪😪 https://t.co/rgmdI3UJlL @AmazonHelp That's not cool @AmazonHelp this was supposed to be a gift for my brother on 22nd nov, the replace would take atleat 4-5 days now."
+    },
+    {
+      "conversation_id": "amazonhelp_028986",
+      "v1_intent": "DELIVERY_LATE",
+      "v2_intent": "PRODUCT_ISSUE",
+      "v1_confidence": "HIGH",
+      "v2_confidence": "HIGH",
+      "customer_text": "@115821 wtf ??? You sent Me THE WRONG ITEM AND 14 days later no refund ???HELLO ? NO WAY TO REACH YOU ON YOUR WEBSITE! @AmazonHelp A seller TWICE !! Both times wrong items and I called you on the phone about the fraud ! This was 13 days ago and UPS picked the item up @AmazonHelp Look it’s not true ! If you need Me to post a video of me trying to get help I will be glad too ! WHERE IS MY REFUND ? 13 days ! @AmazonHelp Claim ? I email you all about this ? And called ! You mean I have to jump threw"
+    },
+    {
+      "conversation_id": "amazonhelp_020043",
+      "v1_intent": "DELIVERY_LATE",
+      "v2_intent": "PRODUCT_ISSUE",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "MEDIUM",
+      "customer_text": "@115850 this is how ur dealing wid ur customers...\nStill waiting for action https://t.co/8doRHskrC8 @AmazonHelp Today received the product but in damaged condition https://t.co/ObUGnCyFj0"
+    }
+  ],
+  "DELIVERY_MISSING -> DEVICE_ISSUE": [
+    {
+      "conversation_id": "amazonhelp_014656",
+      "v1_intent": "DELIVERY_MISSING",
+      "v2_intent": "DEVICE_ISSUE",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "MEDIUM",
+      "customer_text": "DM @AmazonHelp I bought Amazon echo dot wich included 1yr prime subscptin on Oct 3. On Oct 9 my prime membership exprd.it didn't get renwd. @AmazonHelp Oh great. I'll wait till November for making a new purchases."
+    },
+    {
+      "conversation_id": "amazonhelp_039990",
+      "v1_intent": "DELIVERY_MISSING",
+      "v2_intent": "DEVICE_ISSUE",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "MEDIUM",
+      "customer_text": "@115850 as i was the prime member and my prime membership is expired now. And i got the mail that u can buy a prime membership and get 500 cashback as a pay balance in our wallet. But no cashback shows on my login so please calle foe the confirmation of the cashback @AmazonHelp But i didn't get the renewal option on my login as of my membership expires on 7th November"
+    },
+    {
+      "conversation_id": "amazonhelp_092358",
+      "v1_intent": "DELIVERY_MISSING",
+      "v2_intent": "DEVICE_ISSUE",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "MEDIUM",
+      "customer_text": "Guess who gave this seller a surprise visit during the festive season? https://t.co/pLVOwuxk3O @115850 How to get an invite for echo? I've registered 4th i guess. Still haven't received my invite yet"
+    }
+  ],
+  "DELIVERY_MISSING -> DELIVERY_TRACKING": [
+    {
+      "conversation_id": "amazonhelp_046287",
+      "v1_intent": "DELIVERY_MISSING",
+      "v2_intent": "DELIVERY_TRACKING",
+      "v1_confidence": "HIGH",
+      "v2_confidence": "HIGH",
+      "customer_text": "@AmazonHelp Haven't received the order on time. Looks like Package is held by carrier. Can you look into this ASAP? Tracking ID 1Z9763EF1210861375 @AmazonHelp I used https://t.co/lwXWvcJrX9"
+    },
+    {
+      "conversation_id": "amazonhelp_023141",
+      "v1_intent": "DELIVERY_MISSING",
+      "v2_intent": "DELIVERY_TRACKING",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "MEDIUM",
+      "customer_text": "@115821 @AmazonHelp another one of my packaged tracked as \"delivered\" but it never arrived. How do I submit an issue on your site? @AmazonHelp I have checked everywhere and asked all of my employees. The tracking says \"left in mail room\" and we do not have mail room"
+    },
+    {
+      "conversation_id": "amazonhelp_087899",
+      "v1_intent": "DELIVERY_MISSING",
+      "v2_intent": "DELIVERY_TRACKING",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "MEDIUM",
+      "customer_text": "@115821 where is my package?? It says it was delivered but it's not here @AmazonHelp Yes. Nothing helped. Next plz"
+    }
+  ],
+  "DELIVERY_MISSING -> REFUND_REQUEST": [
+    {
+      "conversation_id": "amazonhelp_130630",
+      "v1_intent": "DELIVERY_MISSING",
+      "v2_intent": "REFUND_REQUEST",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "MEDIUM",
+      "customer_text": "@115821 i have tried filing an A-Z claim and it doesn’t give me the option and i have contacted the seller twice and have not gotten a response. I would like these refunded. They never arrived. Thank you. https://t.co/JlB1zZ2GRf @AmazonHelp Yes they are both third party sellers"
+    },
+    {
+      "conversation_id": "amazonhelp_112124",
+      "v1_intent": "DELIVERY_MISSING",
+      "v2_intent": "REFUND_REQUEST",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "MEDIUM",
+      "customer_text": "@AmazonHelp took 9 minutes for a customer service rep to tell me i'm not receiving a refund on my one-day shipping even though i haven't received an item. #brokensystem. @AmazonHelp hi. i paid for it to be delivered today but now it says nov 30-dec2."
+    },
+    {
+      "conversation_id": "amazonhelp_132296",
+      "v1_intent": "DELIVERY_MISSING",
+      "v2_intent": "REFUND_REQUEST",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "MEDIUM",
+      "customer_text": "@AmazonHelp hi I paid next day delivery for an item on Friday and still haven't received my item @AmazonHelp Hi it's now saying it's being delivered on Monday, but I've paid£6 for next day delivery. Is there any way this can be refunded?"
+    }
+  ],
+  "DELIVERY_MISSING -> APP_USAGE": [
+    {
+      "conversation_id": "amazonhelp_117145",
+      "v1_intent": "DELIVERY_MISSING",
+      "v2_intent": "APP_USAGE",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "MEDIUM",
+      "customer_text": "@AmazonHelp ordered prime delivery on Thursday, due yesterday never arrived, ordered more items yesterday, due today, still nothing arrived? @AmazonHelp Had message yesterday saying out for delivery and again today, app says the same?"
+    },
+    {
+      "conversation_id": "amazonhelp_127111",
+      "v1_intent": "DELIVERY_MISSING",
+      "v2_intent": "APP_USAGE",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "MEDIUM",
+      "customer_text": "@115830 please do not use @126705 for your next day guaranteed deliveries. Completely unreliable. #stillwaiting @115830 @126705 @AmazonHelp really disappointed - waiting in all day for a delivery that never arrived- that’s @126705 for you! No updates at all. #poorservice"
+    },
+    {
+      "conversation_id": "amazonhelp_022470",
+      "v1_intent": "DELIVERY_MISSING",
+      "v2_intent": "APP_USAGE",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "MEDIUM",
+      "customer_text": "@115830 please do not use @126705 for your next day guaranteed deliveries. Completely unreliable. #stillwaiting @115830 @126705 @AmazonHelp really disappointed - waiting in all day for a delivery that never arrived- that’s @126705 for you! No updates at all. #poorservice @AmazonHelp Never happened.  Really dissatisfied with this. Not what I expect or pay for. @126705 issue not yours but why use their shoddy service"
+    }
+  ],
+  "DELIVERY_MISSING -> PAYMENT_ISSUE": [
+    {
+      "conversation_id": "amazonhelp_116789",
+      "v1_intent": "DELIVERY_MISSING",
+      "v2_intent": "PAYMENT_ISSUE",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "MEDIUM",
+      "customer_text": "#AmazonIndia @115850 ordered moto g5s+ from amazon it was no cost on emi wen I saw my credit card statement  EMI was not applied. https://t.co/WIaA16ZOoZ @115850 After long time no response from customer service don't know wt to do @AmazonHelp Already share everything @AmazonHelp Haven't received any mail from your side @AmazonHelp Now I converted amount in to EMI for 9 months and paying interest too (1700) rs  thanks to Amazon @AmazonHelp Given information about the  product  do needful asap ht"
+    },
+    {
+      "conversation_id": "amazonhelp_120097",
+      "v1_intent": "DELIVERY_MISSING",
+      "v2_intent": "PAYMENT_ISSUE",
+      "v1_confidence": "HIGH",
+      "v2_confidence": "HIGH",
+      "customer_text": "@115850 \nWorst customers care , marking customer fools, giving  false information, to the customer.\nNeed help asap @AmazonHelp I didn't get the response yet, is this way to serve  customer, @AmazonHelp I replied on the same, I don't need your 100 rs gift card,\nI need Redmi 4a in my cart."
+    },
+    {
+      "conversation_id": "amazonhelp_129174",
+      "v1_intent": "DELIVERY_MISSING",
+      "v2_intent": "PAYMENT_ISSUE",
+      "v1_confidence": "HIGH",
+      "v2_confidence": "HIGH",
+      "customer_text": "@AmazonHelp yet i didn't get the cashback for the payment that i done for my first recharge over amazon pay balance..help!"
+    }
+  ],
+  "DELIVERY_LATE -> VIDEO_STREAMING": [
+    {
+      "conversation_id": "amazonhelp_101420",
+      "v1_intent": "DELIVERY_LATE",
+      "v2_intent": "VIDEO_STREAMING",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "MEDIUM",
+      "customer_text": "@115850 are you guyz trying to fool me. I discovered the maxima watch at 4.01 pm and you are sayi ng i am late. Do you think i am mad. @AmazonHelp I am reffering to app treasure hunt guyz. @AmazonHelp I didnt took even a single minute to guess and search the watch. Was it claimed even earlier ? Oh rubbish"
+    },
+    {
+      "conversation_id": "amazonhelp_112590",
+      "v1_intent": "DELIVERY_LATE",
+      "v2_intent": "VIDEO_STREAMING",
+      "v1_confidence": "HIGH",
+      "v2_confidence": "HIGH",
+      "customer_text": "Hey @119625, why no subtitles for 'Newton'  the latest hindi movie nominated for Oscar from India ? Please enable the subtitles man... @AmazonHelp Dude , I know how to switch subtitles ON or OFF. For this movie, there are no subtitles. Can you please check?"
+    },
+    {
+      "conversation_id": "amazonhelp_057138",
+      "v1_intent": "DELIVERY_LATE",
+      "v2_intent": "VIDEO_STREAMING",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "MEDIUM",
+      "customer_text": "@AmazonHelp SO I ODERED SOMETHING FROM AMAZON FOR MY APPLE WATCH ITS BEEN A WHOLE MONTH AND NOW ITS SAYING IT WONT GET HERE FOR LKME ANOTHER WEEK @AmazonHelp It’s saying 11-21 now it was supposed to be here today"
+    }
+  ],
+  "ORDER_MODIFY -> OTHER": [
+    {
+      "conversation_id": "amazonhelp_070621",
+      "v1_intent": "ORDER_MODIFY",
+      "v2_intent": "OTHER",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "LOW",
+      "customer_text": "@AmazonHelp @115850 now you started giving false information also?? really pathetic poor amazon ..read my chat with cc \nArun Prasath, @AmazonHelp they said we have cancelled your courier, they all told lie as still courier arrived, even after requesting for cancellation @AmazonHelp no i want strict punishment against the executives who told lie to me @AmazonHelp already talking with them, they just asking sorry nothing else, thats not the proper punishment for lie with a customer @AmazonHelp i a"
+    },
+    {
+      "conversation_id": "amazonhelp_153685",
+      "v1_intent": "ORDER_MODIFY",
+      "v2_intent": "OTHER",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "LOW",
+      "customer_text": "So why is @116618 trying to charge me for prime membership that I already have? Ffs. It’s continued until cancelled and I never 1/2 @116618 2/2 cancelled it. I have no cancellation emails or anything saying it’s going to end. Used it last night no problem, can’t tonight. Ffs. @AmazonHelp Don’t worry. I checked over, says it is. Reset my Xbox and it’s working now :)"
+    },
+    {
+      "conversation_id": "amazonhelp_059696",
+      "v1_intent": "ORDER_MODIFY",
+      "v2_intent": "OTHER",
+      "v1_confidence": "HIGH",
+      "v2_confidence": "LOW",
+      "customer_text": "@115850 I had ordered cricket gloves two days ago and then i received a mail saying i had requested a cancellation even though i did not. I had already paid for the order online. Please help me with this problem. https://t.co/UzZHlLvyJ6"
+    }
+  ],
+  "DELIVERY_LATE -> PAYMENT_ISSUE": [
+    {
+      "conversation_id": "amazonhelp_118515",
+      "v1_intent": "DELIVERY_LATE",
+      "v2_intent": "PAYMENT_ISSUE",
+      "v1_confidence": "HIGH",
+      "v2_confidence": "HIGH",
+      "customer_text": "Hi @115821, you guys told me to send you a fax with my  billing card statement but I don't have access to one atm.  Any alternate method? @115821 Better yet, what's you customer support email so we can communicate via email? Thanks @AmazonHelp Hi? I sent in the email but still no reply 20 hours later. Please help out with this, it's really urgent. THanks @AmazonHelp Hi, can't access chat as I'm locked out of my account and phone is too expensive since I'm outside the US &amp; I'm sure it's not t"
+    },
+    {
+      "conversation_id": "amazonhelp_107363",
+      "v1_intent": "DELIVERY_LATE",
+      "v2_intent": "PAYMENT_ISSUE",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "MEDIUM",
+      "customer_text": "@AmazonHelp suspending my account because of a fraudulent transaction that had nothing to do with me - joke. Any chance of getting help from someone in customer services who doesn’t just send repeated template replies?? @AmazonHelp I have contacted the credit card who have confirmed that they are working with Amazon to arrange the charge back. You should not be blocking my account"
+    },
+    {
+      "conversation_id": "amazonhelp_045271",
+      "v1_intent": "DELIVERY_LATE",
+      "v2_intent": "PAYMENT_ISSUE",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "MEDIUM",
+      "customer_text": "@AmazonHelp Guys, I'm still waiting on my account to be unlocked. I've received an email asking me to supply a bank statement to confirm the use of a visa card. The visa card is a @141806 voucher, so I cannot provide the info you need. @AmazonHelp There is no visa card issuer?! It's a One4All voucher that allows me to purchase Amazon gift cards, thus crediting my account. It's a shop bought voucher. No bank acc, no bank statement, no verify option linked to it. @AmazonHelp OK. I'll just go and s"
+    }
+  ],
+  "ORDER_MODIFY -> REFUND_REQUEST": [
+    {
+      "conversation_id": "amazonhelp_089965",
+      "v1_intent": "ORDER_MODIFY",
+      "v2_intent": "REFUND_REQUEST",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "MEDIUM",
+      "customer_text": "@AmazonHelp I've accidently ordered an item through the 1 touch checkout which wasn't intended, I've contacted the seller to cancel but is there a way I can cancel before the next 2 days as I don't want the money to be taken from my bank. Thanks @AmazonHelp In response to this tweet earlier the supplier have now dispatched this order and taken payment even though I didn't want the product, could I have some assistance please. @AmazonHelp I've contacted the seller with no response, not happy at a"
+    },
+    {
+      "conversation_id": "amazonhelp_065751",
+      "v1_intent": "ORDER_MODIFY",
+      "v2_intent": "REFUND_REQUEST",
+      "v1_confidence": "HIGH",
+      "v2_confidence": "HIGH",
+      "customer_text": "hey yall need to cancel that and give me my money back @AmazonHelp @AmazonHelp I couldn't find the cancel link to the music app and I've been wanting to cancel for weeks, just not my stride, and now I've been charged the monthly fee.\n\nPlease unenroll and refund"
+    },
+    {
+      "conversation_id": "amazonhelp_050792",
+      "v1_intent": "ORDER_MODIFY",
+      "v2_intent": "REFUND_REQUEST",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "MEDIUM",
+      "customer_text": "@AmazonHelp hi guys, I’ve recently cancelled 2 orders 1 from the 21st and another from Monday, both cancellations accepted, but the money1/2 @AmazonHelp For both orders are just in my banks holding account neither has been refunded any reason why? Many thanks 2/2 @AmazonHelp Not they was cancelled within minutes of ordering,they have never been dispatched, payment for both items was taken just not refunded.Thanks @AmazonHelp Okay will do, appreciate your assistance. Many thanks Robbie."
+    }
+  ],
+  "DELIVERY_LATE -> ACCOUNT_ACCESS": [
+    {
+      "conversation_id": "amazonhelp_099841",
+      "v1_intent": "DELIVERY_LATE",
+      "v2_intent": "ACCOUNT_ACCESS",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "MEDIUM",
+      "customer_text": "@AmazonHelp still waiting for a fraud issue to be resolved after a week.  Was told up to 48hrs.  Do you even have a fraud department? @AmazonHelp Nope.  Not in spam.  Been on the line with CS for over 40 mins now - seems like even they don’t have access to the fraud department.  Again - do you even have a fraud department?"
+    },
+    {
+      "conversation_id": "amazonhelp_086595",
+      "v1_intent": "DELIVERY_LATE",
+      "v2_intent": "ACCOUNT_ACCESS",
+      "v1_confidence": "MEDIUM",
+      "v2_confidence": "MEDIUM",
+      "customer_text": "@AmazonHelp My account has still not be unlocked its almost been 4-5 days and when i contact Customer Care they say we are still unlocking. @AmazonHelp Nope.. still waiting from the last 4-5 days and my account is still locked @AmazonHelp The only mail i received is this.. and i don't any card with 89 ending https://t.co/2Z1OKyD6h4"
+    }
+  ]
+}

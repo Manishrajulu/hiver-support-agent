@@ -1,0 +1,78 @@
+{
+  "classification_errors": [
+    {
+      "id": "amazonhelp_025441",
+      "actual": "OTHER",
+      "predicted": "VIDEO_STREAMING",
+      "confidence": 0.20258878663549665
+    },
+    {
+      "id": "amazonhelp_066175",
+      "actual": "DELIVERY_LATE",
+      "predicted": "OTHER",
+      "confidence": 0.16091983167240337
+    },
+    {
+      "id": "amazonhelp_137684",
+      "actual": "PAYMENT_ISSUE",
+      "predicted": "RETURN_REQUEST",
+      "confidence": 0.11849161562985704
+    },
+    {
+      "id": "amazonhelp_136599",
+      "actual": "PAYMENT_ISSUE",
+      "predicted": "RETURN_REQUEST",
+      "confidence": 0.14901517544506454
+    },
+    {
+      "id": "amazonhelp_048576",
+      "actual": "OTHER",
+      "predicted": "DELIVERY_LATE",
+      "confidence": 0.15574279988855216
+    },
+    {
+      "id": "amazonhelp_134637",
+      "actual": "OTHER",
+      "predicted": "RETURN_REQUEST",
+      "confidence": 0.12810146531299288
+    },
+    {
+      "id": "amazonhelp_110619",
+      "actual": "DELIVERY_MISSING",
+      "predicted": "DELIVERY_LATE",
+      "confidence": 0.13885485616405605
+    },
+    {
+      "id": "amazonhelp_140683",
+      "actual": "DEVICE_ISSUE",
+      "predicted": "ACCOUNT_ACCESS",
+      "confidence": 0.3735521574692364
+    },
+    {
+      "id": "amazonhelp_132432",
+      "actual": "DELIVERY_LATE",
+      "predicted": "DELIVERY_MISSING",
+      "confidence": 0.17209030568764
+    },
+    {
+      "id": "amazonhelp_037160",
+      "actual": "OTHER",
+      "predicted": "DELIVERY_LATE",
+      "confidence": 0.15082149128174335
+    },
+    {
+      "id": "amazonhelp_133210",
+      "actual": "OTHER",
+      "predicted": "DELIVERY_LATE",
+      "confidence": 0.15808816994042477
+    },
+    {
+      "id": "amazonhelp_046285",
+      "actual": "DELIVERY_LATE",
+      "predicted": "OTHER",
+      "confidence": 0.1458526247204349
+    }
+  ],
+  "retrieval_failures": [],
+  "escalation_errors": []
+}

@@ -1,0 +1,590 @@
+{
+  "random_20_labeled": [
+    {
+      "conversation_id": "amazonhelp_036150",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "Hola @116875. Compré un libro y llegó roto(caja sin relleno) Devolveré, y compraré otro. Dónde específico que ahora SI lo empaquen bien?"
+    },
+    {
+      "conversation_id": "amazonhelp_136278",
+      "primary_intent": "RETURN_REQUEST",
+      "secondary_intents": [
+        "REFUND_REQUEST"
+      ],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "MEDIUM",
+      "customer_text_preview": "@115851 please check they told me last 8th returng mony nt get yet and after that what they are cometting to resolve but not rtrng mny bk https://t.co/ObrqTysY7n @AmazonHelp @115851 alredy submitted please cross check and tell me when i get my money back check the screen grab in ghat you mentin fr 2..."
+    },
+    {
+      "conversation_id": "amazonhelp_115953",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "@115830 you are disgrace sending customers emails that your package will be delivered then not delivering the package...shocking #BoycotAmazon @AmazonHelp @115830 @AmazonHelp your a joke that’s the same web page I went to for the customer service agent to hang up on me. How about find out who it was..."
+    },
+    {
+      "conversation_id": "amazonhelp_115618",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "Seriously - this is one bland, useless, totally incorrect customer service response from @115821. https://t.co/tH34LEkXvS @115821 Remember - my email had nothing to do with an order but was about the sort function on the wish list.\n\nSigh. @AmazonHelp Amazon used to have the sort by title function, b..."
+    },
+    {
+      "conversation_id": "amazonhelp_098928",
+      "primary_intent": "APP_USAGE",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "MEDIUM",
+      "customer_text_preview": "@37529 I have tried too many times to download your new album but @116935 ain’t letting me? I could 😭 @AmazonHelp All I got is “server error, item not found”"
+    },
+    {
+      "conversation_id": "amazonhelp_038139",
+      "primary_intent": "ACCOUNT_ACCESS",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "MEDIUM",
+      "customer_text_preview": "@115821 help please. I don’t even have amazon anymore not had or used it for around 3 years https://t.co/OZ9tf9i8ea @AmazonHelp I don’t have a username and password because I don’t even have an account? Is there another way I can contact you"
+    },
+    {
+      "conversation_id": "amazonhelp_150167",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "#KaroMilkeTayyari to add some twinkle to your house. Get fabulous deals on Diwali string lights at the #AmazonGreatIndianFestival https://t.co/MmMoqqVm29 @115850 Made in India ?"
+    },
+    {
+      "conversation_id": "amazonhelp_145718",
+      "primary_intent": "OTHER",
+      "secondary_intents": [
+        "DELIVERY_MISSING"
+      ],
+      "modifiers": [],
+      "escalation_signals": [
+        "ESCALATION_REQUEST"
+      ],
+      "confidence": "LOW",
+      "customer_text_preview": "@115850 - have written one mail. Request you to respond, as its urgent https://t.co/ZWu0SOIk3y @AmazonHelp Haven't received any"
+    },
+    {
+      "conversation_id": "amazonhelp_138152",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "Super, @120533 qui repousse la livraison pour finir par annuler la commande sans explication @120533 Réponse de @AmazonHelp : vous n'avez pas été livrée et vous serez remboursee. Aucune explication. Je suis bien avancée 🤔 @AmazonHelp Ça ne m'aide pas vraiment"
+    },
+    {
+      "conversation_id": "amazonhelp_088907",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "Hola @116928 reclamadles un pedido que no me ha llegado es casi misión imposible en su página... @AmazonHelp Es un vendedor externo, Correos dice que lo ha entregado, pero no me ha llegado nada @AmazonHelp @133260 Sí, pero para el vendedor externo vuestra página no dice cómo contactar y Correos jura..."
+    },
+    {
+      "conversation_id": "amazonhelp_053159",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "Se anche oggi il corriere se la scampa con “tentativo di consegna non riuscito” quando in realtà sono a casa, potrei arrabbiarmi davvero Più che farlo notare sia ad Amazon che al corriere non so che fare, aspetto ancora qualche giorno poi vedrò di chiedere il rimborso @AmazonHelp Si già fatto"
+    },
+    {
+      "conversation_id": "amazonhelp_127397",
+      "primary_intent": "ORDER_STATUS",
+      "secondary_intents": [
+        "DELIVERY_MISSING",
+        "REFUND_REQUEST"
+      ],
+      "modifiers": [],
+      "escalation_signals": [
+        "PREVIOUS_CONTACT"
+      ],
+      "confidence": "MEDIUM",
+      "customer_text_preview": "@AmazonHelp i canceled my ordered after i got charged. And iv'e been waiting for 2 days to get my money back. The item didn't get shipped @AmazonHelp I've been waiting for 43 hours exactly!"
+    },
+    {
+      "conversation_id": "amazonhelp_022747",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "@115821 why am I paying for 2 day shipping if it’s guaranteed to take 4 days to get here?! Wtf, prime is turning into@a waste of money.  😤 @AmazonHelp I place an order just now, and received an email saying it was guaranteed by November 20th. @AmazonHelp It says its expect to ship today. @AmazonHelp..."
+    },
+    {
+      "conversation_id": "amazonhelp_047943",
+      "primary_intent": "DEVICE_ISSUE",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "MEDIUM",
+      "customer_text_preview": "Biggest con for Morrissey pre-sale.....@120474  No Royal Albert Hall tickets listed? #morrissey @121890 Hi. Royal Albert Hall will be ready shortly. Thanks @120474 What time? 15 mins to go. We didn’t want Alexandra Palace tix. But are likely to miss out on Lon tix if RAH is not ready in time! #mozar..."
+    },
+    {
+      "conversation_id": "amazonhelp_117145",
+      "primary_intent": "APP_USAGE",
+      "secondary_intents": [
+        "DELIVERY_MISSING"
+      ],
+      "modifiers": [
+        "PRIME_CUSTOMER"
+      ],
+      "escalation_signals": [],
+      "confidence": "MEDIUM",
+      "customer_text_preview": "@AmazonHelp ordered prime delivery on Thursday, due yesterday never arrived, ordered more items yesterday, due today, still nothing arrived? @AmazonHelp Had message yesterday saying out for delivery and again today, app says the same?"
+    },
+    {
+      "conversation_id": "amazonhelp_091116",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [
+        "FRUSTRATION_HIGH",
+        "SERVICE_COMPLAINT"
+      ],
+      "confidence": "MEDIUM",
+      "customer_text_preview": "@115850 worst service dont buy any products from Amazon @AmazonHelp I ordered one but i receved another product @AmazonHelp I shared my details lets see @AmazonHelp No response till now @AmazonHelp 30 hours completed @AmazonHelp Ur team wil never respoae ok @AmazonHelp Y u sended that money in pay b..."
+    },
+    {
+      "conversation_id": "amazonhelp_087361",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "@115850. I Have ordered for Aukey wired earphones but received Aukey Bluetooth headphones instead. Pretty cool though but Plz check it! https://t.co/PEgU096GHk @115850 @115821 @115850 One more thing. When i ordered the earphone it was of rs.1349 and now it's 2487. Need assistance in that as well."
+    },
+    {
+      "conversation_id": "amazonhelp_011298",
+      "primary_intent": "ORDER_STATUS",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [
+        "FRUSTRATION_HIGH"
+      ],
+      "confidence": "MEDIUM",
+      "customer_text_preview": "Amazon is pathetic.They don't deliver the product and update status couldn't deliver bcz there is no one to receive it. WTF #AmazonIndia @171152 can u help me out with my order of one plus 5 @AmazonHelp I'm talking to the team from.past 2 days and no one is able to help me... Your Order AWB# 6998075..."
+    },
+    {
+      "conversation_id": "amazonhelp_068999",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "@AmazonHelp , I got a email telling me my parcel had been delivered and posted through letter box but no package came and no chap at my door. What's going on @AmazonHelp I have cheked everywhere, there wasn't even a chap at my door as I've been in all morning."
+    },
+    {
+      "conversation_id": "amazonhelp_056417",
+      "primary_intent": "APP_USAGE",
+      "secondary_intents": [
+        "ACCOUNT_ACCESS"
+      ],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "HIGH",
+      "customer_text_preview": "Dear @115830 - what's the point of sending me an app validation code with 10 mins life if it takes 5 hours to get to me? @115830 Right, third attempt. Request sent at 09:53. Code lasts ten minutes. When will it arrive in my inbox? @AmazonHelp I think my tweets are clear. I need a code to login to my..."
+    }
+  ],
+  "low_confidence_20": [
+    {
+      "conversation_id": "amazonhelp_070667",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [
+        "DELIVERY_CARRIER"
+      ],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "@AmazonHelp @116928  Asi entrega los paquetes vuestra compañia @137605 https://t.co/ydRfKTzaWe @AmazonHelp @116928 @137605 adjunto las opiniones  que son 200 negativas y ni una positiva #correoexpress https://t.co/bfeOB6npjW @AmazonHelp La verdad esque no me he atrevido a mirar el segundo paquete as..."
+    },
+    {
+      "conversation_id": "amazonhelp_138858",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "While buying frequently bought bundle in @115850 be careful as the product price changes after cart and you can't identify this irregulari @AmazonHelp Yes but the bundle price of 1194 today is becoming 1598 the moment it is added into cart. This is a bug which you can't deny."
+    },
+    {
+      "conversation_id": "amazonhelp_024804",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "@115850 kindly solve my problem regarding order 2798736 asap ,, as i do not want to discuss here to spoil amazon’s reputation ... @AmazonHelp ok lets see"
+    },
+    {
+      "conversation_id": "amazonhelp_045736",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [
+        "DELIVERY_CARRIER"
+      ],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "@120533 votre livraison avant 20h, c'est total bidon. Colis toujours pas reçu sur lieu de travail. Je dis quoi à mon collègue qui attend ? @AmazonHelp Amazon logistics @AmazonHelp Amazon Logistics, n° de suivi C10038421223 @AmazonHelp votre réponse ne me convient pas. Puis je vous donner une autre a..."
+    },
+    {
+      "conversation_id": "amazonhelp_138305",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "@116928 , qué solución dáis  cuando no cumplís  plazos de entrega de productos que repercuten directamente en el desempeño de mi trabajo? @AmazonHelp 2 DE OCTUBRE @AmazonHelp Y después de hablar por chat con dos personas dedicadas a la atención al cliente, no saben decirme cuando llegará"
+    },
+    {
+      "conversation_id": "amazonhelp_012164",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "Coucou @120533, un espoir pour des places Disney pour le Black Friday comme l'année dernière ? Bon Week-end !"
+    },
+    {
+      "conversation_id": "amazonhelp_149068",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "Comment ça se fait que ma precommande en Prime qui sort demain a été expédiée et que je la recevrai jeudi ? @120533 @AmazonHelp @115828 @AmazonHelp Lorsque j’ai précommandé le jeu (le jour de l’ouverture des précommandes il y a 2 mois) je devais le recevoir demain"
+    },
+    {
+      "conversation_id": "amazonhelp_049715",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "@115821 sent me an empty cardboard box instead of my Elgato Capture card, from 1 day shipping to waiting 4 days #streamerproblems #feelsbad @AmazonHelp Yes I was but I was only able to get my item re-shipped with 3 more days of shipping instead of the eligible 1 day"
+    },
+    {
+      "conversation_id": "amazonhelp_071206",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [
+        "PRIME_CUSTOMER"
+      ],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "Amazon Prime: DU VOL !!!!!!\nIls vous abonnent sans avertissement et vous débitent automatiquement. #amazonprime @115821 @AmazonHelp C'est déjà fait. Je met uniquement en lumière vos pratiques douteuses et à la limite du légal. Bonne journée, @AmazonHelp Un remboursement ne devrait même pas avoir lie..."
+    },
+    {
+      "conversation_id": "amazonhelp_049967",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "@115821 As an exception, can you register an outside US Citizen as a business account? I have tons of product requirement for my business in my country. Let me know if you can help in this. @AmazonHelp It's redirecting me to amazon.in. But i need amazon business account on https://t.co/id01moA0Jd @A..."
+    },
+    {
+      "conversation_id": "amazonhelp_111508",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "super votre livraison prenium amazon qui est censer etre un jour et qui seras 1 semaine grace a  chronopost @120533 @AmazonHelp y a marquer ariveras aujourd hui avant 20h"
+    },
+    {
+      "conversation_id": "amazonhelp_104936",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "Amazon account hacked, \nanxiety level: OH DEAR GOD THE BURNING BALL IN MY STOMACH,\nFeel like throwing up and/or having the stress runs/poops After speaking with @115821 &amp; @116090 live chat for roughly an hour, it has been sent to their sec. dept. &amp; should be fixed in a day or 2"
+    },
+    {
+      "conversation_id": "amazonhelp_101172",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "@115821 why can’t I purchase any of The Big Bang Theory seasons from my iPhone or iPad?"
+    },
+    {
+      "conversation_id": "amazonhelp_094329",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [
+        "DELIVERY_CARRIER"
+      ],
+      "escalation_signals": [
+        "PREVIOUS_CONTACT"
+      ],
+      "confidence": "LOW",
+      "customer_text_preview": "For the 5th time I've called @AmazonHelp after their carriers have failed to give a disable customer [me] enough time to reach the door @AmazonHelp As with all the orders I've had this issue with, Amazon Shipping is the listed carrier. I've been told multiple times now that- @AmazonHelp -\"A complain..."
+    },
+    {
+      "conversation_id": "amazonhelp_098783",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "@AmazonHelp I cannot find any reply on the given link. @AmazonHelp Thanks, already have a while ago!"
+    },
+    {
+      "conversation_id": "amazonhelp_035079",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "@AmazonHelp  @8105  I have to bring to your notice like inspire of requesting them to solve the dispute I haven't got a solution @AmazonHelp Yes I have done that hundreds of times @AmazonHelp No reply still horrible service @AmazonHelp Saying we couldn't find your order"
+    },
+    {
+      "conversation_id": "amazonhelp_067674",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "@AmazonHelp j’espère que vous foutez de moi non sérieux déjà une fois j’ai commandé FIFA 18 vous me dites que vous pouvez pas me livrer @AmazonHelp Et maintenant vous me faites la même pour call of duty mais vous avez cru j’étais un fils de pute ou c’est comment ? https://t.co/asLibCuwa0 @AmazonHelp..."
+    },
+    {
+      "conversation_id": "amazonhelp_087064",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "@115850 AMAZON IS A CHEAT AND UNETHICAL COMPANY @AmazonHelp I hv ben tryg 2 get d prduct retrnd for 2 wks now.Hv called thm numbr of tims n maild thm 2 bt thy hv nt picked upd prduct or retrned money. @AmazonHelp I have done this"
+    },
+    {
+      "conversation_id": "amazonhelp_074423",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "@AmazonHelp Bonsoir j'ai acheter un article 150€ qui n'as pas pu être livré dans ma région et le remboursement n'est toujours pas fait. @AmazonHelp Voici quelques photos de la commande +du mail de l'envoyeur qui date du 16 octobre et le remboursement n'est toujours pas fait de sa part1/2 https://t.c..."
+    },
+    {
+      "conversation_id": "amazonhelp_055234",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "@AmazonHelp Just cancelled an order to change the address now it's saying out of stock no idea of restock! Can I not have my old order back? @AmazonHelp I preordered these 2items on the 22nd of Aug! All I wanted to do was change the address.I would like these items as they are important gifts"
+    }
+  ],
+  "other_20": [
+    {
+      "conversation_id": "amazonhelp_126953",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "@AmazonHelp わざわざご連絡ありがとうございます\n安心しました、今後も気を付けたいと思います"
+    },
+    {
+      "conversation_id": "amazonhelp_009336",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "Like SERIOUSLY!! @115850 need to up their standards .. Re. 1 discount on a 5999 item featured as lightning deal! https://t.co/mPOFSS8CPe @AmazonHelp @115850 Bot replies are so stupid ... Think about it!"
+    },
+    {
+      "conversation_id": "amazonhelp_140916",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "Hola @116875, tengo problemas para realizar una compra ¿podrían otorgarme por favor un número telefónico de asistencia a clientes? @AmazonHelp Congelaron mi cuenta bancaria."
+    },
+    {
+      "conversation_id": "amazonhelp_131143",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "@AmazonHelp when will the sims 4 on Xbox one be available for preorder? @AmazonHelp Yeah I did notice that, do you have any idea when the physical copy of the game will be able to preorder?"
+    },
+    {
+      "conversation_id": "amazonhelp_141896",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [
+        "DELIVERY_CARRIER"
+      ],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "Hola @116928 tenéis la cara de Silestone.Los tres últimos pedidos han tenido,de media,una semana de retraso.Pedí el 2 de noviembre un filtro de cafetera.Tras posponer dos veces la entrega se suponía que llegaba hoy.Mi sorpresa es que me decís que hoy tampoco. @116928 Que si eso el 23 de noviembre.21..."
+    },
+    {
+      "conversation_id": "amazonhelp_115202",
+      "primary_intent": "OTHER",
+      "secondary_intents": [
+        "DELIVERY_MISSING"
+      ],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "@118706 @115821 I have a very sad 9yro who waited all day for the new #Diaryofawimpykid that was out for dilivery yesterday. It never arrived."
+    },
+    {
+      "conversation_id": "amazonhelp_086231",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "Eh wtf??!! @AmazonHelp https://t.co/DkXCOVJrn7 @AmazonHelp Oh hold on https://t.co/cUKjLZxsCa"
+    },
+    {
+      "conversation_id": "amazonhelp_095646",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "@120533  m’a bloqué l’achat de couche car conso inhabituelle !! Changez-vous votre bébé? Suspicion de fraude à + de 3 couches/jours! Un délire. Merci pour ce moment #Amazonfr ! @AmazonHelp L'explication en réponse à votre mail __email__"
+    },
+    {
+      "conversation_id": "amazonhelp_153915",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "how do you cancel amazon orders? @AmazonHelp okay thank ya"
+    },
+    {
+      "conversation_id": "amazonhelp_062802",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "#kindle 発売5周年記念SALE開催中！3,480円から。10/24 23:59まで。\n\n https://t.co/dJHXtE5ZAE @118500 表題の価格の端末が見当たらないのですが、売り切れですか？"
+    },
+    {
+      "conversation_id": "amazonhelp_147392",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [
+        "SERVICE_COMPLAINT"
+      ],
+      "confidence": "LOW",
+      "customer_text_preview": "Shockingly rude customer service from @115830 @AmazonHelp whilst trying to resolve the #AmazonPrimeDoesntDeliver2meAtWeekendsAnymore issue @AmazonHelp @AmazonHelp I have been highlighting for weeks this exact same issue... https://t.co/IOjoxlXLqy I have higher expectation of @115830 :-("
+    },
+    {
+      "conversation_id": "amazonhelp_106460",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "@116618 how can I get 5.1 audio on Windows 10 ? @AmazonHelp I’m using Microsoft Edge, I can’t find those settings in your player or account"
+    },
+    {
+      "conversation_id": "amazonhelp_029646",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [
+        "DELIVERY_CARRIER"
+      ],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "Best. Delivery. Ever. ✨ 📦  See one little boy’s holiday wish come true. #WishesDelivered \n\nFor every retweet, UPS will donate $1 to charity https://t.co/sNSttBdPvu @115817 Totally lies, my Amazon shipment was suppose to arrive on 8 Nov and yet didn’t, UPS is the carrier, they didn’t even call me and..."
+    },
+    {
+      "conversation_id": "amazonhelp_070624",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "@AmazonHelp I have read it 30 times. All you have done is nothing @AmazonHelp This have read 20 times. U can't do any better"
+    },
+    {
+      "conversation_id": "amazonhelp_098783",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "@AmazonHelp I cannot find any reply on the given link. @AmazonHelp Thanks, already have a while ago!"
+    },
+    {
+      "conversation_id": "amazonhelp_138305",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "@116928 , qué solución dáis  cuando no cumplís  plazos de entrega de productos que repercuten directamente en el desempeño de mi trabajo? @AmazonHelp 2 DE OCTUBRE @AmazonHelp Y después de hablar por chat con dos personas dedicadas a la atención al cliente, no saben decirme cuando llegará"
+    },
+    {
+      "conversation_id": "amazonhelp_048318",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [
+        "PRIME_CUSTOMER"
+      ],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "@AmazonHelp why is every item I find on Amazon prime shipping 6 days out? Why isn't it 2 days like I'm paying for? @AmazonHelp You can see here it says IN STOCK.  So why is it 6 days to ship when it says PRIME.  Primebis still 2 days shipping right?"
+    },
+    {
+      "conversation_id": "amazonhelp_117615",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "@120533 ça serait bien de vous tenir au délai de livraison prévu, mon colis est arrivé aujourd'hui (prévu) demain, résultat, la personne qui l'a réceptionné connais son cadeau de Noël, merci beaucoup @AmazonHelp Je viens de voir le colis, les cartons vous connaissez, car mettre une étiquette sur l'e..."
+    },
+    {
+      "conversation_id": "amazonhelp_088324",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "なうぇすと届かないんだけど……ねえAmazonさんまだですか？３１日しか見るときないんでお願いしますね🗿💬 @AmazonHelp 発送メール届きました明日届くらしいです、ありがとうございます！"
+    },
+    {
+      "conversation_id": "amazonhelp_113056",
+      "primary_intent": "OTHER",
+      "secondary_intents": [],
+      "modifiers": [],
+      "escalation_signals": [],
+      "confidence": "LOW",
+      "customer_text_preview": "@AmazonHelp bonjour j’ai un problème pour payer avec mon solde @AmazonHelp Oui pile poile. Sauf que j’ai commandé tout ce passe bien. Je reçois un mail comme quoi mon compte est verouillé @AmazonHelp Amazon vient donc de me voler 20€"
+    }
+  ]
+}

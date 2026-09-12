@@ -1,0 +1,20 @@
+{
+  "v2_v21_total_changes": 191,
+  "pi_recovered_from_v2_other": 21,
+  "pi_lost_to_v2_other": 6,
+  "dm_recovered_from_v2_other": 12,
+  "dm_lost_to_v2_other": 3,
+  "dl_recovered_from_v2_other": 0,
+  "dl_lost_to_v2_other": 8,
+  "other_recovered_count": 33,
+  "other_lost_count": 17,
+  "recovered_intents": {
+    "PAYMENT_ISSUE": 21,
+    "DELIVERY_MISSING": 12
+  },
+  "lost_intents": {
+    "DELIVERY_MISSING": 3,
+    "PAYMENT_ISSUE": 6,
+    "DELIVERY_LATE": 8
+  }
+}

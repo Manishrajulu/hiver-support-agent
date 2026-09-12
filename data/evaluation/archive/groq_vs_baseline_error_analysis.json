@@ -1,0 +1,306 @@
+{
+  "total_errors": 435,
+  "error_rate": 0.8055555555555556,
+  "errors": [
+    {
+      "conversation_id": "amazonhelp_115316",
+      "actual": "OTHER",
+      "tfidf_predicted": "OTHER",
+      "groq_predicted": "ORDER_STATUS"
+    },
+    {
+      "conversation_id": "amazonhelp_094754",
+      "actual": "OTHER",
+      "tfidf_predicted": "OTHER",
+      "groq_predicted": "APP_USAGE"
+    },
+    {
+      "conversation_id": "amazonhelp_033325",
+      "actual": "DELIVERY_LATE",
+      "tfidf_predicted": "RETURN_REQUEST",
+      "groq_predicted": "ORDER_MODIFY"
+    },
+    {
+      "conversation_id": "amazonhelp_068999",
+      "actual": "OTHER",
+      "tfidf_predicted": "DELIVERY_MISSING",
+      "groq_predicted": "DELIVERY_MISSING"
+    },
+    {
+      "conversation_id": "amazonhelp_039476",
+      "actual": "OTHER",
+      "tfidf_predicted": "DELIVERY_LATE",
+      "groq_predicted": "DELIVERY_LATE"
+    },
+    {
+      "conversation_id": "amazonhelp_102084",
+      "actual": "OTHER",
+      "tfidf_predicted": "DELIVERY_LATE",
+      "groq_predicted": "ORDER_STATUS"
+    },
+    {
+      "conversation_id": "amazonhelp_058000",
+      "actual": "OTHER",
+      "tfidf_predicted": "OTHER",
+      "groq_predicted": "DELIVERY_LATE"
+    },
+    {
+      "conversation_id": "amazonhelp_065905",
+      "actual": "RETURN_REQUEST",
+      "tfidf_predicted": "RETURN_REQUEST",
+      "groq_predicted": "ORDER_MODIFY"
+    },
+    {
+      "conversation_id": "amazonhelp_034601",
+      "actual": "OTHER",
+      "tfidf_predicted": "OTHER",
+      "groq_predicted": "PRODUCT_ISSUE"
+    },
+    {
+      "conversation_id": "amazonhelp_033960",
+      "actual": "DELIVERY_LATE",
+      "tfidf_predicted": "DELIVERY_LATE",
+      "groq_predicted": "ACCOUNT_ACCESS"
+    },
+    {
+      "conversation_id": "amazonhelp_011612",
+      "actual": "OTHER",
+      "tfidf_predicted": "DELIVERY_LATE",
+      "groq_predicted": "ORDER_STATUS"
+    },
+    {
+      "conversation_id": "amazonhelp_125446",
+      "actual": "RETURN_REQUEST",
+      "tfidf_predicted": "RETURN_REQUEST",
+      "groq_predicted": "ORDER_MODIFY"
+    },
+    {
+      "conversation_id": "amazonhelp_085285",
+      "actual": "DEVICE_ISSUE",
+      "tfidf_predicted": "DEVICE_ISSUE",
+      "groq_predicted": "ORDER_MODIFY"
+    },
+    {
+      "conversation_id": "amazonhelp_064538",
+      "actual": "VIDEO_STREAMING",
+      "tfidf_predicted": "VIDEO_STREAMING",
+      "groq_predicted": "APP_USAGE"
+    },
+    {
+      "conversation_id": "amazonhelp_067975",
+      "actual": "OTHER",
+      "tfidf_predicted": "DELIVERY_LATE",
+      "groq_predicted": "ORDER_STATUS"
+    },
+    {
+      "conversation_id": "amazonhelp_029127",
+      "actual": "APP_USAGE",
+      "tfidf_predicted": "DELIVERY_LATE",
+      "groq_predicted": "ORDER_STATUS"
+    },
+    {
+      "conversation_id": "amazonhelp_098783",
+      "actual": "OTHER",
+      "tfidf_predicted": "OTHER",
+      "groq_predicted": "APP_USAGE"
+    },
+    {
+      "conversation_id": "amazonhelp_152727",
+      "actual": "OTHER",
+      "tfidf_predicted": "DELIVERY_LATE",
+      "groq_predicted": "ORDER_STATUS"
+    },
+    {
+      "conversation_id": "amazonhelp_026025",
+      "actual": "DELIVERY_MISSING",
+      "tfidf_predicted": "DELIVERY_MISSING",
+      "groq_predicted": "PRODUCT_ISSUE"
+    },
+    {
+      "conversation_id": "amazonhelp_002649",
+      "actual": "DELIVERY_LATE",
+      "tfidf_predicted": "OTHER",
+      "groq_predicted": "ORDER_STATUS"
+    },
+    {
+      "conversation_id": "amazonhelp_143707",
+      "actual": "DELIVERY_LATE",
+      "tfidf_predicted": "OTHER",
+      "groq_predicted": "ORDER_STATUS"
+    },
+    {
+      "conversation_id": "amazonhelp_078660",
+      "actual": "OTHER",
+      "tfidf_predicted": "APP_USAGE",
+      "groq_predicted": "ORDER_MODIFY"
+    },
+    {
+      "conversation_id": "amazonhelp_144542",
+      "actual": "OTHER",
+      "tfidf_predicted": "DELIVERY_LATE",
+      "groq_predicted": "APP_USAGE"
+    },
+    {
+      "conversation_id": "amazonhelp_054101",
+      "actual": "OTHER",
+      "tfidf_predicted": "OTHER",
+      "groq_predicted": "RETURN_REQUEST"
+    },
+    {
+      "conversation_id": "amazonhelp_128451",
+      "actual": "OTHER",
+      "tfidf_predicted": "DELIVERY_LATE",
+      "groq_predicted": "ORDER_STATUS"
+    },
+    {
+      "conversation_id": "amazonhelp_018644",
+      "actual": "APP_USAGE",
+      "tfidf_predicted": "APP_USAGE",
+      "groq_predicted": "DELIVERY_LATE"
+    },
+    {
+      "conversation_id": "amazonhelp_095529",
+      "actual": "DELIVERY_MISSING",
+      "tfidf_predicted": "DELIVERY_LATE",
+      "groq_predicted": "DELIVERY_LATE"
+    },
+    {
+      "conversation_id": "amazonhelp_134412",
+      "actual": "OTHER",
+      "tfidf_predicted": "OTHER",
+      "groq_predicted": "ORDER_STATUS"
+    },
+    {
+      "conversation_id": "amazonhelp_083916",
+      "actual": "DELIVERY_LATE",
+      "tfidf_predicted": "PRODUCT_ISSUE",
+      "groq_predicted": "DELIVERY_MISSING"
+    },
+    {
+      "conversation_id": "amazonhelp_106226",
+      "actual": "OTHER",
+      "tfidf_predicted": "DELIVERY_LATE",
+      "groq_predicted": "DELIVERY_LATE"
+    },
+    {
+      "conversation_id": "amazonhelp_014079",
+      "actual": "OTHER",
+      "tfidf_predicted": "OTHER",
+      "groq_predicted": "DELIVERY_MISSING"
+    },
+    {
+      "conversation_id": "amazonhelp_004741",
+      "actual": "OTHER",
+      "tfidf_predicted": "OTHER",
+      "groq_predicted": "ORDER_STATUS"
+    },
+    {
+      "conversation_id": "amazonhelp_097564",
+      "actual": "APP_USAGE",
+      "tfidf_predicted": "OTHER",
+      "groq_predicted": "ORDER_MODIFY"
+    },
+    {
+      "conversation_id": "amazonhelp_143673",
+      "actual": "RETURN_REQUEST",
+      "tfidf_predicted": "RETURN_REQUEST",
+      "groq_predicted": "ORDER_MODIFY"
+    },
+    {
+      "conversation_id": "amazonhelp_105193",
+      "actual": "DEVICE_ISSUE",
+      "tfidf_predicted": "RETURN_REQUEST",
+      "groq_predicted": "PRODUCT_ISSUE"
+    },
+    {
+      "conversation_id": "amazonhelp_114843",
+      "actual": "OTHER",
+      "tfidf_predicted": "OTHER",
+      "groq_predicted": "PAYMENT_ISSUE"
+    },
+    {
+      "conversation_id": "amazonhelp_131143",
+      "actual": "OTHER",
+      "tfidf_predicted": "VIDEO_STREAMING",
+      "groq_predicted": "ORDER_MODIFY"
+    },
+    {
+      "conversation_id": "amazonhelp_131022",
+      "actual": "OTHER",
+      "tfidf_predicted": "ACCOUNT_ACCESS",
+      "groq_predicted": "ORDER_MODIFY"
+    },
+    {
+      "conversation_id": "amazonhelp_135275",
+      "actual": "DELIVERY_TRACKING",
+      "tfidf_predicted": "DELIVERY_TRACKING",
+      "groq_predicted": "DELIVERY_MISSING"
+    },
+    {
+      "conversation_id": "amazonhelp_101575",
+      "actual": "VIDEO_STREAMING",
+      "tfidf_predicted": "VIDEO_STREAMING",
+      "groq_predicted": "ORDER_STATUS"
+    },
+    {
+      "conversation_id": "amazonhelp_027936",
+      "actual": "DELIVERY_MISSING",
+      "tfidf_predicted": "DELIVERY_MISSING",
+      "groq_predicted": "ORDER_STATUS"
+    },
+    {
+      "conversation_id": "amazonhelp_087899",
+      "actual": "DELIVERY_MISSING",
+      "tfidf_predicted": "DELIVERY_MISSING",
+      "groq_predicted": "ORDER_STATUS"
+    },
+    {
+      "conversation_id": "amazonhelp_026813",
+      "actual": "OTHER",
+      "tfidf_predicted": "OTHER",
+      "groq_predicted": "DELIVERY_MISSING"
+    },
+    {
+      "conversation_id": "amazonhelp_070538",
+      "actual": "OTHER",
+      "tfidf_predicted": "DELIVERY_TRACKING",
+      "groq_predicted": "DELIVERY_MISSING"
+    },
+    {
+      "conversation_id": "amazonhelp_137738",
+      "actual": "DEVICE_ISSUE",
+      "tfidf_predicted": "VIDEO_STREAMING",
+      "groq_predicted": "APP_USAGE"
+    },
+    {
+      "conversation_id": "amazonhelp_018509",
+      "actual": "DELIVERY_MISSING",
+      "tfidf_predicted": "APP_USAGE",
+      "groq_predicted": "DELIVERY_LATE"
+    },
+    {
+      "conversation_id": "amazonhelp_034837",
+      "actual": "OTHER",
+      "tfidf_predicted": "OTHER",
+      "groq_predicted": "DELIVERY_LATE"
+    },
+    {
+      "conversation_id": "amazonhelp_144310",
+      "actual": "DELIVERY_MISSING",
+      "tfidf_predicted": "DELIVERY_MISSING",
+      "groq_predicted": "ORDER_STATUS"
+    },
+    {
+      "conversation_id": "amazonhelp_016791",
+      "actual": "DELIVERY_MISSING",
+      "tfidf_predicted": "DELIVERY_MISSING",
+      "groq_predicted": "ORDER_STATUS"
+    },
+    {
+      "conversation_id": "amazonhelp_109049",
+      "actual": "APP_USAGE",
+      "tfidf_predicted": "RETURN_REQUEST",
+      "groq_predicted": "ORDER_STATUS"
+    }
+  ]
+}

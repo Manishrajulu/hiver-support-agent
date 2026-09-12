@@ -1,0 +1,72 @@
+[
+  {
+    "conversation_id": "amazonhelp_078660",
+    "actual": "OTHER",
+    "groq": "ORDER_MODIFY",
+    "baseline": "APP_USAGE",
+    "text": "Dear @115850 One of the worst service from you.. not expecting like this.. I'm deleted my account.. #only_name.. #service_worst.. @AmazonHelp Your delivery man and also coustmer executive so much careless... @AmazonHelp You call me on 8378994185.."
+  },
+  {
+    "conversation_id": "amazonhelp_131143",
+    "actual": "OTHER",
+    "groq": "ORDER_MODIFY",
+    "baseline": "VIDEO_STREAMING",
+    "text": "@AmazonHelp when will the sims 4 on Xbox one be available for preorder? @AmazonHelp Yeah I did notice that, do you have any idea when the physical copy of the game will be able to preorder?"
+  },
+  {
+    "conversation_id": "amazonhelp_131022",
+    "actual": "OTHER",
+    "groq": "ORDER_MODIFY",
+    "baseline": "ACCOUNT_ACCESS",
+    "text": "@AmazonHelp looks legit.. https://t.co/CWG4YZpElX @AmazonHelp Yeah will do, that's what I thought.. @AmazonHelp I don't even have an account tied to that email address [or do I].. do you want my email tagged to my Amazon account? @AmazonHelp Sorted - that email isn't used for an Amazon account anyway!"
+  },
+  {
+    "conversation_id": "amazonhelp_095815",
+    "actual": "OTHER",
+    "groq": "ORDER_MODIFY",
+    "baseline": "PAYMENT_ISSUE",
+    "text": "@115850 i need @115858 ipad 2017 is there any offer you can provide me? I saw it listed for 21000 during sale is it possible now @AmazonHelp Thank you."
+  },
+  {
+    "conversation_id": "amazonhelp_067674",
+    "actual": "OTHER",
+    "groq": "ORDER_MODIFY",
+    "baseline": "OTHER",
+    "text": "@AmazonHelp j’espère que vous foutez de moi non sérieux déjà une fois j’ai commandé FIFA 18 vous me dites que vous pouvez pas me livrer @AmazonHelp Et maintenant vous me faites la même pour call of duty mais vous avez cru j’étais un fils de pute ou c’est comment ? https://t.co/asLibCuwa0 @AmazonHelp J’ai toujours tout commander chez vous et même pas une seul fois un geste commercial pour vos conneries niquez bien vos mères les putes @AmazonHelp 🖕🏻🖕🏻🖕🏻🖕🏻🖕🏻 https://t.co/nQDpBhZO4y"
+  },
+  {
+    "conversation_id": "amazonhelp_002874",
+    "actual": "OTHER",
+    "groq": "ORDER_MODIFY",
+    "baseline": "OTHER",
+    "text": "Commit to being fit. Get your fitness requirements at the Amazon Under Armour store. #WeWill #EveryDropCounts. Visit https://t.co/o8hVSBDNkA https://t.co/cRToZwJG3P @115850 I cant geat which i order from it"
+  },
+  {
+    "conversation_id": "amazonhelp_008162",
+    "actual": "OTHER",
+    "groq": "ORDER_MODIFY",
+    "baseline": "OTHER",
+    "text": "アマゾンはギフト券で買えば代引き手数料ないって事でよいのか…？\nそーすりゃ1300円で買える…？ @AmazonHelp ご丁寧にありがとうございます！"
+  },
+  {
+    "conversation_id": "amazonhelp_134637",
+    "actual": "OTHER",
+    "groq": "ORDER_MODIFY",
+    "baseline": "RETURN_REQUEST",
+    "text": "Hey @AmazonHelp why can't i buy things with prime anymore?  It's all pantry and fresh and all I want to do is buy things with Prime. @AmazonHelp I tried talking to your customer service and they don't seem to know their ass from a hat @AmazonHelp Do you not have a central customer service department?  Why can't I just order things with Prime anymore? @AmazonHelp I don't want to pay for 5000 subscription services.  I just want to buy things with Prime like I used to.  Why do you not want my busin"
+  },
+  {
+    "conversation_id": "amazonhelp_011725",
+    "actual": "OTHER",
+    "groq": "ORDER_MODIFY",
+    "baseline": "OTHER",
+    "text": "Tengo ganas de comprar algo en @116875 pero no sé, me sale en el mismo precio que en la página oficial del producto? 🤔 @116875 Mi única duda es si al final también voy a tener que terminar pagando importación?"
+  },
+  {
+    "conversation_id": "amazonhelp_014605",
+    "actual": "OTHER",
+    "groq": "ORDER_MODIFY",
+    "baseline": "DEVICE_ISSUE",
+    "text": "@115830 hi. Trying to order Barbie Camper Van at new reduced price. Being told it’s no longer available. Please see screenshots. Grateful for clarification. https://t.co/Qvnw2HkER8"
+  }
+]

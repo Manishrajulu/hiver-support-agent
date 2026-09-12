@@ -1,0 +1,240 @@
+[
+  {
+    "conversation_id": "amazonhelp_037955",
+    "v1_intent": "DELIVERY_LATE",
+    "v2_intent": "DEVICE_ISSUE",
+    "customer_text": ".@122951 How will the warranty be considered by Amazon if purchase frm u...as many kindle develop issue later @115850 plz advise https://t.co/Yz79lM7A2U @AmazonHelp Yes I know tht...want to know will ",
+    "assessment": "C_AMBIGUOUS_MAYBE_DEVICE"
+  },
+  {
+    "conversation_id": "amazonhelp_099503",
+    "v1_intent": "DELIVERY_LATE",
+    "v2_intent": "APP_USAGE",
+    "customer_text": "Now @115821 are telling me I'll get an email in 36-48 hours with questions to answer. This after 4 torturous days of bs customer service. @120919 @115821 Dealing with them from the B2B side is honestl",
+    "assessment": "C_AMBIGUOUS_MAYBE_APP"
+  },
+  {
+    "conversation_id": "amazonhelp_029127",
+    "v1_intent": "DELIVERY_LATE",
+    "v2_intent": "APP_USAGE",
+    "customer_text": "@AmazonHelp 35 minutes and still no help. Someone to call me back. Terrible customer service. Very disappointing for such a large company. @AmazonHelp No call back yet. Any chance someone at AmazonHel",
+    "assessment": "C_AMBIGUOUS_MAYBE_APP"
+  },
+  {
+    "conversation_id": "amazonhelp_146032",
+    "v1_intent": "DELIVERY_LATE",
+    "v2_intent": "RETURN_REQUEST",
+    "customer_text": "Iss #DiwaliKiTayyari Karo Amazon deals ke saath poori. Take a screenshot of your favourite offer &amp; show it to us. #AmazonGreatIndianFestival https://t.co/Z4r0R3dKPD @115850 Wanted to buy OnePlus 5",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_013260",
+    "v1_intent": "DELIVERY_LATE",
+    "v2_intent": "APP_USAGE",
+    "customer_text": "@AmazonHelp  Pls let me know when will I get credit in Amazon pay for balance load. https://t.co/t9VYdMtePz @AmazonHelp Unable to register complaint via link given.pls help.",
+    "assessment": "A_V2_CORRECT_REQUIRES_DELIVERY_CONTEXT"
+  },
+  {
+    "conversation_id": "amazonhelp_027389",
+    "v1_intent": "DELIVERY_LATE",
+    "v2_intent": "PRODUCT_ISSUE",
+    "customer_text": "@115850 Received my boat  stone 700 before EDT. Wowsome service!\nBut have received a used speaker i guess, with seal broken and scratches on speaker and box. 😪😪 https://t.co/rgmdI3UJlL @AmazonHelp Tha",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_142662",
+    "v1_intent": "DELIVERY_LATE",
+    "v2_intent": "DEVICE_ISSUE",
+    "customer_text": "Just ask, \"Alexa, let's shop Oprah's Favorite Things\" to get holiday ready with Butter London. #OprahsFavoriteThings https://t.co/hTiKZM2EYK https://t.co/d1B9NyMm1x @115821 @115833 I used to enjoy the",
+    "assessment": "C_AMBIGUOUS_MAYBE_DEVICE"
+  },
+  {
+    "conversation_id": "amazonhelp_099841",
+    "v1_intent": "DELIVERY_LATE",
+    "v2_intent": "ACCOUNT_ACCESS",
+    "customer_text": "@AmazonHelp still waiting for a fraud issue to be resolved after a week.  Was told up to 48hrs.  Do you even have a fraud department? @AmazonHelp Nope.  Not in spam.  Been on the line with CS for over",
+    "assessment": "A_V2_CORRECT_REQUIRES_DELIVERY_CONTEXT"
+  },
+  {
+    "conversation_id": "amazonhelp_028986",
+    "v1_intent": "DELIVERY_LATE",
+    "v2_intent": "PRODUCT_ISSUE",
+    "customer_text": "@115821 wtf ??? You sent Me THE WRONG ITEM AND 14 days later no refund ???HELLO ? NO WAY TO REACH YOU ON YOUR WEBSITE! @AmazonHelp A seller TWICE !! Both times wrong items and I called you on the phon",
+    "assessment": "B_V1_SHOULD_BE_REFUND"
+  },
+  {
+    "conversation_id": "amazonhelp_018644",
+    "v1_intent": "DELIVERY_LATE",
+    "v2_intent": "APP_USAGE",
+    "customer_text": "@AmazonHelp It's 9:30 pm... any chance this is going to happen? https://t.co/r2UsqX6DcG @AmazonHelp Amazon. The Fulfillment center is basically a 10 minute drive my house, so rather surprising that 16",
+    "assessment": "C_AMBIGUOUS_MAYBE_APP"
+  },
+  {
+    "conversation_id": "amazonhelp_105834",
+    "v1_intent": "DELIVERY_LATE",
+    "v2_intent": "RETURN_REQUEST",
+    "customer_text": "@115850 example of  #mishandleinnocentppl\nNo refund no replacement\nBut status says replaced https://t.co/di8mg9gMBn @AmazonHelp Shining example of customer harassment\nDo u follow a SLA.. ur representa",
+    "assessment": "B_V1_SHOULD_BE_REFUND"
+  },
+  {
+    "conversation_id": "amazonhelp_012983",
+    "v1_intent": "DELIVERY_LATE",
+    "v2_intent": "RETURN_REQUEST",
+    "customer_text": "@115850 Received my boat  stone 700 before EDT. Wowsome service!\nBut have received a used speaker i guess, with seal broken and scratches on speaker and box. 😪😪 https://t.co/rgmdI3UJlL @AmazonHelp Tha",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_073477",
+    "v1_intent": "DELIVERY_LATE",
+    "v2_intent": "APP_USAGE",
+    "customer_text": "@AmazonHelp I chatted with someone from Amazon SEVERAL months ago asking what happened to my seller account that was in very good standing.  Someone was supposed to respond and I have heard nothing.",
+    "assessment": "C_AMBIGUOUS_MAYBE_APP"
+  },
+  {
+    "conversation_id": "amazonhelp_122104",
+    "v1_intent": "DELIVERY_LATE",
+    "v2_intent": "APP_USAGE",
+    "customer_text": "@115850 How ? Which one is the correct price ? https://t.co/RAX1EcAQcA @AmazonHelp This has been happening too often off late. Lower price on suggestions and when you click the price goes up.",
+    "assessment": "C_AMBIGUOUS_MAYBE_APP"
+  },
+  {
+    "conversation_id": "amazonhelp_101420",
+    "v1_intent": "DELIVERY_LATE",
+    "v2_intent": "VIDEO_STREAMING",
+    "customer_text": "@115850 are you guyz trying to fool me. I discovered the maxima watch at 4.01 pm and you are sayi ng i am late. Do you think i am mad. @AmazonHelp I am reffering to app treasure hunt guyz. @AmazonHelp",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_028962",
+    "v1_intent": "DELIVERY_LATE",
+    "v2_intent": "DEVICE_ISSUE",
+    "customer_text": "@116618 After updating Sony 4k Android TV firmware, ‘Amazon video’ playback in the beginning of a movie or when changing sound volume audio stutters. Very annoying. Is there a fix? @116618 @AmazonHelp",
+    "assessment": "C_AMBIGUOUS_MAYBE_DEVICE"
+  },
+  {
+    "conversation_id": "amazonhelp_112590",
+    "v1_intent": "DELIVERY_LATE",
+    "v2_intent": "VIDEO_STREAMING",
+    "customer_text": "Hey @119625, why no subtitles for 'Newton'  the latest hindi movie nominated for Oscar from India ? Please enable the subtitles man... @AmazonHelp Dude , I know how to switch subtitles ON or OFF. For ",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_111600",
+    "v1_intent": "DELIVERY_LATE",
+    "v2_intent": "DEVICE_ISSUE",
+    "customer_text": "Dear @115830 ,\n1/ Putting on some \"Amazon Prime\" tape doesn't make it look like it wasn't refurbished \n2/ That was supposed to be a present for my gf. She somehow found out what it was. How was I supp",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_118515",
+    "v1_intent": "DELIVERY_LATE",
+    "v2_intent": "PAYMENT_ISSUE",
+    "customer_text": "Hi @115821, you guys told me to send you a fax with my  billing card statement but I don't have access to one atm.  Any alternate method? @115821 Better yet, what's you customer support email so we ca",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_020043",
+    "v1_intent": "DELIVERY_LATE",
+    "v2_intent": "PRODUCT_ISSUE",
+    "customer_text": "@115850 this is how ur dealing wid ur customers...\nStill waiting for action https://t.co/8doRHskrC8 @AmazonHelp Today received the product but in damaged condition https://t.co/ObUGnCyFj0",
+    "assessment": "A_V2_CORRECT_REQUIRES_DELIVERY_CONTEXT"
+  },
+  {
+    "conversation_id": "amazonhelp_137322",
+    "v1_intent": "DELIVERY_LATE",
+    "v2_intent": "RETURN_REQUEST",
+    "customer_text": "Got an Amazon gift card for my birthday and had trouble redeeming it. @116090 has been literally useless as my friend and I have tried to get help resolving the issue. Trash responses and continually ",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_033042",
+    "v1_intent": "DELIVERY_LATE",
+    "v2_intent": "APP_USAGE",
+    "customer_text": "@AmazonHelp 35 minutes and still no help. Someone to call me back. Terrible customer service. Very disappointing for such a large company. @AmazonHelp No call back yet. Any chance someone at AmazonHel",
+    "assessment": "C_AMBIGUOUS_MAYBE_APP"
+  },
+  {
+    "conversation_id": "amazonhelp_151802",
+    "v1_intent": "DELIVERY_LATE",
+    "v2_intent": "RETURN_REQUEST",
+    "customer_text": "@7108 there seems to be an issue (a known issue) with the latest software on paperwhite 5.9.2 whereby the cloud items do not show up on the kindle so you can’t redownload books unless you go on the we",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_022736",
+    "v1_intent": "DELIVERY_LATE",
+    "v2_intent": "REFUND_REQUEST",
+    "customer_text": "@AmazonHelp I keep being charged for prime even though I've never signed up for it i noticed last month and cancelled and now received email to say welcome to prime not happy @AmazonHelp What link? @A",
+    "assessment": "B_V1_SHOULD_BE_REFUND"
+  },
+  {
+    "conversation_id": "amazonhelp_107363",
+    "v1_intent": "DELIVERY_LATE",
+    "v2_intent": "PAYMENT_ISSUE",
+    "customer_text": "@AmazonHelp suspending my account because of a fraudulent transaction that had nothing to do with me - joke. Any chance of getting help from someone in customer services who doesn’t just send repeated",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_045271",
+    "v1_intent": "DELIVERY_LATE",
+    "v2_intent": "PAYMENT_ISSUE",
+    "customer_text": "@AmazonHelp Guys, I'm still waiting on my account to be unlocked. I've received an email asking me to supply a bank statement to confirm the use of a visa card. The visa card is a @141806 voucher, so ",
+    "assessment": "A_V2_CORRECT_REQUIRES_DELIVERY_CONTEXT"
+  },
+  {
+    "conversation_id": "amazonhelp_086595",
+    "v1_intent": "DELIVERY_LATE",
+    "v2_intent": "ACCOUNT_ACCESS",
+    "customer_text": "@AmazonHelp My account has still not be unlocked its almost been 4-5 days and when i contact Customer Care they say we are still unlocking. @AmazonHelp Nope.. still waiting from the last 4-5 days and ",
+    "assessment": "A_V2_CORRECT_REQUIRES_DELIVERY_CONTEXT"
+  },
+  {
+    "conversation_id": "amazonhelp_105916",
+    "v1_intent": "DELIVERY_LATE",
+    "v2_intent": "PRODUCT_ISSUE",
+    "customer_text": "We manufacture and own the patent. Why are we suspended on @115821 for \"counterfeit\"? 29 days and 15 calls to @4822 still nothing @115821 @4822 Still waiting for our product to be available. Over a mo",
+    "assessment": "A_V2_CORRECT_REQUIRES_DELIVERY_CONTEXT"
+  },
+  {
+    "conversation_id": "amazonhelp_117121",
+    "v1_intent": "DELIVERY_LATE",
+    "v2_intent": "RETURN_REQUEST",
+    "customer_text": "@7108 there seems to be an issue (a known issue) with the latest software on paperwhite 5.9.2 whereby the cloud items do not show up on the kindle so you can’t redownload books unless you go on the we",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_019309",
+    "v1_intent": "DELIVERY_LATE",
+    "v2_intent": "PRODUCT_ISSUE",
+    "customer_text": "Please announce the winers of #iphone8appquiz \n@115850 @115850 Hi...\nItz already 4 days late... when will be the results announced @AmazonHelp This result is not for 25th september quiz. I doubt that ",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_090452",
+    "v1_intent": "DELIVERY_LATE",
+    "v2_intent": "REFUND_REQUEST",
+    "customer_text": "@115850  @115851  @AmazonHelp \nThis delay has happened 2nd time what shit service from you f*uki*g service \n#amazonworstservice https://t.co/ABE3pMU2KG @115850 @115851 @AmazonHelp No need you people p",
+    "assessment": "B_V1_SHOULD_BE_REFUND"
+  },
+  {
+    "conversation_id": "amazonhelp_024973",
+    "v1_intent": "DELIVERY_LATE",
+    "v2_intent": "DEVICE_ISSUE",
+    "customer_text": "Experimented with the @AmazonHelp echo (Alexa) today. No matter how I pronounce, it doesn't recognise any Kannada song, artist or album. @AmazonHelp Doubt if they will even add support for non-English",
+    "assessment": "C_AMBIGUOUS_MAYBE_DEVICE"
+  },
+  {
+    "conversation_id": "amazonhelp_057138",
+    "v1_intent": "DELIVERY_LATE",
+    "v2_intent": "VIDEO_STREAMING",
+    "customer_text": "@AmazonHelp SO I ODERED SOMETHING FROM AMAZON FOR MY APPLE WATCH ITS BEEN A WHOLE MONTH AND NOW ITS SAYING IT WONT GET HERE FOR LKME ANOTHER WEEK @AmazonHelp It’s saying 11-21 now it was supposed to b",
+    "assessment": "C_AMBIGUOUS_OTHER"
+  },
+  {
+    "conversation_id": "amazonhelp_021017",
+    "v1_intent": "DELIVERY_LATE",
+    "v2_intent": "APP_USAGE",
+    "customer_text": "@115850 s dr 1ly 1prdct relating 2 ansr in app treasurehunt , or the answer may relate to many prdcts under same name ? #apptreasurehunt",
+    "assessment": "C_AMBIGUOUS_MAYBE_APP"
+  }
+]

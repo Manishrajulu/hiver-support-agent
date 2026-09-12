@@ -1,0 +1,8 @@
+{
+  "subset_size": 100,
+  "original_accuracy": 0.19,
+  "improved_accuracy": 0.0,
+  "improvement": -0.19,
+  "success_count": 0,
+  "fail_count": 100
+}

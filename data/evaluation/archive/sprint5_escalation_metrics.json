@@ -1,0 +1,10 @@
+{
+  "sample_size": 30,
+  "escalation_counts": {
+    "ESCALATE": 26,
+    "AUTO_HANDLE": 4
+  },
+  "auto_handle_total": 4,
+  "auto_handle_correct": 4,
+  "auto_handle_accuracy": 1.0
+}

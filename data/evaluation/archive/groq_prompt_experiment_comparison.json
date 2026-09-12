@@ -1,0 +1,11 @@
+{
+  "subset_size": 100,
+  "valid_predictions": 65,
+  "failed_predictions": 35,
+  "failure_reason": "Rate limit (429) - daily token limit reached",
+  "original_accuracy_on_valid": 0.2,
+  "improved_accuracy_on_valid": 0.13846153846153847,
+  "improvement": -0.06153846153846154,
+  "original_correct": 13,
+  "improved_correct": 9
+}

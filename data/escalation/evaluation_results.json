@@ -1,0 +1,508 @@
+{
+  "sample_size": 50,
+  "escalation_counts": {
+    "ESCALATE": 40,
+    "AUTO_HANDLE": 10
+  },
+  "intent_escalation": {
+    "OTHER|ESCALATE": 18,
+    "VIDEO_STREAMING|ESCALATE": 3,
+    "RETURN_REQUEST|ESCALATE": 2,
+    "DELIVERY_LATE|ESCALATE": 4,
+    "OTHER|AUTO_HANDLE": 5,
+    "PAYMENT_ISSUE|ESCALATE": 3,
+    "DELIVERY_MISSING|ESCALATE": 2,
+    "DEVICE_ISSUE|ESCALATE": 3,
+    "APP_USAGE|ESCALATE": 1,
+    "DELIVERY_TRACKING|ESCALATE": 1,
+    "DELIVERY_MISSING|AUTO_HANDLE": 3,
+    "REFUND_REQUEST|ESCALATE": 1,
+    "ORDER_STATUS|ESCALATE": 2,
+    "PRODUCT_ISSUE|AUTO_HANDLE": 1,
+    "DELIVERY_LATE|AUTO_HANDLE": 1
+  },
+  "results": [
+    {
+      "conversation_id": "amazonhelp_025441",
+      "actual_intent": "OTHER",
+      "predicted_intent": "VIDEO_STREAMING",
+      "confidence": 0.20258878663549665,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "LOW_CONF:0.203"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_005672",
+      "actual_intent": "VIDEO_STREAMING",
+      "predicted_intent": "VIDEO_STREAMING",
+      "confidence": 0.2526925810279584,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "LOW_CONF:0.253"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_065905",
+      "actual_intent": "RETURN_REQUEST",
+      "predicted_intent": "RETURN_REQUEST",
+      "confidence": 0.16089975870889386,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "LOW_CONF:0.161"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_008162",
+      "actual_intent": "OTHER",
+      "predicted_intent": "OTHER",
+      "confidence": 0.29264697167897796,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "LOW_CONF:0.293"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_066175",
+      "actual_intent": "DELIVERY_LATE",
+      "predicted_intent": "OTHER",
+      "confidence": 0.16091983167240337,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "LOW_CONF:0.161"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_093876",
+      "actual_intent": "OTHER",
+      "predicted_intent": "OTHER",
+      "confidence": 0.3015648165848898,
+      "decision": "AUTO_HANDLE",
+      "risk_flags": []
+    },
+    {
+      "conversation_id": "amazonhelp_012443",
+      "actual_intent": "OTHER",
+      "predicted_intent": "OTHER",
+      "confidence": 0.23006761269478898,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "LOW_CONF:0.230"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_150699",
+      "actual_intent": "OTHER",
+      "predicted_intent": "OTHER",
+      "confidence": 0.2687034392695245,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "LOW_CONF:0.269"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_137684",
+      "actual_intent": "PAYMENT_ISSUE",
+      "predicted_intent": "RETURN_REQUEST",
+      "confidence": 0.11849161562985704,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "LOW_CONF:0.118"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_136599",
+      "actual_intent": "PAYMENT_ISSUE",
+      "predicted_intent": "RETURN_REQUEST",
+      "confidence": 0.14901517544506454,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "LOW_CONF:0.149"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_142136",
+      "actual_intent": "DELIVERY_MISSING",
+      "predicted_intent": "DELIVERY_MISSING",
+      "confidence": 0.21410487964480435,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "LOW_CONF:0.214"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_063216",
+      "actual_intent": "DEVICE_ISSUE",
+      "predicted_intent": "DEVICE_ISSUE",
+      "confidence": 0.259871666823124,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "LOW_CONF:0.260"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_048576",
+      "actual_intent": "OTHER",
+      "predicted_intent": "DELIVERY_LATE",
+      "confidence": 0.15574279988855216,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "LOW_CONF:0.156"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_131221",
+      "actual_intent": "OTHER",
+      "predicted_intent": "OTHER",
+      "confidence": 0.13607528537023478,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "LOW_CONF:0.136"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_134637",
+      "actual_intent": "OTHER",
+      "predicted_intent": "RETURN_REQUEST",
+      "confidence": 0.12810146531299288,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "LOW_CONF:0.128"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_020449",
+      "actual_intent": "APP_USAGE",
+      "predicted_intent": "APP_USAGE",
+      "confidence": 0.11543658894943352,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "LOW_CONF:0.115"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_093020",
+      "actual_intent": "OTHER",
+      "predicted_intent": "OTHER",
+      "confidence": 0.23419653512145622,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "LOW_CONF:0.234"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_147706",
+      "actual_intent": "OTHER",
+      "predicted_intent": "OTHER",
+      "confidence": 0.24224524898497957,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "LOW_CONF:0.242"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_110619",
+      "actual_intent": "DELIVERY_MISSING",
+      "predicted_intent": "DELIVERY_LATE",
+      "confidence": 0.13885485616405605,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "LOW_CONF:0.139"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_140683",
+      "actual_intent": "DEVICE_ISSUE",
+      "predicted_intent": "ACCOUNT_ACCESS",
+      "confidence": 0.3735521574692364,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "HIGH_RISK:ACCOUNT_ACCESS"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_132432",
+      "actual_intent": "DELIVERY_LATE",
+      "predicted_intent": "DELIVERY_MISSING",
+      "confidence": 0.17209030568764,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "LOW_CONF:0.172"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_127256",
+      "actual_intent": "DELIVERY_TRACKING",
+      "predicted_intent": "DELIVERY_TRACKING",
+      "confidence": 0.1656896918373488,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "LOW_CONF:0.166"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_037160",
+      "actual_intent": "OTHER",
+      "predicted_intent": "DELIVERY_LATE",
+      "confidence": 0.15082149128174335,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "LOW_CONF:0.151"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_025871",
+      "actual_intent": "DELIVERY_MISSING",
+      "predicted_intent": "DELIVERY_MISSING",
+      "confidence": 0.3127346967969458,
+      "decision": "AUTO_HANDLE",
+      "risk_flags": []
+    },
+    {
+      "conversation_id": "amazonhelp_109254",
+      "actual_intent": "OTHER",
+      "predicted_intent": "OTHER",
+      "confidence": 0.135262379049042,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "LOW_CONF:0.135"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_133604",
+      "actual_intent": "REFUND_REQUEST",
+      "predicted_intent": "REFUND_REQUEST",
+      "confidence": 0.13984045978109927,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "HIGH_RISK:REFUND_REQUEST",
+        "LOW_CONF:0.140"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_133210",
+      "actual_intent": "OTHER",
+      "predicted_intent": "DELIVERY_LATE",
+      "confidence": 0.15808816994042477,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "LOW_CONF:0.158"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_145718",
+      "actual_intent": "DELIVERY_MISSING",
+      "predicted_intent": "DELIVERY_MISSING",
+      "confidence": 0.3872896837243059,
+      "decision": "AUTO_HANDLE",
+      "risk_flags": []
+    },
+    {
+      "conversation_id": "amazonhelp_105294",
+      "actual_intent": "OTHER",
+      "predicted_intent": "OTHER",
+      "confidence": 0.5730617886140053,
+      "decision": "AUTO_HANDLE",
+      "risk_flags": []
+    },
+    {
+      "conversation_id": "amazonhelp_046285",
+      "actual_intent": "DELIVERY_LATE",
+      "predicted_intent": "OTHER",
+      "confidence": 0.1458526247204349,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "LOW_CONF:0.146"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_099830",
+      "actual_intent": "ORDER_STATUS",
+      "predicted_intent": "DELIVERY_LATE",
+      "confidence": 0.1484886762659227,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "LOW_CONF:0.148"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_133105",
+      "actual_intent": "ORDER_STATUS",
+      "predicted_intent": "DELIVERY_MISSING",
+      "confidence": 0.19909434750722027,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "LOW_CONF:0.199"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_056105",
+      "actual_intent": "OTHER",
+      "predicted_intent": "OTHER",
+      "confidence": 0.3373386501146087,
+      "decision": "AUTO_HANDLE",
+      "risk_flags": []
+    },
+    {
+      "conversation_id": "amazonhelp_135968",
+      "actual_intent": "OTHER",
+      "predicted_intent": "REFUND_REQUEST",
+      "confidence": 0.13277795439790846,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "HIGH_RISK:REFUND_REQUEST",
+        "LOW_CONF:0.133"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_004528",
+      "actual_intent": "PAYMENT_ISSUE",
+      "predicted_intent": "DELIVERY_LATE",
+      "confidence": 0.1354150233937735,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "LOW_CONF:0.135"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_020790",
+      "actual_intent": "PRODUCT_ISSUE",
+      "predicted_intent": "PRODUCT_ISSUE",
+      "confidence": 0.3718478452941022,
+      "decision": "AUTO_HANDLE",
+      "risk_flags": []
+    },
+    {
+      "conversation_id": "amazonhelp_113298",
+      "actual_intent": "DELIVERY_MISSING",
+      "predicted_intent": "DELIVERY_MISSING",
+      "confidence": 0.3127966543192577,
+      "decision": "AUTO_HANDLE",
+      "risk_flags": []
+    },
+    {
+      "conversation_id": "amazonhelp_085309",
+      "actual_intent": "OTHER",
+      "predicted_intent": "OTHER",
+      "confidence": 0.3881173115274791,
+      "decision": "AUTO_HANDLE",
+      "risk_flags": []
+    },
+    {
+      "conversation_id": "amazonhelp_067975",
+      "actual_intent": "OTHER",
+      "predicted_intent": "DELIVERY_LATE",
+      "confidence": 0.12336200748147534,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "LOW_CONF:0.123"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_126590",
+      "actual_intent": "VIDEO_STREAMING",
+      "predicted_intent": "DEVICE_ISSUE",
+      "confidence": 0.11812343326999186,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "LOW_CONF:0.118"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_006294",
+      "actual_intent": "DELIVERY_LATE",
+      "predicted_intent": "DELIVERY_LATE",
+      "confidence": 0.2104971099383631,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "LOW_CONF:0.210"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_000262",
+      "actual_intent": "DEVICE_ISSUE",
+      "predicted_intent": "DEVICE_ISSUE",
+      "confidence": 0.1476522305311009,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "LOW_CONF:0.148"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_123118",
+      "actual_intent": "OTHER",
+      "predicted_intent": "APP_USAGE",
+      "confidence": 0.11258365684652773,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "LOW_CONF:0.113"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_127767",
+      "actual_intent": "RETURN_REQUEST",
+      "predicted_intent": "RETURN_REQUEST",
+      "confidence": 0.20939057959599386,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "LOW_CONF:0.209"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_051058",
+      "actual_intent": "DELIVERY_LATE",
+      "predicted_intent": "DELIVERY_TRACKING",
+      "confidence": 0.306657988638589,
+      "decision": "AUTO_HANDLE",
+      "risk_flags": []
+    },
+    {
+      "conversation_id": "amazonhelp_104211",
+      "actual_intent": "OTHER",
+      "predicted_intent": "APP_USAGE",
+      "confidence": 0.2661281297961341,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "LOW_CONF:0.266"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_134959",
+      "actual_intent": "OTHER",
+      "predicted_intent": "OTHER",
+      "confidence": 0.2918020195352716,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "LOW_CONF:0.292"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_001869",
+      "actual_intent": "OTHER",
+      "predicted_intent": "DELIVERY_LATE",
+      "confidence": 0.14773407872289618,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "LOW_CONF:0.148"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_002466",
+      "actual_intent": "VIDEO_STREAMING",
+      "predicted_intent": "DEVICE_ISSUE",
+      "confidence": 0.14176177910958934,
+      "decision": "ESCALATE",
+      "risk_flags": [
+        "LOW_CONF:0.142"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_104490",
+      "actual_intent": "OTHER",
+      "predicted_intent": "OTHER",
+      "confidence": 0.32679628831408175,
+      "decision": "AUTO_HANDLE",
+      "risk_flags": []
+    }
+  ]
+}

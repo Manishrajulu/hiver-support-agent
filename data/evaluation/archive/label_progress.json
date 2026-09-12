@@ -1,0 +1,65 @@
+{
+  "current_index": 15,
+  "labels": {
+    "golden_0001": {
+      "human_label": "RETURN_REQUEST",
+      "human_notes": ""
+    },
+    "golden_0002": {
+      "human_label": "DEVICE_ISSUE",
+      "human_notes": ""
+    },
+    "golden_0003": {
+      "human_label": "REFUND_REQUEST",
+      "human_notes": ""
+    },
+    "golden_0004": {
+      "human_label": "OTHER",
+      "human_notes": ""
+    },
+    "golden_0005": {
+      "human_label": "APP_USAGE",
+      "human_notes": ""
+    },
+    "golden_0006": {
+      "human_label": "OTHER",
+      "human_notes": ""
+    },
+    "golden_0007": {
+      "human_label": "OTHER",
+      "human_notes": ""
+    },
+    "golden_0008": {
+      "human_label": "DELIVERY_LATE",
+      "human_notes": ""
+    },
+    "golden_0009": {
+      "human_label": "OTHER",
+      "human_notes": ""
+    },
+    "golden_0010": {
+      "human_label": "DELIVERY_MISSING",
+      "human_notes": ""
+    },
+    "golden_0011": {
+      "human_label": "DELIVERY_LATE",
+      "human_notes": ""
+    },
+    "golden_0012": {
+      "human_label": "OTHER",
+      "human_notes": ""
+    },
+    "golden_0013": {
+      "human_label": "REFUND_REQUEST",
+      "human_notes": ""
+    },
+    "golden_0014": {
+      "human_label": "DELIVERY_LATE",
+      "human_notes": ""
+    },
+    "golden_0015": {
+      "human_label": "ACCOUNT_ACCESS",
+      "human_notes": ""
+    }
+  }
+}

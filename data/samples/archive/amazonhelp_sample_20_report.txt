@@ -1,0 +1,197 @@
+======================================================================
+SAMPLE 1: amazonhelp_000005
+Quality: D_substantive - 5 turns, avg_len=82, substantive=2
+----------------------------------------------------------------------
+  [1] Customer (ID:205221)
+      this is the first time amazon has let me down smh, they haven’t updated me on my package
+  [2] AmazonHelp (ID:205220)
+      @164614 Have we missed the delivery date? If so, what does tracking currently show? Check here: https://t.co/PCtircFm5C ^GL
+  [3] Customer (ID:205219)
+      @AmazonHelp two of my packages haven’t even shipped yet
+  [4] AmazonHelp (ID:205218)
+      @164614 Oh no! To confirm, what was the delivery estimate provided on your order confirmation e-mail for the orders? ^MB
+  [5] Customer (ID:205217)
+      @AmazonHelp October 6th
+
+======================================================================
+SAMPLE 2: amazonhelp_000010
+Quality: D_substantive - 5 turns, avg_len=132, substantive=2
+----------------------------------------------------------------------
+  [1] Customer (ID:528307)
+      Hello @119625 subtitles doesn’t work in my devices from yesterday.Any solutions? #Amazon#prime
+  [2] AmazonHelp (ID:528305)
+      @242311 We'll be glad to help you. Could you please let us know the title on which you are unable to find subtitles? ^SC
+  [3] Customer (ID:528306)
+      @AmazonHelp Actually subtitles are on but it’s doesn’t displayed when the video playing. Series are person of interest and grand tour
+  [4] AmazonHelp (ID:528308)
+      @242311 Could you please confirm if you are facing this issue with all the seasons of the mentioned series?  ^SC
+  [5] Customer (ID:528309)
+      @AmazonHelp Right now I am watching s4 ep07..I have checked with other episodes and seasons,it doesn’t works there too (some days back I watched these episodes with subtitles) https://t.co/zM29rfQrl5
+
+======================================================================
+SAMPLE 3: amazonhelp_000002
+Quality: C_multi_turn - 3 turns, avg_len=85, substantive=1
+----------------------------------------------------------------------
+  [1] Customer (ID:2074019)
+      Amazonのミスで勝手に返品された品の返金が来ないから電話したらコンビニ払いで口座指定もしてないのにもうクレジットのところに返金しましたとか言われて今日見に行ったらやっぱり返金されてなかった
+  [2] AmazonHelp (ID:2074017)
+      @613403 ご返金についてご不便をおかけしております。カスタマーサービスにて再度確認させていただきますので、こちらのリンクよりお問い合わせください。https://t.co/NtNAX37Sr4 ET
+  [3] Customer (ID:2074018)
+      @AmazonHelp 電話はブロックされてかけれません
+メールは1度アプリの方から送りましたがなにも帰ってきません
+
+======================================================================
+SAMPLE 4: amazonhelp_000004
+Quality: C_multi_turn - 3 turns, avg_len=110, substantive=1
+----------------------------------------------------------------------
+  [1] Customer (ID:1969329)
+      @115851 why have you allowed companies from China to steal from loyal Amazon customers??  I’m not a billionaire like you
+  [2] AmazonHelp (ID:1969326)
+      @583426 We'd like to help. Without posting personal or account sensitive information, can you tell us more about what's going on? ^AF https://t.co/1XyLaGkcaN
+  [3] Customer (ID:1969328)
+      @AmazonHelp My orders don’t even have orders numbers!!
+
+======================================================================
+SAMPLE 5: amazonhelp_000006
+Quality: C_multi_turn - 5 turns, avg_len=101, substantive=1
+----------------------------------------------------------------------
+  [1] Customer (ID:2073874)
+      @AmazonHelp Bonjour, j'ai un colis qui m'est indiqué avoir été livré dans ma boite aux lettres, cependant rien n'est présent. Numéro de commande : 403-3536538-1837141
+  [2] AmazonHelp (ID:2073873)
+      @613381 Bonjour, je suis sincèrement navrée d'apprendre cela. L'avez-vous signalé à notre SAV s'il vous plaît? ^SA
+  [3] Customer (ID:2073872)
+      @AmazonHelp Non je l'ai signalé qu'ici. Je les contactes par téléphone ?
+  [4] AmazonHelp (ID:2073871)
+      @613381 Vous pouvez contacter le service client par téléphone, chat ou mail depuis le lien suivant : https://t.co/qzuu0dgDXz . ^ASZ
+  [5] Customer (ID:2073870)
+      @AmazonHelp Cool merci !
+
+======================================================================
+SAMPLE 6: amazonhelp_000015
+Quality: C_multi_turn - 3 turns, avg_len=213, substantive=1
+----------------------------------------------------------------------
+  [1] Customer (ID:2519257)
+      Yelling at managers at Amazon is SO FUN LET ME TELL YOU.
+
+I do my damned best never to get angry with low-level CS-reps, but the moment you transfer me to a manager at Amazon Logistics, who've spent t...
+  [2] AmazonHelp (ID:2519255)
+      @518270 I'm sorry for the frustration! When you spoke with us, what information were we able to provide? Was this regarding a recent order? If so, can you provide us with the carrier. This information...
+  [3] Customer (ID:2519256)
+      @AmazonHelp YOU'RE the carrier. I'm still on the phone with an AMZL supervisor.
+
+Your shipping is an unmitigated disaster.
+
+======================================================================
+SAMPLE 7: amazonhelp_000016
+Quality: C_multi_turn - 3 turns, avg_len=115, substantive=1
+----------------------------------------------------------------------
+  [1] Customer (ID:1188548)
+      @AmazonHelp My Amazon account was suddenly closed for use of "invalid gift cards". I have had an Amazon account since 2012. Fix this.
+  [2] AmazonHelp (ID:1188547)
+      @399497 I'm sorry for the frustration. Did you receive an e-mail from an account specialist with more information about this? ^KB
+  [3] Customer (ID:1188546)
+      @AmazonHelp I received two emails with the same information. https://t.co/0o8okPYCTn
+
+======================================================================
+SAMPLE 8: amazonhelp_000001
+Quality: A_very_short - Single turn - no real conversation
+----------------------------------------------------------------------
+  [1] Customer (ID:1428914)
+      Amazonさんからの荷物。納品書入ってなかったのはわざとかな？
+
+======================================================================
+SAMPLE 9: amazonhelp_000003
+Quality: A_very_short - Single turn - no real conversation
+----------------------------------------------------------------------
+  [1] Customer (ID:1493687)
+      @115850 please add D2h recharge option in mobile app???? @119625
+
+======================================================================
+SAMPLE 10: amazonhelp_000007
+Quality: A_very_short - Single turn - no real conversation
+----------------------------------------------------------------------
+  [1] Customer (ID:1403207)
+      Another order and the same old mistake... got a product delivered message but the product has still not been delivered... @115850 😐😐
+
+======================================================================
+SAMPLE 11: amazonhelp_000008
+Quality: A_very_short - Single turn - no real conversation
+----------------------------------------------------------------------
+  [1] Customer (ID:2644535)
+      @AmazonHelp fake hopes nd extended time since i am getting this
+
+======================================================================
+SAMPLE 12: amazonhelp_000009
+Quality: A_very_short - Single turn - no real conversation
+----------------------------------------------------------------------
+  [1] Customer (ID:1463444)
+      @AmazonHelp  I bought something yesterday with Prime about 1pm. Said it's arriving today and still nothing has arrived. Slow delivery maybe?
+
+======================================================================
+SAMPLE 13: amazonhelp_000018
+Quality: C_multi_turn - 3 turns, avg_len=52, substantive=1
+----------------------------------------------------------------------
+  [1] Customer (ID:521699)
+      8時～12時までのamazon時間指定の荷物届かないんだが
+  [2] AmazonHelp (ID:521698)
+      @240447 ご迷惑をおかけしております。状況をお調べした上でご案内させていただきますので、恐れ入りますが、以下のリンクよりカスタマーサービスにお問い合わせください。https://t.co/J6YEizFHia TN
+  [3] Customer (ID:521697)
+      @AmazonHelp はいっ！
+
+======================================================================
+SAMPLE 14: amazonhelp_000021
+Quality: C_multi_turn - 5 turns, avg_len=156, substantive=1
+----------------------------------------------------------------------
+  [1] Customer (ID:543565)
+      @UPSHelp my package has been showing Delayed since 11/29 with no other info given. Amazon cannot help. Can you? 1Z306A400255772136
+  [2] Customer (ID:543563)
+      @246250 Thank you for providing your tracking number.I am sorry that your package has been delayed. I am showing that this package is still with Amazon and has not been turned over to UPS as of yet. O...
+  [3] Customer (ID:543561)
+      @UPSHelp @AmazonHelp please read above. The issue is on your end.
+  [4] AmazonHelp (ID:543558)
+      @246250 Thank you for contacting us, Jayme! I am sorry you have not received your package. We are here to help! Just to clarify, can you tell us what the current order status is showing here: https://...
+  [5] Customer (ID:543559)
+      @AmazonHelp It is clearly not arriving today per @UPSHelp .  Please issue me a refund today
+
+======================================================================
+SAMPLE 15: amazonhelp_000011
+Quality: A_very_short - Single turn - no real conversation
+----------------------------------------------------------------------
+  [1] Customer (ID:2297413)
+      @115821 right now you're customer service is AWFUL! My account has been locked and no matter what I do I get the same "canned" email.
+
+======================================================================
+SAMPLE 16: amazonhelp_000012
+Quality: A_very_short - Single turn - no real conversation
+----------------------------------------------------------------------
+  [1] Customer (ID:418780)
+      @AmazonHelp Status says, "Delivered yesterday" but I didn't receive anything yet. Please assist.
+
+======================================================================
+SAMPLE 17: amazonhelp_000013
+Quality: A_very_short - Single turn - no real conversation
+----------------------------------------------------------------------
+  [1] Customer (ID:927833)
+      @AmazonHelp not happy wwe 2k18 didn't arrive today, 21:20 now and nothing, was supposed to arrive today, 4 days early supposed to be
+
+======================================================================
+SAMPLE 18: amazonhelp_000014
+Quality: A_very_short - Single turn - no real conversation
+----------------------------------------------------------------------
+  [1] Customer (ID:2471034)
+      Mein Kindle ist wohl offiziell zu alt, die WLAN Verbindung besteht zwar aber er lässt sich nicht mehr synchronisieren oder aktualisieren 😔 Trotz Neustart @117634
+
+======================================================================
+SAMPLE 19: amazonhelp_000017
+Quality: A_very_short - Single turn - no real conversation
+----------------------------------------------------------------------
+  [1] Customer (ID:1619432)
+      @115850 Again crashing https://t.co/g7eDbkDHJa
+
+======================================================================
+SAMPLE 20: amazonhelp_000019
+Quality: A_very_short - Single turn - no real conversation
+----------------------------------------------------------------------
+  [1] Customer (ID:1224611)
+      Impossible de contacter le service client pour un problème de livraison (problème d'adresse) d'un article, je fais comment @120533 ?
+

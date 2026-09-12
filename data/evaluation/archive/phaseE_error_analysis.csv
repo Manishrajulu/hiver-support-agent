@@ -1,0 +1,97 @@
+example_id,human_label,model_prediction,confusion_pair,error_category,analysis_note
+golden_0001,RETURN_REQUEST,DELIVERY_LATE,RETURN_REQUEST -> DELIVERY_LATE,A,Generic model error
+golden_0003,REFUND_REQUEST,DELIVERY_LATE,REFUND_REQUEST -> DELIVERY_LATE,A,Generic model error
+golden_0010,DELIVERY_MISSING,OTHER,DELIVERY_MISSING -> OTHER,A,Model over-predicts OTHER for delivery-related intents
+golden_0015,ACCOUNT_ACCESS,APP_USAGE,ACCOUNT_ACCESS -> APP_USAGE,A,Generic model error
+golden_0016,PRODUCT_ISSUE,OTHER,PRODUCT_ISSUE -> OTHER,B,Product/return intents confused with OTHER - may need clearer definitions
+golden_0017,PRODUCT_ISSUE,OTHER,PRODUCT_ISSUE -> OTHER,B,Product/return intents confused with OTHER - may need clearer definitions
+golden_0020,PAYMENT_ISSUE,DEVICE_ISSUE,PAYMENT_ISSUE -> DEVICE_ISSUE,A,Generic model error
+golden_0023,APP_USAGE,DEVICE_ISSUE,APP_USAGE -> DEVICE_ISSUE,A,Generic model error
+golden_0024,DELIVERY_MISSING,OTHER,DELIVERY_MISSING -> OTHER,A,Model over-predicts OTHER for delivery-related intents
+golden_0025,REFUND_REQUEST,ORDER_STATUS,REFUND_REQUEST -> ORDER_STATUS,A,Generic model error
+golden_0031,REFUND_REQUEST,RETURN_REQUEST,REFUND_REQUEST -> RETURN_REQUEST,B,Product/return/refund boundary confusion
+golden_0033,PRODUCT_ISSUE,OTHER,PRODUCT_ISSUE -> OTHER,B,Product/return intents confused with OTHER - may need clearer definitions
+golden_0035,ACCOUNT_ACCESS,OTHER,ACCOUNT_ACCESS -> OTHER,A,Model over-predicts OTHER for service-related intents
+golden_0036,DELIVERY_LATE,OTHER,DELIVERY_LATE -> OTHER,A,Model over-predicts OTHER for delivery-related intents
+golden_0042,DELIVERY_LATE,OTHER,DELIVERY_LATE -> OTHER,A,Model over-predicts OTHER for delivery-related intents
+golden_0043,DELIVERY_LATE,OTHER,DELIVERY_LATE -> OTHER,A,Model over-predicts OTHER for delivery-related intents
+golden_0044,PRODUCT_ISSUE,ORDER_STATUS,PRODUCT_ISSUE -> ORDER_STATUS,A,Generic model error
+golden_0045,DELIVERY_LATE,OTHER,DELIVERY_LATE -> OTHER,A,Model over-predicts OTHER for delivery-related intents
+golden_0046,DELIVERY_MISSING,OTHER,DELIVERY_MISSING -> OTHER,A,Model over-predicts OTHER for delivery-related intents
+golden_0047,DELIVERY_MISSING,ORDER_STATUS,DELIVERY_MISSING -> ORDER_STATUS,A,Generic model error
+golden_0048,DELIVERY_LATE,APP_USAGE,DELIVERY_LATE -> APP_USAGE,D,Customer text may not clearly indicate delivery issue
+golden_0051,PRODUCT_ISSUE,DELIVERY_LATE,PRODUCT_ISSUE -> DELIVERY_LATE,A,Generic model error
+golden_0053,DELIVERY_MISSING,DELIVERY_LATE,DELIVERY_MISSING -> DELIVERY_LATE,B,Delivery intent boundary confusion - taxonomy ambiguity
+golden_0054,DEVICE_ISSUE,OTHER,DEVICE_ISSUE -> OTHER,A,Model over-predicts OTHER for service-related intents
+golden_0055,OTHER,APP_USAGE,OTHER -> APP_USAGE,A,Model predicts specific intent when human labeled OTHER - model may not learn OTHER well
+golden_0056,CANCELLATION,OTHER,CANCELLATION -> OTHER,B,Modify/cancel intents confused with OTHER - taxonomy may need clarification
+golden_0057,DELIVERY_LATE,OTHER,DELIVERY_LATE -> OTHER,A,Model over-predicts OTHER for delivery-related intents
+golden_0059,OTHER,DELIVERY_LATE,OTHER -> DELIVERY_LATE,A,Model predicts specific intent when human labeled OTHER - model may not learn OTHER well
+golden_0060,DELIVERY_LATE,APP_USAGE,DELIVERY_LATE -> APP_USAGE,D,Customer text may not clearly indicate delivery issue
+golden_0062,PAYMENT_ISSUE,DELIVERY_LATE,PAYMENT_ISSUE -> DELIVERY_LATE,A,Generic model error
+golden_0064,ACCOUNT_ACCESS,DELIVERY_MISSING,ACCOUNT_ACCESS -> DELIVERY_MISSING,A,Generic model error
+golden_0066,PRODUCT_ISSUE,DELIVERY_MISSING,PRODUCT_ISSUE -> DELIVERY_MISSING,A,Generic model error
+golden_0069,DELIVERY_LATE,ORDER_STATUS,DELIVERY_LATE -> ORDER_STATUS,B,DELIVERY_LATE vs ORDER_STATUS boundary unclear
+golden_0072,ORDER_MODIFY,ORDER_STATUS,ORDER_MODIFY -> ORDER_STATUS,A,Generic model error
+golden_0074,DELIVERY_LATE,DELIVERY_MISSING,DELIVERY_LATE -> DELIVERY_MISSING,B,Delivery intent boundary confusion - taxonomy ambiguity
+golden_0077,ACCOUNT_ACCESS,OTHER,ACCOUNT_ACCESS -> OTHER,A,Model over-predicts OTHER for service-related intents
+golden_0078,DELIVERY_MISSING,ORDER_STATUS,DELIVERY_MISSING -> ORDER_STATUS,A,Generic model error
+golden_0080,DEVICE_ISSUE,OTHER,DEVICE_ISSUE -> OTHER,A,Model over-predicts OTHER for service-related intents
+golden_0081,REFUND_REQUEST,DELIVERY_LATE,REFUND_REQUEST -> DELIVERY_LATE,A,Generic model error
+golden_0082,PAYMENT_ISSUE,OTHER,PAYMENT_ISSUE -> OTHER,A,Model over-predicts OTHER for service-related intents
+golden_0083,DELIVERY_LATE,ORDER_STATUS,DELIVERY_LATE -> ORDER_STATUS,B,DELIVERY_LATE vs ORDER_STATUS boundary unclear
+golden_0085,PAYMENT_ISSUE,DELIVERY_MISSING,PAYMENT_ISSUE -> DELIVERY_MISSING,A,Generic model error
+golden_0088,DELIVERY_MISSING,DEVICE_ISSUE,DELIVERY_MISSING -> DEVICE_ISSUE,A,Generic model error
+golden_0089,VIDEO_STREAMING,DELIVERY_LATE,VIDEO_STREAMING -> DELIVERY_LATE,A,Generic model error
+golden_0090,PRODUCT_ISSUE,OTHER,PRODUCT_ISSUE -> OTHER,B,Product/return intents confused with OTHER - may need clearer definitions
+golden_0091,DELIVERY_LATE,OTHER,DELIVERY_LATE -> OTHER,A,Model over-predicts OTHER for delivery-related intents
+golden_0101,DELIVERY_MISSING,DELIVERY_LATE,DELIVERY_MISSING -> DELIVERY_LATE,B,Delivery intent boundary confusion - taxonomy ambiguity
+golden_0103,DELIVERY_LATE,APP_USAGE,DELIVERY_LATE -> APP_USAGE,D,Customer text may not clearly indicate delivery issue
+golden_0104,ACCOUNT_ACCESS,APP_USAGE,ACCOUNT_ACCESS -> APP_USAGE,A,Generic model error
+golden_0105,DELIVERY_LATE,DELIVERY_MISSING,DELIVERY_LATE -> DELIVERY_MISSING,B,Delivery intent boundary confusion - taxonomy ambiguity
+golden_0106,PRODUCT_ISSUE,OTHER,PRODUCT_ISSUE -> OTHER,B,Product/return intents confused with OTHER - may need clearer definitions
+golden_0108,DELIVERY_LATE,OTHER,DELIVERY_LATE -> OTHER,A,Model over-predicts OTHER for delivery-related intents
+golden_0111,ACCOUNT_ACCESS,OTHER,ACCOUNT_ACCESS -> OTHER,A,Model over-predicts OTHER for service-related intents
+golden_0114,DELIVERY_MISSING,DELIVERY_LATE,DELIVERY_MISSING -> DELIVERY_LATE,B,Delivery intent boundary confusion - taxonomy ambiguity
+golden_0117,REFUND_REQUEST,DELIVERY_MISSING,REFUND_REQUEST -> DELIVERY_MISSING,A,Generic model error
+golden_0119,DELIVERY_LATE,OTHER,DELIVERY_LATE -> OTHER,A,Model over-predicts OTHER for delivery-related intents
+golden_0120,DELIVERY_LATE,OTHER,DELIVERY_LATE -> OTHER,A,Model over-predicts OTHER for delivery-related intents
+golden_0124,DELIVERY_LATE,OTHER,DELIVERY_LATE -> OTHER,A,Model over-predicts OTHER for delivery-related intents
+golden_0125,CANCELLATION,DELIVERY_MISSING,CANCELLATION -> DELIVERY_MISSING,A,Generic model error
+golden_0126,DELIVERY_MISSING,OTHER,DELIVERY_MISSING -> OTHER,A,Model over-predicts OTHER for delivery-related intents
+golden_0128,DELIVERY_MISSING,OTHER,DELIVERY_MISSING -> OTHER,A,Model over-predicts OTHER for delivery-related intents
+golden_0131,VIDEO_STREAMING,DEVICE_ISSUE,VIDEO_STREAMING -> DEVICE_ISSUE,A,Generic model error
+golden_0133,DELIVERY_MISSING,DELIVERY_LATE,DELIVERY_MISSING -> DELIVERY_LATE,B,Delivery intent boundary confusion - taxonomy ambiguity
+golden_0135,DELIVERY_MISSING,DEVICE_ISSUE,DELIVERY_MISSING -> DEVICE_ISSUE,A,Generic model error
+golden_0143,PAYMENT_ISSUE,OTHER,PAYMENT_ISSUE -> OTHER,A,Model over-predicts OTHER for service-related intents
+golden_0144,PRODUCT_ISSUE,DEVICE_ISSUE,PRODUCT_ISSUE -> DEVICE_ISSUE,A,Generic model error
+golden_0145,DELIVERY_MISSING,OTHER,DELIVERY_MISSING -> OTHER,A,Model over-predicts OTHER for delivery-related intents
+golden_0147,DELIVERY_MISSING,OTHER,DELIVERY_MISSING -> OTHER,A,Model over-predicts OTHER for delivery-related intents
+golden_0149,DELIVERY_LATE,ORDER_STATUS,DELIVERY_LATE -> ORDER_STATUS,B,DELIVERY_LATE vs ORDER_STATUS boundary unclear
+golden_0150,CANCELLATION,ORDER_STATUS,CANCELLATION -> ORDER_STATUS,A,Generic model error
+golden_0152,DEVICE_ISSUE,APP_USAGE,DEVICE_ISSUE -> APP_USAGE,A,Generic model error
+golden_0155,ACCOUNT_ACCESS,OTHER,ACCOUNT_ACCESS -> OTHER,A,Model over-predicts OTHER for service-related intents
+golden_0157,DELIVERY_MISSING,APP_USAGE,DELIVERY_MISSING -> APP_USAGE,A,Generic model error
+golden_0160,DELIVERY_MISSING,OTHER,DELIVERY_MISSING -> OTHER,A,Model over-predicts OTHER for delivery-related intents
+golden_0161,PRODUCT_ISSUE,OTHER,PRODUCT_ISSUE -> OTHER,B,Product/return intents confused with OTHER - may need clearer definitions
+golden_0162,ORDER_STATUS,PRODUCT_ISSUE,ORDER_STATUS -> PRODUCT_ISSUE,A,Generic model error
+golden_0167,CANCELLATION,ORDER_STATUS,CANCELLATION -> ORDER_STATUS,A,Generic model error
+golden_0168,DEVICE_ISSUE,OTHER,DEVICE_ISSUE -> OTHER,A,Model over-predicts OTHER for service-related intents
+golden_0169,DELIVERY_LATE,OTHER,DELIVERY_LATE -> OTHER,A,Model over-predicts OTHER for delivery-related intents
+golden_0171,DELIVERY_TRACKING,DELIVERY_LATE,DELIVERY_TRACKING -> DELIVERY_LATE,A,Generic model error
+golden_0172,REFUND_REQUEST,PAYMENT_ISSUE,REFUND_REQUEST -> PAYMENT_ISSUE,A,Generic model error
+golden_0175,ACCOUNT_ACCESS,DELIVERY_LATE,ACCOUNT_ACCESS -> DELIVERY_LATE,A,Generic model error
+golden_0177,DELIVERY_LATE,OTHER,DELIVERY_LATE -> OTHER,A,Model over-predicts OTHER for delivery-related intents
+golden_0179,ACCOUNT_ACCESS,APP_USAGE,ACCOUNT_ACCESS -> APP_USAGE,A,Generic model error
+golden_0181,ACCOUNT_ACCESS,APP_USAGE,ACCOUNT_ACCESS -> APP_USAGE,A,Generic model error
+golden_0185,RETURN_REQUEST,DELIVERY_LATE,RETURN_REQUEST -> DELIVERY_LATE,A,Generic model error
+golden_0188,DELIVERY_LATE,ORDER_STATUS,DELIVERY_LATE -> ORDER_STATUS,B,DELIVERY_LATE vs ORDER_STATUS boundary unclear
+golden_0192,DELIVERY_LATE,APP_USAGE,DELIVERY_LATE -> APP_USAGE,D,Customer text may not clearly indicate delivery issue
+golden_0193,ORDER_STATUS,OTHER,ORDER_STATUS -> OTHER,A,Model over-predicts OTHER for delivery-related intents
+golden_0195,PRODUCT_ISSUE,DELIVERY_LATE,PRODUCT_ISSUE -> DELIVERY_LATE,A,Generic model error
+golden_0196,DELIVERY_LATE,OTHER,DELIVERY_LATE -> OTHER,A,Model over-predicts OTHER for delivery-related intents
+golden_0197,DELIVERY_LATE,OTHER,DELIVERY_LATE -> OTHER,A,Model over-predicts OTHER for delivery-related intents
+golden_0200,ORDER_STATUS,PAYMENT_ISSUE,ORDER_STATUS -> PAYMENT_ISSUE,A,Generic model error
+golden_0215,DELIVERY_MISSING,CANCELLATION,DELIVERY_MISSING -> CANCELLATION,A,Generic model error
+golden_0218,CANCELLATION,ORDER_MODIFY,CANCELLATION -> ORDER_MODIFY,A,Generic model error
+golden_0220,CANCELLATION,ORDER_MODIFY,CANCELLATION -> ORDER_MODIFY,A,Generic model error

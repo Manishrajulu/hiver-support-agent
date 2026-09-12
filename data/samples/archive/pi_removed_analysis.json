@@ -1,0 +1,513 @@
+[
+  {
+    "conversation_id": "amazonhelp_058442",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "APP_USAGE",
+    "customer_text": "@115821 ça fait plusieurs mois que je n'arrive pas à vous joindre suite à un prb technique. Moyen quand on paye un abonnement prime. https://t.co/exKL9Rrz9e @115821 Aucune réponse à mes emails à ce sujet... @AmazonHelp Prb toujours pas résolu malgré plusieurs appels, mails, et promesses de rappel. E",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_004081",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "APP_USAGE",
+    "customer_text": "Play the #AmazonPayQuiz contest now. 100 winners stand a to win ₹3000 Amazon Pay balance. Live now on the Amazon App https://t.co/jw4O1OVYDS @115850 @115850 @AmazonHelp  Contest winners? @AmazonHelp Oh thank you! Waiting 😇",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_067918",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@AmazonHelp Bonjour ! J'ai un problème avec ma commande la carte bancaire passe pas https://t.co/BHLswYEIHt @AmazonHelp Il s'agit de cartes virtuelles créés avec orange cash @AmazonHelp Déjà fait 3 fois @AmazonHelp Merci de votre réponse ! Une autre question : est t il prévu que PayPal soit un jour ",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_014372",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "APP_USAGE",
+    "customer_text": "Play the #AmazonPayQuiz contest now. 100 winners stand a to win ₹3000 Amazon Pay balance. Live now on the Amazon App https://t.co/jw4O1OVYDS @115850 Announcement of winner please",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_022747",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@115821 why am I paying for 2 day shipping if it’s guaranteed to take 4 days to get here?! Wtf, prime is turning into@a waste of money.  😤 @AmazonHelp I place an order just now, and received an email saying it was guaranteed by November 20th. @AmazonHelp It says its expect to ship today. @AmazonHelp",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_136599",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@115850 why prices on product doesn’t match with listing price? Clear case of cheating... https://t.co/YSqGJQTOCh @AmazonHelp That means consumer has to pay extra even if its an issue from vendor. Aside i agreed to pay delivery charges but that doesn’t mean product product should be sold more than M",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_026200",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "DEVICE_ISSUE",
+    "customer_text": "@115830 @@AmazonHelp @129773 just spent 40mins on sos to your agent and no closer am i to using a service you are charging me for @AmazonHelp My issue is im paying you far a service that your agents are telling me I'm not entitled to 🤔🤔 firestick won't play content, mobile device @AmazonHelp Won't c",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_104211",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@120533 j'aimais le prime, mais j'ai découvert l'envers du projet, je commende 3 trucs autre que des bouquins et je me retrouve avec 10jours de livraison alors que par la poste ça prendrais 2jours max @AmazonHelp déjà commandé, je vous envoi les détails quand je l'aurais reçu, mais pour l'instant au",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_136994",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "DEVICE_ISSUE",
+    "customer_text": "@115850 never prepay Amazon or use Amazon Pay. They wil cheat u by showing purchases delivered without delivering!! @115850 In the extremely limited options on your website, have tried reaching you but to no avail. Amazon least bothered coz money rec'd in advance.",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_084962",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@120533 je m'a informé d'attendre encore plus  .. Comment peu professionnel ... Délai de livraison garanti était HIER!! #Nice06 https://t.co/dFAUdxB3jU @AmazonHelp oui - date de livraison garantie 10 oct. Mais le chauffeur UPS n'a jamais livré. A la maison toute la journée. @AmazonHelp Déjà fait plu",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_147177",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@115830. Putting children at risk. Amazon failing to dispatch critical child safety equipment then unable to engage with their own fulfilment centre. Protect children - avoid Amazon. @AmazonHelp Yes but no help. They just want me to pay for express delivery. @AmazonHelp Amazon don't want to help, I ",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_148746",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "APP_USAGE",
+    "customer_text": "Play the #AmazonPayQuiz contest now. 100 winners stand a to win ₹3000 Amazon Pay balance. Live now on the Amazon App https://t.co/jw4O1OVYDS @115850 @115850 as i tried submiting the answer its not submitting whats the problem",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_071582",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "Confused as to why we pay for prime if it's still going to take a week for our shit to get here @115821. Now we have no costumes 😫😫😫😫",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_105910",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "APP_USAGE",
+    "customer_text": "@AmazonHelp Hi, I've read that I can d'load a selection of free content from A'zon Audible as a Prime member, but can't see how on the app? @AmazonHelp Yes I've got the app. I can't recall where I read it, think I'd just Googled free audible content and it ref'd to Prime. Is it correct? @AmazonHelp ",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_098057",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "C'est la seconde fois que je ne reçois pas un paquet livré par Colis Privé, soit disant laissé dans ma boite aux lettres. @120533 pourquoi continuer à utiliser ce service ? @AmazonHelp Oui, on me répond la même chose que la première fois, une enquête va s'ouvrir. En toute franchise, si je dois encor",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_043579",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "This is out TODAY, @115830. And yet my Prime order says \"delivery date pending\"... @AmazonHelp https://t.co/KuY6SYvfUB @115830 @AmazonHelp Gonna have to order from somewhere else and wait ages or pay GAME's ridiculous bumped up in-store price (probably about £65)... @115830 @AmazonHelp This is what ",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_019777",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@115850 Unable to add Money to Amazon Pay.. Not receiving verification text mesaage! https://t.co/ogyF6qBqS7 @AmazonHelp Done! @AmazonHelp Still the issue is not resolved! 12hrs then 48 hrs... Wasted!",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_050349",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "ACCOUNT_ACCESS",
+    "customer_text": "@115850 got my Amzn Pay account blocked some 20 days back &amp; that your cs team or that pay team had no idea what's the prblm. sent 7-8 mails and called 10 times. u r eating my time &amp; ur time. N @AmazonHelp Again got d same repeated response that follow apay team sent, that team has no idea wh",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_129739",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "#KaroMilkeTayyari offers ko unlock karne ki. Send us a screenshot of the deal that brightens your day. #AmazonGreatIndianFestival https://t.co/917sZo8tBj @115850 I bought product @115821 during the great indian festival 21st to 24th sep Amazon is denying Buy now Pay next year offer on EMI. #BadAmazo",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_141018",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@AmazonHelp la franchement , je suis dégoutée …  je paye un service a 49 euros par an … pour du «  on ne sait jamais «  …. J’ai pas les mots .. https://t.co/5CfU4912LU @AmazonHelp non … j’ai preco pour m’entendre dire «  nous n’avons plus les produits «  et «  on sait jamais on va peut être les rece",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_098761",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@AmazonHelp prime delivery my arse. Ordered 2 days ago and was expecting it to arrive today and now its not expected until 25-28th? What am I even fking paying for? I stayed in all day for this shit.",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_039476",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@115821 same day delivery seriously let me down Yesterday.  Stayed up past my bedtime waiting for the delivery to then find out it could be Thursday before I see it.  Glad I didn't pay extra for the s @AmazonHelp wold and shipped by Amazon.  Order# 113-5147642-2478610    Yes it was free same day del",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_142481",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@115850 unable to choose COD option at all. forces to use pay balance 1st.  product link. https://t.co/XAhHCGNjQ8 https://t.co/b3xYypRTLG",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_097577",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "\"Poor click-through experiences lead to 70 - 80% bounce rates from social\" - @73907's @73908 #MM17NYC @115823 @73907 @73908 No one is answering from amazon india today how can i pay",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_025975",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "Hey @115830 if you could actually deliver the day you say you will that would be amazing. Actually have no idea why I bother paying for prime at this point.\n\nStart using reliable couriers! @AmazonHelp Yep. This isn't the first time your delivery team have decided to do their own thing and make up th",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_015259",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@AmazonHelp @115821 I'm in Africa {Ghana}, I urgently need a card to pay my goods bought on your site. My mastercard is not helping. HELP @AmazonHelp ordering on the amazon site. how do i get an amazon card so i link it to my account",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_015730",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@115850 your customer service standards are clearly lower now. @115850 This is regarding the cancelled order for one plus 5 from __email__ Your executives are not even ready to talk. @AmazonHelp My money was deducted twice because of some technical glitch and considering the amount involved I can't ",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_041911",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@115821 why do I pay for a prime membership when my last three purchases haven't made it here in two days??? @AmazonHelp No they are all different",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_114230",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "VIDEO_STREAMING",
+    "customer_text": "@116618 we were just forced to pay 4$ for freaking twilight... And it won't playback...",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_152454",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "DEVICE_ISSUE",
+    "customer_text": "@AmazonHelp How come Halloween 2 Rob Zombie “isn’t available in my location” I pay for prime and starz. And still don’t get it. @AmazonHelp *showtime subscription*",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_053878",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "Changed your mind about a product? No worries. Replace your products with ease, only on Amazon. https://t.co/vzH3KwuM7U https://t.co/ACpYu6kBUQ @115850 ONCE THE AMAZON GIFT VOUCHERS ADDED TO AMAZON PAY BALANCE, IS IT POSSIBLE TO LOCK THE AMAZON GIFT VOUCHERS AND DEBIT THE AMAZON PAY BALANCE @AmazonH",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_129655",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "APP_USAGE",
+    "customer_text": "Every time this happens @115850 @115851 #amazonsucksforever #latedeliveries #uselesscheckoutsystem #fakeadvertisement #hoaxpromotions #pleaseshutdownamazon https://t.co/YSIbUaay0v @115850 @115851 Even after having the product in cart I can’t checkout or pay to have it. #yousuckamazon @AmazonHelp The",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_036483",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "DEVICE_ISSUE",
+    "customer_text": "@115850 @115821 Please help asap. We tried to load some amount in Amazon pay but after almost 20 hours, it doesn't show any amount. @115850 @115821 @4088 @123644 Please help asap. We need to buy an item. Hoping for quick assistance",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_100946",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@115830 so I ordered Mario odyssey months ago from you as I pay for prime and I know you’re meant to get games to me on time @115830 yet I haven’t received it today, any reason why you can’t guarantee delivery on the day of release? As I’m told it’ll probably be tomorrow",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_065428",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "Hey @115830, why are things marked Prime coming up as delivered November if I order today? #shopping #payday @115931 @AmazonHelp Christy's Adults Viking Warrior Costume (M/ L) https://t.co/2vSZSteYUr @AmazonHelp Still nothing? WHY DO I PAY FOR #PRIME AND HAVE TO PAY ANOTHER £8 TO GET THIS NEXT DAY?",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_086776",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "DEVICE_ISSUE",
+    "customer_text": "I'm facing more bullshitting by @115850 Another package of mine is shown 'delivered' yesterday @AmazonHelp Somethings wrong at amazon... @AmazonHelp I have filled the form but I don't expect anything concrete to happen besides paying lip-service. No one comes back to say why this happens @AmazonHelp",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_104703",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "DEVICE_ISSUE",
+    "customer_text": "@129773 why is like, nothing available in the Republic if Ireland? I’m a paying member and can not get any shows here. @AmazonHelp It just tells me it’s not available in the country I’m in. @AmazonHelp Problem is prime video not available in Ireland at all, not my account. Only amazon originals avai",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_114980",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "DEVICE_ISSUE",
+    "customer_text": "@115821 please examine customer support in India . Prime member but service sucks @AmazonHelp I am a prime member and it was expiring on 15th. On 4th bought exhoplus where you were offering a year’s membership . Now I am told that the membership will get activated only when device ",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_065470",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "DEVICE_ISSUE",
+    "customer_text": "@115821 hi hello yes why can’t I watch lock up by MSNBC. “This video is currently unavailable to watch in your location” I just wanna watch people behind bars talk about prison politics...I didn’t pay @AmazonHelp No I am in Maryland in the states 😭😭 it’s the only thing that isn’t working @AmazonHelp",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_054758",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@120533 Bonsoir, c'est normal je paye 15€ de plus pour être livré avant 22h et que je reçois rien ??? @AmazonHelp en cours de livraison depuis 19h42 @AmazonHelp Amazon logistics @AmazonHelp C20028582823",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_107523",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@AmazonHelp I’m paying for prime... 2-DAY SHIPPING my package has still hasn’t arrived. I bought it 4 DAYS AGO",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_126991",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "APP_USAGE",
+    "customer_text": "#AmazonGreatCheaters the story of confusion between Aco.in and https://t.co/eSMtOKnQF0, indian n US server, customer is robbed @115851 👍 @115851 @115850 @115821 the two FraudStars, one tells to go to other and vice versa, customer after paying beforehand runs pillar to pillar 😑 @AmazonHelp Have been",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_034020",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@115850 I used to buy stuff at 0 delivery charges with Prime, delivered the next day. Now, I'm paying 75-100 bucks for a 7-day delivery! @AmazonHelp I understand. But these items (baby diapers) were devoid of delivery charges till last month. Now, ALL vendors are charging. @AmazonHelp And no one is ",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_076067",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "APP_USAGE",
+    "customer_text": "3 minutes plus tard.\n\nAttends quoi, 30 octobre ??? https://t.co/2I69UwDKQL @120533 26 + 1 = 27, maintenant ? Sympa d'afficher la date qu'une fois qu'on a payé ! (1 jour ouvré) @AmazonHelp Je vous avoue que j'ai un peu de mal à imaginer que vos dépôts soient loin de Paris. Ok y'a des bouchons mais 3j",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_013813",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@116090 if I choose one-day on my prime account, will that avoid CP as carrier? 3rd messed up delivery = lost $$ not :( @9583 @AmazonHelp Didn't think to as I never pay for shipping with Prime and you always send out on time. What is the best way to let you know about these?",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_015287",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "DEVICE_ISSUE",
+    "customer_text": "I'm facing more bullshitting by @115850 Another package of mine is shown 'delivered' yesterday @AmazonHelp Somethings wrong at amazon... @AmazonHelp I have filled the form but I don't expect anything concrete to happen besides paying lip-service. No one comes back to say why this happens @AmazonHelp",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_126283",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "APP_USAGE",
+    "customer_text": "@115850 you where's my \"guaranteed delivery for today\" package. I just checked and it's sitting in the warehouse. I ordered it on Monday night. By my count today is 2 days. THIS.... Does not look like @AmazonHelp I tried getting you to call me on 2 different phones. Neither rang. It appears I am not",
+    "assessment": "B_V1_WAS_APP"
+  },
+  {
+    "conversation_id": "amazonhelp_066302",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "APP_USAGE",
+    "customer_text": "@115830 completely failing to get an item to me on release day despite paying for one day delivery. This happens far to often! @AmazonHelp I pre ordered South Park for PS4, releases today, with one day delivery for today before 8pm, not arrived. @AmazonHelp Up to 8pm it said on the way, will arrive ",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_126861",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@AmazonHelp j'ai une question j'ai précommander 2 jeux mais 1 jeux sur 2 pourra être payer car je peux payer que 80 Euro une solution ? @AmazonHelp j'ai préco Need For Speed PayBack mais je peux payer que 80 Euro pour Need For Speed et SWBF2 sera envoyer le mois prochain au lui du 17 nov @AmazonHelp",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_028758",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "At @115830 logistics had some kind of melt down yesterday. Who knows when my stuff will arrive. Not so prime! @AmazonHelp Yep. Ordered weds. Was told yest it will arrive in 24-48 hours! . Very poor. @AmazonHelp Ridiculous ! 25th!! Ordered on 18th. What am I paying for exactly with prime?! https://t.",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_108302",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "Do @115830 realise if you pay next day delivery it's meant to come next day? Where art my fookin parcel?! @AmazonHelp https://t.co/qVtKBk2a50 @AmazonHelp just got an email saying there has been a problem. So why do you advertise and why have I paid £5 for next day delivery?",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_113056",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@AmazonHelp bonjour j’ai un problème pour payer avec mon solde @AmazonHelp Oui pile poile. Sauf que j’ai commandé tout ce passe bien. Je reçois un mail comme quoi mon compte est verouillé @AmazonHelp Amazon vient donc de me voler 20€",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_039954",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@115850 Is the prime subscription not built in with the fire stick anymore? @AmazonHelp I’m trying to buy the @115850 Fire Stick for my mom https://t.co/y8C9HZVf1r\nIt used to come with a year’s subscription of @119625 bit now I’m being asked to pay for it separately. Has the  @AmazonHelp I don’t see",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_005946",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "APP_USAGE",
+    "customer_text": "I’m usually impressed with @115821 ‘s punctual delivery but today has me very disappointed. It’s past 9 and still no package! @115821 Why am I paying for amazon prime if things aren’t going to arrive when they say they will? @AmazonHelp It still says it’s on the way. I am not able to be home tomorro",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_110300",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "APP_USAGE",
+    "customer_text": "@AmazonHelp very good serives,but this time amazon refused to help.Disappointing. \nNot good services as expected. @AmazonHelp Product delivery is on 4th dec, buts its a birthdae gift i insisted to deliver it through bluedart.I shall pay the extra amount,but no help @AmazonHelp Amazon.in",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_079535",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@AmazonHelp hi! Ive got a problem w/ an order i made on monday. I ordered a hardcover book but was delivered an audiobook instead. @AmazonHelp What should i do? @AmazonHelp There's nothing written but the title of the book, but i did pay the price listed for the hardcover book",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_154037",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "Merci @120533 j’ai payer 25€ de plus pour que mon produit soit livrer AVANT vendredi et là je reçois un mail comme quoi il arrive PEUT ÊTRE lundi, c’est la date de livraison prévue avec la livraison g @AmazonHelp 22-24 @AmazonHelp Dhl @AmazonHelp Livraison prévue le 24 @AmazonHelp Tiers",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_070538",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@AmazonHelp so I got a notification that delivery was attempted at my warehouse but I've been here all day/the package fits in my mailbox. It's a prime item. @AmazonHelp There is absolutely no way delivery was attempted at 4:53 @AmazonHelp I was literally on Instagram live waiting for the package to",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_141991",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "APP_USAGE",
+    "customer_text": "@115850 such a crap service, order still in transit even after paying express delvry, u ruined the srprise @132994 I will cancel d phn @115850 @132994 So the delivery didn't happen today, wht shud I do? u hve ruined a special day whn i paid extra #CheaterAmazon.. who will compensate fr ths? @AmazonH",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_147887",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "You pay for your @117795 monthly without fail only for you to be failed by their services !! #PayingForNothing @115821 @115830 @AmazonHelp Supposed to get a product delivered on AmozonPrime last Tuesday, still hasn't been delivered! @AmazonHelp I was told it will be delivered today by 9 PM !",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_106618",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "DEVICE_ISSUE",
+    "customer_text": "@AmazonHelp Hi, I would like you to respond to a message that is circulating on Whastapp networks where you pay $ 500 is true or false @AmazonHelp Claro https://t.co/ZVQIvNKZF1 @AmazonHelp quiere decir que esto es falso gracias por la información",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_139778",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "What is the point of having @115821 prime if everything I order gets 3-5 days tacked onto it. Get your shit together. @AmazonHelp This is a terrible response from automated customer service. I'm paying $100 a year for Prime. Either deliver or don't charge.",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_100850",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "APP_USAGE",
+    "customer_text": "Play the #AmazonPayQuiz contest now. 100 winners stand a to win ₹3000 Amazon Pay balance. Live now on the Amazon App https://t.co/jw4O1OVYDS @115850 @115850  done",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_011111",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@115850 is there any cashback offer thru Amazon pay for @116327 recharge. @AmazonHelp",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_128211",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "Brace yourself for blockbuster deals on toys, get AmazonBasics lightning cables and more at the #AmazonGreatIndianFestival. #DiwaliKiTayyari https://t.co/qzaMlQ7KTW @115850 @115850 beware of paying in advance bcoz Amazon deducts courier charges from advance orders and no provision for deducting it f",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_048318",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "@AmazonHelp why is every item I find on Amazon prime shipping 6 days out? Why isn't it 2 days like I'm paying for? @AmazonHelp You can see here it says IN STOCK.  So why is it 6 days to ship when it says PRIME.  Primebis still 2 days shipping right?",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_093368",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "APP_USAGE",
+    "customer_text": "Play the #AmazonPayQuiz contest now. 100 winners stand a to win ₹3000 Amazon Pay balance. Live now on the Amazon App https://t.co/jw4O1OVYDS @115850 Where is the result of app guess who 18-19 sept.  ???? @AmazonHelp Iam not asking about this contest ...earlier contest #appguesswho .... Held on 18-19",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_053182",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "yet another failed delivery (number 10) from @115830 . supposedly cannot find an address despite them regularly delivering to my neighbours house. go figure. @AmazonHelp I've been through all this before with your \"customer service\" team. it never ever gets sorted. how do I go about making a formal ",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_042201",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "APP_USAGE",
+    "customer_text": "@115830 oh what a surprise amazon have failed to deliver not one but two items . Why am I paying for prime again? And why do you say @115830 They aren’t in stock when you are letting people order the, still as they say in stock on website? Lying thieves is why @AmazonHelp Of course you’ve missed it ",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_014046",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "APP_USAGE",
+    "customer_text": "@115830 oh what a surprise amazon have failed to deliver not one but two items . Why am I paying for prime again? And why do you say @115830 They aren’t in stock when you are letting people order the, still as they say in stock on website? Lying thieves is why",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_134637",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "Hey @AmazonHelp why can't i buy things with prime anymore?  It's all pantry and fresh and all I want to do is buy things with Prime. @AmazonHelp I tried talking to your customer service and they don't seem to know their ass from a hat @AmazonHelp Do you not have a central customer service department",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_084122",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "I HATE USPS. STOP GIVING MY PACKAGES TO THEM. WHY CANT I JUST HAVE UPS OR FEDEX EVER?! I wouldnt be paying for Amazon Prime if I wanted my packages in a WEEK. 😠😠😠😠 @118706 @115821 @AmazonHelp Yeah I had 2 items that should have been delivered today. But my USPS is crap and holds my packages too long",
+    "assessment": "C_AMBIGUOUS"
+  },
+  {
+    "conversation_id": "amazonhelp_113881",
+    "v1_intent": "PAYMENT_ISSUE",
+    "v2_intent": "OTHER",
+    "customer_text": "dites @120533 , quand @120535 ne livre sciemment pas un colis als que l'on a payé pour une livraison rapide,on a quoi comme recours? @AmazonHelp pour aujourd’hui. je n’ai pas bougé de chez moi, le livreur n’a pas sonné. c’était primordiale pour mon travail...",
+    "assessment": "C_AMBIGUOUS"
+  }
+]
