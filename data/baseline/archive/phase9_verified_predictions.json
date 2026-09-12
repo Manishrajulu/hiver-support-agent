@@ -1,0 +1,3782 @@
+[
+  {
+    "id": "amazonhelp_036194",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.7260480579608808
+  },
+  {
+    "id": "amazonhelp_090427",
+    "actual": "DELIVERY_LATE",
+    "predicted": "RETURN_REQUEST",
+    "correct": false,
+    "margin": 0.31149089867537283
+  },
+  {
+    "id": "amazonhelp_082587",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "DELIVERY_MISSING",
+    "correct": true,
+    "margin": -0.28193991119076345
+  },
+  {
+    "id": "amazonhelp_104628",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.25354994450722756
+  },
+  {
+    "id": "amazonhelp_142626",
+    "actual": "ORDER_STATUS",
+    "predicted": "ORDER_STATUS",
+    "correct": true,
+    "margin": -0.28692771472795253
+  },
+  {
+    "id": "amazonhelp_146299",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": -0.14178451839380224
+  },
+  {
+    "id": "amazonhelp_042038",
+    "actual": "APP_USAGE",
+    "predicted": "APP_USAGE",
+    "correct": true,
+    "margin": 0.33673094906098
+  },
+  {
+    "id": "amazonhelp_003282",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "DELIVERY_MISSING",
+    "correct": true,
+    "margin": 0.4676238522868117
+  },
+  {
+    "id": "amazonhelp_085616",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DEVICE_ISSUE",
+    "correct": false,
+    "margin": 0.09679946281187735
+  },
+  {
+    "id": "amazonhelp_053992",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.7835536060776818
+  },
+  {
+    "id": "amazonhelp_151186",
+    "actual": "VIDEO_STREAMING",
+    "predicted": "VIDEO_STREAMING",
+    "correct": true,
+    "margin": -0.08748641906078136
+  },
+  {
+    "id": "amazonhelp_031352",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": -0.12753929568714772
+  },
+  {
+    "id": "amazonhelp_008145",
+    "actual": "REFUND_REQUEST",
+    "predicted": "REFUND_REQUEST",
+    "correct": true,
+    "margin": 0.9736210772062284
+  },
+  {
+    "id": "amazonhelp_134317",
+    "actual": "APP_USAGE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": 0.42891219564188204
+  },
+  {
+    "id": "amazonhelp_008352",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.8669487235325383
+  },
+  {
+    "id": "amazonhelp_106326",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.003257164383367206
+  },
+  {
+    "id": "amazonhelp_081292",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.09458833604101491
+  },
+  {
+    "id": "amazonhelp_039929",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": -0.011900127152057127
+  },
+  {
+    "id": "amazonhelp_144131",
+    "actual": "DELIVERY_LATE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": 0.11935545888369614
+  },
+  {
+    "id": "amazonhelp_129461",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": -0.16175961892459867
+  },
+  {
+    "id": "amazonhelp_032344",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.3703194292741141
+  },
+  {
+    "id": "amazonhelp_112289",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.898645397660873
+  },
+  {
+    "id": "amazonhelp_000547",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 1.3592349220749351
+  },
+  {
+    "id": "amazonhelp_058343",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "DELIVERY_MISSING",
+    "correct": true,
+    "margin": 0.6743310605761119
+  },
+  {
+    "id": "amazonhelp_130630",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "DELIVERY_MISSING",
+    "correct": true,
+    "margin": 0.07197964893633424
+  },
+  {
+    "id": "amazonhelp_073106",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": -0.2564727266156619
+  },
+  {
+    "id": "amazonhelp_116789",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "PAYMENT_ISSUE",
+    "correct": false,
+    "margin": -0.1899640689770472
+  },
+  {
+    "id": "amazonhelp_045366",
+    "actual": "APP_USAGE",
+    "predicted": "DELIVERY_LATE",
+    "correct": false,
+    "margin": 0.26426907587831305
+  },
+  {
+    "id": "amazonhelp_084050",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.45177454185350113
+  },
+  {
+    "id": "amazonhelp_043958",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.562582429971014
+  },
+  {
+    "id": "amazonhelp_117121",
+    "actual": "RETURN_REQUEST",
+    "predicted": "RETURN_REQUEST",
+    "correct": true,
+    "margin": 0.6573336498091025
+  },
+  {
+    "id": "amazonhelp_045271",
+    "actual": "PAYMENT_ISSUE",
+    "predicted": "PAYMENT_ISSUE",
+    "correct": true,
+    "margin": 0.005052762812167044
+  },
+  {
+    "id": "amazonhelp_071582",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": -0.5333281064191193
+  },
+  {
+    "id": "amazonhelp_143117",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "DELIVERY_MISSING",
+    "correct": true,
+    "margin": -0.01531638979530836
+  },
+  {
+    "id": "amazonhelp_142387",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 1.5143328790922959
+  },
+  {
+    "id": "amazonhelp_110419",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "DELIVERY_MISSING",
+    "correct": true,
+    "margin": 0.7945729841500453
+  },
+  {
+    "id": "amazonhelp_129245",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": -0.2600052794423233
+  },
+  {
+    "id": "amazonhelp_147177",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "correct": false,
+    "margin": -0.44331781509618984
+  },
+  {
+    "id": "amazonhelp_024806",
+    "actual": "ORDER_STATUS",
+    "predicted": "DELIVERY_MISSING",
+    "correct": false,
+    "margin": -0.2242891916123695
+  },
+  {
+    "id": "amazonhelp_036478",
+    "actual": "PAYMENT_ISSUE",
+    "predicted": "PAYMENT_ISSUE",
+    "correct": true,
+    "margin": 0.8420717764050245
+  },
+  {
+    "id": "amazonhelp_135768",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": -0.0993854985714957
+  },
+  {
+    "id": "amazonhelp_136609",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.2913075441671153
+  },
+  {
+    "id": "amazonhelp_124930",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.6150557584804772
+  },
+  {
+    "id": "amazonhelp_014071",
+    "actual": "ORDER_STATUS",
+    "predicted": "REFUND_REQUEST",
+    "correct": false,
+    "margin": 0.09246934491462055
+  },
+  {
+    "id": "amazonhelp_049029",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.19964112972362358
+  },
+  {
+    "id": "amazonhelp_010053",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.2232295310522745
+  },
+  {
+    "id": "amazonhelp_107371",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.11937894611938271
+  },
+  {
+    "id": "amazonhelp_043203",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "DEVICE_ISSUE",
+    "correct": true,
+    "margin": -0.1993686126467521
+  },
+  {
+    "id": "amazonhelp_122202",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.02572648948562095
+  },
+  {
+    "id": "amazonhelp_109328",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": -0.31469056090795355
+  },
+  {
+    "id": "amazonhelp_149192",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.913080486679365
+  },
+  {
+    "id": "amazonhelp_135520",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.7581025892391806
+  },
+  {
+    "id": "amazonhelp_066659",
+    "actual": "DELIVERY_TRACKING",
+    "predicted": "DELIVERY_LATE",
+    "correct": false,
+    "margin": 0.14979698199250047
+  },
+  {
+    "id": "amazonhelp_019168",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.3955573628323142
+  },
+  {
+    "id": "amazonhelp_056105",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 1.4032870919526341
+  },
+  {
+    "id": "amazonhelp_012765",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": -0.5663902377358148
+  },
+  {
+    "id": "amazonhelp_035190",
+    "actual": "ORDER_STATUS",
+    "predicted": "ORDER_STATUS",
+    "correct": true,
+    "margin": 0.0162551020700914
+  },
+  {
+    "id": "amazonhelp_002874",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.24603142491361518
+  },
+  {
+    "id": "amazonhelp_138883",
+    "actual": "APP_USAGE",
+    "predicted": "APP_USAGE",
+    "correct": true,
+    "margin": -0.22101405274790342
+  },
+  {
+    "id": "amazonhelp_136544",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 1.1884765478107684
+  },
+  {
+    "id": "amazonhelp_065905",
+    "actual": "RETURN_REQUEST",
+    "predicted": "RETURN_REQUEST",
+    "correct": true,
+    "margin": -0.02913593140004389
+  },
+  {
+    "id": "amazonhelp_127865",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.5796133476110188
+  },
+  {
+    "id": "amazonhelp_114905",
+    "actual": "OTHER",
+    "predicted": "APP_USAGE",
+    "correct": false,
+    "margin": 0.1507086882361548
+  },
+  {
+    "id": "amazonhelp_152647",
+    "actual": "APP_USAGE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": -0.14528336875939918
+  },
+  {
+    "id": "amazonhelp_142136",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "DELIVERY_LATE",
+    "correct": false,
+    "margin": 0.20506876211164626
+  },
+  {
+    "id": "amazonhelp_051459",
+    "actual": "REFUND_REQUEST",
+    "predicted": "RETURN_REQUEST",
+    "correct": false,
+    "margin": -0.3235605552385481
+  },
+  {
+    "id": "amazonhelp_023035",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.6743613683548253
+  },
+  {
+    "id": "amazonhelp_078372",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.6102926928408046
+  },
+  {
+    "id": "amazonhelp_072162",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": -0.42884942035679097
+  },
+  {
+    "id": "amazonhelp_059696",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": -0.18706523742753556
+  },
+  {
+    "id": "amazonhelp_012164",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.7827498408198363
+  },
+  {
+    "id": "amazonhelp_143849",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.4756253902740039
+  },
+  {
+    "id": "amazonhelp_035750",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.4489662927022571
+  },
+  {
+    "id": "amazonhelp_136892",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 1.4231778599472948
+  },
+  {
+    "id": "amazonhelp_075001",
+    "actual": "VIDEO_STREAMING",
+    "predicted": "VIDEO_STREAMING",
+    "correct": true,
+    "margin": 0.1709938326957996
+  },
+  {
+    "id": "amazonhelp_057335",
+    "actual": "RETURN_REQUEST",
+    "predicted": "RETURN_REQUEST",
+    "correct": true,
+    "margin": -0.2526331851557362
+  },
+  {
+    "id": "amazonhelp_138305",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.6202118452583124
+  },
+  {
+    "id": "amazonhelp_025261",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.15177060213423332
+  },
+  {
+    "id": "amazonhelp_102745",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "ORDER_STATUS",
+    "correct": false,
+    "margin": -0.07128344159057587
+  },
+  {
+    "id": "amazonhelp_139918",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "DEVICE_ISSUE",
+    "correct": true,
+    "margin": 0.21719631914400273
+  },
+  {
+    "id": "amazonhelp_079834",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.22473083437486419
+  },
+  {
+    "id": "amazonhelp_035812",
+    "actual": "RETURN_REQUEST",
+    "predicted": "DELIVERY_LATE",
+    "correct": false,
+    "margin": 0.03843526554616172
+  },
+  {
+    "id": "amazonhelp_020587",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "DELIVERY_MISSING",
+    "correct": true,
+    "margin": 0.24313814642243847
+  },
+  {
+    "id": "amazonhelp_104789",
+    "actual": "APP_USAGE",
+    "predicted": "APP_USAGE",
+    "correct": true,
+    "margin": -0.1434946438061716
+  },
+  {
+    "id": "amazonhelp_119870",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "correct": false,
+    "margin": -0.4553905988917214
+  },
+  {
+    "id": "amazonhelp_000809",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": -0.12888470172574074
+  },
+  {
+    "id": "amazonhelp_025140",
+    "actual": "APP_USAGE",
+    "predicted": "DELIVERY_LATE",
+    "correct": false,
+    "margin": -0.2126922109680438
+  },
+  {
+    "id": "amazonhelp_138835",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.546517856697559
+  },
+  {
+    "id": "amazonhelp_014086",
+    "actual": "VIDEO_STREAMING",
+    "predicted": "VIDEO_STREAMING",
+    "correct": true,
+    "margin": 0.17505039322006133
+  },
+  {
+    "id": "amazonhelp_083714",
+    "actual": "DELIVERY_LATE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": 0.436367868977022
+  },
+  {
+    "id": "amazonhelp_066122",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 1.2433458564909468
+  },
+  {
+    "id": "amazonhelp_001496",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "DELIVERY_LATE",
+    "correct": false,
+    "margin": -0.1792676804740856
+  },
+  {
+    "id": "amazonhelp_128596",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": -0.2126380246191023
+  },
+  {
+    "id": "amazonhelp_146580",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.31833367925359846
+  },
+  {
+    "id": "amazonhelp_092521",
+    "actual": "OTHER",
+    "predicted": "PRODUCT_ISSUE",
+    "correct": false,
+    "margin": -0.617334342168654
+  },
+  {
+    "id": "amazonhelp_005137",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.44831786691916636
+  },
+  {
+    "id": "amazonhelp_067479",
+    "actual": "RETURN_REQUEST",
+    "predicted": "RETURN_REQUEST",
+    "correct": true,
+    "margin": 0.7696697989396557
+  },
+  {
+    "id": "amazonhelp_123645",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "RETURN_REQUEST",
+    "correct": false,
+    "margin": 0.18542192874341268
+  },
+  {
+    "id": "amazonhelp_137877",
+    "actual": "ORDER_STATUS",
+    "predicted": "PAYMENT_ISSUE",
+    "correct": false,
+    "margin": -0.024653569756906135
+  },
+  {
+    "id": "amazonhelp_105504",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "APP_USAGE",
+    "correct": false,
+    "margin": -0.07375723527905764
+  },
+  {
+    "id": "amazonhelp_008162",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 1.1740900651778485
+  },
+  {
+    "id": "amazonhelp_078540",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.3196091365805153
+  },
+  {
+    "id": "amazonhelp_064974",
+    "actual": "ORDER_STATUS",
+    "predicted": "DELIVERY_LATE",
+    "correct": false,
+    "margin": 0.17803572734293915
+  },
+  {
+    "id": "amazonhelp_061078",
+    "actual": "RETURN_REQUEST",
+    "predicted": "DELIVERY_LATE",
+    "correct": false,
+    "margin": 0.0033073948290036626
+  },
+  {
+    "id": "amazonhelp_083436",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.6855622137866161
+  },
+  {
+    "id": "amazonhelp_017409",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "VIDEO_STREAMING",
+    "correct": false,
+    "margin": 0.07788897823847396
+  },
+  {
+    "id": "amazonhelp_065428",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_MISSING",
+    "correct": false,
+    "margin": -0.44756479967958773
+  },
+  {
+    "id": "amazonhelp_036876",
+    "actual": "APP_USAGE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": 0.641532026686089
+  },
+  {
+    "id": "amazonhelp_097347",
+    "actual": "PAYMENT_ISSUE",
+    "predicted": "DELIVERY_MISSING",
+    "correct": false,
+    "margin": 0.03060167303092176
+  },
+  {
+    "id": "amazonhelp_139018",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.2451160971744325
+  },
+  {
+    "id": "amazonhelp_153843",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.6001081210299671
+  },
+  {
+    "id": "amazonhelp_079599",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.588284711173557
+  },
+  {
+    "id": "amazonhelp_149442",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.34503512949813525
+  },
+  {
+    "id": "amazonhelp_067711",
+    "actual": "APP_USAGE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": 0.4140310968644825
+  },
+  {
+    "id": "amazonhelp_127517",
+    "actual": "RETURN_REQUEST",
+    "predicted": "RETURN_REQUEST",
+    "correct": true,
+    "margin": 1.176647671547471
+  },
+  {
+    "id": "amazonhelp_031277",
+    "actual": "PRODUCT_ISSUE",
+    "predicted": "REFUND_REQUEST",
+    "correct": false,
+    "margin": 0.2350775882950462
+  },
+  {
+    "id": "amazonhelp_089659",
+    "actual": "ORDER_STATUS",
+    "predicted": "ORDER_STATUS",
+    "correct": true,
+    "margin": -0.37215250171746794
+  },
+  {
+    "id": "amazonhelp_069571",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.927151930630002
+  },
+  {
+    "id": "amazonhelp_135968",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": -0.4815833307480455
+  },
+  {
+    "id": "amazonhelp_125446",
+    "actual": "RETURN_REQUEST",
+    "predicted": "RETURN_REQUEST",
+    "correct": true,
+    "margin": 0.16413935356030684
+  },
+  {
+    "id": "amazonhelp_021843",
+    "actual": "DELIVERY_LATE",
+    "predicted": "RETURN_REQUEST",
+    "correct": false,
+    "margin": 0.6091914324253456
+  },
+  {
+    "id": "amazonhelp_046907",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": -0.02116719002880818
+  },
+  {
+    "id": "amazonhelp_071781",
+    "actual": "RETURN_REQUEST",
+    "predicted": "RETURN_REQUEST",
+    "correct": true,
+    "margin": 0.010003165885304366
+  },
+  {
+    "id": "amazonhelp_143508",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.8098896901013838
+  },
+  {
+    "id": "amazonhelp_154971",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "DELIVERY_MISSING",
+    "correct": true,
+    "margin": 0.2778165963459769
+  },
+  {
+    "id": "amazonhelp_093818",
+    "actual": "ORDER_STATUS",
+    "predicted": "PRODUCT_ISSUE",
+    "correct": false,
+    "margin": -0.058232105251370125
+  },
+  {
+    "id": "amazonhelp_075709",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "DELIVERY_MISSING",
+    "correct": true,
+    "margin": -0.2063239231399734
+  },
+  {
+    "id": "amazonhelp_129705",
+    "actual": "RETURN_REQUEST",
+    "predicted": "RETURN_REQUEST",
+    "correct": true,
+    "margin": 0.11680917512938871
+  },
+  {
+    "id": "amazonhelp_037995",
+    "actual": "PRODUCT_ISSUE",
+    "predicted": "ACCOUNT_ACCESS",
+    "correct": false,
+    "margin": -0.5434693886858672
+  },
+  {
+    "id": "amazonhelp_143696",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 1.0188462891715466
+  },
+  {
+    "id": "amazonhelp_037546",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "DEVICE_ISSUE",
+    "correct": true,
+    "margin": 0.4125597903552891
+  },
+  {
+    "id": "amazonhelp_111899",
+    "actual": "ORDER_STATUS",
+    "predicted": "PAYMENT_ISSUE",
+    "correct": false,
+    "margin": 0.1430531677810465
+  },
+  {
+    "id": "amazonhelp_050991",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.9359716548105552
+  },
+  {
+    "id": "amazonhelp_014980",
+    "actual": "PRODUCT_ISSUE",
+    "predicted": "REFUND_REQUEST",
+    "correct": false,
+    "margin": -0.31976183379560064
+  },
+  {
+    "id": "amazonhelp_122044",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.5683984447558146
+  },
+  {
+    "id": "amazonhelp_038198",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.5590720594086548
+  },
+  {
+    "id": "amazonhelp_069154",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": -0.21475719179088038
+  },
+  {
+    "id": "amazonhelp_150358",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "DEVICE_ISSUE",
+    "correct": true,
+    "margin": -0.1489892130271786
+  },
+  {
+    "id": "amazonhelp_023637",
+    "actual": "RETURN_REQUEST",
+    "predicted": "RETURN_REQUEST",
+    "correct": true,
+    "margin": -0.12919222559123922
+  },
+  {
+    "id": "amazonhelp_128287",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": -0.04337432053410084
+  },
+  {
+    "id": "amazonhelp_107211",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.6706625977891331
+  },
+  {
+    "id": "amazonhelp_063513",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.07387213193147779
+  },
+  {
+    "id": "amazonhelp_122104",
+    "actual": "APP_USAGE",
+    "predicted": "APP_USAGE",
+    "correct": true,
+    "margin": 0.0870503660022135
+  },
+  {
+    "id": "amazonhelp_079674",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "DEVICE_ISSUE",
+    "correct": true,
+    "margin": -0.387436713964584
+  },
+  {
+    "id": "amazonhelp_078917",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "DEVICE_ISSUE",
+    "correct": true,
+    "margin": -0.18870589483116007
+  },
+  {
+    "id": "amazonhelp_095768",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.14778113060601383
+  },
+  {
+    "id": "amazonhelp_032846",
+    "actual": "ORDER_STATUS",
+    "predicted": "ORDER_STATUS",
+    "correct": true,
+    "margin": 0.12713029282634158
+  },
+  {
+    "id": "amazonhelp_103416",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.4177378663895408
+  },
+  {
+    "id": "amazonhelp_073526",
+    "actual": "OTHER",
+    "predicted": "APP_USAGE",
+    "correct": false,
+    "margin": 0.00945964586437631
+  },
+  {
+    "id": "amazonhelp_038790",
+    "actual": "REFUND_REQUEST",
+    "predicted": "REFUND_REQUEST",
+    "correct": true,
+    "margin": -0.3032072180977219
+  },
+  {
+    "id": "amazonhelp_132432",
+    "actual": "DELIVERY_LATE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": -0.24202725621281607
+  },
+  {
+    "id": "amazonhelp_053521",
+    "actual": "OTHER",
+    "predicted": "ORDER_STATUS",
+    "correct": false,
+    "margin": -0.22334912086905656
+  },
+  {
+    "id": "amazonhelp_046064",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_TRACKING",
+    "correct": false,
+    "margin": -0.24040735591953322
+  },
+  {
+    "id": "amazonhelp_049304",
+    "actual": "APP_USAGE",
+    "predicted": "APP_USAGE",
+    "correct": true,
+    "margin": -0.2543869304337969
+  },
+  {
+    "id": "amazonhelp_025238",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.40432350939872763
+  },
+  {
+    "id": "amazonhelp_023393",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.4693327333382671
+  },
+  {
+    "id": "amazonhelp_040167",
+    "actual": "DELIVERY_TRACKING",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": -0.28218889030131167
+  },
+  {
+    "id": "amazonhelp_055234",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": -0.3003335934860265
+  },
+  {
+    "id": "amazonhelp_086891",
+    "actual": "PAYMENT_ISSUE",
+    "predicted": "PAYMENT_ISSUE",
+    "correct": true,
+    "margin": 0.7023730515682183
+  },
+  {
+    "id": "amazonhelp_132932",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 1.2714762985812718
+  },
+  {
+    "id": "amazonhelp_056417",
+    "actual": "APP_USAGE",
+    "predicted": "APP_USAGE",
+    "correct": true,
+    "margin": -0.15737727788999756
+  },
+  {
+    "id": "amazonhelp_007337",
+    "actual": "DELIVERY_TRACKING",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": -0.13498902740483099
+  },
+  {
+    "id": "amazonhelp_150872",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 1.1806287018822315
+  },
+  {
+    "id": "amazonhelp_009945",
+    "actual": "VIDEO_STREAMING",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": 0.45632814770810926
+  },
+  {
+    "id": "amazonhelp_127767",
+    "actual": "RETURN_REQUEST",
+    "predicted": "RETURN_REQUEST",
+    "correct": true,
+    "margin": 0.35274798687553166
+  },
+  {
+    "id": "amazonhelp_098004",
+    "actual": "VIDEO_STREAMING",
+    "predicted": "VIDEO_STREAMING",
+    "correct": true,
+    "margin": 0.38414489196546664
+  },
+  {
+    "id": "amazonhelp_154660",
+    "actual": "RETURN_REQUEST",
+    "predicted": "RETURN_REQUEST",
+    "correct": true,
+    "margin": -0.3125155441579528
+  },
+  {
+    "id": "amazonhelp_094424",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 1.1232063075544996
+  },
+  {
+    "id": "amazonhelp_112251",
+    "actual": "DELIVERY_TRACKING",
+    "predicted": "DELIVERY_TRACKING",
+    "correct": true,
+    "margin": 0.13774546945695776
+  },
+  {
+    "id": "amazonhelp_015422",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "DEVICE_ISSUE",
+    "correct": true,
+    "margin": 0.9408571715588694
+  },
+  {
+    "id": "amazonhelp_005231",
+    "actual": "REFUND_REQUEST",
+    "predicted": "DELIVERY_LATE",
+    "correct": false,
+    "margin": -0.4070878033101696
+  },
+  {
+    "id": "amazonhelp_152600",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.34448717933286593
+  },
+  {
+    "id": "amazonhelp_023231",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.11790802214647522
+  },
+  {
+    "id": "amazonhelp_086771",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.262857372118565
+  },
+  {
+    "id": "amazonhelp_106453",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": -0.339188519470083
+  },
+  {
+    "id": "amazonhelp_075723",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.13939481617679095
+  },
+  {
+    "id": "amazonhelp_035046",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "DEVICE_ISSUE",
+    "correct": true,
+    "margin": 1.121051251064887
+  },
+  {
+    "id": "amazonhelp_080822",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": -0.16562925603197687
+  },
+  {
+    "id": "amazonhelp_129627",
+    "actual": "RETURN_REQUEST",
+    "predicted": "RETURN_REQUEST",
+    "correct": true,
+    "margin": 0.6892373680827109
+  },
+  {
+    "id": "amazonhelp_029851",
+    "actual": "ACCOUNT_ACCESS",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": -0.042355204828775084
+  },
+  {
+    "id": "amazonhelp_115547",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.944603861902876
+  },
+  {
+    "id": "amazonhelp_005705",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.3103039377588277
+  },
+  {
+    "id": "amazonhelp_045278",
+    "actual": "APP_USAGE",
+    "predicted": "APP_USAGE",
+    "correct": true,
+    "margin": 0.795684573572677
+  },
+  {
+    "id": "amazonhelp_142408",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": -0.003893813235512189
+  },
+  {
+    "id": "amazonhelp_131022",
+    "actual": "ACCOUNT_ACCESS",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": 0.47121801864314405
+  },
+  {
+    "id": "amazonhelp_023630",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": -0.14661332001324157
+  },
+  {
+    "id": "amazonhelp_130380",
+    "actual": "REFUND_REQUEST",
+    "predicted": "REFUND_REQUEST",
+    "correct": true,
+    "margin": 0.2798668373466575
+  },
+  {
+    "id": "amazonhelp_110474",
+    "actual": "APP_USAGE",
+    "predicted": "RETURN_REQUEST",
+    "correct": false,
+    "margin": -0.7265349739416143
+  },
+  {
+    "id": "amazonhelp_017768",
+    "actual": "RETURN_REQUEST",
+    "predicted": "RETURN_REQUEST",
+    "correct": true,
+    "margin": 0.6491724763100917
+  },
+  {
+    "id": "amazonhelp_044933",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": -0.02465568515933292
+  },
+  {
+    "id": "amazonhelp_120673",
+    "actual": "ORDER_STATUS",
+    "predicted": "DELIVERY_LATE",
+    "correct": false,
+    "margin": -0.2479832105054025
+  },
+  {
+    "id": "amazonhelp_097492",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.8002837312858917
+  },
+  {
+    "id": "amazonhelp_099025",
+    "actual": "PRODUCT_ISSUE",
+    "predicted": "PRODUCT_ISSUE",
+    "correct": true,
+    "margin": -0.4580540025104459
+  },
+  {
+    "id": "amazonhelp_037405",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.42429055384134295
+  },
+  {
+    "id": "amazonhelp_030246",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.7116441715150208
+  },
+  {
+    "id": "amazonhelp_153563",
+    "actual": "APP_USAGE",
+    "predicted": "APP_USAGE",
+    "correct": true,
+    "margin": -0.25809334735383815
+  },
+  {
+    "id": "amazonhelp_125879",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.44792395089918746
+  },
+  {
+    "id": "amazonhelp_014912",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": -0.08577872752460591
+  },
+  {
+    "id": "amazonhelp_124536",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": 0.5369309099583359
+  },
+  {
+    "id": "amazonhelp_086171",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.5104079489405999
+  },
+  {
+    "id": "amazonhelp_013260",
+    "actual": "PAYMENT_ISSUE",
+    "predicted": "PAYMENT_ISSUE",
+    "correct": true,
+    "margin": -0.13989735120848412
+  },
+  {
+    "id": "amazonhelp_018392",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.47652303347204816
+  },
+  {
+    "id": "amazonhelp_116720",
+    "actual": "DELIVERY_LATE",
+    "predicted": "REFUND_REQUEST",
+    "correct": false,
+    "margin": -0.20291897180535634
+  },
+  {
+    "id": "amazonhelp_060876",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.7286177008513026
+  },
+  {
+    "id": "amazonhelp_067012",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.4259069889642286
+  },
+  {
+    "id": "amazonhelp_074438",
+    "actual": "APP_USAGE",
+    "predicted": "APP_USAGE",
+    "correct": true,
+    "margin": 0.06017381382752229
+  },
+  {
+    "id": "amazonhelp_027028",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.01775213380278884
+  },
+  {
+    "id": "amazonhelp_064538",
+    "actual": "VIDEO_STREAMING",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": -0.21176782839668795
+  },
+  {
+    "id": "amazonhelp_094723",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.7288844617460946
+  },
+  {
+    "id": "amazonhelp_009481",
+    "actual": "PRODUCT_ISSUE",
+    "predicted": "REFUND_REQUEST",
+    "correct": false,
+    "margin": -0.2785538105312908
+  },
+  {
+    "id": "amazonhelp_093209",
+    "actual": "DELIVERY_LATE",
+    "predicted": "RETURN_REQUEST",
+    "correct": false,
+    "margin": 0.2671012538617532
+  },
+  {
+    "id": "amazonhelp_021686",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.3829279735381086
+  },
+  {
+    "id": "amazonhelp_128812",
+    "actual": "ORDER_STATUS",
+    "predicted": "ORDER_STATUS",
+    "correct": true,
+    "margin": -0.2945935058819116
+  },
+  {
+    "id": "amazonhelp_084025",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.2998278934595373
+  },
+  {
+    "id": "amazonhelp_064299",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "DELIVERY_MISSING",
+    "correct": true,
+    "margin": 0.7207160946757394
+  },
+  {
+    "id": "amazonhelp_139669",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "DELIVERY_LATE",
+    "correct": false,
+    "margin": -0.012869438480660023
+  },
+  {
+    "id": "amazonhelp_088437",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "DELIVERY_LATE",
+    "correct": false,
+    "margin": -0.30919000962669196
+  },
+  {
+    "id": "amazonhelp_147452",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.7824687467036182
+  },
+  {
+    "id": "amazonhelp_135423",
+    "actual": "VIDEO_STREAMING",
+    "predicted": "DEVICE_ISSUE",
+    "correct": false,
+    "margin": -0.4635948350437059
+  },
+  {
+    "id": "amazonhelp_103531",
+    "actual": "ORDER_STATUS",
+    "predicted": "DELIVERY_MISSING",
+    "correct": false,
+    "margin": -0.511006731866239
+  },
+  {
+    "id": "amazonhelp_049715",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.20106385927736992
+  },
+  {
+    "id": "amazonhelp_129739",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": -0.21457944676697505
+  },
+  {
+    "id": "amazonhelp_077012",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.4122304963695742
+  },
+  {
+    "id": "amazonhelp_133604",
+    "actual": "REFUND_REQUEST",
+    "predicted": "REFUND_REQUEST",
+    "correct": true,
+    "margin": -0.3402753929082224
+  },
+  {
+    "id": "amazonhelp_057893",
+    "actual": "DELIVERY_LATE",
+    "predicted": "PAYMENT_ISSUE",
+    "correct": false,
+    "margin": 0.10840524476644808
+  },
+  {
+    "id": "amazonhelp_066915",
+    "actual": "DELIVERY_LATE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": 0.007142976204671414
+  },
+  {
+    "id": "amazonhelp_140683",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "ACCOUNT_ACCESS",
+    "correct": false,
+    "margin": 0.11430327917740613
+  },
+  {
+    "id": "amazonhelp_145233",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.37166943526267243
+  },
+  {
+    "id": "amazonhelp_099841",
+    "actual": "ACCOUNT_ACCESS",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": -0.4359902227071595
+  },
+  {
+    "id": "amazonhelp_100796",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": 0.062015989009983286
+  },
+  {
+    "id": "amazonhelp_045442",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.6396514512470334
+  },
+  {
+    "id": "amazonhelp_124684",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.683827764416622
+  },
+  {
+    "id": "amazonhelp_079872",
+    "actual": "PAYMENT_ISSUE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": 0.021019540119413982
+  },
+  {
+    "id": "amazonhelp_130981",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "DEVICE_ISSUE",
+    "correct": true,
+    "margin": 0.34351022156944544
+  },
+  {
+    "id": "amazonhelp_074202",
+    "actual": "DELIVERY_LATE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": -0.3783486732462382
+  },
+  {
+    "id": "amazonhelp_059439",
+    "actual": "DELIVERY_TRACKING",
+    "predicted": "DELIVERY_TRACKING",
+    "correct": true,
+    "margin": 0.23524883706223654
+  },
+  {
+    "id": "amazonhelp_038139",
+    "actual": "ACCOUNT_ACCESS",
+    "predicted": "ACCOUNT_ACCESS",
+    "correct": true,
+    "margin": -0.15114097967460838
+  },
+  {
+    "id": "amazonhelp_024536",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": -0.21445392666046448
+  },
+  {
+    "id": "amazonhelp_132498",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 1.3977366820563406
+  },
+  {
+    "id": "amazonhelp_143743",
+    "actual": "PAYMENT_ISSUE",
+    "predicted": "DELIVERY_LATE",
+    "correct": false,
+    "margin": -0.07888953966891088
+  },
+  {
+    "id": "amazonhelp_007599",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.4577008181766995
+  },
+  {
+    "id": "amazonhelp_123687",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 1.4066053450918667
+  },
+  {
+    "id": "amazonhelp_136617",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 1.2673000065661402
+  },
+  {
+    "id": "amazonhelp_056368",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 1.0203408373994645
+  },
+  {
+    "id": "amazonhelp_128941",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": -0.1229100895547739
+  },
+  {
+    "id": "amazonhelp_021749",
+    "actual": "VIDEO_STREAMING",
+    "predicted": "DELIVERY_LATE",
+    "correct": false,
+    "margin": -0.05923769879503449
+  },
+  {
+    "id": "amazonhelp_057289",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.8823862101182589
+  },
+  {
+    "id": "amazonhelp_144893",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.17028236675454433
+  },
+  {
+    "id": "amazonhelp_143813",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.06618943614013606
+  },
+  {
+    "id": "amazonhelp_037387",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.27757572963069266
+  },
+  {
+    "id": "amazonhelp_015525",
+    "actual": "APP_USAGE",
+    "predicted": "APP_USAGE",
+    "correct": true,
+    "margin": 0.7199032366590774
+  },
+  {
+    "id": "amazonhelp_109859",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": -0.2830395546214495
+  },
+  {
+    "id": "amazonhelp_042794",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "PAYMENT_ISSUE",
+    "correct": false,
+    "margin": -0.534938733357436
+  },
+  {
+    "id": "amazonhelp_068932",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.5137443128412604
+  },
+  {
+    "id": "amazonhelp_019975",
+    "actual": "DELIVERY_LATE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": -0.18665038639836995
+  },
+  {
+    "id": "amazonhelp_071012",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.06372184286911264
+  },
+  {
+    "id": "amazonhelp_128618",
+    "actual": "RETURN_REQUEST",
+    "predicted": "RETURN_REQUEST",
+    "correct": true,
+    "margin": 1.0467892916163275
+  },
+  {
+    "id": "amazonhelp_038591",
+    "actual": "RETURN_REQUEST",
+    "predicted": "RETURN_REQUEST",
+    "correct": true,
+    "margin": -0.19919889173058136
+  },
+  {
+    "id": "amazonhelp_048395",
+    "actual": "APP_USAGE",
+    "predicted": "APP_USAGE",
+    "correct": true,
+    "margin": 0.5025264849910338
+  },
+  {
+    "id": "amazonhelp_139754",
+    "actual": "OTHER",
+    "predicted": "APP_USAGE",
+    "correct": false,
+    "margin": -0.30680401999862905
+  },
+  {
+    "id": "amazonhelp_138950",
+    "actual": "DELIVERY_LATE",
+    "predicted": "RETURN_REQUEST",
+    "correct": false,
+    "margin": 1.183702548510289
+  },
+  {
+    "id": "amazonhelp_081885",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.23921773454084905
+  },
+  {
+    "id": "amazonhelp_005932",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "DEVICE_ISSUE",
+    "correct": true,
+    "margin": 0.7586850428316856
+  },
+  {
+    "id": "amazonhelp_124958",
+    "actual": "APP_USAGE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": -0.03649752580294252
+  },
+  {
+    "id": "amazonhelp_045148",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.1488580190442499
+  },
+  {
+    "id": "amazonhelp_006083",
+    "actual": "PAYMENT_ISSUE",
+    "predicted": "PAYMENT_ISSUE",
+    "correct": true,
+    "margin": -0.04866429339355616
+  },
+  {
+    "id": "amazonhelp_067985",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 1.766438038722651
+  },
+  {
+    "id": "amazonhelp_119479",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.7064248736967185
+  },
+  {
+    "id": "amazonhelp_063940",
+    "actual": "APP_USAGE",
+    "predicted": "APP_USAGE",
+    "correct": true,
+    "margin": -0.11156887789272074
+  },
+  {
+    "id": "amazonhelp_150708",
+    "actual": "APP_USAGE",
+    "predicted": "APP_USAGE",
+    "correct": true,
+    "margin": -0.4798020175657954
+  },
+  {
+    "id": "amazonhelp_017948",
+    "actual": "OTHER",
+    "predicted": "PAYMENT_ISSUE",
+    "correct": false,
+    "margin": -0.6245296447080477
+  },
+  {
+    "id": "amazonhelp_039203",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.7619251746389317
+  },
+  {
+    "id": "amazonhelp_068640",
+    "actual": "ORDER_STATUS",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": 0.043610155152071006
+  },
+  {
+    "id": "amazonhelp_154536",
+    "actual": "APP_USAGE",
+    "predicted": "APP_USAGE",
+    "correct": true,
+    "margin": 0.3874184262078233
+  },
+  {
+    "id": "amazonhelp_104893",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.49195185366166133
+  },
+  {
+    "id": "amazonhelp_124427",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": -0.22301971526297526
+  },
+  {
+    "id": "amazonhelp_067674",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.2496125636028782
+  },
+  {
+    "id": "amazonhelp_070644",
+    "actual": "DELIVERY_TRACKING",
+    "predicted": "RETURN_REQUEST",
+    "correct": false,
+    "margin": 0.40421489726951965
+  },
+  {
+    "id": "amazonhelp_102845",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.3637736261933145
+  },
+  {
+    "id": "amazonhelp_130278",
+    "actual": "REFUND_REQUEST",
+    "predicted": "APP_USAGE",
+    "correct": false,
+    "margin": -0.18750582766832302
+  },
+  {
+    "id": "amazonhelp_147492",
+    "actual": "RETURN_REQUEST",
+    "predicted": "RETURN_REQUEST",
+    "correct": true,
+    "margin": 0.9614156649967862
+  },
+  {
+    "id": "amazonhelp_118527",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.7814337485825161
+  },
+  {
+    "id": "amazonhelp_105294",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.7431431431159693
+  },
+  {
+    "id": "amazonhelp_033808",
+    "actual": "ACCOUNT_ACCESS",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": 0.09107644500971035
+  },
+  {
+    "id": "amazonhelp_058571",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.6125698659024008
+  },
+  {
+    "id": "amazonhelp_143673",
+    "actual": "RETURN_REQUEST",
+    "predicted": "RETURN_REQUEST",
+    "correct": true,
+    "margin": 0.656431620310918
+  },
+  {
+    "id": "amazonhelp_131429",
+    "actual": "RETURN_REQUEST",
+    "predicted": "PAYMENT_ISSUE",
+    "correct": false,
+    "margin": 0.05060527512097179
+  },
+  {
+    "id": "amazonhelp_003943",
+    "actual": "PRODUCT_ISSUE",
+    "predicted": "PRODUCT_ISSUE",
+    "correct": true,
+    "margin": -0.30143125167329
+  },
+  {
+    "id": "amazonhelp_123201",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.9779500759763516
+  },
+  {
+    "id": "amazonhelp_134948",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 3.0446392479351223
+  },
+  {
+    "id": "amazonhelp_099974",
+    "actual": "REFUND_REQUEST",
+    "predicted": "APP_USAGE",
+    "correct": false,
+    "margin": -0.2956935364090125
+  },
+  {
+    "id": "amazonhelp_061176",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": -0.05419525510231149
+  },
+  {
+    "id": "amazonhelp_034236",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": 0.3260419034553479
+  },
+  {
+    "id": "amazonhelp_138799",
+    "actual": "REFUND_REQUEST",
+    "predicted": "REFUND_REQUEST",
+    "correct": true,
+    "margin": -0.1818772607915764
+  },
+  {
+    "id": "amazonhelp_151477",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.006063208337166559
+  },
+  {
+    "id": "amazonhelp_115856",
+    "actual": "VIDEO_STREAMING",
+    "predicted": "VIDEO_STREAMING",
+    "correct": true,
+    "margin": -0.38527130527032727
+  },
+  {
+    "id": "amazonhelp_016768",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": -0.14312870925533372
+  },
+  {
+    "id": "amazonhelp_042667",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "DELIVERY_MISSING",
+    "correct": true,
+    "margin": 0.4312665459415481
+  },
+  {
+    "id": "amazonhelp_012023",
+    "actual": "RETURN_REQUEST",
+    "predicted": "RETURN_REQUEST",
+    "correct": true,
+    "margin": 0.5759917834325152
+  },
+  {
+    "id": "amazonhelp_083154",
+    "actual": "VIDEO_STREAMING",
+    "predicted": "DELIVERY_LATE",
+    "correct": false,
+    "margin": -0.5650076424648957
+  },
+  {
+    "id": "amazonhelp_034505",
+    "actual": "DELIVERY_LATE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": 0.22374775618645604
+  },
+  {
+    "id": "amazonhelp_143948",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.5331967656507897
+  },
+  {
+    "id": "amazonhelp_098395",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "correct": false,
+    "margin": -0.10450282643225894
+  },
+  {
+    "id": "amazonhelp_095469",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.8336524747390628
+  },
+  {
+    "id": "amazonhelp_068320",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": -0.2697906241405754
+  },
+  {
+    "id": "amazonhelp_092928",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": -0.5859661037098107
+  },
+  {
+    "id": "amazonhelp_101597",
+    "actual": "APP_USAGE",
+    "predicted": "APP_USAGE",
+    "correct": true,
+    "margin": 0.012562427906489315
+  },
+  {
+    "id": "amazonhelp_001910",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "DELIVERY_MISSING",
+    "correct": true,
+    "margin": -0.3525838515034052
+  },
+  {
+    "id": "amazonhelp_049149",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.6207924059945091
+  },
+  {
+    "id": "amazonhelp_087899",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "DELIVERY_MISSING",
+    "correct": true,
+    "margin": -0.050030300884591705
+  },
+  {
+    "id": "amazonhelp_099636",
+    "actual": "APP_USAGE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": -0.6858770694595655
+  },
+  {
+    "id": "amazonhelp_052512",
+    "actual": "ORDER_STATUS",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": 0.19253777437270447
+  },
+  {
+    "id": "amazonhelp_035660",
+    "actual": "RETURN_REQUEST",
+    "predicted": "RETURN_REQUEST",
+    "correct": true,
+    "margin": -0.10583191178946216
+  },
+  {
+    "id": "amazonhelp_136703",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.6311994875501856
+  },
+  {
+    "id": "amazonhelp_131135",
+    "actual": "DELIVERY_LATE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": 0.7246670389332187
+  },
+  {
+    "id": "amazonhelp_096029",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.98898048868023
+  },
+  {
+    "id": "amazonhelp_021204",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": -0.3373556558697133
+  },
+  {
+    "id": "amazonhelp_086231",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 1.1966915364222646
+  },
+  {
+    "id": "amazonhelp_149200",
+    "actual": "APP_USAGE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": -0.2654609232387837
+  },
+  {
+    "id": "amazonhelp_137684",
+    "actual": "PAYMENT_ISSUE",
+    "predicted": "DEVICE_ISSUE",
+    "correct": false,
+    "margin": -0.4341318591894192
+  },
+  {
+    "id": "amazonhelp_019777",
+    "actual": "PAYMENT_ISSUE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": -0.024065196771155817
+  },
+  {
+    "id": "amazonhelp_100946",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "DELIVERY_MISSING",
+    "correct": true,
+    "margin": -0.4539478610596044
+  },
+  {
+    "id": "amazonhelp_101431",
+    "actual": "RETURN_REQUEST",
+    "predicted": "RETURN_REQUEST",
+    "correct": true,
+    "margin": -0.13202083706805312
+  },
+  {
+    "id": "amazonhelp_086323",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": -0.263775622434703
+  },
+  {
+    "id": "amazonhelp_004528",
+    "actual": "PAYMENT_ISSUE",
+    "predicted": "PAYMENT_ISSUE",
+    "correct": true,
+    "margin": -0.30279109097659684
+  },
+  {
+    "id": "amazonhelp_020083",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": -0.08635000281521177
+  },
+  {
+    "id": "amazonhelp_088072",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.5754739050297446
+  },
+  {
+    "id": "amazonhelp_112053",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.14634401318385393
+  },
+  {
+    "id": "amazonhelp_121800",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": -0.12906607578447404
+  },
+  {
+    "id": "amazonhelp_152730",
+    "actual": "DELIVERY_LATE",
+    "predicted": "APP_USAGE",
+    "correct": false,
+    "margin": -0.4864514986366121
+  },
+  {
+    "id": "amazonhelp_096340",
+    "actual": "APP_USAGE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": 0.2550993018720248
+  },
+  {
+    "id": "amazonhelp_145028",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.8539707152752122
+  },
+  {
+    "id": "amazonhelp_099122",
+    "actual": "PAYMENT_ISSUE",
+    "predicted": "PAYMENT_ISSUE",
+    "correct": true,
+    "margin": -0.17209211180560324
+  },
+  {
+    "id": "amazonhelp_140518",
+    "actual": "OTHER",
+    "predicted": "PRODUCT_ISSUE",
+    "correct": false,
+    "margin": -0.560039199990968
+  },
+  {
+    "id": "amazonhelp_148887",
+    "actual": "APP_USAGE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": 0.07560623498351582
+  },
+  {
+    "id": "amazonhelp_052169",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "ORDER_STATUS",
+    "correct": false,
+    "margin": -0.45509608115801814
+  },
+  {
+    "id": "amazonhelp_066204",
+    "actual": "APP_USAGE",
+    "predicted": "APP_USAGE",
+    "correct": true,
+    "margin": -0.15339600139641885
+  },
+  {
+    "id": "amazonhelp_107065",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.9046297569838826
+  },
+  {
+    "id": "amazonhelp_072416",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": -0.3649170749567464
+  },
+  {
+    "id": "amazonhelp_062340",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.9560030459271096
+  },
+  {
+    "id": "amazonhelp_091644",
+    "actual": "APP_USAGE",
+    "predicted": "APP_USAGE",
+    "correct": true,
+    "margin": -0.34873247124289464
+  },
+  {
+    "id": "amazonhelp_139141",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": -0.04333599378382824
+  },
+  {
+    "id": "amazonhelp_066679",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "DEVICE_ISSUE",
+    "correct": true,
+    "margin": 0.07596230244463942
+  },
+  {
+    "id": "amazonhelp_146991",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": -0.02523533161069713
+  },
+  {
+    "id": "amazonhelp_088332",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.9344290482847083
+  },
+  {
+    "id": "amazonhelp_083566",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "DEVICE_ISSUE",
+    "correct": true,
+    "margin": 0.8867419062143649
+  },
+  {
+    "id": "amazonhelp_047943",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": -0.6541629150565511
+  },
+  {
+    "id": "amazonhelp_104228",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "DEVICE_ISSUE",
+    "correct": true,
+    "margin": 0.06686770515887042
+  },
+  {
+    "id": "amazonhelp_018062",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "DELIVERY_LATE",
+    "correct": false,
+    "margin": -0.19218955129924042
+  },
+  {
+    "id": "amazonhelp_040710",
+    "actual": "PAYMENT_ISSUE",
+    "predicted": "PAYMENT_ISSUE",
+    "correct": true,
+    "margin": 0.8973286427499234
+  },
+  {
+    "id": "amazonhelp_049503",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.08051089695954827
+  },
+  {
+    "id": "amazonhelp_123896",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 1.1978934581220064
+  },
+  {
+    "id": "amazonhelp_033859",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.04640945349546255
+  },
+  {
+    "id": "amazonhelp_119659",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.012865472376533127
+  },
+  {
+    "id": "amazonhelp_010428",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": -0.35029953088822685
+  },
+  {
+    "id": "amazonhelp_108670",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.40554853960160386
+  },
+  {
+    "id": "amazonhelp_010582",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": 0.25711606532457587
+  },
+  {
+    "id": "amazonhelp_006947",
+    "actual": "RETURN_REQUEST",
+    "predicted": "RETURN_REQUEST",
+    "correct": true,
+    "margin": 0.2192688147974564
+  },
+  {
+    "id": "amazonhelp_153573",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.16249013321496442
+  },
+  {
+    "id": "amazonhelp_084412",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.5421837997426204
+  },
+  {
+    "id": "amazonhelp_141720",
+    "actual": "REFUND_REQUEST",
+    "predicted": "REFUND_REQUEST",
+    "correct": true,
+    "margin": 1.2143522997610845
+  },
+  {
+    "id": "amazonhelp_074870",
+    "actual": "APP_USAGE",
+    "predicted": "ACCOUNT_ACCESS",
+    "correct": false,
+    "margin": -0.5582518311528801
+  },
+  {
+    "id": "amazonhelp_063715",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.5755178627095512
+  },
+  {
+    "id": "amazonhelp_039954",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": -0.16812933857804047
+  },
+  {
+    "id": "amazonhelp_034718",
+    "actual": "APP_USAGE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": -0.22140372705163547
+  },
+  {
+    "id": "amazonhelp_095455",
+    "actual": "PAYMENT_ISSUE",
+    "predicted": "PAYMENT_ISSUE",
+    "correct": true,
+    "margin": -0.19959103232452213
+  },
+  {
+    "id": "amazonhelp_094867",
+    "actual": "ORDER_STATUS",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": 0.2431826424769471
+  },
+  {
+    "id": "amazonhelp_088455",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "DELIVERY_LATE",
+    "correct": false,
+    "margin": 0.08574523611477924
+  },
+  {
+    "id": "amazonhelp_096115",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.15102757046470838
+  },
+  {
+    "id": "amazonhelp_073996",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.9835166294924067
+  },
+  {
+    "id": "amazonhelp_040765",
+    "actual": "ORDER_STATUS",
+    "predicted": "ORDER_STATUS",
+    "correct": true,
+    "margin": -0.12873672436043115
+  },
+  {
+    "id": "amazonhelp_148746",
+    "actual": "PAYMENT_ISSUE",
+    "predicted": "PAYMENT_ISSUE",
+    "correct": true,
+    "margin": 0.8427818662467432
+  },
+  {
+    "id": "amazonhelp_069569",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.5290398742087329
+  },
+  {
+    "id": "amazonhelp_048939",
+    "actual": "ORDER_STATUS",
+    "predicted": "RETURN_REQUEST",
+    "correct": false,
+    "margin": -0.288231952067596
+  },
+  {
+    "id": "amazonhelp_046414",
+    "actual": "VIDEO_STREAMING",
+    "predicted": "VIDEO_STREAMING",
+    "correct": true,
+    "margin": 0.8771512063478892
+  },
+  {
+    "id": "amazonhelp_073217",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "VIDEO_STREAMING",
+    "correct": false,
+    "margin": -0.0904759026669667
+  },
+  {
+    "id": "amazonhelp_074935",
+    "actual": "PRODUCT_ISSUE",
+    "predicted": "VIDEO_STREAMING",
+    "correct": false,
+    "margin": -0.24284292880855596
+  },
+  {
+    "id": "amazonhelp_044006",
+    "actual": "DELIVERY_LATE",
+    "predicted": "ACCOUNT_ACCESS",
+    "correct": false,
+    "margin": -0.45874042018861605
+  },
+  {
+    "id": "amazonhelp_073670",
+    "actual": "APP_USAGE",
+    "predicted": "APP_USAGE",
+    "correct": true,
+    "margin": -0.23415514654660252
+  },
+  {
+    "id": "amazonhelp_034765",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_MISSING",
+    "correct": false,
+    "margin": 0.11633525202776163
+  },
+  {
+    "id": "amazonhelp_005750",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.3206247542306663
+  },
+  {
+    "id": "amazonhelp_135506",
+    "actual": "PAYMENT_ISSUE",
+    "predicted": "PAYMENT_ISSUE",
+    "correct": true,
+    "margin": 0.8106617246586596
+  },
+  {
+    "id": "amazonhelp_035015",
+    "actual": "PRODUCT_ISSUE",
+    "predicted": "PRODUCT_ISSUE",
+    "correct": true,
+    "margin": -0.24143677371717875
+  },
+  {
+    "id": "amazonhelp_065180",
+    "actual": "PRODUCT_ISSUE",
+    "predicted": "PAYMENT_ISSUE",
+    "correct": false,
+    "margin": -0.5062179427027483
+  },
+  {
+    "id": "amazonhelp_055235",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.1402796238650903
+  },
+  {
+    "id": "amazonhelp_051452",
+    "actual": "APP_USAGE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": -0.47028795797870426
+  },
+  {
+    "id": "amazonhelp_064362",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.05236760882342151
+  },
+  {
+    "id": "amazonhelp_052886",
+    "actual": "ORDER_STATUS",
+    "predicted": "ORDER_STATUS",
+    "correct": true,
+    "margin": -0.2744238655403777
+  },
+  {
+    "id": "amazonhelp_019134",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "DEVICE_ISSUE",
+    "correct": true,
+    "margin": 0.45548213643105906
+  },
+  {
+    "id": "amazonhelp_148996",
+    "actual": "PAYMENT_ISSUE",
+    "predicted": "PAYMENT_ISSUE",
+    "correct": true,
+    "margin": 0.038776494190991384
+  },
+  {
+    "id": "amazonhelp_046967",
+    "actual": "DELIVERY_LATE",
+    "predicted": "RETURN_REQUEST",
+    "correct": false,
+    "margin": -0.20100885513880895
+  },
+  {
+    "id": "amazonhelp_095529",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "DELIVERY_LATE",
+    "correct": false,
+    "margin": 0.035014830300281075
+  },
+  {
+    "id": "amazonhelp_039079",
+    "actual": "PAYMENT_ISSUE",
+    "predicted": "PAYMENT_ISSUE",
+    "correct": true,
+    "margin": -0.1850131699487776
+  },
+  {
+    "id": "amazonhelp_138012",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": -0.47039958957371364
+  },
+  {
+    "id": "amazonhelp_074053",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.09378712453574889
+  },
+  {
+    "id": "amazonhelp_067975",
+    "actual": "OTHER",
+    "predicted": "RETURN_REQUEST",
+    "correct": false,
+    "margin": -0.46992661579271167
+  },
+  {
+    "id": "amazonhelp_136599",
+    "actual": "PAYMENT_ISSUE",
+    "predicted": "PAYMENT_ISSUE",
+    "correct": true,
+    "margin": -0.20715129473029126
+  },
+  {
+    "id": "amazonhelp_115202",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "DELIVERY_MISSING",
+    "correct": true,
+    "margin": 0.13831707018686634
+  },
+  {
+    "id": "amazonhelp_148997",
+    "actual": "ORDER_STATUS",
+    "predicted": "ORDER_STATUS",
+    "correct": true,
+    "margin": -0.46219568570523084
+  },
+  {
+    "id": "amazonhelp_102996",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "DELIVERY_MISSING",
+    "correct": true,
+    "margin": 0.4635632453791758
+  },
+  {
+    "id": "amazonhelp_137322",
+    "actual": "RETURN_REQUEST",
+    "predicted": "PAYMENT_ISSUE",
+    "correct": false,
+    "margin": 0.10192738681504587
+  },
+  {
+    "id": "amazonhelp_144151",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.7227681569303185
+  },
+  {
+    "id": "amazonhelp_078188",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.9207663937257784
+  },
+  {
+    "id": "amazonhelp_041262",
+    "actual": "REFUND_REQUEST",
+    "predicted": "REFUND_REQUEST",
+    "correct": true,
+    "margin": -0.3437886370934312
+  },
+  {
+    "id": "amazonhelp_080321",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 1.7492299555050292
+  },
+  {
+    "id": "amazonhelp_019857",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.5142232096406005
+  },
+  {
+    "id": "amazonhelp_012799",
+    "actual": "VIDEO_STREAMING",
+    "predicted": "DELIVERY_LATE",
+    "correct": false,
+    "margin": -0.15782010268300217
+  },
+  {
+    "id": "amazonhelp_096352",
+    "actual": "APP_USAGE",
+    "predicted": "DEVICE_ISSUE",
+    "correct": false,
+    "margin": -0.63519819055599
+  },
+  {
+    "id": "amazonhelp_152548",
+    "actual": "REFUND_REQUEST",
+    "predicted": "REFUND_REQUEST",
+    "correct": true,
+    "margin": 0.6287403395376936
+  },
+  {
+    "id": "amazonhelp_121514",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": -0.2381711894767058
+  },
+  {
+    "id": "amazonhelp_111890",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.08726278793296727
+  },
+  {
+    "id": "amazonhelp_078499",
+    "actual": "DELIVERY_LATE",
+    "predicted": "ORDER_STATUS",
+    "correct": false,
+    "margin": 0.4071564520320592
+  },
+  {
+    "id": "amazonhelp_018956",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.13684254647680105
+  },
+  {
+    "id": "amazonhelp_108302",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": -0.06340221714959415
+  },
+  {
+    "id": "amazonhelp_055799",
+    "actual": "RETURN_REQUEST",
+    "predicted": "RETURN_REQUEST",
+    "correct": true,
+    "margin": -0.22316516408235887
+  },
+  {
+    "id": "amazonhelp_122884",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_MISSING",
+    "correct": false,
+    "margin": 0.032519053719340496
+  },
+  {
+    "id": "amazonhelp_048875",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 1.1239010740242503
+  },
+  {
+    "id": "amazonhelp_048847",
+    "actual": "RETURN_REQUEST",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": 0.17166384184068417
+  },
+  {
+    "id": "amazonhelp_037955",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "DEVICE_ISSUE",
+    "correct": true,
+    "margin": -0.40261967365832074
+  },
+  {
+    "id": "amazonhelp_043163",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.41037140835313884
+  },
+  {
+    "id": "amazonhelp_096216",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.8125765793255777
+  },
+  {
+    "id": "amazonhelp_087872",
+    "actual": "RETURN_REQUEST",
+    "predicted": "RETURN_REQUEST",
+    "correct": true,
+    "margin": 0.011101271328489482
+  },
+  {
+    "id": "amazonhelp_028397",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.7022257945281438
+  },
+  {
+    "id": "amazonhelp_137758",
+    "actual": "CANCELLATION",
+    "predicted": "CANCELLATION",
+    "correct": true,
+    "margin": -0.5233027070358097
+  },
+  {
+    "id": "amazonhelp_116214",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.5385488447638069
+  },
+  {
+    "id": "amazonhelp_150069",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": -0.3926041963263326
+  },
+  {
+    "id": "amazonhelp_069483",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.13472245543092054
+  },
+  {
+    "id": "amazonhelp_039285",
+    "actual": "RETURN_REQUEST",
+    "predicted": "RETURN_REQUEST",
+    "correct": true,
+    "margin": 0.7137776481840765
+  },
+  {
+    "id": "amazonhelp_114547",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "DELIVERY_MISSING",
+    "correct": true,
+    "margin": -0.5559022246463553
+  },
+  {
+    "id": "amazonhelp_087490",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.2365186371022221
+  },
+  {
+    "id": "amazonhelp_081954",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.10410698075981206
+  },
+  {
+    "id": "amazonhelp_105193",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "DEVICE_ISSUE",
+    "correct": true,
+    "margin": -0.02904742465320398
+  },
+  {
+    "id": "amazonhelp_033387",
+    "actual": "DELIVERY_TRACKING",
+    "predicted": "DELIVERY_TRACKING",
+    "correct": true,
+    "margin": -0.10572018442980169
+  },
+  {
+    "id": "amazonhelp_054141",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.9041727239436719
+  },
+  {
+    "id": "amazonhelp_148697",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "correct": false,
+    "margin": -0.46636885869697275
+  },
+  {
+    "id": "amazonhelp_043407",
+    "actual": "PRODUCT_ISSUE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": -0.12672302350753595
+  },
+  {
+    "id": "amazonhelp_032796",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": -0.2009148909588394
+  },
+  {
+    "id": "amazonhelp_012443",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.434644841681201
+  },
+  {
+    "id": "amazonhelp_009256",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": -0.5150482530281977
+  },
+  {
+    "id": "amazonhelp_043871",
+    "actual": "DELIVERY_LATE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": 0.3597321501808518
+  },
+  {
+    "id": "amazonhelp_055232",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DEVICE_ISSUE",
+    "correct": false,
+    "margin": -0.2982425073033149
+  },
+  {
+    "id": "amazonhelp_086884",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.4701529657652029
+  },
+  {
+    "id": "amazonhelp_123483",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.2726217544897087
+  },
+  {
+    "id": "amazonhelp_114215",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.11287559378834522
+  },
+  {
+    "id": "amazonhelp_092257",
+    "actual": "VIDEO_STREAMING",
+    "predicted": "DELIVERY_LATE",
+    "correct": false,
+    "margin": -0.6192950315853517
+  },
+  {
+    "id": "amazonhelp_087710",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": -0.10945469610045555
+  },
+  {
+    "id": "amazonhelp_097577",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.6062983189831493
+  },
+  {
+    "id": "amazonhelp_063603",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.6258233289408779
+  },
+  {
+    "id": "amazonhelp_114183",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.5813930484355968
+  },
+  {
+    "id": "amazonhelp_112055",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 1.0710828054293373
+  },
+  {
+    "id": "amazonhelp_090524",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.0013074260248475689
+  },
+  {
+    "id": "amazonhelp_143830",
+    "actual": "APP_USAGE",
+    "predicted": "APP_USAGE",
+    "correct": true,
+    "margin": 0.518200873115237
+  },
+  {
+    "id": "amazonhelp_015110",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.6663556596436194
+  },
+  {
+    "id": "amazonhelp_020790",
+    "actual": "PRODUCT_ISSUE",
+    "predicted": "PRODUCT_ISSUE",
+    "correct": true,
+    "margin": 0.567055724304691
+  },
+  {
+    "id": "amazonhelp_036195",
+    "actual": "DELIVERY_LATE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": 0.07117673852065443
+  },
+  {
+    "id": "amazonhelp_133009",
+    "actual": "ORDER_STATUS",
+    "predicted": "DEVICE_ISSUE",
+    "correct": false,
+    "margin": -0.541371520968352
+  },
+  {
+    "id": "amazonhelp_109953",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "DEVICE_ISSUE",
+    "correct": true,
+    "margin": 0.6182266068880127
+  },
+  {
+    "id": "amazonhelp_090171",
+    "actual": "APP_USAGE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": 0.2572408923273085
+  },
+  {
+    "id": "amazonhelp_044843",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": -0.3044133619787215
+  },
+  {
+    "id": "amazonhelp_024774",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.2327053208307871
+  },
+  {
+    "id": "amazonhelp_060883",
+    "actual": "ACCOUNT_ACCESS",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": -0.3755122745434949
+  },
+  {
+    "id": "amazonhelp_038693",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.685574331176975
+  },
+  {
+    "id": "amazonhelp_001750",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.8458520879749885
+  },
+  {
+    "id": "amazonhelp_069543",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "DEVICE_ISSUE",
+    "correct": true,
+    "margin": 0.9726601516216256
+  },
+  {
+    "id": "amazonhelp_133097",
+    "actual": "RETURN_REQUEST",
+    "predicted": "RETURN_REQUEST",
+    "correct": true,
+    "margin": 0.41635777650049643
+  },
+  {
+    "id": "amazonhelp_130458",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 1.3455609462071711
+  },
+  {
+    "id": "amazonhelp_106643",
+    "actual": "DELIVERY_TRACKING",
+    "predicted": "APP_USAGE",
+    "correct": false,
+    "margin": -0.050394717918410104
+  },
+  {
+    "id": "amazonhelp_113150",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.8127921870641763
+  },
+  {
+    "id": "amazonhelp_025719",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.2651284640651952
+  },
+  {
+    "id": "amazonhelp_135295",
+    "actual": "RETURN_REQUEST",
+    "predicted": "RETURN_REQUEST",
+    "correct": true,
+    "margin": 0.3396413186959675
+  },
+  {
+    "id": "amazonhelp_000768",
+    "actual": "APP_USAGE",
+    "predicted": "DELIVERY_LATE",
+    "correct": false,
+    "margin": -0.09094706947738707
+  },
+  {
+    "id": "amazonhelp_022747",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": -0.38170709894467447
+  },
+  {
+    "id": "amazonhelp_094874",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.022765717119997753
+  },
+  {
+    "id": "amazonhelp_058000",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.2430935011057186
+  },
+  {
+    "id": "amazonhelp_035858",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.10038820672036775
+  },
+  {
+    "id": "amazonhelp_084584",
+    "actual": "DELIVERY_LATE",
+    "predicted": "ORDER_STATUS",
+    "correct": false,
+    "margin": -0.2660340615033192
+  },
+  {
+    "id": "amazonhelp_016791",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "DELIVERY_MISSING",
+    "correct": true,
+    "margin": 0.10224372002422366
+  },
+  {
+    "id": "amazonhelp_046281",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.5464016595604473
+  },
+  {
+    "id": "amazonhelp_089503",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.13441550500577304
+  },
+  {
+    "id": "amazonhelp_009541",
+    "actual": "ORDER_STATUS",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": 0.27267700258354455
+  },
+  {
+    "id": "amazonhelp_004950",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.3626670892565119
+  },
+  {
+    "id": "amazonhelp_151901",
+    "actual": "ACCOUNT_ACCESS",
+    "predicted": "ACCOUNT_ACCESS",
+    "correct": true,
+    "margin": 0.3091890050774646
+  },
+  {
+    "id": "amazonhelp_034704",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "DELIVERY_MISSING",
+    "correct": true,
+    "margin": -0.1881395975388782
+  },
+  {
+    "id": "amazonhelp_149954",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.6097300192083482
+  },
+  {
+    "id": "amazonhelp_114230",
+    "actual": "VIDEO_STREAMING",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": 0.015959380678253865
+  },
+  {
+    "id": "amazonhelp_142443",
+    "actual": "OTHER",
+    "predicted": "APP_USAGE",
+    "correct": false,
+    "margin": -0.3169984380374493
+  },
+  {
+    "id": "amazonhelp_013884",
+    "actual": "DELIVERY_LATE",
+    "predicted": "RETURN_REQUEST",
+    "correct": false,
+    "margin": 0.4231832792176642
+  },
+  {
+    "id": "amazonhelp_081926",
+    "actual": "DELIVERY_LATE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": -0.14404972822755568
+  },
+  {
+    "id": "amazonhelp_021017",
+    "actual": "APP_USAGE",
+    "predicted": "APP_USAGE",
+    "correct": true,
+    "margin": 0.05936943614894963
+  },
+  {
+    "id": "amazonhelp_033325",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": -0.5861159242134634
+  },
+  {
+    "id": "amazonhelp_136379",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": -0.3309707994515996
+  },
+  {
+    "id": "amazonhelp_119360",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": -0.20092622742979538
+  },
+  {
+    "id": "amazonhelp_024233",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "APP_USAGE",
+    "correct": false,
+    "margin": -0.07679014529430939
+  },
+  {
+    "id": "amazonhelp_152159",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.9158142164484813
+  },
+  {
+    "id": "amazonhelp_072283",
+    "actual": "DELIVERY_LATE",
+    "predicted": "APP_USAGE",
+    "correct": false,
+    "margin": -0.036519271983276314
+  },
+  {
+    "id": "amazonhelp_130300",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": -0.31824793787447525
+  },
+  {
+    "id": "amazonhelp_085037",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.377961354182629
+  },
+  {
+    "id": "amazonhelp_152727",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": -0.24214089587004195
+  },
+  {
+    "id": "amazonhelp_013863",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.29143199878024967
+  },
+  {
+    "id": "amazonhelp_020721",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": -0.26426283374282034
+  },
+  {
+    "id": "amazonhelp_111427",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.22013082395618755
+  },
+  {
+    "id": "amazonhelp_069869",
+    "actual": "ORDER_STATUS",
+    "predicted": "ORDER_STATUS",
+    "correct": true,
+    "margin": 0.2340227257786942
+  },
+  {
+    "id": "amazonhelp_099989",
+    "actual": "DELIVERY_LATE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": -0.3114456662330434
+  },
+  {
+    "id": "amazonhelp_120676",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 1.3043646614947806
+  },
+  {
+    "id": "amazonhelp_110213",
+    "actual": "PAYMENT_ISSUE",
+    "predicted": "PAYMENT_ISSUE",
+    "correct": true,
+    "margin": 0.5376705401256012
+  },
+  {
+    "id": "amazonhelp_043579",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": -0.41992445870391304
+  },
+  {
+    "id": "amazonhelp_072249",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": -0.21807197132499656
+  },
+  {
+    "id": "amazonhelp_137263",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_MISSING",
+    "correct": false,
+    "margin": -0.39176878413122895
+  },
+  {
+    "id": "amazonhelp_035425",
+    "actual": "VIDEO_STREAMING",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": 0.17816748793006731
+  },
+  {
+    "id": "amazonhelp_100491",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.27560696596692874
+  },
+  {
+    "id": "amazonhelp_018644",
+    "actual": "APP_USAGE",
+    "predicted": "DELIVERY_LATE",
+    "correct": false,
+    "margin": 0.2963180876972371
+  },
+  {
+    "id": "amazonhelp_087042",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "DEVICE_ISSUE",
+    "correct": true,
+    "margin": 0.6016473426990572
+  },
+  {
+    "id": "amazonhelp_043987",
+    "actual": "PAYMENT_ISSUE",
+    "predicted": "PAYMENT_ISSUE",
+    "correct": true,
+    "margin": -0.12055408057189598
+  },
+  {
+    "id": "amazonhelp_077204",
+    "actual": "PAYMENT_ISSUE",
+    "predicted": "PAYMENT_ISSUE",
+    "correct": true,
+    "margin": -0.1361796763711871
+  },
+  {
+    "id": "amazonhelp_133725",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.00800723292319927
+  },
+  {
+    "id": "amazonhelp_151564",
+    "actual": "APP_USAGE",
+    "predicted": "APP_USAGE",
+    "correct": true,
+    "margin": 0.4932916909907108
+  },
+  {
+    "id": "amazonhelp_053203",
+    "actual": "REFUND_REQUEST",
+    "predicted": "PAYMENT_ISSUE",
+    "correct": false,
+    "margin": -0.18826535098690622
+  },
+  {
+    "id": "amazonhelp_064605",
+    "actual": "APP_USAGE",
+    "predicted": "DEVICE_ISSUE",
+    "correct": false,
+    "margin": -0.4079599171637177
+  },
+  {
+    "id": "amazonhelp_054029",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.12716466023918926
+  },
+  {
+    "id": "amazonhelp_120049",
+    "actual": "APP_USAGE",
+    "predicted": "DELIVERY_MISSING",
+    "correct": false,
+    "margin": 0.18429592958293672
+  },
+  {
+    "id": "amazonhelp_064611",
+    "actual": "ORDER_STATUS",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": -0.5928731436117562
+  },
+  {
+    "id": "amazonhelp_148251",
+    "actual": "ORDER_STATUS",
+    "predicted": "PAYMENT_ISSUE",
+    "correct": false,
+    "margin": 0.44483481997764285
+  },
+  {
+    "id": "amazonhelp_068727",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_MISSING",
+    "correct": false,
+    "margin": -0.6300184515129276
+  },
+  {
+    "id": "amazonhelp_008053",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": -0.4620579146689564
+  },
+  {
+    "id": "amazonhelp_042597",
+    "actual": "DELIVERY_LATE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": -0.25348101562908254
+  },
+  {
+    "id": "amazonhelp_081842",
+    "actual": "ORDER_STATUS",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": -0.034615004398593
+  },
+  {
+    "id": "amazonhelp_097247",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "REFUND_REQUEST",
+    "correct": false,
+    "margin": -0.6435309598850749
+  },
+  {
+    "id": "amazonhelp_050731",
+    "actual": "PAYMENT_ISSUE",
+    "predicted": "REFUND_REQUEST",
+    "correct": false,
+    "margin": -0.3113039800384376
+  },
+  {
+    "id": "amazonhelp_106024",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 1.1930611183352513
+  },
+  {
+    "id": "amazonhelp_001539",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 0.2823027703776855
+  },
+  {
+    "id": "amazonhelp_142952",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.8478028508111455
+  },
+  {
+    "id": "amazonhelp_013959",
+    "actual": "APP_USAGE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": -0.2535032583826533
+  },
+  {
+    "id": "amazonhelp_130480",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 1.6446242445261359
+  },
+  {
+    "id": "amazonhelp_009414",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.520334722905888
+  },
+  {
+    "id": "amazonhelp_090683",
+    "actual": "APP_USAGE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": -0.19389249314842172
+  },
+  {
+    "id": "amazonhelp_050115",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": -0.4131945001060968
+  },
+  {
+    "id": "amazonhelp_141609",
+    "actual": "ORDER_STATUS",
+    "predicted": "ORDER_STATUS",
+    "correct": true,
+    "margin": 0.7346594486254454
+  },
+  {
+    "id": "amazonhelp_110982",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_LATE",
+    "correct": true,
+    "margin": 1.1301846122520744
+  },
+  {
+    "id": "amazonhelp_068328",
+    "actual": "OTHER",
+    "predicted": "OTHER",
+    "correct": true,
+    "margin": 0.26575348446315694
+  },
+  {
+    "id": "amazonhelp_148628",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "OTHER",
+    "correct": false,
+    "margin": -0.3786737100095814
+  }
+]

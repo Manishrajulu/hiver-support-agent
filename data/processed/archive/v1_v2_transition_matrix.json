@@ -1,0 +1,118 @@
+{
+  "PAYMENT_ISSUE -> OTHER": {
+    "count": 44,
+    "percentage": 25.0
+  },
+  "PAYMENT_ISSUE -> APP_USAGE": {
+    "count": 17,
+    "percentage": 9.66
+  },
+  "DELIVERY_MISSING -> OTHER": {
+    "count": 14,
+    "percentage": 7.95
+  },
+  "DELIVERY_MISSING -> ORDER_STATUS": {
+    "count": 14,
+    "percentage": 7.95
+  },
+  "PAYMENT_ISSUE -> DEVICE_ISSUE": {
+    "count": 10,
+    "percentage": 5.68
+  },
+  "DELIVERY_LATE -> APP_USAGE": {
+    "count": 8,
+    "percentage": 4.55
+  },
+  "DELIVERY_LATE -> RETURN_REQUEST": {
+    "count": 6,
+    "percentage": 3.41
+  },
+  "DELIVERY_MISSING -> RETURN_REQUEST": {
+    "count": 6,
+    "percentage": 3.41
+  },
+  "DELIVERY_LATE -> DEVICE_ISSUE": {
+    "count": 5,
+    "percentage": 2.84
+  },
+  "DELIVERY_LATE -> PRODUCT_ISSUE": {
+    "count": 5,
+    "percentage": 2.84
+  },
+  "DELIVERY_MISSING -> DEVICE_ISSUE": {
+    "count": 5,
+    "percentage": 2.84
+  },
+  "DELIVERY_MISSING -> DELIVERY_TRACKING": {
+    "count": 5,
+    "percentage": 2.84
+  },
+  "DELIVERY_MISSING -> REFUND_REQUEST": {
+    "count": 4,
+    "percentage": 2.27
+  },
+  "DELIVERY_MISSING -> APP_USAGE": {
+    "count": 4,
+    "percentage": 2.27
+  },
+  "DELIVERY_MISSING -> PAYMENT_ISSUE": {
+    "count": 3,
+    "percentage": 1.7
+  },
+  "DELIVERY_LATE -> VIDEO_STREAMING": {
+    "count": 3,
+    "percentage": 1.7
+  },
+  "ORDER_MODIFY -> OTHER": {
+    "count": 3,
+    "percentage": 1.7
+  },
+  "DELIVERY_LATE -> PAYMENT_ISSUE": {
+    "count": 3,
+    "percentage": 1.7
+  },
+  "ORDER_MODIFY -> REFUND_REQUEST": {
+    "count": 3,
+    "percentage": 1.7
+  },
+  "DELIVERY_LATE -> ACCOUNT_ACCESS": {
+    "count": 2,
+    "percentage": 1.14
+  },
+  "DELIVERY_MISSING -> ACCOUNT_ACCESS": {
+    "count": 2,
+    "percentage": 1.14
+  },
+  "ORDER_MODIFY -> ORDER_STATUS": {
+    "count": 2,
+    "percentage": 1.14
+  },
+  "DELIVERY_LATE -> REFUND_REQUEST": {
+    "count": 2,
+    "percentage": 1.14
+  },
+  "PAYMENT_ISSUE -> ACCOUNT_ACCESS": {
+    "count": 1,
+    "percentage": 0.57
+  },
+  "DELIVERY_MISSING -> VIDEO_STREAMING": {
+    "count": 1,
+    "percentage": 0.57
+  },
+  "PAYMENT_ISSUE -> VIDEO_STREAMING": {
+    "count": 1,
+    "percentage": 0.57
+  },
+  "ORDER_MODIFY -> DEVICE_ISSUE": {
+    "count": 1,
+    "percentage": 0.57
+  },
+  "DELIVERY_MISSING -> PRODUCT_ISSUE": {
+    "count": 1,
+    "percentage": 0.57
+  },
+  "DELIVERY_MISSING -> ORDER_MODIFY": {
+    "count": 1,
+    "percentage": 0.57
+  }
+}

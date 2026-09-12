@@ -1,0 +1,7 @@
+{
+  "too_short_for_intent": 1,
+  "multilingual_corrupt": 80,
+  "only_mentions_no_info": 2,
+  "good_quality": 2617,
+  "single_turn": 235
+}

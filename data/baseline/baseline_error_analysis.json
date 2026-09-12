@@ -1,0 +1,348 @@
+{
+  "total_errors": 237,
+  "error_rate": 0.4388888888888889,
+  "top_confusion_pairs": [
+    [
+      "OTHER -> DELIVERY_LATE",
+      31
+    ],
+    [
+      "OTHER -> APP_USAGE",
+      15
+    ],
+    [
+      "OTHER -> DELIVERY_MISSING",
+      11
+    ],
+    [
+      "DELIVERY_LATE -> RETURN_REQUEST",
+      9
+    ],
+    [
+      "OTHER -> RETURN_REQUEST",
+      9
+    ],
+    [
+      "APP_USAGE -> OTHER",
+      9
+    ],
+    [
+      "DELIVERY_LATE -> ORDER_STATUS",
+      9
+    ],
+    [
+      "APP_USAGE -> DELIVERY_LATE",
+      7
+    ],
+    [
+      "DELIVERY_LATE -> REFUND_REQUEST",
+      7
+    ],
+    [
+      "DELIVERY_LATE -> APP_USAGE",
+      6
+    ]
+  ],
+  "error_examples": [
+    {
+      "conversation_id": "amazonhelp_016768",
+      "actual": "DELIVERY_LATE",
+      "predicted": "APP_USAGE",
+      "text": "bonjour, @120533 \nJe veux bien que ma commande ai 2 fois du retard mais je voudrais savoir si je vais être livré. S'il le faut je vais à Corbas demain. C'est à 20 km de chez moi et Ca fait 5 jours qu'..."
+    },
+    {
+      "conversation_id": "amazonhelp_007599",
+      "actual": "OTHER",
+      "predicted": "DELIVERY_LATE",
+      "text": "@AmazonHelp Yes, I had a unpleasant experience for the first time using amazon from 2014. I got a false commitment from your customer support. #Help @AmazonHelp I can't explain the entire issue here, ..."
+    },
+    {
+      "conversation_id": "amazonhelp_043825",
+      "actual": "DELIVERY_LATE",
+      "predicted": "OTHER",
+      "text": "Pammi Aunty's here to answer all your Diwali shopping related questions. Use #DiwaliKiTayyariWithPammiAunty and ask away. https://t.co/E9P8rYlob4 @115850 Resolution to my issue. https://t.co/iykWpgmtr..."
+    },
+    {
+      "conversation_id": "amazonhelp_040239",
+      "actual": "DELIVERY_LATE",
+      "predicted": "OTHER",
+      "text": "@115821 sick of my packages arriving late, why do I pay for prime? @AmazonHelp Yes. @AmazonHelp  https://t.co/YXvUQUlcG6 @AmazonHelp Helpful"
+    },
+    {
+      "conversation_id": "amazonhelp_093818",
+      "actual": "ORDER_STATUS",
+      "predicted": "PRODUCT_ISSUE",
+      "text": "@115850 This is the TV that we received, clearly looks like it has been manhandled :( can you help us on how to resolve this? https://t.co/JsNIx25z8z @AmazonHelp Thank you for the response. The link i..."
+    },
+    {
+      "conversation_id": "amazonhelp_128596",
+      "actual": "OTHER",
+      "predicted": "DELIVERY_LATE",
+      "text": "🗣️I JUST WANT TO TAKE A BATH !!! !1! !! 1! ! 11 1!!! ! ! https://t.co/kXIvt3zQDk @115821 What's the deal, bro? https://t.co/OmTHfVYSFX @115821 I learn a lot about how much my mental state depends on b..."
+    },
+    {
+      "conversation_id": "amazonhelp_143849",
+      "actual": "OTHER",
+      "predicted": "PAYMENT_ISSUE",
+      "text": "Dear @115850 , if you look at my account you will see that I am a regular customer. But no more. I will not shop on #Amazon  any lorger. I am very dissatisfied with my Amazon experience."
+    },
+    {
+      "conversation_id": "amazonhelp_112289",
+      "actual": "DELIVERY_LATE",
+      "predicted": "RETURN_REQUEST",
+      "text": "Last minute waale ho ya future ke liye plan karne waale, daily waale items ya tyohaar pe mangwaane waale. #SabAmazonWaale karte hai Amazon pe bharosa. https://t.co/ALL3yV1X5i @115850 Horrible delivery..."
+    },
+    {
+      "conversation_id": "amazonhelp_121800",
+      "actual": "OTHER",
+      "predicted": "DELIVERY_LATE",
+      "text": "@AmazonHelp I have removed the tweet to avoid sharing of personal information. Please take my concern forward. @AmazonHelp What is the update on my complaint? @AmazonHelp I want a reply on Twitter. I ..."
+    },
+    {
+      "conversation_id": "amazonhelp_142443",
+      "actual": "OTHER",
+      "predicted": "ACCOUNT_ACCESS",
+      "text": "@AmazonHelp on my last order I put that I couldn’t accept weekend deliveries, now I can, how do I change that on my account to accept them @AmazonHelp @300631 The \"delivery instructions\" only in fact ..."
+    },
+    {
+      "conversation_id": "amazonhelp_064605",
+      "actual": "APP_USAGE",
+      "predicted": "DEVICE_ISSUE",
+      "text": "@AmazonHelp trying to buy one of your lightning deals today for the Nintendo switch and don't think this is particularly fair?? https://t.co/C6usGF2deT @AmazonHelp Even worse, how come I can buy just ..."
+    },
+    {
+      "conversation_id": "amazonhelp_080822",
+      "actual": "OTHER",
+      "predicted": "ORDER_STATUS",
+      "text": "@115830 ordered a logitech g29 from you on Friday. Anyway I can collect from somewhere to get it earlier @AmazonHelp No, it hasn't been dispatched. I tried that and it just keeps going back to the hom..."
+    },
+    {
+      "conversation_id": "amazonhelp_000568",
+      "actual": "DELIVERY_LATE",
+      "predicted": "PAYMENT_ISSUE",
+      "text": "Hi @115850 the payment for a recent order did not go through earlier but now the money has been debited twice. Kindly help. @AmazonHelp @AmazonHelp I am not sure what has happened as the account isn't..."
+    },
+    {
+      "conversation_id": "amazonhelp_084050",
+      "actual": "OTHER",
+      "predicted": "RETURN_REQUEST",
+      "text": "Hit ❤ or re-tweet to get notified when the OnePlus 5T sale begins, exclusively on Amazon. Stay tuned to get #ANewView. https://t.co/0Ci7j8Lsoo @145223 Thank you for your interest! You will be notified..."
+    },
+    {
+      "conversation_id": "amazonhelp_020579",
+      "actual": "DELIVERY_LATE",
+      "predicted": "APP_USAGE",
+      "text": "Yup I’m sure for my new $100 webcam this was a good choice for packaging options thanks @AmazonHelp https://t.co/crc8C3WeQT @AmazonHelp Oh I will have to plug it in to see if it would work. But I want..."
+    },
+    {
+      "conversation_id": "amazonhelp_120049",
+      "actual": "APP_USAGE",
+      "predicted": "DELIVERY_MISSING",
+      "text": "Oi @115830 suck your mum your next day delivery is a load of bollocks @AmazonHelp I paid for next day delivery and my item didn't arrive"
+    },
+    {
+      "conversation_id": "amazonhelp_107211",
+      "actual": "OTHER",
+      "predicted": "DELIVERY_LATE",
+      "text": "HI @AmazonHelp when I signed up for Prime it was for next day delivery 7 days a week, orders on Friday aren't delivered 'til Monday; why? https://t.co/dtKFN361uN @AmazonHelp And I live in a SAME DAY d..."
+    },
+    {
+      "conversation_id": "amazonhelp_079599",
+      "actual": "OTHER",
+      "predicted": "APP_USAGE",
+      "text": "thx @115821 https://t.co/1HbR12riEa @115821 btw it actually came like 8 mins after this so like"
+    },
+    {
+      "conversation_id": "amazonhelp_013959",
+      "actual": "APP_USAGE",
+      "predicted": "OTHER",
+      "text": "@119772 @118919  Facing login issues on amazon of docomo no.8699995822\nError cming.and cc of amazon of no help .HELP AMAZON.IN https://t.co/FdLlCJEVLh @119772 @118919 https://t.co/jU1zMmQ0I2 kindly lo..."
+    },
+    {
+      "conversation_id": "amazonhelp_137322",
+      "actual": "RETURN_REQUEST",
+      "predicted": "PAYMENT_ISSUE",
+      "text": "Got an Amazon gift card for my birthday and had trouble redeeming it. @116090 has been literally useless as my friend and I have tried to get help resolving the issue. Trash responses and continually ..."
+    },
+    {
+      "conversation_id": "amazonhelp_025719",
+      "actual": "OTHER",
+      "predicted": "DELIVERY_LATE",
+      "text": "😡if you dont want to deliver product at home, then whats the meaning of home delivery..its not apna dukan😡 @AmazonHelp @115850 @AmazonHelp for evry order.. i had faced trouble.. ur delivery agent not ..."
+    },
+    {
+      "conversation_id": "amazonhelp_136599",
+      "actual": "PAYMENT_ISSUE",
+      "predicted": "RETURN_REQUEST",
+      "text": "@115850 why prices on product doesn’t match with listing price? Clear case of cheating... https://t.co/YSqGJQTOCh @AmazonHelp That means consumer has to pay extra even if its an issue from vendor. Asi..."
+    },
+    {
+      "conversation_id": "amazonhelp_092928",
+      "actual": "OTHER",
+      "predicted": "DELIVERY_MISSING",
+      "text": "@AmazonHelp Why is it so hard to communicate with the customer service representative? They do not  don’t understand what I am saying. Is there a language barrier here? I never had such horrible custo..."
+    },
+    {
+      "conversation_id": "amazonhelp_010053",
+      "actual": "OTHER",
+      "predicted": "APP_USAGE",
+      "text": "@120533 je suis  vraiment déçu de votre service client j'ai toujours acheté des produits via votre site. À l'avenir j'éviterai de le faire @120533 Je commande des produits et je ne les reçois pas cett..."
+    },
+    {
+      "conversation_id": "amazonhelp_001496",
+      "actual": "DELIVERY_MISSING",
+      "predicted": "DELIVERY_LATE",
+      "text": "@115850 what happened to your service.. it's really disgusting.\n#Amazon @AmazonHelp The product which was supposed to deliver yesterday is still not delivered.. your customer care have no idea about i..."
+    },
+    {
+      "conversation_id": "amazonhelp_114547",
+      "actual": "DELIVERY_MISSING",
+      "predicted": "RETURN_REQUEST",
+      "text": "Worst service from@amazonIN, 18days not yet shipped and finally customer service told to cancel and reorder, no policy to register complaint https://t.co/HkHLpto0QJ @AmazonHelp No updates from @115850..."
+    },
+    {
+      "conversation_id": "amazonhelp_139084",
+      "actual": "DELIVERY_LATE",
+      "predicted": "RETURN_REQUEST",
+      "text": "@115850  I'm having unconvince to connect with AMAZONIN on call \n9825686829\nDoesn't make sense what is wrong with Amazon quality :( @AmazonHelp I will keep that mind I have provided you so you can tra..."
+    },
+    {
+      "conversation_id": "amazonhelp_039929",
+      "actual": "OTHER",
+      "predicted": "RETURN_REQUEST",
+      "text": "@AmazonHelp hi guys, I'm having an issue on https://t.co/qaSsRdfmXm that's not covered by help topics. Can you assist? @AmazonHelp Lots of items I'm looking for are listed as free delivery, but when t..."
+    },
+    {
+      "conversation_id": "amazonhelp_140683",
+      "actual": "DEVICE_ISSUE",
+      "predicted": "ACCOUNT_ACCESS",
+      "text": "@117634 - I'm having real difficulty accessing my Kindle account and nobody can seem to help me. \n\nMy dad used his email address from his previous job to start the Kindle account but has now forgotten..."
+    },
+    {
+      "conversation_id": "amazonhelp_049715",
+      "actual": "OTHER",
+      "predicted": "DELIVERY_LATE",
+      "text": "@115821 sent me an empty cardboard box instead of my Elgato Capture card, from 1 day shipping to waiting 4 days #streamerproblems #feelsbad @AmazonHelp Yes I was but I was only able to get my item re-..."
+    },
+    {
+      "conversation_id": "amazonhelp_033808",
+      "actual": "ACCOUNT_ACCESS",
+      "predicted": "OTHER",
+      "text": "Not at home? Not a problem. Introducing Amazon Key, in-home delivery and guest access exclusively for Prime members. https://t.co/phHJM4I9jn https://t.co/dj3Ndw8fP1 @115821 What if your alarm is on? @..."
+    },
+    {
+      "conversation_id": "amazonhelp_050969",
+      "actual": "DELIVERY_LATE",
+      "predicted": "PRODUCT_ISSUE",
+      "text": "Shopping has never been easier. Enjoy hassle-free refunds on returned orders, only on Amazon.  https://t.co/Ecwf8OrBos https://t.co/CSz8QPIAFa @115850 @115821 looks like you force customers to refund ..."
+    },
+    {
+      "conversation_id": "amazonhelp_096352",
+      "actual": "APP_USAGE",
+      "predicted": "DELIVERY_LATE",
+      "text": "@AmazonHelp flex independent driver enjoy the adventure, until ran unto two bullies that r perm hire in the warehouse, lied and said I was speeding it is hell-a cars. Informed cant take route but anot..."
+    },
+    {
+      "conversation_id": "amazonhelp_073217",
+      "actual": "DEVICE_ISSUE",
+      "predicted": "VIDEO_STREAMING",
+      "text": "Quem já conhece o FireTV Stick? 😍 Agora você pode acessar facilmente o conteúdo do Prime Video, Netflix, Youtube e mais de 4 mil apps e jogos. Confira agora: https://t.co/DDvt5AURkI https://t.co/BOcoO..."
+    },
+    {
+      "conversation_id": "amazonhelp_111890",
+      "actual": "OTHER",
+      "predicted": "APP_USAGE",
+      "text": "@115830 This is how deliveries to a specified safe place are made, perched on a wheelie bin 2 feet in front of the door with the sign saying the space is behind the door. Its not rocket science, get i..."
+    },
+    {
+      "conversation_id": "amazonhelp_124958",
+      "actual": "APP_USAGE",
+      "predicted": "OTHER",
+      "text": "Esse app da amazon prime é muito bugado , episódio seguinte começa sempre sem som , e sem legendas . @117086 @AmazonHelp Não aparece msg , quando passa automaticamente de um episódio para o outro o so..."
+    },
+    {
+      "conversation_id": "amazonhelp_137124",
+      "actual": "DELIVERY_LATE",
+      "predicted": "DEVICE_ISSUE",
+      "text": "@147807 any ETA for amazon.fr ? Thanks @AmazonHelp When will « amazon business » be available for amazon.fr ?"
+    },
+    {
+      "conversation_id": "amazonhelp_152647",
+      "actual": "APP_USAGE",
+      "predicted": "DELIVERY_LATE",
+      "text": "Oh @115821 why is your delivery stumped by my building's gate? And why don't you ever call me when that happens? I'm just inside. @AmazonHelp Yes. USPS and FedEx get my packages delivered without issu..."
+    },
+    {
+      "conversation_id": "amazonhelp_039079",
+      "actual": "PAYMENT_ISSUE",
+      "predicted": "APP_USAGE",
+      "text": "Plz help me@amazonIN @AmazonHelp \nI saw a job advt. for the post of amazon supervisor  on @29757  whn i called them they offering jobs to freshers but to get this job they asked me to deposit 1550₹ in..."
+    },
+    {
+      "conversation_id": "amazonhelp_144564",
+      "actual": "DELIVERY_LATE",
+      "predicted": "PAYMENT_ISSUE",
+      "text": "Appalling @115830 !!Been lied to by your carriers on my last 2 orders,spent my day trying to sort out your mess up!Completely unreliable @115830 I have tried and have got no where. I have just been pr..."
+    },
+    {
+      "conversation_id": "amazonhelp_092521",
+      "actual": "OTHER",
+      "predicted": "DELIVERY_MISSING",
+      "text": "@1584 last 3daz calling u still no call or any communication received from your side #worstservice @115850 ext warr for firestick @1584 @115850 After sharing the no# no call receive yet ..#worstcustom..."
+    },
+    {
+      "conversation_id": "amazonhelp_129245",
+      "actual": "OTHER",
+      "predicted": "PAYMENT_ISSUE",
+      "text": "@AmazonHelp is there a complaint email address I can use for a uk order please @AmazonHelp Do you have a dedicated complaint email address outside of the site please"
+    },
+    {
+      "conversation_id": "amazonhelp_033859",
+      "actual": "OTHER",
+      "predicted": "DELIVERY_MISSING",
+      "text": "@115851 #jeffbezos Need your help sir,customer service @2005 is not providing solution, recieved soap instead of a phone worth 33k @AmazonHelp I raised this on 10th oct through an email, does it take ..."
+    },
+    {
+      "conversation_id": "amazonhelp_119659",
+      "actual": "DELIVERY_LATE",
+      "predicted": "DELIVERY_MISSING",
+      "text": "@115821 when will you solve my issue. You are making fake promises from 2 weeks. @AmazonHelp Actually ,I got self return for my order but I have tried more than 10 courier services but all of them den..."
+    },
+    {
+      "conversation_id": "amazonhelp_066679",
+      "actual": "DEVICE_ISSUE",
+      "predicted": "OTHER",
+      "text": "MEU KINDLE NAO TA ABRINDO PDF MEU DEUS @117086 PRECISO LER MEUS TEXTOS DA MONOGRAFIA AAAAA @AmazonHelp eu tava arrastando os arquivos pra pasta documents, como sempre fiz em anos e sempre deu certo :(..."
+    },
+    {
+      "conversation_id": "amazonhelp_074935",
+      "actual": "PRODUCT_ISSUE",
+      "predicted": "VIDEO_STREAMING",
+      "text": "“It’s too bad she won’t live! ...then again, who does?” https://t.co/CxxK75BMhi @115830 deserves a spanking however. No bubble wrap on a movie. Size of the box is the same as the film box. Yikes!  Dam..."
+    },
+    {
+      "conversation_id": "amazonhelp_097347",
+      "actual": "PAYMENT_ISSUE",
+      "predicted": "DELIVERY_MISSING",
+      "text": "@AmazonHelp Pathetic service still now my product is not delivered no one came to deliver saying payment pending https://t.co/hd7TQIPgG2 @AmazonHelp i havent got email it shows that your service has b..."
+    },
+    {
+      "conversation_id": "amazonhelp_099974",
+      "actual": "REFUND_REQUEST",
+      "predicted": "APP_USAGE",
+      "text": "@AmazonHelp Twice in last month goods have not reached Locker destination. Seller now want me to wait another 10 days. Not happy. @AmazonHelp Thks. Will check link. 1st seller already issued refund. 2..."
+    },
+    {
+      "conversation_id": "amazonhelp_148697",
+      "actual": "OTHER",
+      "predicted": "DELIVERY_LATE",
+      "text": "USPS did it again. Amazon thinks my package is at my place when it's not. USPS said they delivered at 12AM when my apt doesn't have anyone manning it until 10am on Saturdays. plus, when I got off at 6..."
+    },
+    {
+      "conversation_id": "amazonhelp_108302",
+      "actual": "OTHER",
+      "predicted": "DELIVERY_MISSING",
+      "text": "Do @115830 realise if you pay next day delivery it's meant to come next day? Where art my fookin parcel?! @AmazonHelp https://t.co/qVtKBk2a50 @AmazonHelp just got an email saying there has been a prob..."
+    }
+  ]
+}

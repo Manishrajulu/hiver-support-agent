@@ -1,0 +1,102 @@
+[
+  {
+    "word_features": 5000,
+    "char_features": 5000,
+    "accuracy": 0.6814814814814815,
+    "correct": 368,
+    "time": 4.675291061401367,
+    "config": "word(1,2,5000)+char(3,6,5000)"
+  },
+  {
+    "word_features": 5000,
+    "char_features": 8000,
+    "accuracy": 0.6851851851851852,
+    "correct": 370,
+    "time": 5.0800065994262695,
+    "config": "word(1,2,5000)+char(3,6,8000)"
+  },
+  {
+    "word_features": 5000,
+    "char_features": 10000,
+    "accuracy": 0.687037037037037,
+    "correct": 371,
+    "time": 5.353259563446045,
+    "config": "word(1,2,5000)+char(3,6,10000)"
+  },
+  {
+    "word_features": 8000,
+    "char_features": 5000,
+    "accuracy": 0.6888888888888889,
+    "correct": 372,
+    "time": 5.345820903778076,
+    "config": "word(1,2,8000)+char(3,6,5000)"
+  },
+  {
+    "word_features": 8000,
+    "char_features": 8000,
+    "accuracy": 0.6944444444444444,
+    "correct": 375,
+    "time": 5.190413236618042,
+    "config": "word(1,2,8000)+char(3,6,8000)"
+  },
+  {
+    "word_features": 8000,
+    "char_features": 10000,
+    "accuracy": 0.6907407407407408,
+    "correct": 373,
+    "time": 5.400335311889648,
+    "config": "word(1,2,8000)+char(3,6,10000)"
+  },
+  {
+    "word_features": 10000,
+    "char_features": 5000,
+    "accuracy": 0.6907407407407408,
+    "correct": 373,
+    "time": 5.236407279968262,
+    "config": "word(1,2,10000)+char(3,6,5000)"
+  },
+  {
+    "word_features": 10000,
+    "char_features": 8000,
+    "accuracy": 0.6851851851851852,
+    "correct": 370,
+    "time": 5.100162506103516,
+    "config": "word(1,2,10000)+char(3,6,8000)"
+  },
+  {
+    "word_features": 10000,
+    "char_features": 10000,
+    "accuracy": 0.6759259259259259,
+    "correct": 365,
+    "time": 5.757100820541382,
+    "config": "word(1,2,10000)+char(3,6,10000)"
+  },
+  {
+    "total_features": 15000,
+    "accuracy": 0.6814814814814815,
+    "correct": 368,
+    "time": 4.921692371368408,
+    "config": "word(1,2,7500)+char(3,6,7500)"
+  },
+  {
+    "total_features": 20000,
+    "accuracy": 0.6759259259259259,
+    "correct": 365,
+    "time": 6.0035436153411865,
+    "config": "word(1,2,10000)+char(3,6,10000)"
+  },
+  {
+    "total_features": 30000,
+    "accuracy": 0.6777777777777778,
+    "correct": 366,
+    "time": 6.235584259033203,
+    "config": "word(1,2,15000)+char(3,6,15000)"
+  },
+  {
+    "total_features": 50000,
+    "accuracy": 0.6703703703703704,
+    "correct": 362,
+    "time": 6.399870872497559,
+    "config": "word(1,2,25000)+char(3,6,25000)"
+  }
+]

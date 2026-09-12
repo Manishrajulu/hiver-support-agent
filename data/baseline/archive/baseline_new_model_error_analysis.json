@@ -1,0 +1,388 @@
+{
+  "total_errors": 238,
+  "error_rate": 0.44074074074074077,
+  "top_confusion_pairs": [
+    [
+      "OTHER -> DELIVERY_LATE",
+      36
+    ],
+    [
+      "OTHER -> APP_USAGE",
+      16
+    ],
+    [
+      "APP_USAGE -> OTHER",
+      13
+    ],
+    [
+      "DELIVERY_LATE -> OTHER",
+      13
+    ],
+    [
+      "OTHER -> DELIVERY_MISSING",
+      11
+    ],
+    [
+      "OTHER -> RETURN_REQUEST",
+      9
+    ],
+    [
+      "DELIVERY_MISSING -> DELIVERY_LATE",
+      8
+    ],
+    [
+      "APP_USAGE -> DELIVERY_LATE",
+      8
+    ],
+    [
+      "OTHER -> ORDER_STATUS",
+      6
+    ],
+    [
+      "OTHER -> VIDEO_STREAMING",
+      6
+    ],
+    [
+      "OTHER -> DEVICE_ISSUE",
+      6
+    ],
+    [
+      "DELIVERY_LATE -> DELIVERY_MISSING",
+      5
+    ],
+    [
+      "DELIVERY_LATE -> ORDER_STATUS",
+      4
+    ],
+    [
+      "ORDER_STATUS -> DELIVERY_MISSING",
+      4
+    ],
+    [
+      "PRODUCT_ISSUE -> REFUND_REQUEST",
+      4
+    ],
+    [
+      "VIDEO_STREAMING -> DEVICE_ISSUE",
+      3
+    ],
+    [
+      "DELIVERY_LATE -> PRODUCT_ISSUE",
+      3
+    ],
+    [
+      "DELIVERY_LATE -> RETURN_REQUEST",
+      3
+    ],
+    [
+      "DELIVERY_LATE -> PAYMENT_ISSUE",
+      3
+    ],
+    [
+      "APP_USAGE -> RETURN_REQUEST",
+      3
+    ]
+  ],
+  "error_examples": [
+    {
+      "conversation_id": "amazonhelp_055234",
+      "actual": "OTHER",
+      "predicted": "ORDER_STATUS",
+      "confidence": 0.14811050211648205
+    },
+    {
+      "conversation_id": "amazonhelp_027028",
+      "actual": "OTHER",
+      "predicted": "RETURN_REQUEST",
+      "confidence": 0.1294498979404561
+    },
+    {
+      "conversation_id": "amazonhelp_086721",
+      "actual": "OTHER",
+      "predicted": "APP_USAGE",
+      "confidence": 0.10710965113012945
+    },
+    {
+      "conversation_id": "amazonhelp_080321",
+      "actual": "DELIVERY_LATE",
+      "predicted": "DELIVERY_MISSING",
+      "confidence": 0.20917627516677056
+    },
+    {
+      "conversation_id": "amazonhelp_146991",
+      "actual": "OTHER",
+      "predicted": "RETURN_REQUEST",
+      "confidence": 0.12329137698882756
+    },
+    {
+      "conversation_id": "amazonhelp_056904",
+      "actual": "DEVICE_ISSUE",
+      "predicted": "PAYMENT_ISSUE",
+      "confidence": 0.1099149228421071
+    },
+    {
+      "conversation_id": "amazonhelp_125806",
+      "actual": "OTHER",
+      "predicted": "APP_USAGE",
+      "confidence": 0.11771786354578496
+    },
+    {
+      "conversation_id": "amazonhelp_137841",
+      "actual": "OTHER",
+      "predicted": "ORDER_STATUS",
+      "confidence": 0.13251085343642902
+    },
+    {
+      "conversation_id": "amazonhelp_068030",
+      "actual": "OTHER",
+      "predicted": "DELIVERY_MISSING",
+      "confidence": 0.17107445591884424
+    },
+    {
+      "conversation_id": "amazonhelp_035812",
+      "actual": "RETURN_REQUEST",
+      "predicted": "DELIVERY_LATE",
+      "confidence": 0.14844970886063943
+    },
+    {
+      "conversation_id": "amazonhelp_057696",
+      "actual": "APP_USAGE",
+      "predicted": "OTHER",
+      "confidence": 0.2569807260158059
+    },
+    {
+      "conversation_id": "amazonhelp_080571",
+      "actual": "OTHER",
+      "predicted": "DELIVERY_LATE",
+      "confidence": 0.2068680937315119
+    },
+    {
+      "conversation_id": "amazonhelp_048576",
+      "actual": "OTHER",
+      "predicted": "DELIVERY_LATE",
+      "confidence": 0.16890776032222235
+    },
+    {
+      "conversation_id": "amazonhelp_002466",
+      "actual": "VIDEO_STREAMING",
+      "predicted": "DEVICE_ISSUE",
+      "confidence": 0.14200173467056007
+    },
+    {
+      "conversation_id": "amazonhelp_050754",
+      "actual": "DELIVERY_MISSING",
+      "predicted": "DELIVERY_LATE",
+      "confidence": 0.223102024413696
+    },
+    {
+      "conversation_id": "amazonhelp_143707",
+      "actual": "DELIVERY_LATE",
+      "predicted": "OTHER",
+      "confidence": 0.287447116000588
+    },
+    {
+      "conversation_id": "amazonhelp_009732",
+      "actual": "OTHER",
+      "predicted": "ACCOUNT_ACCESS",
+      "confidence": 0.2187271651750312
+    },
+    {
+      "conversation_id": "amazonhelp_079872",
+      "actual": "PAYMENT_ISSUE",
+      "predicted": "APP_USAGE",
+      "confidence": 0.1269283696893056
+    },
+    {
+      "conversation_id": "amazonhelp_058474",
+      "actual": "OTHER",
+      "predicted": "APP_USAGE",
+      "confidence": 0.11142838650295624
+    },
+    {
+      "conversation_id": "amazonhelp_062436",
+      "actual": "OTHER",
+      "predicted": "DELIVERY_MISSING",
+      "confidence": 0.12229701071224965
+    },
+    {
+      "conversation_id": "amazonhelp_083916",
+      "actual": "DELIVERY_LATE",
+      "predicted": "PRODUCT_ISSUE",
+      "confidence": 0.2004448582146402
+    },
+    {
+      "conversation_id": "amazonhelp_066915",
+      "actual": "APP_USAGE",
+      "predicted": "DELIVERY_LATE",
+      "confidence": 0.19286557543756802
+    },
+    {
+      "conversation_id": "amazonhelp_004681",
+      "actual": "OTHER",
+      "predicted": "DELIVERY_MISSING",
+      "confidence": 0.13813782240490757
+    },
+    {
+      "conversation_id": "amazonhelp_108827",
+      "actual": "DELIVERY_LATE",
+      "predicted": "RETURN_REQUEST",
+      "confidence": 0.23910024315949446
+    },
+    {
+      "conversation_id": "amazonhelp_124930",
+      "actual": "OTHER",
+      "predicted": "PRODUCT_ISSUE",
+      "confidence": 0.11536920121317304
+    },
+    {
+      "conversation_id": "amazonhelp_046123",
+      "actual": "OTHER",
+      "predicted": "DELIVERY_LATE",
+      "confidence": 0.16023080064257988
+    },
+    {
+      "conversation_id": "amazonhelp_094756",
+      "actual": "DELIVERY_LATE",
+      "predicted": "DEVICE_ISSUE",
+      "confidence": 0.27958748768170005
+    },
+    {
+      "conversation_id": "amazonhelp_055904",
+      "actual": "OTHER",
+      "predicted": "APP_USAGE",
+      "confidence": 0.12343521070294332
+    },
+    {
+      "conversation_id": "amazonhelp_144598",
+      "actual": "DELIVERY_LATE",
+      "predicted": "OTHER",
+      "confidence": 0.36425064875262403
+    },
+    {
+      "conversation_id": "amazonhelp_140353",
+      "actual": "DELIVERY_MISSING",
+      "predicted": "DELIVERY_LATE",
+      "confidence": 0.17512871630724347
+    },
+    {
+      "conversation_id": "amazonhelp_025441",
+      "actual": "OTHER",
+      "predicted": "VIDEO_STREAMING",
+      "confidence": 0.202134011860183
+    },
+    {
+      "conversation_id": "amazonhelp_017610",
+      "actual": "DELIVERY_MISSING",
+      "predicted": "DELIVERY_LATE",
+      "confidence": 0.18920495506714038
+    },
+    {
+      "conversation_id": "amazonhelp_060499",
+      "actual": "OTHER",
+      "predicted": "DEVICE_ISSUE",
+      "confidence": 0.14227695983706012
+    },
+    {
+      "conversation_id": "amazonhelp_003475",
+      "actual": "ORDER_STATUS",
+      "predicted": "DELIVERY_LATE",
+      "confidence": 0.14335742863413994
+    },
+    {
+      "conversation_id": "amazonhelp_150708",
+      "actual": "APP_USAGE",
+      "predicted": "PAYMENT_ISSUE",
+      "confidence": 0.11655363597422595
+    },
+    {
+      "conversation_id": "amazonhelp_111563",
+      "actual": "APP_USAGE",
+      "predicted": "DELIVERY_MISSING",
+      "confidence": 0.16083770258076466
+    },
+    {
+      "conversation_id": "amazonhelp_092026",
+      "actual": "DELIVERY_LATE",
+      "predicted": "RETURN_REQUEST",
+      "confidence": 0.1783078521242998
+    },
+    {
+      "conversation_id": "amazonhelp_137684",
+      "actual": "PAYMENT_ISSUE",
+      "predicted": "RETURN_REQUEST",
+      "confidence": 0.11900317007296211
+    },
+    {
+      "conversation_id": "amazonhelp_126590",
+      "actual": "VIDEO_STREAMING",
+      "predicted": "DEVICE_ISSUE",
+      "confidence": 0.11850100403509313
+    },
+    {
+      "conversation_id": "amazonhelp_000809",
+      "actual": "OTHER",
+      "predicted": "RETURN_REQUEST",
+      "confidence": 0.12268503843897956
+    },
+    {
+      "conversation_id": "amazonhelp_088598",
+      "actual": "DELIVERY_LATE",
+      "predicted": "PAYMENT_ISSUE",
+      "confidence": 0.11594683430849859
+    },
+    {
+      "conversation_id": "amazonhelp_048318",
+      "actual": "OTHER",
+      "predicted": "DELIVERY_LATE",
+      "confidence": 0.15929883818866694
+    },
+    {
+      "conversation_id": "amazonhelp_047601",
+      "actual": "DELIVERY_MISSING",
+      "predicted": "REFUND_REQUEST",
+      "confidence": 0.19605474690700378
+    },
+    {
+      "conversation_id": "amazonhelp_074830",
+      "actual": "OTHER",
+      "predicted": "APP_USAGE",
+      "confidence": 0.11355038515161073
+    },
+    {
+      "conversation_id": "amazonhelp_055232",
+      "actual": "OTHER",
+      "predicted": "VIDEO_STREAMING",
+      "confidence": 0.12698201089327357
+    },
+    {
+      "conversation_id": "amazonhelp_105307",
+      "actual": "OTHER",
+      "predicted": "DELIVERY_LATE",
+      "confidence": 0.1294089510775002
+    },
+    {
+      "conversation_id": "amazonhelp_079396",
+      "actual": "OTHER",
+      "predicted": "DELIVERY_LATE",
+      "confidence": 0.13193984882358117
+    },
+    {
+      "conversation_id": "amazonhelp_067711",
+      "actual": "APP_USAGE",
+      "predicted": "OTHER",
+      "confidence": 0.32985665719191914
+    },
+    {
+      "conversation_id": "amazonhelp_079167",
+      "actual": "OTHER",
+      "predicted": "DELIVERY_LATE",
+      "confidence": 0.13683545724448634
+    },
+    {
+      "conversation_id": "amazonhelp_104789",
+      "actual": "APP_USAGE",
+      "predicted": "OTHER",
+      "confidence": 0.30243301652538523
+    }
+  ]
+}

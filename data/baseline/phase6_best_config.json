@@ -1,0 +1,31 @@
+{
+  "word_params": {
+    "ngram_range": [
+      1,
+      2
+    ],
+    "max_features": 8000,
+    "min_df": 2,
+    "max_df": 0.95,
+    "sublinear_tf": true
+  },
+  "char_params": {
+    "analyzer": "char_wb",
+    "ngram_range": [
+      3,
+      6
+    ],
+    "max_features": 8000,
+    "min_df": 2,
+    "max_df": 0.95,
+    "sublinear_tf": true
+  },
+  "classifier": {
+    "C": 5.0,
+    "class_weight": "balanced",
+    "random_state": 42,
+    "max_iter": 5000
+  },
+  "dataset": "amazonhelp_labeled_conversations_v21_phase6c.jsonl",
+  "description": "Phase 6 best: word(1,2,8k) + char(3,6,8k) + LinearSVC C=5.0"
+}

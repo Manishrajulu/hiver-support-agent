@@ -1,0 +1,104 @@
+{
+  "v1_distribution": {
+    "DEVICE_ISSUE": 152,
+    "APP_USAGE": 200,
+    "OTHER": 968,
+    "DELIVERY_LATE": 556,
+    "PAYMENT_ISSUE": 128,
+    "ORDER_STATUS": 119,
+    "VIDEO_STREAMING": 65,
+    "REFUND_REQUEST": 92,
+    "RETURN_REQUEST": 141,
+    "DELIVERY_MISSING": 147,
+    "DELIVERY_TRACKING": 35,
+    "ACCOUNT_ACCESS": 30,
+    "PRODUCT_ISSUE": 50,
+    "ORDER_MODIFY": 17
+  },
+  "v2_distribution": {
+    "DEVICE_ISSUE": 173,
+    "APP_USAGE": 229,
+    "OTHER": 1029,
+    "DELIVERY_LATE": 522,
+    "ORDER_STATUS": 135,
+    "VIDEO_STREAMING": 70,
+    "REFUND_REQUEST": 101,
+    "PAYMENT_ISSUE": 61,
+    "RETURN_REQUEST": 153,
+    "DELIVERY_MISSING": 87,
+    "DELIVERY_TRACKING": 40,
+    "ACCOUNT_ACCESS": 35,
+    "PRODUCT_ISSUE": 56,
+    "ORDER_MODIFY": 9
+  },
+  "v21_distribution": {
+    "DEVICE_ISSUE": 170,
+    "PAYMENT_ISSUE": 114,
+    "OTHER": 1013,
+    "DELIVERY_LATE": 481,
+    "APP_USAGE": 221,
+    "ORDER_STATUS": 133,
+    "VIDEO_STREAMING": 71,
+    "REFUND_REQUEST": 67,
+    "RETURN_REQUEST": 153,
+    "DELIVERY_MISSING": 143,
+    "DELIVERY_TRACKING": 40,
+    "ACCOUNT_ACCESS": 33,
+    "PRODUCT_ISSUE": 53,
+    "ORDER_MODIFY": 8
+  },
+  "v22_distribution": {
+    "DEVICE_ISSUE": 169,
+    "APP_USAGE": 233,
+    "OTHER": 1075,
+    "DELIVERY_LATE": 533,
+    "REFUND_REQUEST": 44,
+    "ORDER_STATUS": 116,
+    "VIDEO_STREAMING": 71,
+    "PAYMENT_ISSUE": 53,
+    "RETURN_REQUEST": 136,
+    "DELIVERY_MISSING": 137,
+    "DELIVERY_TRACKING": 35,
+    "ACCOUNT_ACCESS": 38,
+    "PRODUCT_ISSUE": 53,
+    "ORDER_MODIFY": 7
+  },
+  "v1_confidence": {
+    "HIGH": 512,
+    "MEDIUM": 1220,
+    "LOW": 968
+  },
+  "v2_confidence": {
+    "HIGH": 500,
+    "MEDIUM": 1171,
+    "LOW": 1029
+  },
+  "v21_confidence": {
+    "HIGH": 508,
+    "MEDIUM": 1179,
+    "LOW": 1013
+  },
+  "v22_confidence": {
+    "HIGH": 485,
+    "MEDIUM": 1140,
+    "LOW": 1075
+  },
+  "v1_language": {
+    "non_en": 2683,
+    "en": 17
+  },
+  "v22_language": {
+    "en": 2306,
+    "non_en": 391,
+    "unknown": 3
+  },
+  "v1_other_count": 968,
+  "v2_other_count": 1029,
+  "v21_other_count": 1013,
+  "v22_other_count": 1075,
+  "changes_v21_v22_count": 264,
+  "multi_intent_v1": 777,
+  "multi_intent_v2": 735,
+  "multi_intent_v21": 746,
+  "multi_intent_v22": 639
+}

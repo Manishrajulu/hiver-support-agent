@@ -1,0 +1,368 @@
+[
+  {
+    "id": "amazonhelp_001869",
+    "old_label": "OTHER",
+    "new_label": "DELIVERY_LATE",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "amazonhelp_011612",
+    "old_label": "OTHER",
+    "new_label": "DELIVERY_LATE",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "amazonhelp_015635",
+    "old_label": "OTHER",
+    "new_label": "DELIVERY_LATE",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "amazonhelp_019975",
+    "old_label": "OTHER",
+    "new_label": "DELIVERY_LATE",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "amazonhelp_037160",
+    "old_label": "OTHER",
+    "new_label": "DELIVERY_LATE",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "amazonhelp_039476",
+    "old_label": "OTHER",
+    "new_label": "DELIVERY_LATE",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "amazonhelp_040428",
+    "old_label": "OTHER",
+    "new_label": "DELIVERY_LATE",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "amazonhelp_044006",
+    "old_label": "OTHER",
+    "new_label": "DELIVERY_LATE",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "amazonhelp_046123",
+    "old_label": "OTHER",
+    "new_label": "DELIVERY_LATE",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "amazonhelp_048318",
+    "old_label": "OTHER",
+    "new_label": "DELIVERY_LATE",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "amazonhelp_055232",
+    "old_label": "OTHER",
+    "new_label": "DELIVERY_LATE",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "amazonhelp_055904",
+    "old_label": "OTHER",
+    "new_label": "DELIVERY_LATE",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "amazonhelp_068531",
+    "old_label": "OTHER",
+    "new_label": "DELIVERY_LATE",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "amazonhelp_069293",
+    "old_label": "OTHER",
+    "new_label": "DELIVERY_LATE",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "amazonhelp_078554",
+    "old_label": "OTHER",
+    "new_label": "DELIVERY_LATE",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "amazonhelp_079167",
+    "old_label": "OTHER",
+    "new_label": "DELIVERY_LATE",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "amazonhelp_080571",
+    "old_label": "OTHER",
+    "new_label": "DELIVERY_LATE",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "amazonhelp_084122",
+    "old_label": "OTHER",
+    "new_label": "DELIVERY_LATE",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "amazonhelp_102084",
+    "old_label": "OTHER",
+    "new_label": "DELIVERY_LATE",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "amazonhelp_005946",
+    "old_label": "APP_USAGE",
+    "new_label": "DELIVERY_LATE",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "amazonhelp_029127",
+    "old_label": "APP_USAGE",
+    "new_label": "DELIVERY_LATE",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "amazonhelp_033042",
+    "old_label": "APP_USAGE",
+    "new_label": "DELIVERY_LATE",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "amazonhelp_105307",
+    "old_label": "OTHER",
+    "new_label": "DELIVERY_LATE",
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "amazonhelp_106226",
+    "old_label": "OTHER",
+    "new_label": "DELIVERY_LATE",
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "amazonhelp_109328",
+    "old_label": "OTHER",
+    "new_label": "DELIVERY_MISSING",
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "amazonhelp_121157",
+    "old_label": "OTHER",
+    "new_label": "DELIVERY_MISSING",
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "amazonhelp_128451",
+    "old_label": "OTHER",
+    "new_label": "DELIVERY_LATE",
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "amazonhelp_129221",
+    "old_label": "OTHER",
+    "new_label": "DELIVERY_LATE",
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "amazonhelp_131022",
+    "old_label": "OTHER",
+    "new_label": "ACCOUNT_ACCESS",
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "amazonhelp_133210",
+    "old_label": "OTHER",
+    "new_label": "DELIVERY_LATE",
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "amazonhelp_134724",
+    "old_label": "OTHER",
+    "new_label": "DELIVERY_LATE",
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "amazonhelp_135886",
+    "old_label": "OTHER",
+    "new_label": "DEVICE_ISSUE",
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "amazonhelp_137841",
+    "old_label": "OTHER",
+    "new_label": "ORDER_STATUS",
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "amazonhelp_139380",
+    "old_label": "OTHER",
+    "new_label": "ORDER_STATUS",
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "amazonhelp_144131",
+    "old_label": "OTHER",
+    "new_label": "DELIVERY_LATE",
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "amazonhelp_144542",
+    "old_label": "OTHER",
+    "new_label": "DELIVERY_LATE",
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "amazonhelp_147887",
+    "old_label": "OTHER",
+    "new_label": "DELIVERY_LATE",
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "amazonhelp_148887",
+    "old_label": "OTHER",
+    "new_label": "APP_USAGE",
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "amazonhelp_149752",
+    "old_label": "OTHER",
+    "new_label": "APP_USAGE",
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "amazonhelp_152727",
+    "old_label": "OTHER",
+    "new_label": "DELIVERY_LATE",
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "amazonhelp_001339",
+    "old_label": "OTHER",
+    "new_label": "APP_USAGE",
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "amazonhelp_006576",
+    "old_label": "OTHER",
+    "new_label": "APP_USAGE",
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "amazonhelp_041137",
+    "old_label": "OTHER",
+    "new_label": "APP_USAGE",
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "amazonhelp_041431",
+    "old_label": "OTHER",
+    "new_label": "APP_USAGE",
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "amazonhelp_058474",
+    "old_label": "OTHER",
+    "new_label": "APP_USAGE",
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "amazonhelp_074830",
+    "old_label": "OTHER",
+    "new_label": "APP_USAGE",
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "amazonhelp_086721",
+    "old_label": "OTHER",
+    "new_label": "APP_USAGE",
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "amazonhelp_104211",
+    "old_label": "OTHER",
+    "new_label": "APP_USAGE",
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "amazonhelp_112813",
+    "old_label": "OTHER",
+    "new_label": "APP_USAGE",
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "amazonhelp_125806",
+    "old_label": "OTHER",
+    "new_label": "APP_USAGE",
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "amazonhelp_131221",
+    "old_label": "OTHER",
+    "new_label": "APP_USAGE",
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "amazonhelp_042597",
+    "old_label": "APP_USAGE",
+    "new_label": "DELIVERY_LATE",
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "amazonhelp_066915",
+    "old_label": "APP_USAGE",
+    "new_label": "DELIVERY_LATE",
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "amazonhelp_148824",
+    "old_label": "APP_USAGE",
+    "new_label": "DELIVERY_LATE",
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "amazonhelp_154111",
+    "old_label": "APP_USAGE",
+    "new_label": "DELIVERY_MISSING",
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "amazonhelp_020721",
+    "old_label": "OTHER",
+    "new_label": "DELIVERY_LATE",
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "amazonhelp_030619",
+    "old_label": "OTHER",
+    "new_label": "DELIVERY_LATE",
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "amazonhelp_035079",
+    "old_label": "OTHER",
+    "new_label": "DELIVERY_MISSING",
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "amazonhelp_035425",
+    "old_label": "OTHER",
+    "new_label": "VIDEO_STREAMING",
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "amazonhelp_044064",
+    "old_label": "OTHER",
+    "new_label": "VIDEO_STREAMING",
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "amazonhelp_115856",
+    "old_label": "OTHER",
+    "new_label": "VIDEO_STREAMING",
+    "confidence": "MEDIUM"
+  }
+]

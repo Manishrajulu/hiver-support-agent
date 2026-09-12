@@ -1,0 +1,15 @@
+{
+  "primary_intent_distribution": {
+    "TECHNICAL": 305,
+    "OTHER": 632,
+    "ACCOUNT": 107,
+    "DELIVERY": 1028,
+    "PAYMENT": 88,
+    "ORDER": 294,
+    "REFUND": 64,
+    "PRIME": 20,
+    "RETURN": 82,
+    "PRODUCT": 80
+  },
+  "sample_size": 2700
+}

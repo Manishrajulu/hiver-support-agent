@@ -1,0 +1,900 @@
+{
+  "total_delivery_late": 556,
+  "random_30": [
+    {
+      "conversation_id": "amazonhelp_018644",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "APP_USAGE"
+      ],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "@AmazonHelp It's 9:30 pm... any chance this is going to happen? https://t.co/r2UsqX6DcG",
+        "@AmazonHelp Amazon. The Fulfillment center is basically a 10 minute drive my house, so rather surprising that 16 hours later it isn't here..."
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_101910",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "REFUND_REQUEST"
+      ],
+      "confidence": "HIGH",
+      "customer_messages": [
+        "@115850 @AmazonHelp Pathetic service, first refused to home delivery even after promised the same &amp; now refunded money after gift &amp; card money",
+        "@115850 @AmazonHelp I need to talk customer care",
+        "@115850 @AmazonHelp @115850 @AmazonHelp I need to talk customer care asap",
+        "@115850 @AmazonHelp @115850 @amazonhelp please i need to contact amazon asap"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_080852",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "APP_USAGE"
+      ],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "Hey @115821, I ordered a package for guaranteed delivery by today and nothing has arrived.  Tracking info is no help.  Where's my package?",
+        "@AmazonHelp I have no idea!  The tracking info on your website literally has no information.",
+        "@AmazonHelp It just says that the package was supposed to have been delivered by today."
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_042001",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "APP_USAGE",
+        "VIDEO_STREAMING"
+      ],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "@115821 We are trying to play videos shot with an iPhone on a Fire.…we are a retail store …we have one running now using the app video looper but are ",
+        "@AmazonHelp Sorry fires!"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_072882",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "APP_USAGE"
+      ],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "@122232 @AmazonHelp @115830 my parcel hasn't arrived even though DPD say it will be delivered yesterday... driver has clearly made a mistake and doesn",
+        "@AmazonHelp Tracking is wrong.\nGot hourly window, didn't arrive.\nPut request on website to leave in safe place that day but apparently 'attempts deliv",
+        "@AmazonHelp Says rescheduled when it wasn't. I just updated a safe place as my hour window was not met on Monday. Now it's nowhere to be seen. Even @1"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_055192",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "RETURN_REQUEST"
+      ],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "@115850 I have never faced any such issue thru Flipkart or Snapdeal. So smooth in https://t.co/2tQyT6GYOV or return if u r not satisfied.",
+        "@115850 Despite of giving details, no action from ur side. Trap customer by sending wrong product and then refuse to return is ur habit",
+        "@AmazonHelp Before confirming any order, u must tell customer that in case of any issues, who will b responsible for returning the parcel."
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_030080",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "DEVICE_ISSUE"
+      ],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "@115830 what's your cut off for deliveries? Only, I'm still waiting",
+        "@AmazonHelp Still showing 'out for delivery'",
+        "@AmazonHelp Didn't arrive."
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_011815",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "PAYMENT_ISSUE"
+      ],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "Pathetic service by @AmazonHelp @115850. Prime delivery was promised for 1st ,still not received and the status is https://t.co/9wwHXmEyNG",
+        "@AmazonHelp @115850 What's the point of paying for Prime Services ,if the service is pathetic than normal.@AmazonHelp@amazonIN",
+        "@AmazonHelp He even said that the courier guy must have set the status to delivered by mistake , I mean how's that possible...",
+        "@AmazonHelp What the hell Amazon, where is my product .This is the height of bullshitting . At least give my mny bck so that I could order from flipka"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_036221",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "@AmazonHelp 2/2 today got a text saying it will be late.  Seems poor because your the couriers #vunhappyboy. https://t.co/bi2my27tBN",
+        "@AmazonHelp Q18057903843",
+        "@AmazonHelp So not one item but 2 late deliveries.  This is really really poor. #primefailurex2 https://t.co/O1p6iZOaqf"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_106453",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "APP_USAGE",
+        "DEVICE_ISSUE"
+      ],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "@AmazonHelp 1 of your Chat reps (Vikram) is insisting to me that Prime orders which clearly state \"Prime\" and show \"Guaranteed 2Day delivery\" in cart,",
+        "@730688 @AmazonHelp Exactly the same has happened to me today.",
+        "@731012 @AmazonHelp I ended up escalated to a new chat room and the guy was great. Too nice, really!",
+        "@730688 @AmazonHelp I’ve spoken to two people and not got anywhere. The second closed the chat on me when I realised he had lied."
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_051894",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "bon je passerais plus par @85871 pour avoir des set de @85872 j'ai jamais recu mon set de l'Irlande",
+        "@85871 @85872 merci a @120533  qui a etait tres vite pour comprendre que je n'aurais jamais mon article et qui a annuler la commande 😉"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_065582",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [],
+      "confidence": "HIGH",
+      "customer_messages": [
+        "Thanks @115821 @amazonhelp for the delay in shipping. I'm a prime member for 2 day shipping, not 3-4 days. Ridiculous",
+        "@AmazonHelp Driver was on my street according to your map view! Ridiculous"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_141361",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "@115821 really needs to stop “guaranteeing” arrival dates. If you can’t get it there, just say you can’t. I’m tired of relying on unreliable service @",
+        "@AmazonHelp I had a delivery due today, but it’s not out for delivery. Actually, it’s still across the state.  Second one within a week.",
+        "@AmazonHelp Well if it’s shipping USPS like you indicate it is, but just left your facility in Nashville an hour ago, there’s no way it will make it t"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_064797",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "ORDER_STATUS"
+      ],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "@115850 I never asked for delayed delivery. Why don't you just stop writing updates as its straight 3 orders and 3 false updates.!! https://t.co/2865V",
+        "@AmazonHelp @AmazonHelp Thanks for caring, I think I have enough brains to use that option before coming to twitter. Though the reply was hilarious.",
+        "@AmazonHelp i'll, call me only if u've clear idea of what is hppning arnd my orders. Else don't worry,I am an adult not a toddler like you, I'll manag",
+        "@AmazonHelp Thanks for the call that I did not received. And now the latest updates are below: https://t.co/NwsnrsXU9k",
+        "@AmazonHelp No need I have cancelled the order. Won't disturb you again. Anyways you are as useless as your customer care representatives.\n#AmazonSuck",
+        "@AmazonHelp Are you? You give me explanation of lies on my order status.!!"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_024973",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "DEVICE_ISSUE"
+      ],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "Experimented with the @AmazonHelp echo (Alexa) today. No matter how I pronounce, it doesn't recognise any Kannada song, artist or album.",
+        "@AmazonHelp Doubt if they will even add support for non-English Indian languages. Even Alexa's inbuilt translate 'Skill' doesn't recognise Kannada.",
+        "@AmazonHelp No, not from Amazon India."
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_084204",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "DEVICE_ISSUE"
+      ],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "@115850 @132994 \nReceived Oneplus 5 midnight black with white dot on top. Kindly look into this. Already mailed t details to cs-reply. https://t.co/9I",
+        "@115850 @132994 Thanks amazon. Even Mobile Box also not in good condition. Waiting for customer service team response. Will keep u posted. https://t.c"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_047601",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "PRODUCT_ISSUE",
+        "REFUND_REQUEST"
+      ],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "@115821 I ordered what turned out to be knock off fingerlings back in OCT - they STILL have not arrived - how do I get a refund? I keep asking the sel",
+        "@AmazonHelp Neither details say. Only one has what says tracking info, and it says your package should have been delivered, contact us if not. Which I"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_098746",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "PRODUCT_ISSUE"
+      ],
+      "confidence": "HIGH",
+      "customer_messages": [
+        "@115850 @132994 @13863 @132995 @139570  can you please also look into this issue, as i had ordered your phone",
+        "@180947 We do not want this to be your experience, Vinitha! Please DM us your contact details. We'll look into it. Thank you!",
+        "@139570 I have already sent my contact details thru Dm. No response yet @139570",
+        "@139570 @36038 receivd a fake iphone instead #Oneplus5 from @115850 . Follwn up fr 5 days nw. No solution yet. Plz help."
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_020579",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "PRODUCT_ISSUE"
+      ],
+      "confidence": "HIGH",
+      "customer_messages": [
+        "Yup I’m sure for my new $100 webcam this was a good choice for packaging options thanks @AmazonHelp https://t.co/crc8C3WeQT",
+        "@AmazonHelp Oh I will have to plug it in to see if it would work. But I want a new one I’m pretty sure the “electronics” lifetime has been greatly com"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_025261",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "PAYMENT_ISSUE",
+        "DEVICE_ISSUE"
+      ],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "Hey @115821 get your crap together. I've had 2 prime packages delayed in the last 24 hours. That is unacceptable. I pay for 2 day shipping. It needs t",
+        "@AmazonHelp One of your carriers for my area is either so blind or so lazy that he waits for a neighbor to come out to ask which apt is the one the pa",
+        "@AmazonHelp There's no firm date for either package. Just an estimate for one of the next couple days. Tracking shows that the carrier has it but it h"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_016603",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "amazon was supposed to ship my album on oct 4th and still hasn’t what the fuck im pissed off",
+        "@115821 im losing patience",
+        "@AmazonHelp it has been saying “shipping soon” since oct 4th, when it was actually supposed to ship"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_032294",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "APP_USAGE"
+      ],
+      "confidence": "HIGH",
+      "customer_messages": [
+        "@115850 @AmazonHelp @115851 hahahaha how many time you guys tweet same thing \"we are working on it and responded you ASAP\" till now I don't get any si",
+        "@AmazonHelp I already done that.\nTell me now where you want my detail.\nAnd you guys tell me on earlier tweet that you have my all info.\nNow what?",
+        "@AmazonHelp Now tell me what i can do wait more 24 hours to 48 hours .\nAur you wants my amazon id , phone no. address.\nfor checking my details.",
+        "@AmazonHelp Now I got a new email from your team that I have to wait for next 6hours , after that our representative will get touch to you.\nNow this i",
+        "@AmazonHelp @115850 @1840  @115851 I got my money but till now noone called me for customer satisfaction.",
+        "@AmazonHelp Thanks!!!\nYour help.",
+        "@AmazonHelp I got my money but I am totally unhappy with you guys."
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_121531",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "PAYMENT_ISSUE"
+      ],
+      "confidence": "HIGH",
+      "customer_messages": [
+        "@115830 two days in a row you have cancelled deliveries to my address now I have to wait in AGAIN tomorrow why am I paying for prime 😡 https://t.co/bo",
+        "@AmazonHelp We’re sorry to tell you that there may be a delay in delivering your order. Please allow an additional day or two for the parcel to arrive",
+        "@AmazonHelp That the email@I get why the hell do I bother paying extra for prime when I get the same service that non prime members do"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_148092",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "I ordered gold coin on 15th Oct'17 and received empty package on 29th Oct'17. No proper response and eluding from the facts,Order No: 402-1141217-7676",
+        "@115850 @115851 @AmazonHelp Its been 96 hours and 72 business hours no one has contacted me ...pathatic service.\nPlease look into this",
+        "@AmazonHelp I have shared the details and even you have acknowledged it",
+        "@AmazonHelp That reply was a formal one. Provide me with facts for the same or ask some one from your team contact me.\nThis is pathetic reply from a c"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_011316",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "PAYMENT_ISSUE",
+        "APP_USAGE"
+      ],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "I pay $100+/year for @115821 Prime and in 5+ years I’ve never had any issues. Until yesterday, when a Prime package was “Guaranteed” to arrive by the ",
+        "@AmazonHelp No, I didn’t receive an email saying it would be delayed. I had to check myself through the apps",
+        "@AmazonHelp UPS Sure Post"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_102420",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "ORDER_STATUS"
+      ],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "Hey @115821 where's my package? Says delivery by 8 pm today. Still not here. @AmazonHelp https://t.co/ocOfjiGpAY",
+        "@AmazonHelp The carrier is AMZL US. Unless the delivery arrives within the next 15 minutes, it's not likely my package will be delivered today.",
+        "@AmazonHelp Ok, I filled it out.",
+        "@AmazonHelp My order now says it will be delivered Oct. 10. That's ridiculous. What's the point of having Prime?",
+        "@AmazonHelp It shipped with Amazon and was initially guaranteed delivery by yesterday. It didn't arrive and now says Oct. 10"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_012939",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "@AmazonHelp I placed an order on Wed for next day delivery for Thur and it didn't arrive. I called and was told to wait till 9pm. Called back around 7",
+        "@AmazonHelp I was sent regular emails that it was with the courier and It will be delivered yesterday. That parcel is supposed to be on an internation",
+        "@AmazonHelp 3rd https://t.co/snvihxLFjf"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_129442",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "PAYMENT_ISSUE"
+      ],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "@AmazonHelp why do I pay for prime if it’s optional for amazon to deliver. You guys are horrible #fail #amazonsucks #customerservicefail",
+        "@AmazonHelp I was supposed to receive a time sensitive item by 8pm Wednesday. And did not receive it",
+        "@AmazonHelp And, I’m a prime member. And now I’ve spent 30 minutes chatting with people who seem to not fully understand what their jobs are. (Helping"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_064220",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "ORDER_STATUS"
+      ],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "@115830 My order was supposed to arrive between 3 and 4 today, but still nothing. Wtf? #badservice",
+        "@AmazonHelp This is a lie. I've been home ALL DAY &amp; nobody even rang my bell. What the actual hell?! #badservice #amazon #thissucks https://t.co/1",
+        "@AmazonHelp Done.",
+        "@AmazonHelp I checked my emails &amp; I haven't heard anything back. It is now 24h since the time the delivery should have taken place. This is bad.",
+        "@AmazonHelp Hey, Amazon, what's going on with my order? #badservice"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_123687",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "APP_USAGE"
+      ],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "@AmazonHelp Disappointed with customer assistance! Ordered a book that was supposed to be here but no one could tell me the shipment details",
+        "@AmazonHelp Yes, checked it online first but there was no status update for 2 days and it's way past the guaranteed delivery date.",
+        "@AmazonHelp ViA USPS but again the delivery is delayed! A week delay for smth I shudve  received in 2 days.Not choosing #Amazon again!",
+        "@AmazonHelp It just beats me how difficult this process of has turned into!! So many calls to customer service and constant tracking - NOT worth it."
+      ]
+    }
+  ],
+  "low_confidence_30": [],
+  "ambiguous_30": [
+    {
+      "conversation_id": "amazonhelp_087490",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "REFUND_REQUEST",
+        "PAYMENT_ISSUE",
+        "APP_USAGE"
+      ],
+      "confidence": "HIGH",
+      "customer_messages": [
+        "One of the fastest money back policy, Just received my money in \"15 days\" instead of \"7 days\" that... @115850 @AmazonHelp @115823 (1/2)",
+        "@AmazonHelp I guess you people are not interested in resolving issue, I'm deleting my Amazon app now bcz it's too much now. (1/3) @115850",
+        "@AmazonHelp Yes Looong bck",
+        "@AmazonHelp Is it a joke???  Even after 3 weeks Amazon can't repay my amount that also after so many promises by @115850 @AmazonHelp",
+        "@AmazonHelp How many times to write???  No ways ur policies can help customers nor a customer care Team. (1/2)",
+        "@AmazonHelp Again I have wrote on the same mail as u have suggested, I know it's been too late from ur side but still fast actions will be appreciated",
+        "@AmazonHelp I guess ur Soon won't come so Soon 😂 #RIP@AmazonHelp",
+        "@AmazonHelp It's been Just 27 days, I'll wait more 2-3 months no problem. @115850 @120781 \n@118702 u ppl rocks in resolving issues 👍",
+        "@AmazonHelp ....and finally its been a month but nothing yet happened, Hope @AmazonHelp having a Gud night sleep. Thank you 😊",
+        "@AmazonHelp If @115850 pays me a dollar per apology I would hv been millionaire by now 😂",
+        "@AmazonHelp Are you people even bothered to resolve the issues ???? Wtf is going on",
+        "@AmazonHelp Replied 5-6 times but not action has been taken",
+        "@AmazonHelp Can you please tell me how many times to reply??? I think you people are not interested in giving refund... #AmazonSucks",
+        "@AmazonHelp I don't have that much time like you people to send u details 10 times,  just go n check what was the last update.",
+        "@AmazonHelp Nice Joke @115850"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_061914",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "PAYMENT_ISSUE"
+      ],
+      "confidence": "HIGH",
+      "customer_messages": [
+        "Hey @AmazonHelp &amp; @123967: I was supposed to have some very important items delivered by 8pm today that I had 2 day shipping on, that I DESPERATEL",
+        "@AmazonHelp @123967 Why am I a paying prime member if my items aren’t delivered when they’re supposed to? My day old ducklings really needed that chic",
+        "@AmazonHelp I can’t wait until Thursday. I need this stuff NOW. I am very sick... and now I have to go out to Tractor Supply tomorrow for chick starte"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_029537",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [],
+      "confidence": "HIGH",
+      "customer_messages": [
+        "@AmazonHelp guys I have a massive issue with @116324 can someone please help ???",
+        "@AmazonHelp @116324 Was supposed to have parcel delivered ydy. Contacted hermes today and was told that the last update on my ticket is 29/11 and beca",
+        "@AmazonHelp If I want to complain, do I do this with you guys or hermes ? I basically lost a day of work because I was waiting for my parcel at home y"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_137322",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "RETURN_REQUEST",
+        "PAYMENT_ISSUE",
+        "APP_USAGE"
+      ],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "Got an Amazon gift card for my birthday and had trouble redeeming it. @116090 has been literally useless as my friend and I have tried to get help res",
+        "@AmazonHelp At first I was escalated to the Gift Card team, who then responded by telling me it was a store purchased gift card (it wasn’t) and to ret",
+        "@AmazonHelp She called and spent 15 mins on the phone before having the issue escalated to the gift card department. She is waiting for a response fro"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_042406",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "REFUND_REQUEST"
+      ],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "@AmazonHelp I am not going to revert u.from last more then 7 days..i m waiting fr refund.. nd u ppl even don't know details abt me how to contact me .",
+        "@AmazonHelp No revert means no revert"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_043221",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "APP_USAGE"
+      ],
+      "confidence": "HIGH",
+      "customer_messages": [
+        "https://t.co/xp5fThBb5W",
+        "@AmazonHelp pending pickup even after 10 days. 😡",
+        "@AmazonHelp What is UPS? Ans nobody arrived next day and even in last 10 days. Do I need to call them for the pickup? You don't monitor it? 😳🤔😡",
+        "@AmazonHelp Hi, still waiting for someone to pick this up. Have contacted your customer care. What is happening? Amazon getting worse."
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_045271",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "PAYMENT_ISSUE",
+        "ACCOUNT_ACCESS"
+      ],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "@AmazonHelp Guys, I'm still waiting on my account to be unlocked. I've received an email asking me to supply a bank statement to confirm the use of a ",
+        "@AmazonHelp There is no visa card issuer?! It's a One4All voucher that allows me to purchase Amazon gift cards, thus crediting my account. It's a shop",
+        "@AmazonHelp OK. I'll just go and send my 4th email to Amazon with the same enquiry and complaint.\n\nTo still, more than 24 hours later, Have an locked ",
+        "@AmazonHelp I have replied to two emails now confirming that I cannot supply the information they have requested due to it being a voucher, not a visa",
+        "@AmazonHelp Oh god. Lads, I cannot sign in!!! You've locked my account. The link you sent me is asking me to sign in?!? Are you even reading this thre",
+        "@AmazonHelp Done. As mentioned in my email(s) I am travelling and although have supplied a conract. number, it may not connect as I have no credit to "
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_085412",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "@AmazonHelp No reply at all , still waiting for a resolution but have not received a single reply from @115850"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_111315",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "RETURN_REQUEST",
+        "APP_USAGE",
+        "DEVICE_ISSUE"
+      ],
+      "confidence": "HIGH",
+      "customer_messages": [
+        "@AmazonHelp Again I have got a msg that my pickup has been cancelled coz I have told them to cancel this is ridiculous",
+        "@AmazonHelp I have shared the details on the link check now",
+        "@AmazonHelp Courier guy came &amp; told me that have to check the mei no &amp;again I told him that customer care ppl told me to show invoice nw he is",
+        "@AmazonHelp I want the pickup to be done today I can't wait for Tom u have the invoice with u with IMEI no so show them",
+        "@AmazonHelp What's the update? It's 7:35 and still pick up has not been made.. do I need to follow up with u guys? This time I am really pissed off",
+        "@AmazonHelp @115850  ur job is only to cash monies from ppl by putting up sales,u've no value of a customer and their experience that's it",
+        "@AmazonHelp Now I know the definition of earliest incase of Amazon..wen it will be done? Today?I can't bang my head with courier guys show them d IMEI",
+        "@AmazonHelp Check the IMEI no is showing on the phone I don't know why courier guys are creating issues in pick up, I am sick and tired https://t.co/m",
+        "@AmazonHelp Send the courier person before 9 as I have to leave post that..and u can tell them to check IMEI from the invoice and don't create issues",
+        "@AmazonHelp Even I have replied on mail.. your investigation is a never ending process in this case and I can't wait..tell me when is the pickup?",
+        "@AmazonHelp Again my pickup has been reschedule have dropped mails twice still haven't got any revert from your end..",
+        "@AmazonHelp It's not yet picked up",
+        "@AmazonHelp Still the pickup hasn't been made.. u guys don't even bother to take update from customers!! Ur idea is only to encash I am pissed off",
+        "@AmazonHelp What details you need now? You already have all the details..everytime I can't dictate the same story to every 2nd ppl in ur team",
+        "@AmazonHelp It's been 4 days and u still not come up with an update neither a solution now I can't wait",
+        "@AmazonHelp Will the pickup happening in this year or not?@115850  don't play around with me on mails and on words...this is too much now"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_021448",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "PRODUCT_ISSUE",
+        "REFUND_REQUEST",
+        "APP_USAGE"
+      ],
+      "confidence": "HIGH",
+      "customer_messages": [
+        "@115850 @115821 worst srvice in Hyd IND vry disappointed. Cx supp nt good If V hv 2 followup on complains V hv 2 repeat the whole thing",
+        "@AmazonHelp I hv provided the required details, let me know if you need more details make sure it should be resolved within deadline, I dont want refu",
+        "@AmazonHelp No updates received yet! No call nothing,I want my product to be delivered by EOD, since deadline already passed yesterday.",
+        "@AmazonHelp Till now I haven’t received any response and what are you expecting from me.. please get my product delivered. I am begging please please ",
+        "@AmazonHelp I don't wanna see any email.. just delivered my product...You guys are making fake promises over the email, chat and phone😡",
+        "@AmazonHelp Getting the same response frm last 3 days. Completely helpless. Now I m stressed 😩 and frustrated don’t want to continue any relationship ",
+        "@AmazonHelp Will be waiting.. nobody contacted till yet so let see who gonna resolve this..",
+        "@AmazonHelp Could you please share the ETA",
+        "@AmazonHelp FYI @120781 , @115850  keep saying soon soon soon soon from last 4 days.. still no ETA, whn I will get my product? stop making me",
+        "@AmazonHelp What I have to do with your correspondence same thing mentioned there too.I need my product as simple as that I have never seen such dump ",
+        "@AmazonHelp What you will respond there ‘your sincere apology and will get back to you soon’ if you could respond there why I had to cm on social medi"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_070705",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "APP_USAGE"
+      ],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "@AmazonHelp I had spoken to customer service 10 days ago and they promised a revert for fire stick\nPlease advise",
+        "@AmazonHelp Please advise ..I have filled the form.",
+        "@AmazonHelp Still awaiting for you guys to reach me",
+        "@AmazonHelp Guys ..what's happening ..I am still waiting"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_084204",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "DEVICE_ISSUE"
+      ],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "@115850 @132994 \nReceived Oneplus 5 midnight black with white dot on top. Kindly look into this. Already mailed t details to cs-reply. https://t.co/9I",
+        "@115850 @132994 Thanks amazon. Even Mobile Box also not in good condition. Waiting for customer service team response. Will keep u posted. https://t.c"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_125670",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "RETURN_REQUEST",
+        "APP_USAGE",
+        "DEVICE_ISSUE"
+      ],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "@115850 @202517 even after 6 mails and 22 live chat complaints no response you bloody cheaters #GalaxyNote8",
+        "@AmazonHelp Bought a note8 as per the terms and instructions I registered with galaxy app and within 4 days I should have got the coupon to redeem the",
+        "@AmazonHelp I bought it from Amazon .. and sent my invoice IMEI NUMBERS already",
+        "@AmazonHelp Same was told to me 14 days before and am still waiting .. Samsung is worst",
+        "@AmazonHelp What details and where is the link??!",
+        "@AmazonHelp Done attached is the proof of completion https://t.co/XxE9PXkBrx",
+        "@AmazonHelp Received the wireless charger coupon but till now nothing .. why?! And when u will get it  is consumer case is only solution??!",
+        "@AmazonHelp Sounds good.. expecting the solution latest by today..  else i would have to return tue product and file a consumer petition for the",
+        "@AmazonHelp TODAY not more than that .. period",
+        "@AmazonHelp I AM W A I T I N Ggggggg....",
+        "@AmazonHelp Waited for more than 15 days .. can't wait any further.. need a final solution today . That's all",
+        "@AmazonHelp That's so ridiculous.. asking 2 more days time is not showing ur willinness yo help.. I don't need your product and not interested in buyi",
+        "@AmazonHelp What the heck we are doing here .. why there's multiple communication when it can be solved here itself cut the crap find a solution"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_120548",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "APP_USAGE"
+      ],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "Oh @116090, for the first time ever, you've let me down. Seeing as it's 10pm, I'm thinking \"today\" isn't happening. The rest of the gift is waiting. :",
+        "@116090 Still nothing @AmazonHelp. No change in  tracking info in 4 days. Not happy.",
+        "@AmazonHelp Will today if it doesn't arrive. @9583, I realize it's peak time of year, but 5 days with no update from Mississauga seems a bit excessive"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_024075",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [],
+      "confidence": "HIGH",
+      "customer_messages": [
+        "@115850 @AmazonHelp 5 chats, 1 call, 1 month later, issue still stands unresolved. But was promised an ETA of 1-2 days everytime.",
+        "@AmazonHelp I have filled all d details but yet 2 hear frm u.I have been following up on this problem for the last 1 month,but all in vain.",
+        "@AmazonHelp I meant 2 say resolution.Evrytime I contact u I get a similar reply that v will get back to u,but nobody contacted me.",
+        "@AmazonHelp can I get an ETA here? you respond and then forget.",
+        "@AmazonHelp @115851 I think I'll never get an update. Earth's Most Customer-Centric Company, really?",
+        "@AmazonHelp @115851 2 months since the issue was reported and still not resolved.Has ur team become so inefficient or it has always been like this?",
+        "@AmazonHelp @115851 what info do you need? Already replied to many email. Atleast say me that you have failed to solve the issue, I won't follow up. h",
+        "@AmazonHelp @115851 your team never update me, this is d problem. Everytime I have to follow up after waiting for many BUSINESS DAYS.",
+        "@AmazonHelp @115851 2 months n ur team is not able 2 understand d issue.Everytime come back wid same resolution and take months everytime.",
+        "@AmazonHelp @115851 any update here?how much wil u trouble me just for 2318. Do 1 thing take the ph back,revert d tns. No tns, no offer. Simple",
+        "@AmazonHelp @115851 if you are talking about this mail(check pick), then please read the reply as well. apart from this I didn't receive any comm. htt"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_107194",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "PAYMENT_ISSUE",
+        "APP_USAGE"
+      ],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "@115821 good morning. For 10 months+ I have been having unresolved issues of a deduction of $119.97 wrongly deducted from my bank account.",
+        "@AmazonHelp I received that last email 4days ago -  September 7th 2017.",
+        "@AmazonHelp The email is a non-replyable one. However I have chatted with your customer service three times to inform them.",
+        "@AmazonHelp Not rectified. I was told to wait for email which happened to be the same email asking for my bank details.",
+        "@AmazonHelp Ive filled &amp; sent it. Howeva, Ive also bn called on phone b4 &amp; told I shd expect an email. Yet, it ws same email with a link to my",
+        "@AmazonHelp @115821 Its 11 days and not yet as regards unwarranted deduction from my account.",
+        "@AmazonHelp @115821 and d moving in circles keep going endlessly."
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_042200",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "RETURN_REQUEST",
+        "DEVICE_ISSUE"
+      ],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "@115850 still waiting for return pickup of product since last 2 days? Is this your service to Prime Members?👿",
+        "@AmazonHelp Did that already, but still no show from amazon or bluedart to pickup the parcel.👿"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_133101",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [],
+      "confidence": "HIGH",
+      "customer_messages": [
+        "@AmazonHelp been hacked again with 48 hour you have clearly sold people detail. \n#productionmanager",
+        "@AmazonHelp I can’t as my account has been hack",
+        "@AmazonHelp I have tried your customer service are useless and keep telling me that I have to wait 24-48 hour"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_086595",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "ACCOUNT_ACCESS"
+      ],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "@AmazonHelp My account has still not be unlocked its almost been 4-5 days and when i contact Customer Care they say we are still unlocking.",
+        "@AmazonHelp Nope.. still waiting from the last 4-5 days and my account is still locked",
+        "@AmazonHelp The only mail i received is this.. and i don't any card with 89 ending https://t.co/2Z1OKyD6h4"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_032294",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "APP_USAGE"
+      ],
+      "confidence": "HIGH",
+      "customer_messages": [
+        "@115850 @AmazonHelp @115851 hahahaha how many time you guys tweet same thing \"we are working on it and responded you ASAP\" till now I don't get any si",
+        "@AmazonHelp I already done that.\nTell me now where you want my detail.\nAnd you guys tell me on earlier tweet that you have my all info.\nNow what?",
+        "@AmazonHelp Now tell me what i can do wait more 24 hours to 48 hours .\nAur you wants my amazon id , phone no. address.\nfor checking my details.",
+        "@AmazonHelp Now I got a new email from your team that I have to wait for next 6hours , after that our representative will get touch to you.\nNow this i",
+        "@AmazonHelp @115850 @1840  @115851 I got my money but till now noone called me for customer satisfaction.",
+        "@AmazonHelp Thanks!!!\nYour help.",
+        "@AmazonHelp I got my money but I am totally unhappy with you guys."
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_001539",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "ORDER_MODIFY",
+        "PAYMENT_ISSUE",
+        "VIDEO_STREAMING"
+      ],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "@AmazonHelp at  it again I hate calling your call centres RUDE AND DONT LISTEN when I am paying for a service I don't expect the phone to be put down ",
+        "@AmazonHelp Changed bank details online prime video stopped working after 30mins on the phone going round in circles the guy I was speaking to hung up",
+        "@AmazonHelp So you don't want to help resolve the issue then ? Had no call back and all your said that is helpful is send the link to cancel the accou"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_146851",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "RETURN_REQUEST",
+        "APP_USAGE",
+        "DEVICE_ISSUE"
+      ],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "@115850 @202517 even after 6 mails and 22 live chat complaints no response you bloody cheaters #GalaxyNote8",
+        "@AmazonHelp Bought a note8 as per the terms and instructions I registered with galaxy app and within 4 days I should have got the coupon to redeem the",
+        "@AmazonHelp I bought it from Amazon .. and sent my invoice IMEI NUMBERS already",
+        "@AmazonHelp Same was told to me 14 days before and am still waiting .. Samsung is worst",
+        "@AmazonHelp What details and where is the link??!",
+        "@AmazonHelp Done attached is the proof of completion https://t.co/XxE9PXkBrx",
+        "@AmazonHelp Received the wireless charger coupon but till now nothing .. why?! And when u will get it  is consumer case is only solution??!",
+        "@AmazonHelp Sounds good.. expecting the solution latest by today..  else i would have to return tue product and file a consumer petition for the",
+        "@AmazonHelp TODAY not more than that .. period",
+        "@AmazonHelp I AM W A I T I N Ggggggg....",
+        "@AmazonHelp Waited for more than 15 days .. can't wait any further.. need a final solution today . That's all",
+        "@AmazonHelp That's so ridiculous.. asking 2 more days time is not showing ur willinness yo help.. I don't need your product and not interested in buyi"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_049823",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "APP_USAGE"
+      ],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "#AmazonIndia can't deliver in time and funny updates of timeline app..\n\nEven customer care couldn't help in two days #Amazon https://t.co/vdUuTXp6KP",
+        "@AmazonHelp Already did.. Even to your escalation team.. The courier number they gave was even incorrect.. This was present for today's bday.. Ruined.",
+        "@AmazonHelp Replied... With details.. Lets see if you can help from birthday party being ruined",
+        "@AmazonHelp How short is your shortly? A response with an ETA would have been professional",
+        "@AmazonHelp How long would be this 12 hours wait #AmazonIndia? Is already 14 hours from your last tweet... Or clocks working differently at your end",
+        "@AmazonHelp #AmazonIndia what would reaching out that to end of day would do..Better try to get this atleast delivered today. That would be more helpf",
+        "@AmazonHelp #AmazonIndia few more lies from #aramex . Incorrect address, time restricted, office,.. \n\nIs home not an office address. Stop lying https:",
+        "@AmazonHelp Yeah got your 'at the earliest' response.. \n\nCan't you give a 100% sure answer by talking to your courier partner. Is it that hard ¡¡ http",
+        "@AmazonHelp When will this soon of your arrive? Nearing end of day 3 without any real update or solution #Amazon #AmazonIndia #Flipkart"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_099841",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "ACCOUNT_ACCESS"
+      ],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "@AmazonHelp still waiting for a fraud issue to be resolved after a week.  Was told up to 48hrs.  Do you even have a fraud department?",
+        "@AmazonHelp Nope.  Not in spam.  Been on the line with CS for over 40 mins now - seems like even they don’t have access to the fraud department.  Agai"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_011078",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "APP_USAGE",
+        "DEVICE_ISSUE"
+      ],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "@115850 @123644  please arrange a call, fade up with you guys 9664655274",
+        "@AmazonHelp Still awaiting for money which suppose to be credited one month back",
+        "@AmazonHelp This what my app is showing, can see any mail https://t.co/N8KyhG92R3",
+        "@AmazonHelp What details you want"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_053506",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "REFUND_REQUEST",
+        "PAYMENT_ISSUE"
+      ],
+      "confidence": "HIGH",
+      "customer_messages": [
+        "@115850 please share how can Amazonpay money be refunded to the credit card with which money was added to Amazonpay.",
+        "@AmazonHelp This is ridiculous, I want my money back, I do not wish to make any purchase on Amazon.😞😞😞",
+        "@AmazonHelp Its pending since 9thOct17. Till now no refund. On reminding your team asked me to wait another 6 business days. My hopes and trust is (1/",
+        "@AmazonHelp I have shared the complain details and my contact info on the link above. Thanks."
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_138950",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "RETURN_REQUEST",
+        "REFUND_REQUEST"
+      ],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "@115821 You guys confuse me so much. Just sent a courier out to collect a parcel that I had already sent back to you. Waiting on a refund.",
+        "@AmazonHelp I don’t have tracking details I was given a Royal Mail return address and asked to post it which I did last Friday. Then a courier has com",
+        "@AmazonHelp Courier has cone today but not sure what to collect.",
+        "@AmazonHelp So originally a replacement was sent and the original one collected. The replacement was still incorrect so was asked to return for a refu",
+        "@AmazonHelp I’ve not arranged a courier myself at all. Was sent a Royal Mail label for the last return.",
+        "@AmazonHelp Hi yes the courier that delivered the replacement took the original. I then returned  the original in the post."
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_112052",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "APP_USAGE"
+      ],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "@AmazonHelp I have sent the reply. I am expecting a call in next 6 hrs as mentioned in the email. Please have this escalate to the management too.",
+        "@AmazonHelp I want to make a complaint against Avinash he has hung up on me.",
+        "@AmazonHelp I have sent my details",
+        "@AmazonHelp Please escalate this to the maanger",
+        "@AmazonHelp Please do that. These tweets r in response 2 the email I have received. Please make some 1 call me.",
+        "@AmazonHelp Please make sure that some one calls me today by 5 p.m.",
+        "@AmazonHelp When I have sent emails ir CEO as well nobody seems to care",
+        "@AmazonHelp Have this escalated to ur CEOs offive",
+        "@AmazonHelp I have already mentioned that in tum details. My como is down agai.",
+        "@AmazonHelp I haven't shared my details again! Whats happening?",
+        "@AmazonHelp In my previous tweet I hve asked 4 d link I hve gven my details 1ce u r asking 4 dem again. So gve me d link again. Hve given my details b",
+        "@AmazonHelp I have sent in my details. I hope I will receive a call today after 5 p.m. today.",
+        "@AmazonHelp I have not received a call from u. I want into call me! Despite of promises u haven't called.",
+        "@AmazonHelp T is mentioned in the details",
+        "@AmazonHelp I am still waiting",
+        "@AmazonHelp What is the requested time frame? U have not mentioned it 12hrs, 24hrs, 48hrs what is it? This is the second time I am giving in my detail",
+        "@AmazonHelp So please make sure that someone senior from ur management calls in the next 12 hrs.",
+        "@AmazonHelp 12hrs, 24hrs, 48hrs???? What is earliest????",
+        "@AmazonHelp Y then someone has some time back repliedbtonme starting that u will b get back 2 me in 12 hrs? I think it is ur own college from amazon",
+        "@AmazonHelp As PROMISED call me after 5 p.m. today",
+        "@AmazonHelp I has been more than 24 hrs",
+        "@AmazonHelp When? U had said u will get back in 12 hrs. U r moving away from is promise!",
+        "@AmazonHelp U had promised before that u will call me. I don't want an email I want a call to be made. Y r u trying to cover ur colleague's mistakes.",
+        "@AmazonHelp I will give them again to u make sure some1 calls me.",
+        "@AmazonHelp Y m i receiving messages from multiple people? Can u make sure that i receive a call after 5 pm today as mentioned in this tweet."
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_020043",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "PRODUCT_ISSUE"
+      ],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "@115850 this is how ur dealing wid ur customers...\nStill waiting for action https://t.co/8doRHskrC8",
+        "@AmazonHelp Today received the product but in damaged condition https://t.co/ObUGnCyFj0"
+      ]
+    },
+    {
+      "conversation_id": "amazonhelp_105916",
+      "primary_intent": "DELIVERY_LATE",
+      "secondary_intents": [
+        "PRODUCT_ISSUE"
+      ],
+      "confidence": "MEDIUM",
+      "customer_messages": [
+        "We manufacture and own the patent. Why are we suspended on @115821 for \"counterfeit\"? 29 days and 15 calls to @4822 still nothing",
+        "@115821 @4822 Still waiting for our product to be available. Over a month now. 719 units in “FC Processing”. This is brutal for a #smallbusiness",
+        "@AmazonHelp I’m still waiting for an update on this issue. Over a month now. @115821 @115851 I own the patent...."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "amazonhelp_106326",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "margin": 0.7439970339657603,
+    "suggested_label": "DELIVERY_LATE",
+    "reason": "Clear delivery issue mislabeled as OTHER"
+  },
+  {
+    "id": "amazonhelp_072249",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "margin": 0.4620484647625376,
+    "suggested_label": "DELIVERY_LATE",
+    "reason": "Clear delivery issue mislabeled as OTHER"
+  },
+  {
+    "id": "amazonhelp_044843",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "margin": 0.3,
+    "suggested_label": "DELIVERY_LATE",
+    "reason": "Multiple delivery changes"
+  },
+  {
+    "id": "amazonhelp_100946",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_MISSING",
+    "margin": 0.18,
+    "suggested_label": "DELIVERY_MISSING",
+    "reason": "Package not received"
+  },
+  {
+    "id": "amazonhelp_001910",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_MISSING",
+    "margin": 0.15,
+    "suggested_label": "DELIVERY_MISSING",
+    "reason": "Package not delivered"
+  },
+  {
+    "id": "amazonhelp_075709",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_MISSING",
+    "margin": 0.1,
+    "suggested_label": "DELIVERY_MISSING",
+    "reason": "Package missing"
+  }
+]

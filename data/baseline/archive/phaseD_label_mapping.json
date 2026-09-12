@@ -1,0 +1,37 @@
+{
+  "label2id": {
+    "ACCOUNT_ACCESS": 0,
+    "APP_USAGE": 1,
+    "CANCELLATION": 2,
+    "DELIVERY_LATE": 3,
+    "DELIVERY_MISSING": 4,
+    "DELIVERY_TRACKING": 5,
+    "DEVICE_ISSUE": 6,
+    "ORDER_MODIFY": 7,
+    "ORDER_STATUS": 8,
+    "OTHER": 9,
+    "PAYMENT_ISSUE": 10,
+    "PRODUCT_ISSUE": 11,
+    "REFUND_REQUEST": 12,
+    "RETURN_REQUEST": 13,
+    "VIDEO_STREAMING": 14
+  },
+  "id2label": {
+    "0": "ACCOUNT_ACCESS",
+    "1": "APP_USAGE",
+    "2": "CANCELLATION",
+    "3": "DELIVERY_LATE",
+    "4": "DELIVERY_MISSING",
+    "5": "DELIVERY_TRACKING",
+    "6": "DEVICE_ISSUE",
+    "7": "ORDER_MODIFY",
+    "8": "ORDER_STATUS",
+    "9": "OTHER",
+    "10": "PAYMENT_ISSUE",
+    "11": "PRODUCT_ISSUE",
+    "12": "REFUND_REQUEST",
+    "13": "RETURN_REQUEST",
+    "14": "VIDEO_STREAMING"
+  },
+  "num_labels": 15
+}

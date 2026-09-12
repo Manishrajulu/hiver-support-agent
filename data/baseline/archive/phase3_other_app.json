@@ -1,0 +1,120 @@
+{
+  "high": [
+    {
+      "conversation_id": "amazonhelp_074830",
+      "actual": "OTHER",
+      "predicted": "APP_USAGE",
+      "confidence": 0.11355038515161073,
+      "customer_text": "Hey i answered all the questions correctly I also entered in vivo contest and i participated in every quiz but never won \ud83d\ude2d\ud83d\udc94 #iPhone8AppQuiz https://t.co/3pVqtSMTAr @115850 I've been trying so hard for this contest please choose me please @AmazonHelp Why not here?"
+    }
+  ],
+  "medium": [
+    {
+      "conversation_id": "amazonhelp_001339",
+      "actual": "OTHER",
+      "predicted": "APP_USAGE",
+      "confidence": 0.1657610992327523,
+      "customer_text": "Ich bestelle ab sofort bei @AmazonHelp nur noch Sachen, die @124285 an meine Packstation liefert !! Die kommen dann auch rechtzeitig an !!! \nDer eigene Lieferservice ist das Letzte !! \ud83e\udd2c\ud83e\udd2c\ud83e\udd2c"
+    },
+    {
+      "conversation_id": "amazonhelp_006576",
+      "actual": "OTHER",
+      "predicted": "APP_USAGE",
+      "confidence": 0.27404678422124545,
+      "customer_text": "@120533 bonsoir, cela fait un peu plus d'une semaine que j'ai command\u00e9 plusieurs articles sur amazon, la plupart est arriv\u00e9e en temps(1/3) @120533 Or, 2 d'entre eux devaient arriver samedi, mais ne sont toujours pas l\u00e0, et je n'ai aucun suivi possible \u00e0 cause du manque d'info (2/3) @AmazonHelp Merci pour votre rapidit\u00e9, le vendeur est Amazon EU S.a.r.L. @AmazonHelp Non je ne l'ai pas fait, comment dois-je faire?"
+    },
+    {
+      "conversation_id": "amazonhelp_041137",
+      "actual": "OTHER",
+      "predicted": "APP_USAGE",
+      "confidence": 0.12074290787026125,
+      "customer_text": "@115821 after complaining on our last 9 deliveries for our parcels not to be left on our doorstep . We get home today and surprise surprise!! Getting nowhere fast ! Amazon sort yourselves out ! https://t.co/AHREqvo3ZR @AmazonHelp Yes we have constantly told your representatives of our preferences . Every time we call we get told an investigation will take place , we get NO notification of the outcome . Yet again they were told only this Saturday gone NOT to leave our parcels on the step , nothin"
+    },
+    {
+      "conversation_id": "amazonhelp_041431",
+      "actual": "OTHER",
+      "predicted": "APP_USAGE",
+      "confidence": 0.11658480940901972,
+      "customer_text": "@118706 Explain to me how an @115821 package (containing luggage, not a packet of crisps) that's on the truck to be delivered on Saturday is then lost and rescheduled for Tuesday?  Really @115821 @123967, how does this make any sense? https://t.co/raHArIwXTx @AmazonHelp Yes. Tell me how there is a single piece of useful info here? https://t.co/AeyGXjuCl7"
+    },
+    {
+      "conversation_id": "amazonhelp_055904",
+      "actual": "OTHER",
+      "predicted": "APP_USAGE",
+      "confidence": 0.12343521070294332,
+      "customer_text": "@115821 @69136 Amazon logistics team sucks. I highly suggest all businesses stop using them. 3rd party companies are delivering. @115821 @AmazonHelp @115821 they don't call you just mark it undeliverable. Horrible customer service. done using them. @AmazonHelp That is great except I have been on the phone with you guys for 2 hours this morning and no one is helpful"
+    },
+    {
+      "conversation_id": "amazonhelp_058474",
+      "actual": "OTHER",
+      "predicted": "APP_USAGE",
+      "confidence": 0.11142838650295624,
+      "customer_text": "Absolutely fuming! Amazon are great but how the fuck do you get in contact with them? @115830 @AmazonHelp Thanks! Do you know what I can do about this? I literally got it yesterday https://t.co/EhyAOSzZKR @AmazonHelp I bought it online, set it up last night. All working fine but then this this morning. It is registered."
+    },
+    {
+      "conversation_id": "amazonhelp_078660",
+      "actual": "OTHER",
+      "predicted": "APP_USAGE",
+      "confidence": 0.11081458866041011,
+      "customer_text": "Dear @115850 One of the worst service from you.. not expecting like this.. I'm deleted my account.. #only_name.. #service_worst.. @AmazonHelp Your delivery man and also coustmer executive so much careless... @AmazonHelp You call me on 8378994185.."
+    },
+    {
+      "conversation_id": "amazonhelp_086721",
+      "actual": "OTHER",
+      "predicted": "APP_USAGE",
+      "confidence": 0.10710965113012945,
+      "customer_text": "Yo this is stupid I pre-order the Call of Duty WW2 PS4 Bundle off @115821 (Keep in mind I pre-ordered it) and it won't be here until the 6th @AmazonHelp November 6th @AmazonHelp Hello?"
+    },
+    {
+      "conversation_id": "amazonhelp_104211",
+      "actual": "OTHER",
+      "predicted": "APP_USAGE",
+      "confidence": 0.2722552336298933,
+      "customer_text": "@120533 j'aimais le prime, mais j'ai d\u00e9couvert l'envers du projet, je commende 3 trucs autre que des bouquins et je me retrouve avec 10jours de livraison alors que par la poste \u00e7a prendrais 2jours max, allez vous faire voir. je r\u00e9silie. @AmazonHelp d\u00e9j\u00e0 command\u00e9, je vous envoi les d\u00e9tails quand je l'aurais re\u00e7u, mais pour l'instant au mini \u00e7a me dis : \"command\u00e9 le 13, r\u00e9ception le 22\" on verras. quoi qu'il en sois, avec n'importe quel site et laposte je l'aurais eu le 16/17 max, sans payer le ma"
+    },
+    {
+      "conversation_id": "amazonhelp_125806",
+      "actual": "OTHER",
+      "predicted": "APP_USAGE",
+      "confidence": 0.11771786354578496,
+      "customer_text": "Hey @115830, can you tell me how to make a complaint please? Been messed about for a second day running, phone operative repeatedly avoided telling me how to complain and then I was cut off. I am absolutely fuming. \ud83d\ude20 @AmazonHelp So basically, I just want an email address or a postal address that I can submit a formal complaint to, please."
+    },
+    {
+      "conversation_id": "amazonhelp_131221",
+      "actual": "OTHER",
+      "predicted": "APP_USAGE",
+      "confidence": 0.13586461818910636,
+      "customer_text": "@AmazonHelp Told me to wait till 20th but still unsoved?"
+    },
+    {
+      "conversation_id": "amazonhelp_148887",
+      "actual": "OTHER",
+      "predicted": "APP_USAGE",
+      "confidence": 0.1298292713040161,
+      "customer_text": "@AmazonHelp one of your parcel people just parked outside my house looked at my door and left I'm just wondering if he's driven off + @AmazonHelp with my parcel?? @AmazonHelp amazon logistics @AmazonHelp why the hell do I have to wait this long because of YOUR mistake which I told YOU about https://t.co/p7VXKfFsTd @AmazonHelp and I want a god damn good explanation as to why your driver thought it was a good idea to come to the outside of my house and @AmazonHelp text on his phone for god knows h"
+    },
+    {
+      "conversation_id": "amazonhelp_149752",
+      "actual": "OTHER",
+      "predicted": "APP_USAGE",
+      "confidence": 0.3074411239646983,
+      "customer_text": "@120533 S\u00e9rieux votre service de livraison c'est pas possible... Le livreur qui laisse un colis sans mon accord \u00e0 quelqu'un de la r\u00e9sidence que je ne connais m\u00eame... Le service #Prime me d\u00e9\u00e7oit de plus en plus... @AmazonHelp @AmazonHelp Non pas encore, les autres fois j'ai d\u00e9j\u00e0 signal\u00e9 et rien n'a chang\u00e9 ! @AmazonHelp C'est fait :)"
+    }
+  ],
+  "ambiguous": [
+    {
+      "conversation_id": "amazonhelp_074216",
+      "actual": "OTHER",
+      "predicted": "APP_USAGE",
+      "confidence": 0.10439743679408567,
+      "customer_text": "@120474 Hiya have been trying to buy tickets, get to the processing screen but then it won't progress and we have lost them?? @120474 The only ones that are left are priced at \u00a370  even though we had two processing at the rate of \u00a340 each???"
+    },
+    {
+      "conversation_id": "amazonhelp_112813",
+      "actual": "OTHER",
+      "predicted": "APP_USAGE",
+      "confidence": 0.3079838718327601,
+      "customer_text": "Alors @132988, on va avoir un TR\u00c8S GROS PROBL\u00c8ME.\nMon p\u00e8re attendait mon colis aujourd'hui, voil\u00e0 \u00e0 quoi il a assist\u00e9. COMMENT C'EST POSSIBLE?\nLe paquet contient 700\u20ac de materiel photo, et JE N'AI PAS SIGN\u00c9 \u00e0 la r\u00e9ception ni mon p\u00e8re. https://t.co/99FQAe6rQM @132988 Quand les livreurs ne sonne pas et disent qu'on est pas pr\u00e9sent, okay, \u00e7a peut passer, mais \u00e7a, c'est totalement inadmissible !\nJe pense que votre livreur a \u00e9galement du inventer une signature ? @132988 POKE @132988 \nIl est 15h, on p"
+    }
+  ]
+}

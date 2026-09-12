@@ -1,0 +1,137 @@
+[
+  {
+    "C": 0.25,
+    "accuracy": 0.6759259259259259,
+    "correct": 365,
+    "time": 2.594024419784546,
+    "config": "word(1,2)+char(3,5) 8k each"
+  },
+  {
+    "C": 0.5,
+    "accuracy": 0.6833333333333333,
+    "correct": 369,
+    "time": 2.4623334407806396,
+    "config": "word(1,2)+char(3,5) 8k each"
+  },
+  {
+    "C": 1.0,
+    "accuracy": 0.6814814814814815,
+    "correct": 368,
+    "time": 2.6000607013702393,
+    "config": "word(1,2)+char(3,5) 8k each"
+  },
+  {
+    "C": 2.0,
+    "accuracy": 0.687037037037037,
+    "correct": 371,
+    "time": 3.1931135654449463,
+    "config": "word(1,2)+char(3,5) 8k each"
+  },
+  {
+    "C": 5.0,
+    "accuracy": 0.6907407407407408,
+    "correct": 373,
+    "time": 3.2252132892608643,
+    "config": "word(1,2)+char(3,5) 8k each"
+  },
+  {
+    "C": 10.0,
+    "accuracy": 0.6888888888888889,
+    "correct": 372,
+    "time": 4.2515974044799805,
+    "config": "word(1,2)+char(3,5) 8k each"
+  },
+  {
+    "C": 5.0,
+    "accuracy": 0.6481481481481481,
+    "correct": 350,
+    "time": 4.074047803878784,
+    "word_ngram": [
+      1,
+      1
+    ],
+    "config": "word(1, 1)+char(3,5) 8k"
+  },
+  {
+    "C": 5.0,
+    "accuracy": 0.6907407407407408,
+    "correct": 373,
+    "time": 5.851698398590088,
+    "word_ngram": [
+      1,
+      2
+    ],
+    "config": "word(1, 2)+char(3,5) 8k"
+  },
+  {
+    "C": 5.0,
+    "accuracy": 0.6814814814814815,
+    "correct": 368,
+    "time": 5.656688928604126,
+    "word_ngram": [
+      1,
+      3
+    ],
+    "config": "word(1, 3)+char(3,5) 8k"
+  },
+  {
+    "C": 5.0,
+    "accuracy": 0.6814814814814815,
+    "correct": 368,
+    "time": 4.0453941822052,
+    "char_ngram": [
+      3,
+      4
+    ],
+    "config": "word(1,2)+char(3, 4) 8k"
+  },
+  {
+    "C": 5.0,
+    "accuracy": 0.6907407407407408,
+    "correct": 373,
+    "time": 5.1202638149261475,
+    "char_ngram": [
+      3,
+      5
+    ],
+    "config": "word(1,2)+char(3, 5) 8k"
+  },
+  {
+    "C": 5.0,
+    "accuracy": 0.6944444444444444,
+    "correct": 375,
+    "time": 6.3908116817474365,
+    "char_ngram": [
+      3,
+      6
+    ],
+    "config": "word(1,2)+char(3, 6) 8k"
+  },
+  {
+    "C": 5.0,
+    "accuracy": 0.6851851851851852,
+    "correct": 370,
+    "time": 6.852092981338501,
+    "char_ngram": [
+      3,
+      7
+    ],
+    "config": "word(1,2)+char(3, 7) 8k"
+  },
+  {
+    "C": 5.0,
+    "accuracy": 0.6796296296296296,
+    "correct": 367,
+    "time": 11.265479326248169,
+    "char_analyzer": "char",
+    "config": "word(1,2)+char(3,5) char 8k"
+  },
+  {
+    "C": 5.0,
+    "accuracy": 0.6907407407407408,
+    "correct": 373,
+    "time": 5.307136058807373,
+    "char_analyzer": "char_wb",
+    "config": "word(1,2)+char(3,5) char_wb 8k"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "experiment": "Phase D Transformer Experiment",
+  "approach": "Sentence Transformer (all-MiniLM-L6-v2) + LinearSVC",
+  "accuracy": 0.4778,
+  "correct": 258,
+  "total": 540,
+  "delta_vs_phase6": -0.2278,
+  "delta_vs_phaseC": -0.2333,
+  "recommendation": "Phase C remains best model",
+  "key_finding": "Sentence transformer embeddings significantly underperform TF-IDF for this domain"
+}

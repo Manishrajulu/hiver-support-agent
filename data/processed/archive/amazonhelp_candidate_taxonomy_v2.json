@@ -1,0 +1,209 @@
+{
+  "top_level_categories": 6,
+  "leaf_intents": 14,
+  "coverage_estimate": "75-80%",
+  "other_estimate": "20-25%",
+  "primary_intents": [
+    {
+      "intent_id": "DELIVERY_LATE",
+      "name": "Late Delivery",
+      "definition": "Customer's package has not arrived by the expected delivery date",
+      "parent_category": "DELIVERY",
+      "frequency_estimate": "25-30%",
+      "example_count": "Common (258+ in sample)",
+      "why_exists": "Most common delivery problem - specific action available (check status, expedite, refund)",
+      "common_confusion": "Often overlaps with ORDER_STATUS - but here customer knows package exists, just late",
+      "how_to_distinguish": "Keywords: 'late', 'delayed', 'eta', 'expected delivery', 'not arrived yet'"
+    },
+    {
+      "intent_id": "DELIVERY_MISSING",
+      "name": "Missing/Not Delivered",
+      "definition": "Customer never received package, shows delivered but not there",
+      "parent_category": "DELIVERY",
+      "frequency_estimate": "10-15%",
+      "example_count": "Moderate (94+ in sample)",
+      "why_exists": "Different action than late - may need refund or replacement faster",
+      "common_confusion": "May overlap with LATE if customer unsure",
+      "how_to_distinguish": "Keywords: 'not delivered', 'never received', 'missing', 'shows delivered but'"
+    },
+    {
+      "intent_id": "DELIVERY_TRACKING",
+      "name": "Tracking Issue",
+      "definition": "Customer cannot track package or tracking information is wrong",
+      "parent_category": "DELIVERY",
+      "frequency_estimate": "10-15%",
+      "example_count": "Moderate (135+ in sample)",
+      "why_exists": "Specific troubleshooting action available",
+      "common_confusion": "Often accompanies LATE or MISSING",
+      "how_to_distinguish": "Keywords: 'tracking', 'track', 'where is my package', 'status unclear'"
+    },
+    {
+      "intent_id": "DELIVERY_CARRIER",
+      "name": "Carrier/Logistics Problem",
+      "definition": "Issue with delivery carrier (Gati, etc.) causing delivery problems",
+      "parent_category": "DELIVERY",
+      "frequency_estimate": "10-15%",
+      "example_count": "Moderate (117+ in sample)",
+      "why_exists": "May require different escalation path",
+      "common_confusion": "Often a sub-issue of other delivery problems",
+      "how_to_distinguish": "Keywords: carrier names, 'delivery partner', specific carrier complaints"
+    },
+    {
+      "intent_id": "ORDER_STATUS",
+      "name": "Order Status Inquiry",
+      "definition": "Customer wants to know status of order, where it is, when arriving",
+      "parent_category": "ORDER",
+      "frequency_estimate": "8-10%",
+      "example_count": "Common",
+      "why_exists": "Very common - different from modification/cancellation",
+      "common_confusion": "Overlaps with DELIVERY",
+      "how_to_distinguish": "Customer is asking for information, not requesting change"
+    },
+    {
+      "intent_id": "ORDER_MODIFY",
+      "name": "Order Modification/Cancellation",
+      "definition": "Customer wants to change or cancel their order",
+      "parent_category": "ORDER",
+      "frequency_estimate": "3-5%",
+      "example_count": "Moderate",
+      "why_exists": "Different action path than status inquiry",
+      "common_confusion": "May overlap with cancellation requests",
+      "how_to_distinguish": "Keywords: 'cancel', 'change order', 'modify', 'edit order'"
+    },
+    {
+      "intent_id": "APP_USAGE",
+      "name": "App/Website Issue",
+      "definition": "Problem using Amazon app or website (not working, error, can't find something)",
+      "parent_category": "TECHNICAL",
+      "frequency_estimate": "25-30%",
+      "example_count": "Very common (506+ in sample)",
+      "why_exists": "Most common technical issue",
+      "common_confusion": "May overlap with LOGIN issue",
+      "how_to_distinguish": "Keywords: 'app', 'website', 'not working', 'error', 'page'"
+    },
+    {
+      "intent_id": "DEVICE_ISSUE",
+      "name": "Device Problem",
+      "definition": "Issue with Amazon device (Kindle, Fire TV, Echo, Alexa)",
+      "parent_category": "TECHNICAL",
+      "frequency_estimate": "15-20%",
+      "example_count": "Common (146+ in sample)",
+      "why_exists": "Device-specific troubleshooting available",
+      "common_confusion": "May need to distinguish from general APP issue",
+      "how_to_distinguish": "Keywords: 'kindle', 'fire tv', 'echo', 'alexa', 'tablet', 'device'"
+    },
+    {
+      "intent_id": "VIDEO_STREAMING",
+      "name": "Video/Streaming Issue",
+      "definition": "Problem with Prime Video, streaming content, subtitles, playback",
+      "parent_category": "TECHNICAL",
+      "frequency_estimate": "5-10%",
+      "example_count": "Moderate (90+ in sample)",
+      "why_exists": "Specific troubleshooting for video issues",
+      "common_confusion": "May overlap with DEVICE issue",
+      "how_to_distinguish": "Keywords: 'video', 'streaming', 'prime video', 'subtitle', 'playback'"
+    },
+    {
+      "intent_id": "ACCOUNT_ACCESS",
+      "name": "Account Access Problem",
+      "definition": "Customer cannot login, access account, password issues, account locked",
+      "parent_category": "ACCOUNT",
+      "frequency_estimate": "3-5%",
+      "example_count": "Moderate",
+      "why_exists": "Different action path than other issues",
+      "common_confusion": "May overlap with APP_USAGE (login via app)",
+      "how_to_distinguish": "Keywords: 'login', 'password', 'locked', 'access', 'account suspended'"
+    },
+    {
+      "intent_id": "REFUND_REQUEST",
+      "name": "Refund Request",
+      "definition": "Customer wants money back for order, payment, or subscription",
+      "parent_category": "REFUND_PAYMENT",
+      "frequency_estimate": "5-8%",
+      "example_count": "Moderate",
+      "why_exists": "Clear customer action - want money back",
+      "common_confusion": "Overlaps with RETURN but different request",
+      "how_to_distinguish": "Keywords: 'refund', 'money back', 'reimburse', 'charged but'"
+    },
+    {
+      "intent_id": "PAYMENT_ISSUE",
+      "name": "Payment Problem",
+      "definition": "Issue with payment method, billing, credit card, gift card",
+      "parent_category": "REFUND_PAYMENT",
+      "frequency_estimate": "3-5%",
+      "example_count": "Moderate",
+      "why_exists": "Different from refund - problem with payment process itself",
+      "common_confusion": "May overlap with REFUND",
+      "how_to_distinguish": "Keywords: 'payment', 'billing', 'credit card', 'charged incorrectly'"
+    },
+    {
+      "intent_id": "RETURN_REQUEST",
+      "name": "Return/Exchange Request",
+      "definition": "Customer wants to return item or get replacement",
+      "parent_category": "RETURN_PRODUCT",
+      "frequency_estimate": "3-5%",
+      "example_count": "Moderate",
+      "why_exists": "Clear customer action",
+      "common_confusion": "Often overlaps with PRODUCT_ISSUE",
+      "how_to_distinguish": "Keywords: 'return', 'exchange', 'replacement', 'pick up'"
+    },
+    {
+      "intent_id": "PRODUCT_ISSUE",
+      "name": "Product Quality/Defect",
+      "definition": "Customer received wrong, damaged, or defective product",
+      "parent_category": "RETURN_PRODUCT",
+      "frequency_estimate": "3-5%",
+      "example_count": "Moderate",
+      "why_exists": "Often leads to RETURN but distinct problem",
+      "common_confusion": "Almost always leads to RETURN",
+      "how_to_distinguish": "Keywords: 'wrong item', 'damaged', 'defective', 'not as described'"
+    }
+  ],
+  "context_modifiers": [
+    {
+      "modifier_id": "PRIME_CUSTOMER",
+      "name": "Prime Customer",
+      "definition": "Customer is a Prime member - affects delivery expectations",
+      "usage": "Add as modifier/context, not primary intent",
+      "frequency": "15-20%"
+    },
+    {
+      "modifier_id": "MARKETPLACE",
+      "name": "Marketplace/Region",
+      "definition": "Customer using Amazon.in, Amazon.fr, etc.",
+      "usage": "Add as modifier/context",
+      "frequency": "10-15%"
+    }
+  ],
+  "escalation_signals": [
+    {
+      "signal_id": "FRUSTRATION_HIGH",
+      "name": "High Frustration",
+      "definition": "Customer expresses anger, frustration, or strong negative emotion",
+      "action": "Consider escalation to human",
+      "frequency": "15-20%"
+    },
+    {
+      "signal_id": "PREVIOUS_CONTACT",
+      "name": "Previous Unresolved Contact",
+      "definition": "Customer mentions contacting before with no resolution",
+      "action": "Consider escalation priority",
+      "frequency": "10-15%"
+    },
+    {
+      "signal_id": "ESCALATION_REQUEST",
+      "name": "Escalation Request",
+      "definition": "Customer explicitly asks for manager, supervisor, or callback",
+      "action": "Escalate to human",
+      "frequency": "5-10%"
+    },
+    {
+      "signal_id": "SERVICE_COMPLAINT",
+      "name": "Service Quality Complaint",
+      "definition": "Customer complains about Amazon service quality",
+      "action": "Log for quality tracking, consider escalation",
+      "frequency": "10-15%"
+    }
+  ],
+  "proposed_hierarchy": "\nHIERARCHICAL PROPOSAL (Recommended):\n\nTOP LEVEL (6 categories):\n├── DELIVERY (40-45%)\n│   ├── DELIVERY_LATE\n│   ├── DELIVERY_MISSING\n│   ├── DELIVERY_TRACKING\n│   └── DELIVERY_CARRIER\n├── ORDER (10-15%)\n│   ├── ORDER_STATUS\n│   └── ORDER_MODIFY\n├── TECHNICAL (25-30%)\n│   ├── APP_USAGE\n│   ├── DEVICE_ISSUE\n│   └── VIDEO_STREAMING\n├── ACCOUNT (3-5%)\n│   └── ACCOUNT_ACCESS\n├── REFUND_PAYMENT (8-13%)\n│   ├── REFUND_REQUEST\n│   └── PAYMENT_ISSUE\n└── RETURN_PRODUCT (6-10%)\n    ├── RETURN_REQUEST\n    └── PRODUCT_ISSUE\n\nFLAT ALTERNATIVE (if simpler taxonomy needed):\n10-12 primary intents without hierarchy\n\nRECOMMENDATION: Hierarchical with 14 leaf intents\n- Easier to explain and understand\n- Allows aggregation to top-level for high-level routing\n- Sub-intents are meaningful for retrieval and training\n"
+}

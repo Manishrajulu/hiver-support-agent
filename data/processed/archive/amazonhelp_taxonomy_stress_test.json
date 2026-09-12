@@ -1,0 +1,38 @@
+{
+  "intent_example_counts": {
+    "DEVICE_ISSUE": 15,
+    "APP_USAGE": 15,
+    "DELIVERY_LATE": 15,
+    "ACCOUNT_ACCESS": 15,
+    "DELIVERY_CARRIER": 15,
+    "VIDEO_STREAMING": 15,
+    "REFUND_REQUEST": 15,
+    "RETURN_REQUEST": 15,
+    "ORDER_STATUS": 15,
+    "PRODUCT_ISSUE": 15,
+    "PAYMENT_ISSUE": 15,
+    "DELIVERY_MISSING": 15,
+    "DELIVERY_TRACKING": 15,
+    "ORDER_MODIFY": 9
+  },
+  "boundary_analysis": {
+    "order_vs_delivery_tracking_overlap": 3,
+    "carrier_primary": 82,
+    "carrier_context": 145,
+    "app_vs_login_overlap": 32,
+    "product_vs_return_overlap": 32,
+    "refund_vs_payment_overlap": 19,
+    "device_vs_video_overlap": 10
+  },
+  "other_category": {
+    "count": 1036,
+    "percentage": 38.4
+  },
+  "multi_intent_conversations": 777,
+  "escalation_signals": {
+    "FRUSTRATION_HIGH": 217,
+    "PREVIOUS_CONTACT": 111,
+    "SERVICE_COMPLAINT": 101,
+    "ESCALATION_REQUEST": 52
+  }
+}

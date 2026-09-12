@@ -1,0 +1,1668 @@
+[
+  {
+    "conversation_id": "amazonhelp_000809",
+    "actual": "OTHER",
+    "predicted": "RETURN_REQUEST",
+    "confidence": 0.12268503843897956,
+    "customer_text": "@AmazonHelp updated in your link as well. Please check it.@115850 https://t.co/luFPIEi7zH @AmazonHelp @115850 I hope that 20 days are enough to find out and solve issue . I did not get my money or delivery till now.Is this Amazon services to us.@115850 @131283 @15471 @144148 @30724"
+  },
+  {
+    "conversation_id": "amazonhelp_001339",
+    "actual": "OTHER",
+    "predicted": "APP_USAGE",
+    "confidence": 0.1657610992327523,
+    "customer_text": "Ich bestelle ab sofort bei @AmazonHelp nur noch Sachen, die @124285 an meine Packstation liefert !! Die kommen dann auch rechtzeitig an !!! \nDer eigene Lieferservice ist das Letzte !! 🤬🤬🤬"
+  },
+  {
+    "conversation_id": "amazonhelp_001776",
+    "actual": "DELIVERY_LATE",
+    "predicted": "ORDER_STATUS",
+    "confidence": 0.31737168035094626,
+    "customer_text": "@115850 my order no 403-2881035-1260303 shown delivered but yet to reach me. @115850 No refund received yet . Kindly look into the order details."
+  },
+  {
+    "conversation_id": "amazonhelp_001869",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.1462397230640832,
+    "customer_text": "@115850 worst service from Amazon transportation service. They are expecting customer to be in office at 9 pm to collect package delivery @115850 @115850 ... Today is the 2nd day... Same story is going to repeat. Please help."
+  },
+  {
+    "conversation_id": "amazonhelp_002466",
+    "actual": "VIDEO_STREAMING",
+    "predicted": "DEVICE_ISSUE",
+    "confidence": 0.14200173467056007,
+    "customer_text": "When watching @396539 on my @116439 with @26804 4K TV, there appears to be an interlacing problem @396539 @116439 @26804  https://t.co/MgPtjDIU4U @AmazonHelp Reset the box regularly, we have pants internet here"
+  },
+  {
+    "conversation_id": "amazonhelp_002649",
+    "actual": "DELIVERY_LATE",
+    "predicted": "OTHER",
+    "confidence": 0.2527559024066837,
+    "customer_text": "@120533  je fait comment sans téléphone pour le taff ? \nÀ cause d'un problème chez vous c'est super sa @AmazonHelp Ben c'est assez simple ma commande avec mon honor 9 devais arriver se matin et j'ai reçu un mail me disant que ma commande subira un retard"
+  },
+  {
+    "conversation_id": "amazonhelp_003475",
+    "actual": "ORDER_STATUS",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.14335742863413994,
+    "customer_text": "@115830  I've just spent time  on the phone to your customer service team in UK who have managed to do nothing but cost me money. @AmazonHelp order number was 204-1881702-4511551 . Urgently resolve and sort out the mess that is your customer service ASAP @AmazonHelp carrier is UPS. I called you and awaiting your call back on +254723662196 to know on the status of the package"
+  },
+  {
+    "conversation_id": "amazonhelp_003943",
+    "actual": "PRODUCT_ISSUE",
+    "predicted": "REFUND_REQUEST",
+    "confidence": 0.1785655028229263,
+    "customer_text": "Fake amazon !!! orderno - #404-3456690-9381109 ..Its been More than 2 months still my refund is not processed.. Such a bulshit lame service  from @115850 @AmazonHelp I have replied on the same... How can amazon deny my A-Z claim just by listening to seller words?? I have provided DRS proof as well... without cross checking with courier ,how can amazon deny my request?? that means amazon supporting third party fake sellers @AmazonHelp I have replied  to the same..kindly investigate on d same and "
+  },
+  {
+    "conversation_id": "amazonhelp_004189",
+    "actual": "OTHER",
+    "predicted": "RETURN_REQUEST",
+    "confidence": 0.1356777403691683,
+    "customer_text": "@115850 why aren't your customer care numbers not work @115850 @115850 I am expecting a quick response"
+  },
+  {
+    "conversation_id": "amazonhelp_004528",
+    "actual": "PAYMENT_ISSUE",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.1358462660500909,
+    "customer_text": "@AmazonHelp @115850  @115821 Placed my first order via App for Rs.934 got charged 13,999  instead. Had the worst experience (1/7) #amazon @AmazonHelp Are you serious?? Did you care to read my tweets? \nI have already reported so many times @AmazonHelp Did that. Got same response and I'm asked to follow the same steps which I have been doing since 21st September. That's ridiculous! @AmazonHelp You bunch of stupids and liars. Why did you refund after a month if it wasn't with you? Who will pay for "
+  },
+  {
+    "conversation_id": "amazonhelp_004681",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_MISSING",
+    "confidence": 0.13813782240490757,
+    "customer_text": "So we got some “deliveries” via @115821 Logistics that weren’t actually delivered. High quality product. @115821 Last week, a $120 order was “delivered” but was not. Today, two orders were “attempted,” but no knock/ring and no slip."
+  },
+  {
+    "conversation_id": "amazonhelp_005231",
+    "actual": "REFUND_REQUEST",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.2069745117785029,
+    "customer_text": "@115821 IS A LIAR!!!!! I was told that my package would be here today by 8pm IT IS NOW 8:23pm @115821 I want a refund"
+  },
+  {
+    "conversation_id": "amazonhelp_005845",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_MISSING",
+    "confidence": 0.10665685020605999,
+    "customer_text": "Hello @AmazonHelp I have  an issue. I didn' t receive all that I am expecting. Please can I have an email or a phone for France. Thanks. @AmazonHelp Thany you :-) I will contact them."
+  },
+  {
+    "conversation_id": "amazonhelp_005946",
+    "actual": "APP_USAGE",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.21250054058217008,
+    "customer_text": "I’m usually impressed with @115821 ‘s punctual delivery but today has me very disappointed. It’s past 9 and still no package! @115821 Why am I paying for amazon prime if things aren’t going to arrive when they say they will? @AmazonHelp It still says it’s on the way. I am not able to be home tomorrow OR Thursday to receive it and this is supposed to be given as a birthday gift ON Thursday. Very very disappointing."
+  },
+  {
+    "conversation_id": "amazonhelp_006576",
+    "actual": "OTHER",
+    "predicted": "APP_USAGE",
+    "confidence": 0.27404678422124545,
+    "customer_text": "@120533 bonsoir, cela fait un peu plus d'une semaine que j'ai commandé plusieurs articles sur amazon, la plupart est arrivée en temps(1/3) @120533 Or, 2 d'entre eux devaient arriver samedi, mais ne sont toujours pas là, et je n'ai aucun suivi possible à cause du manque d'info (2/3) @AmazonHelp Merci pour votre rapidité, le vendeur est Amazon EU S.a.r.L. @AmazonHelp Non je ne l'ai pas fait, comment dois-je faire?"
+  },
+  {
+    "conversation_id": "amazonhelp_006947",
+    "actual": "RETURN_REQUEST",
+    "predicted": "PAYMENT_ISSUE",
+    "confidence": 0.19031016732598655,
+    "customer_text": "@AmazonHelp hey, I have paid through cash on delivery and want to return a product. Can I get the refund into my amazon pay balance?"
+  },
+  {
+    "conversation_id": "amazonhelp_009295",
+    "actual": "APP_USAGE",
+    "predicted": "OTHER",
+    "confidence": 0.31013291813915705,
+    "customer_text": "@2600 Bon, alors, livrable en Belgique ou pas ? 🤔\nhttps://t.co/YJEy095BHg https://t.co/fxcZF4r691 @AmazonHelp Un vendeur qui s'appelle Amazon et dont le bandeau publicitaire dit clairement en haut sur fond vert 'peut être livré en France et en Belgique'. Si ça c'est pas de la pub mensongère c'est quoi alors ? @4738 @AmazonHelp Il est repris dans le premier tweet : https://t.co/YJEy095BHg @AmazonHelp Mais pas éligible à la collecte, ce qui explique peut-être le message par défaut puisque je me fa"
+  },
+  {
+    "conversation_id": "amazonhelp_009481",
+    "actual": "PRODUCT_ISSUE",
+    "predicted": "REFUND_REQUEST",
+    "confidence": 0.15697206153221122,
+    "customer_text": "Hi @115830 and @57954 - I had multipack of wipes delivered today with two faulty.  Please advise as to next steps. https://t.co/w4jAZKwmJP @AmazonHelp Thanks for the super quick reply! Will this work even if I just want a partial refund? @AmazonHelp Thank you 🙂"
+  },
+  {
+    "conversation_id": "amazonhelp_009732",
+    "actual": "OTHER",
+    "predicted": "ACCOUNT_ACCESS",
+    "confidence": 0.2187271651750312,
+    "customer_text": "@AmazonHelp My query is not resolved @115850"
+  },
+  {
+    "conversation_id": "amazonhelp_009945",
+    "actual": "VIDEO_STREAMING",
+    "predicted": "OTHER",
+    "confidence": 0.2720406166285635,
+    "customer_text": "Un pacco che ci mette 12 giorni per arrivare? Utilissimo pagare il Prime! @120540 @AmazonHelp Venduto da Watchic @AmazonHelp La data di ordine 4/11, la data di consegna prevista 16/11, spedito con Amazon prime"
+  },
+  {
+    "conversation_id": "amazonhelp_011526",
+    "actual": "DELIVERY_LATE",
+    "predicted": "OTHER",
+    "confidence": 0.27436638559335375,
+    "customer_text": "Sabe quem tá feliz? Euzinha! Obrigada @117086 pela entrega em incríveis 24h.\n\nAcho que nunca recebi nada tão rápido 😍 https://t.co/VebPbnOOw6 @AmazonHelp Além de entregar rápido ainda respondem? 😍\n\nAcho que vou ler na ordem mesmo, mas só pq são novos. Depois da primeira leitura completa eu fico relendo no aleatório, só pra matar a saudade 😊 @AmazonHelp Eu gosto de ficção, terror, romance, biografias, históricos, quadrinhos, a lista e longa kkkk. Inclusive, vcs vendem estante? Pq tô precisando de"
+  },
+  {
+    "conversation_id": "amazonhelp_011612",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.17268997513801138,
+    "customer_text": "@AmazonHelp my package is supposed to be at my home by tomorrow before 8, but the package hasnt even been shipped. is that normal? @AmazonHelp never came in... @AmazonHelp  https://t.co/N13FqdyIBb"
+  },
+  {
+    "conversation_id": "amazonhelp_013836",
+    "actual": "OTHER",
+    "predicted": "DEVICE_ISSUE",
+    "confidence": 0.11499172363667333,
+    "customer_text": "@120474 Hey, is the brighton date not included in the pre-sale for morrissey?? @AmazonHelp trying to buy tickets for brighton but as soon as it went up even 1 ticket was exceeding the limit?"
+  },
+  {
+    "conversation_id": "amazonhelp_013959",
+    "actual": "APP_USAGE",
+    "predicted": "OTHER",
+    "confidence": 0.13223184106842364,
+    "customer_text": "@119772 @118919  Facing login issues on amazon of docomo no.8699995822\nError cming.and cc of amazon of no help .HELP AMAZON.IN https://t.co/FdLlCJEVLh @119772 @118919 https://t.co/jU1zMmQ0I2 kindly look into the matter and resolve"
+  },
+  {
+    "conversation_id": "amazonhelp_014605",
+    "actual": "OTHER",
+    "predicted": "DEVICE_ISSUE",
+    "confidence": 0.14586002110130547,
+    "customer_text": "@115830 hi. Trying to order Barbie Camper Van at new reduced price. Being told it’s no longer available. Please see screenshots. Grateful for clarification. https://t.co/Qvnw2HkER8"
+  },
+  {
+    "conversation_id": "amazonhelp_014980",
+    "actual": "PRODUCT_ISSUE",
+    "predicted": "REFUND_REQUEST",
+    "confidence": 0.2579683044175524,
+    "customer_text": "@115851 @115821 @115850 \nAmazon facing funds issue,  didn't have money to refund customer. Pending from 22nd September.. @AmazonHelp @115851 \n@115850 \nShame on your company and shame on ur management.. @AmazonHelp @115851 @115850 \nDon't reply bullshit.. Bankrupt company don't have money to refund customer... From top to bottom everyone is hopeless @AmazonHelp email so many times bt u goons r nt solving problem.u r writng reply mail thr your executive team KG students don't knw anything giving fa"
+  },
+  {
+    "conversation_id": "amazonhelp_015635",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.17625503731099937,
+    "customer_text": "@AmazonHelp my package that was to arrive today still says out for delivery-it’s 930pm. Is it coming tonight? Need it for tomorrow. @AmazonHelp Amazon Logistics"
+  },
+  {
+    "conversation_id": "amazonhelp_016267",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "OTHER",
+    "confidence": 0.37293327723588743,
+    "customer_text": "Kindleがダウンロードできないぞーーーー @AmazonHelp ありがとうございます。ダウンロードははじまるのですがものすごく時間がかかっていました。こちらのWi-Fiが不安定なのが原因かもしれません。アメリカのアマゾンからダウンロードしたところ途中からスピードがでて無事ダウンロードできました。お騒がせしました。"
+  },
+  {
+    "conversation_id": "amazonhelp_017610",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.18920495506714038,
+    "customer_text": "@115850 I have ordered mobile by my prime account.It is not delivered even after 2 days.So u guys should return my Rs 499. @AmazonHelp Estimated delivery date was 5th october.U want any other details? @AmazonHelp This is the order details https://t.co/WNsU6YrhaF"
+  },
+  {
+    "conversation_id": "amazonhelp_018509",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "APP_USAGE",
+    "confidence": 0.13789623598198725,
+    "customer_text": "Really not happy with @115830 lately 😡 @AmazonHelp and now i get an email saying i may not receive my item and ive paid for next day delivery @AmazonHelp no reason at all except there may be a delay"
+  },
+  {
+    "conversation_id": "amazonhelp_019309",
+    "actual": "DELIVERY_LATE",
+    "predicted": "PRODUCT_ISSUE",
+    "confidence": 0.13520649027171563,
+    "customer_text": "Please announce the winers of #iphone8appquiz \n@115850 @115850 Hi...\nItz already 4 days late... when will be the results announced @AmazonHelp This result is not for 25th september quiz. I doubt that if the draw is really made or not or itz all fake."
+  },
+  {
+    "conversation_id": "amazonhelp_019777",
+    "actual": "PAYMENT_ISSUE",
+    "predicted": "OTHER",
+    "confidence": 0.13485272076108568,
+    "customer_text": "@115850 Unable to add Money to Amazon Pay.. Not receiving verification text mesaage! https://t.co/ogyF6qBqS7 @AmazonHelp Done! @AmazonHelp Still the issue is not resolved! 12hrs then 48 hrs... Wasted!"
+  },
+  {
+    "conversation_id": "amazonhelp_019975",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.14860208961529459,
+    "customer_text": "@115850 I had filed A-to-z guarantee claim on23rd,  today is 14day and no update. Waiting for last 20days for resolution. Please help. @115850 Dear Team, please respect your A-to-z guarantee claim policy and resolve the issue on committed date. In my case you have failed twice with no revised timeline. Disconnecting call is not the solution @AmazonHelp If want to help,share escalation matrix of your organization. Discussed with cc team, leadership team after multiple requests. A-to-z guarantee t"
+  },
+  {
+    "conversation_id": "amazonhelp_020579",
+    "actual": "DELIVERY_LATE",
+    "predicted": "PRODUCT_ISSUE",
+    "confidence": 0.10941685655983341,
+    "customer_text": "Yup I’m sure for my new $100 webcam this was a good choice for packaging options thanks @AmazonHelp https://t.co/crc8C3WeQT @AmazonHelp Oh I will have to plug it in to see if it would work. But I want a new one I’m pretty sure the “electronics” lifetime has been greatly compromised. The cam is lose inside of the webcam box &amp; the package looks like they took 2 days kicking it here."
+  },
+  {
+    "conversation_id": "amazonhelp_020721",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.11867616371405239,
+    "customer_text": "#CheatedbyAmzon Ordered Oneplus 5T from Amazon on 21st Nov.Guess what i got a Double Diamond Chaipatti. Was waiting desperately for delivery (Delivered by FedEx), was so anxious that visited Fedex vendor center to collect and opened right there. #Amazon https://t.co/n2DPrl2XoT @115850 @115821 ... you better look into this.. @AmazonHelp Already sent a mail.."
+  },
+  {
+    "conversation_id": "amazonhelp_022549",
+    "actual": "ORDER_STATUS",
+    "predicted": "DELIVERY_MISSING",
+    "confidence": 0.2759968749952739,
+    "customer_text": "@115850 I ordered a daily needs products from Amazon around 15 days back. I have not received the order and customer service not helping. @AmazonHelp I did not received my order @115850 @AmazonHelp Customer care not help me I was trying many times. They told me that our system is down. Please call after 24 hour @AmazonHelp Goods sent by way bill no. AW712266781IN by INDIA POST not delivered till now."
+  },
+  {
+    "conversation_id": "amazonhelp_025441",
+    "actual": "OTHER",
+    "predicted": "VIDEO_STREAMING",
+    "confidence": 0.202134011860183,
+    "customer_text": "@15462 @119625 you need to add more Kannada titles to your libraries.\nNo Lucia and Ranga Taranga. Please add."
+  },
+  {
+    "conversation_id": "amazonhelp_025935",
+    "actual": "DELIVERY_LATE",
+    "predicted": "REFUND_REQUEST",
+    "confidence": 0.2336885429255734,
+    "customer_text": "@115851 @115821 @115850 Thanks for lying, but let me remind no one is begger here to accept your alms. Refnd my money as promised. First robbed 2000 from my account and now stopped my refund, how much more you will rob? https://t.co/KtsEywyx8Y @AmazonHelp Already filled it multiple time but no reply from your end. @AmazonHelp Have filled it again. Please check."
+  },
+  {
+    "conversation_id": "amazonhelp_027028",
+    "actual": "OTHER",
+    "predicted": "RETURN_REQUEST",
+    "confidence": 0.1294498979404561,
+    "customer_text": "#KaroMilkeTayyari to get unbelievable deals on electronics at the #AmazonGreatIndianFestival. Ready for some tech-talk? https://t.co/yBQWEZbCw9 @115850 Amazon's customer service is very nonsense its customer care service has become very nonsense, not helping people pockets are being stupid @AmazonHelp You guys also just say sorry, do not help anyone, you have told me many times"
+  },
+  {
+    "conversation_id": "amazonhelp_027914",
+    "actual": "ORDER_STATUS",
+    "predicted": "RETURN_REQUEST",
+    "confidence": 0.13960032186047389,
+    "customer_text": "Amazon now sell duplicate product. I bought Biotique Basil And Parsley Soap (150gm), and they send me duplicate product. @115850 https://t.co/vBzN2B7J1b @115850 @115850 @AmazonHelp https://t.co/g2kcZ6A4A3 @AmazonHelp I don’t share order id. I sent email to original manufacture to confirm &amp; reply on above in email as screenshot."
+  },
+  {
+    "conversation_id": "amazonhelp_029127",
+    "actual": "APP_USAGE",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.10894384712971326,
+    "customer_text": "@AmazonHelp 35 minutes and still no help. Someone to call me back. Terrible customer service. Very disappointing for such a large company. @AmazonHelp No call back yet. Any chance someone at AmazonHelp can assist? Need to get it sorted quickly. @AmazonHelp One to two hours... What does Amazon Help help with? @AmazonHelp It's not really account related. Maybe I could PM you if@you could send a contact."
+  },
+  {
+    "conversation_id": "amazonhelp_029514",
+    "actual": "DELIVERY_LATE",
+    "predicted": "OTHER",
+    "confidence": 0.13098831032892438,
+    "customer_text": "@115828 I pre-ordered Battlefront 2 through you, will I be getting a beta code ? @116090 @AmazonHelp @AmazonHelp Maybe the beginning of the summer? Somewhere around May/June?"
+  },
+  {
+    "conversation_id": "amazonhelp_030080",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.12148300784075565,
+    "customer_text": "@115830 what's your cut off for deliveries? Only, I'm still waiting @AmazonHelp Still showing 'out for delivery' @AmazonHelp Didn't arrive."
+  },
+  {
+    "conversation_id": "amazonhelp_030619",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.13293955876923488,
+    "customer_text": "@115850 @145529 \nOrder a product with docket no 922684222 of gati \nA very waste service by both of u no one contacted disgausting @AmazonHelp Only tell me where is solution and what action taken on your courier partners unethical behaviour"
+  },
+  {
+    "conversation_id": "amazonhelp_031277",
+    "actual": "PRODUCT_ISSUE",
+    "predicted": "REFUND_REQUEST",
+    "confidence": 0.1830986888966205,
+    "customer_text": "Want to track your refunds but don’t know how? Here’s a simple answer: https://t.co/exsg0SvgkO #KaroMilkeTayyari #AmazonGreatIndianFestival https://t.co/A9qpJWPrOc @115850 They are not refunding money for damaged product @AmazonHelp Please see these two orders\n406-6423005-1265107\n406-1438491-8615559"
+  },
+  {
+    "conversation_id": "amazonhelp_033042",
+    "actual": "APP_USAGE",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.11021926837515708,
+    "customer_text": "@AmazonHelp 35 minutes and still no help. Someone to call me back. Terrible customer service. Very disappointing for such a large company. @AmazonHelp No call back yet. Any chance someone at AmazonHelp can assist? Need to get it sorted quickly. @AmazonHelp One to two hours... What does Amazon Help help with? @AmazonHelp It's not really account related. Maybe I could PM you if@you could send a contact. @AmazonHelp Have already tried this method. Not a satisfactory outcome. Need to speak to someon"
+  },
+  {
+    "conversation_id": "amazonhelp_033325",
+    "actual": "DELIVERY_LATE",
+    "predicted": "RETURN_REQUEST",
+    "confidence": 0.16557161443740956,
+    "customer_text": "@132994 I ordered One Plus 5T in preview sale on 24.11.2017. Today I have received the package. And to my surprise I received a packet of Glucon-D in nicely packed Box with Bill of One Plus 5T from @115850 But no trace of the phone. It brought me utter disgust &amp; sadnes. @AmazonHelp I have already escalated the issue with your team... And I was told that there will be a inquiry.. which seems a routine answer.. so I am escalating in every forum.. Filing a Police Complain and will go to Consume"
+  },
+  {
+    "conversation_id": "amazonhelp_033808",
+    "actual": "ACCOUNT_ACCESS",
+    "predicted": "OTHER",
+    "confidence": 0.13532451018828232,
+    "customer_text": "Not at home? Not a problem. Introducing Amazon Key, in-home delivery and guest access exclusively for Prime members. https://t.co/phHJM4I9jn https://t.co/dj3Ndw8fP1 @115821 What if your alarm is on? @AmazonHelp Thank you."
+  },
+  {
+    "conversation_id": "amazonhelp_034305",
+    "actual": "ACCOUNT_ACCESS",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.1366535310101262,
+    "customer_text": "@115821 Never have I ever dealed with such bad service and lack of communication @AmazonHelp I had to contact customer service even though I was told I would be contacted in 24 hours. That was 3 days ago. @AmazonHelp That there is nothing they can do and I will have to wait. I will be shocked if I actually get contacted. @AmazonHelp The login page states that my account is locked. Really..... @AmazonHelp I have filled in the form as you requested. @AmazonHelp Thank you."
+  },
+  {
+    "conversation_id": "amazonhelp_035079",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_MISSING",
+    "confidence": 0.14295366750152438,
+    "customer_text": "@AmazonHelp  @8105  I have to bring to your notice like inspire of requesting them to solve the dispute I haven't got a solution @AmazonHelp Yes I have done that hundreds of times @AmazonHelp No reply still horrible service @AmazonHelp Saying we couldn't find your order"
+  },
+  {
+    "conversation_id": "amazonhelp_035425",
+    "actual": "OTHER",
+    "predicted": "VIDEO_STREAMING",
+    "confidence": 0.1230523456362746,
+    "customer_text": "@115830 how do i get rid of that buy with one click scam? Made me buy something i didnt want through a pop up advert...ridiculous"
+  },
+  {
+    "conversation_id": "amazonhelp_035812",
+    "actual": "RETURN_REQUEST",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.14844970886063943,
+    "customer_text": "@115817 is about to make @115821 lose a customer!!! 😡😡😡😡😡 @AmazonHelp Well @115817 was suppose to delivery my package on Monday and did not. They also did not delivery my package today because they felt there wasn’t a proper place to leave my package. Now this isn’t the first package I’ve received, so I’m confused. Then I call @115817 because I won’t... @AmazonHelp @115817 Be around tomorrow to receive my package, so I want them to deliver it on Friday (even though I was suppose to have it yeste"
+  },
+  {
+    "conversation_id": "amazonhelp_037160",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.16304454650943906,
+    "customer_text": "Amazon better sort this out, I ordered this months ago and it's not even coming on the release date (Nov. 2nd). https://t.co/HpvfUagrDG @AmazonHelp @AmazonHelp It was listed as the release date, November 2nd. @AmazonHelp That link is for US, I'm a UK customer. It said when I placed the order that it would be arriving on the release date."
+  },
+  {
+    "conversation_id": "amazonhelp_037995",
+    "actual": "PRODUCT_ISSUE",
+    "predicted": "RETURN_REQUEST",
+    "confidence": 0.1012098060173171,
+    "customer_text": "@AmazonHelp Hi. Just received a heater. It’s a bit damaged. https://t.co/M4ihARye7S @AmazonHelp are we leaving this here? That I have to do it all because you’re team packed a damaged unit? @AmazonHelp ok, going through this — your only letting me use a pass my parcel to drop off — which is 10 miles away … however there are 3 drop off places in my town\n\nwhy can i not drop off at a local collect or locker?"
+  },
+  {
+    "conversation_id": "amazonhelp_039079",
+    "actual": "PAYMENT_ISSUE",
+    "predicted": "OTHER",
+    "confidence": 0.09959434883727823,
+    "customer_text": "Plz help me@amazonIN @AmazonHelp \nI saw a job advt. for the post of amazon supervisor  on @29757  whn i called them they offering jobs to freshers but to get this job they asked me to deposit 1550₹ in delhi fo uniform charges.\nIs dis genuine or fraud?\nI hv attached their msg https://t.co/Cr5CY2FNaz @AmazonHelp Thanks for your help. :)"
+  },
+  {
+    "conversation_id": "amazonhelp_039476",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.17295624973668278,
+    "customer_text": "@115821 same day delivery seriously let me down Yesterday.  Stayed up past my bedtime waiting for the delivery to then find out it could be Thursday before I see it.  Glad I didn't pay extra for the service. Last trace is left Amazon on way to carrier. Sounds lost to me. @AmazonHelp wold and shipped by Amazon.  Order# 113-5147642-2478610    Yes it was free same day delivery."
+  },
+  {
+    "conversation_id": "amazonhelp_039618",
+    "actual": "DELIVERY_LATE",
+    "predicted": "OTHER",
+    "confidence": 0.29780298446010833,
+    "customer_text": "@AmazonHelp bonjour, j’ai fait une commande qui était censé arriver samedi, retardé ensuite à lundi avant 20h, j’ai toujours rien reçu ajd @AmazonHelp  https://t.co/GCwt1vJ5YQ"
+  },
+  {
+    "conversation_id": "amazonhelp_040428",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.16413419752413239,
+    "customer_text": "@115850 ORDER # 403-0276244-3459531 your automated call  comes to informm that u can pay by net banking or by card at delivery time and delivery guy ask only \"CASH\" what a nonsense service @115850 Then better you mention the same in automated call . @AmazonHelp For every problem u have a pre scripted answer . And you guys are the biggest problem , of no use good for nothing which u can solve ."
+  },
+  {
+    "conversation_id": "amazonhelp_041137",
+    "actual": "OTHER",
+    "predicted": "APP_USAGE",
+    "confidence": 0.12074290787026125,
+    "customer_text": "@115821 after complaining on our last 9 deliveries for our parcels not to be left on our doorstep . We get home today and surprise surprise!! Getting nowhere fast ! Amazon sort yourselves out ! https://t.co/AHREqvo3ZR @AmazonHelp Yes we have constantly told your representatives of our preferences . Every time we call we get told an investigation will take place , we get NO notification of the outcome . Yet again they were told only this Saturday gone NOT to leave our parcels on the step , nothin"
+  },
+  {
+    "conversation_id": "amazonhelp_041431",
+    "actual": "OTHER",
+    "predicted": "APP_USAGE",
+    "confidence": 0.11658480940901972,
+    "customer_text": "@118706 Explain to me how an @115821 package (containing luggage, not a packet of crisps) that's on the truck to be delivered on Saturday is then lost and rescheduled for Tuesday?  Really @115821 @123967, how does this make any sense? https://t.co/raHArIwXTx @AmazonHelp Yes. Tell me how there is a single piece of useful info here? https://t.co/AeyGXjuCl7"
+  },
+  {
+    "conversation_id": "amazonhelp_041849",
+    "actual": "APP_USAGE",
+    "predicted": "DEVICE_ISSUE",
+    "confidence": 0.1629181194880647,
+    "customer_text": "@AmazonHelp app recognises that I am logged in but won’t refinish password or fingerprint. Won’t let me do reset either https://t.co/mz7e71sjc6 @AmazonHelp iPhone :) @AmazonHelp It’s an iPhone app but doesn’t seem to work in browser either"
+  },
+  {
+    "conversation_id": "amazonhelp_042597",
+    "actual": "APP_USAGE",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.1043271852322471,
+    "customer_text": "@115821 thank you soooo much for holding off my delivery that I was expecting and not actually delivering it because no one was there!! @AmazonHelp Apparently shipped from Japan but 🤷🏾‍♀️ https://t.co/G8cqiTSOBx @AmazonHelp Yeah they did"
+  },
+  {
+    "conversation_id": "amazonhelp_043407",
+    "actual": "PRODUCT_ISSUE",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.11540086729942098,
+    "customer_text": "So, today's @115821 courier decided to throw a LiPo battery up the stairs instead of walking. Thankfully the seller knew how stupid couriers can be sometimes. We're charging now to make sure it's not damaged for sure though. @AmazonHelp I've also already sent in a review for the packaging+delivery on the main Amazon site. Just doing a bit of grumping here, haha."
+  },
+  {
+    "conversation_id": "amazonhelp_043625",
+    "actual": "VIDEO_STREAMING",
+    "predicted": "APP_USAGE",
+    "confidence": 0.13813305168500792,
+    "customer_text": "@116618 how can I get 5.1 audio on Windows 10 ? @AmazonHelp I’m using Microsoft Edge, I can’t find those settings in your player or account @AmazonHelp I'm using a windows 10 PC and the microsoft edge browser, the only settings I have are streaming quality (best), subtitles and volume"
+  },
+  {
+    "conversation_id": "amazonhelp_043987",
+    "actual": "PAYMENT_ISSUE",
+    "predicted": "ORDER_STATUS",
+    "confidence": 0.12573976271653536,
+    "customer_text": "Shocking customer service from @115830 I think it’s time to cancel my prime membership!! @AmazonHelp I placed an order this morning, funds left bank account, since then I have been prompted to re enter payment method numerous times when I check status, I have spoken to customer services who said they had solved issue... they haven’t!"
+  },
+  {
+    "conversation_id": "amazonhelp_044006",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.14259182621336683,
+    "customer_text": "@AmazonHelp My package went out for delivery at 11:24 and its not 5 o clock and i dont have it, any danger? @AmazonHelp Still nothing 🤷🏻‍♂️"
+  },
+  {
+    "conversation_id": "amazonhelp_044064",
+    "actual": "OTHER",
+    "predicted": "VIDEO_STREAMING",
+    "confidence": 0.11769222382560365,
+    "customer_text": "Hello, what are the upcoming sales in November on Amazon India?"
+  },
+  {
+    "conversation_id": "amazonhelp_046064",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_TRACKING",
+    "confidence": 0.16981770836611845,
+    "customer_text": "@115830 contacted you 5/10 re unhelpful info re missed delivery. No reply 3 days later. How do I find my stuff?! @AmazonHelp No. Parcel is a gift. No date or tracking number on card left @ my flat. Customer services had no advice in initial response. @AmazonHelp No.  Is there no way to check all deliveries to a certain address since 21/9? I've got or know where is everything else, just 1 outstanding @AmazonHelp Thanks to unhelpful/incomplete information on missed delivery card from Amazon Logist"
+  },
+  {
+    "conversation_id": "amazonhelp_046123",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.16023080064257988,
+    "customer_text": "@115850 \nPathetic service, expected date for delivery was 7th and today u all extended the date.\nNot expected from u amazon. @AmazonHelp No need, now I have ordered from flipkart and they are delivering the same item in 24 hours.\nJust see ur service and compare  with flipkart."
+  },
+  {
+    "conversation_id": "amazonhelp_046260",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "PAYMENT_ISSUE",
+    "confidence": 0.12716757164512596,
+    "customer_text": "@115850 the captcha auth in amazon login sucks. Unable to decipher what is shown! @AmazonHelp Still unable to login using amazon captcha. :("
+  },
+  {
+    "conversation_id": "amazonhelp_046285",
+    "actual": "DELIVERY_LATE",
+    "predicted": "OTHER",
+    "confidence": 0.14888283137499447,
+    "customer_text": "The spot the hidden phones contest is closed. Thanks for participating. We'll announce the winners soon! #KaroMilkeTayyari @115850 Damm, I'm late @AmazonHelp OK, thanks"
+  },
+  {
+    "conversation_id": "amazonhelp_047601",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "REFUND_REQUEST",
+    "confidence": 0.19605474690700378,
+    "customer_text": "@115821 I ordered what turned out to be knock off fingerlings back in OCT - they STILL have not arrived - how do I get a refund? I keep asking the seller for a refund and they keep responding they are in the way... thank you! @AmazonHelp Neither details say. Only one has what says tracking info, and it says your package should have been delivered, contact us if not. Which I have tried. I think they both came from China, fakes- they both say shipped from back in OCT. I can send screen shots of in"
+  },
+  {
+    "conversation_id": "amazonhelp_048318",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.15929883818866694,
+    "customer_text": "@AmazonHelp why is every item I find on Amazon prime shipping 6 days out? Why isn't it 2 days like I'm paying for? @AmazonHelp You can see here it says IN STOCK.  So why is it 6 days to ship when it says PRIME.  Primebis still 2 days shipping right?"
+  },
+  {
+    "conversation_id": "amazonhelp_048576",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.16890776032222235,
+    "customer_text": "So what's the point of having Amazon Prime if y'all either lose my package or don't deliver on time? @115821 @AmazonHelp Yea. Shoulda been delivered Tuesday! @AmazonHelp AMZL US?\n\nAnd says it was out for delivery but status says it's lost."
+  },
+  {
+    "conversation_id": "amazonhelp_048847",
+    "actual": "RETURN_REQUEST",
+    "predicted": "ORDER_STATUS",
+    "confidence": 0.14894522011058278,
+    "customer_text": "@115850 After order automatically being cancelled by amazon,delivery guy calls saying he can deliver product - IS THIS BLACK MARKETING? @AmazonHelp I had contacted twice and exchanged 10 emails to ensure proper delivery but no machine,no delivery,falsely cancelled,now product expensive!"
+  },
+  {
+    "conversation_id": "amazonhelp_049715",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.1618362177605601,
+    "customer_text": "@115821 sent me an empty cardboard box instead of my Elgato Capture card, from 1 day shipping to waiting 4 days #streamerproblems #feelsbad @AmazonHelp Yes I was but I was only able to get my item re-shipped with 3 more days of shipping instead of the eligible 1 day"
+  },
+  {
+    "conversation_id": "amazonhelp_050731",
+    "actual": "PAYMENT_ISSUE",
+    "predicted": "REFUND_REQUEST",
+    "confidence": 0.18828607542636433,
+    "customer_text": "@AmazonHelp @115850  @115851 You are doing fraud by selling amazon prime. U charge but do not provide services. Kindly refund my money. @AmazonHelp @115851 https://t.co/vtwqACzJ8Q @AmazonHelp @115851 Waiting for revert. https://t.co/OrFbNv9RtD"
+  },
+  {
+    "conversation_id": "amazonhelp_050754",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.223102024413696,
+    "customer_text": "@115830 My order was supposed to arrive between 3 and 4 today, but still nothing. Wtf? #badservice @AmazonHelp This is a lie. I've been home ALL DAY &amp; nobody even rang my bell. What the actual hell?! #badservice #amazon #thissucks https://t.co/1GgjO6sSRe @AmazonHelp Done. @AmazonHelp I checked my emails &amp; I haven't heard anything back. It is now 24h since the time the delivery should have taken place. This is bad. @AmazonHelp Hey, Amazon, what's going on with my order? #badservice @Amazo"
+  },
+  {
+    "conversation_id": "amazonhelp_050756",
+    "actual": "ORDER_STATUS",
+    "predicted": "RETURN_REQUEST",
+    "confidence": 0.19714150945125508,
+    "customer_text": "Lesson - Never buy Mi India product and that too from \nAmazon India. Both have created a fraudulent scheme to... https://t.co/brdBtVASsI @AmazonHelp Nobody is helping.Nothing is happening.Service center is saying we can't-do anything and your CC is saying cannot help. @AmazonHelp No, it has not expired, it is up to 5th of October.Both your customer care and MI customer care are harassing us. @AmazonHelp Order id- 402-1144616-7455501, Mobile - 7008415435 @AmazonHelp 12-hour window was provided to"
+  },
+  {
+    "conversation_id": "amazonhelp_051058",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_TRACKING",
+    "confidence": 0.3071994172468884,
+    "customer_text": "@AmazonHelp please help me get my parcel! No explanation for late delivery and I need it before 5pm today! @AmazonHelp Hi was meant to be yday said out for delivery yesterday  📦 it's saying same thing today. other stuff ordered at same time arrived yday @AmazonHelp I have done and tracking now states tomorrow; when an email said today. Not happy. No explanation as to delay! @AmazonHelp I need it by 5pm today 😩 @AmazonHelp That it would be delivered today but since then the tracking has changed t"
+  },
+  {
+    "conversation_id": "amazonhelp_051452",
+    "actual": "APP_USAGE",
+    "predicted": "ORDER_STATUS",
+    "confidence": 0.13464104878526548,
+    "customer_text": "@115830 is there any Battlefront 2 available to pre order? I've been keeping an eye and was hoping to order tomorrow? x @AmazonHelp Noooo do you have any PS4, actual game or download code? X @AmazonHelp Sorry I should have said the elite trooper edition x"
+  },
+  {
+    "conversation_id": "amazonhelp_051459",
+    "actual": "REFUND_REQUEST",
+    "predicted": "RETURN_REQUEST",
+    "confidence": 0.1912140639877333,
+    "customer_text": "Want to know when your order will reach you? Track your order with just a click, only on Amazon. https://t.co/Oaqku4BzlU https://t.co/DPltzpRD1f @115850 Jokers I want to know why refund initiated @35358 @AmazonHelp @14045 @AmazonHelp call me jokers i'm feed-up of writing @115851 @115850 and pathetic @115821.com"
+  },
+  {
+    "conversation_id": "amazonhelp_051894",
+    "actual": "DELIVERY_LATE",
+    "predicted": "OTHER",
+    "confidence": 0.27351093302702734,
+    "customer_text": "bon je passerais plus par @85871 pour avoir des set de @85872 j'ai jamais recu mon set de l'Irlande @85871 @85872 merci a @120533  qui a etait tres vite pour comprendre que je n'aurais jamais mon article et qui a annuler la commande 😉"
+  },
+  {
+    "conversation_id": "amazonhelp_053521",
+    "actual": "OTHER",
+    "predicted": "ORDER_STATUS",
+    "confidence": 0.1780949467531405,
+    "customer_text": "@115850@AmazonHelp, Place a mobile order on OCT28 and today when I see it says order not deliverable. No one called me I gave 2 contact no https://t.co/2UtiP70LtN @AmazonHelp yes they said to order new product , again same issue with new order, I paid 150 extra for one day delivery."
+  },
+  {
+    "conversation_id": "amazonhelp_055100",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_MISSING",
+    "confidence": 0.12539324254263845,
+    "customer_text": "@115830 I've received my Bruce Dickinson autobiography today and it isn't the Ltd edition black edged page version i ordered in July #help @AmazonHelp Hi you've sent me another copy which I've just received its still wrong not the Ltd edition black edged pages #gettingfrustrated"
+  },
+  {
+    "conversation_id": "amazonhelp_055232",
+    "actual": "OTHER",
+    "predicted": "VIDEO_STREAMING",
+    "confidence": 0.12698201089327357,
+    "customer_text": "When @115830  make you think you're getting your Xbox on release date but actually you're not but here's a £5 voucher 🙄🙄 shite. @AmazonHelp Very frustrating being told they can't deliver tomorrow cos the cut off has passed... Amazon prime a waste of money clearly"
+  },
+  {
+    "conversation_id": "amazonhelp_055234",
+    "actual": "OTHER",
+    "predicted": "ORDER_STATUS",
+    "confidence": 0.14811050211648205,
+    "customer_text": "@AmazonHelp Just cancelled an order to change the address now it's saying out of stock no idea of restock! Can I not have my old order back? @AmazonHelp I preordered these 2items on the 22nd of Aug! All I wanted to do was change the address.I would like these items as they are important gifts"
+  },
+  {
+    "conversation_id": "amazonhelp_055235",
+    "actual": "OTHER",
+    "predicted": "DEVICE_ISSUE",
+    "confidence": 0.11062529489923091,
+    "customer_text": "@116090 I just received a parcel and the packaging adhesive ruined two of the products 😣"
+  },
+  {
+    "conversation_id": "amazonhelp_055904",
+    "actual": "OTHER",
+    "predicted": "APP_USAGE",
+    "confidence": 0.12343521070294332,
+    "customer_text": "@115821 @69136 Amazon logistics team sucks. I highly suggest all businesses stop using them. 3rd party companies are delivering. @115821 @AmazonHelp @115821 they don't call you just mark it undeliverable. Horrible customer service. done using them. @AmazonHelp That is great except I have been on the phone with you guys for 2 hours this morning and no one is helpful"
+  },
+  {
+    "conversation_id": "amazonhelp_056904",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "PAYMENT_ISSUE",
+    "confidence": 0.1099149228421071,
+    "customer_text": "@AmazonHelp Please cancel these orders for me #112-1563680-0995405 and #114-0391917-2583411 THE CANCEL OPTION DOES NOT SHOW UP FOR THESE! @AmazonHelp it says they haven't shipped. are some companied allowed to NOT offer cancellation of orders? I feel like I'm being tricked."
+  },
+  {
+    "conversation_id": "amazonhelp_057274",
+    "actual": "OTHER",
+    "predicted": "RETURN_REQUEST",
+    "confidence": 0.11712798922502982,
+    "customer_text": "@AmazonHelp I did contact the same and I'm getting no useful reply. I just want a genuine answer from you"
+  },
+  {
+    "conversation_id": "amazonhelp_057696",
+    "actual": "APP_USAGE",
+    "predicted": "OTHER",
+    "confidence": 0.2569807260158059,
+    "customer_text": "@115821 @120533 Énorme problème avec ma commande... Je ne recommande pas, commande disparue de la circulation @AmazonHelp Commande casque Bose QC 35 hier vers minuit, devrait être reçue entre 19 et 22h, or elle n'apparaît plus dans \"mes commandes\" @AmazonHelp Je ne sais pas quel est le site du transporteur, c'est expédié par Amazon @AmazonHelp Je vous remercie, mais j'ai déjà envoyé un mail à Amazon concernant le souci, aucune réponse... @AmazonHelp merci beaucoup, appel passé, problème résolu, "
+  },
+  {
+    "conversation_id": "amazonhelp_057893",
+    "actual": "DELIVERY_LATE",
+    "predicted": "PAYMENT_ISSUE",
+    "confidence": 0.18733078898908923,
+    "customer_text": "@AmazonHelp The order that you cancelled was a gift that now will not make it. Stop focusing on the account. Start focusing on the customer @AmazonHelp If I didn't have access to account. How would I know you blew out all the payment information.  You even blew out my reward points. @AmazonHelp I DON'T HAVE A LOGON PROBLEM.  ESCALATE NOW!!! I HAVE PROBLEMS WITH WHAT YOU DID TO MY ACCOUNT AND ORDER"
+  },
+  {
+    "conversation_id": "amazonhelp_058474",
+    "actual": "OTHER",
+    "predicted": "APP_USAGE",
+    "confidence": 0.11142838650295624,
+    "customer_text": "Absolutely fuming! Amazon are great but how the fuck do you get in contact with them? @115830 @AmazonHelp Thanks! Do you know what I can do about this? I literally got it yesterday https://t.co/EhyAOSzZKR @AmazonHelp I bought it online, set it up last night. All working fine but then this this morning. It is registered."
+  },
+  {
+    "conversation_id": "amazonhelp_058666",
+    "actual": "DELIVERY_LATE",
+    "predicted": "OTHER",
+    "confidence": 0.2713023306508667,
+    "customer_text": "@AmazonHelp Bonjour, j'ai deux colis en retard en même temps, chacun avec une raison du retard \"floue\" comment avoir plus d'informations ? @AmazonHelp Finalement non seulement en retard, le colis a été \"livré\" aujourd'hui. Sauf que évidemment il n' y a rien dans ma boîte au lettre :D Merci pour votre \"efficacité\" @132988"
+  },
+  {
+    "conversation_id": "amazonhelp_060499",
+    "actual": "OTHER",
+    "predicted": "DEVICE_ISSUE",
+    "confidence": 0.14227695983706012,
+    "customer_text": "@AmazonHelp Sorry, can't find link to query an item just orders. https://t.co/vzhDBFgGss - states only Norwegian audio but has English cast @AmazonHelp I want the Norwegian subbed version but as the current information is contradictory I thought I'd check first."
+  },
+  {
+    "conversation_id": "amazonhelp_062436",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_MISSING",
+    "confidence": 0.12229701071224965,
+    "customer_text": "Amazed by @51284  delivery model. Ordered for diapers at 10am n got them delivered for free at 4pm n at prices lower than @115850 @752589 @51284 @115850 @115850 might not even deliver to you stating undeliverable address that too after delivering 100s of parcel before."
+  },
+  {
+    "conversation_id": "amazonhelp_064220",
+    "actual": "DELIVERY_LATE",
+    "predicted": "ORDER_STATUS",
+    "confidence": 0.28121704712471784,
+    "customer_text": "@115830 My order was supposed to arrive between 3 and 4 today, but still nothing. Wtf? #badservice @AmazonHelp This is a lie. I've been home ALL DAY &amp; nobody even rang my bell. What the actual hell?! #badservice #amazon #thissucks https://t.co/1GgjO6sSRe @AmazonHelp Done. @AmazonHelp I checked my emails &amp; I haven't heard anything back. It is now 24h since the time the delivery should have taken place. This is bad. @AmazonHelp Hey, Amazon, what's going on with my order? #badservice"
+  },
+  {
+    "conversation_id": "amazonhelp_064362",
+    "actual": "DELIVERY_LATE",
+    "predicted": "REFUND_REQUEST",
+    "confidence": 0.196232886220706,
+    "customer_text": "@AmazonHelp: What I ordered and what I got;pls check so called \"Apni Dukaan\",pathetic service,stop making people fool, pls refund my money. https://t.co/xZZRUGq9pk @AmazonHelp Are you guys listening or you have started taken things for granted. @AmazonHelp @115851\nDear Sir, need your intervention as I am chasing Amazon.in from last 13 days but they are unable to provide any resolution. ☹️ @AmazonHelp Yes @AmazonHelp @115851 no this is not helping, you r doing the same thing from last so many day"
+  },
+  {
+    "conversation_id": "amazonhelp_065180",
+    "actual": "PRODUCT_ISSUE",
+    "predicted": "PAYMENT_ISSUE",
+    "confidence": 0.14708090396923992,
+    "customer_text": "me: buys a TV on the @115830 prime sale for 379.99\namazon: deliver a broken product\nme: wtf\namazon: why not get your sale refund and buy it back for full price? (479.99)\n\nNice of amazon to charge me £100 just because they messed up an order. Simply sublime customer service. @115830 honestly @115830 @AmazonHelp you guys need to sort it out! @AmazonHelp Amazon seller. Shipped by DPD. 😊 \nIt's current state https://t.co/XXZFtX7tc9"
+  },
+  {
+    "conversation_id": "amazonhelp_065755",
+    "actual": "APP_USAGE",
+    "predicted": "OTHER",
+    "confidence": 0.3180674045516494,
+    "customer_text": "Bonjour @120533 avez vous un carton plus grand que le G10 pour mon chat ? Il le trouve pas assez grand. Merci. https://t.co/9M5vd9f9a4 @AmazonHelp Il s'appelle Réglisse et il a 7 mois aujourd'hui."
+  },
+  {
+    "conversation_id": "amazonhelp_066175",
+    "actual": "DELIVERY_LATE",
+    "predicted": "OTHER",
+    "confidence": 0.15937817468435997,
+    "customer_text": "@8078 @116316 it’s a shame guys... preordered my 4K60 Pro 2nd of nov 9 o’clock in the morning... no shipping today... delay till 21th of dec... 🤬🤬 feels real bad guys.... @AmazonHelp Amazon.de @AmazonHelp  https://t.co/K2QhVP0MQe"
+  },
+  {
+    "conversation_id": "amazonhelp_066915",
+    "actual": "APP_USAGE",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.19286557543756802,
+    "customer_text": "@AmazonHelp Have DM-ed you guys a query. Please look into. @AmazonHelp Sad. Amazon couldn’t deliver on GUARANTEED 1 day delivery despite me subscribing to Amazon Prime. @AmazonHelp Done already. @115850 Prime has failed to deliver on 1 day GUARANTEED delivery. Never was this disappointed."
+  },
+  {
+    "conversation_id": "amazonhelp_067711",
+    "actual": "APP_USAGE",
+    "predicted": "OTHER",
+    "confidence": 0.32985665719191914,
+    "customer_text": "@120533 c'est ce que vous appelez remis en lieu sûr... Pas très pro comme pratique  🤔 https://t.co/KJFFKtOfjG @AmazonHelp Bonjour, il s'agit des livraisons des sociétés de l'immeuble, tout étant mélangé. Carton perdu pour ma part, aucun retour du service Amazon. @AmazonHelp Oui, il y a plus d'une semaine... @AmazonHelp Amazon Logistic... @AmazonHelp Qu une enquête est ouverte..  aucune nouvelle depuis malheureusement et un colis non livré du au manque de professionnalisme des livreurs @AmazonHel"
+  },
+  {
+    "conversation_id": "amazonhelp_067975",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.12680266650535163,
+    "customer_text": "@115821 when I preorder something for day of release I should get it day of release or you shouldn't try to take my money. Sort it out. @AmazonHelp This was. When I clicked \"pre-order\" it said \"Preoder guarantee.\" That's why I preordered it there. Now it's not coming till 20 days after. @AmazonHelp It's not a game. It's the Xbox One X Scorpio Edition."
+  },
+  {
+    "conversation_id": "amazonhelp_068030",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_MISSING",
+    "confidence": 0.17107445591884424,
+    "customer_text": "Ugh Amazon still haven't delivered my copy of Xenoblade Chronicles 2. I hate Amazon Logistics. You'd have thought I'd learnt my lesson by now. https://t.co/tl67qXhlgA @AmazonHelp Thanks for the tweet but it's not really a problem - just been waiting all day for it to arrive and typically it comes right at the last minute. I'm just impatient 😁"
+  },
+  {
+    "conversation_id": "amazonhelp_068531",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.10843104497461266,
+    "customer_text": "@115830 weird how every time I try and make a complain the Amazon rep makes a mistake and doesn’t record it correctly. @AmazonHelp asked to raise a complaint, was told it was raised, the follow up email then spoke about a different order that was already received and no complaint was raised."
+  },
+  {
+    "conversation_id": "amazonhelp_068999",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_MISSING",
+    "confidence": 0.152858593423641,
+    "customer_text": "@AmazonHelp , I got a email telling me my parcel had been delivered and posted through letter box but no package came and no chap at my door. What's going on @AmazonHelp I have cheked everywhere, there wasn't even a chap at my door as I've been in all morning."
+  },
+  {
+    "conversation_id": "amazonhelp_069293",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.13599260897058374,
+    "customer_text": "@115821 please cur customer service in India.More than 1month waiting for simple installation in metrotown.@115850 @AmazonHelp @115851 https://t.co/rnp22FoN88 @AmazonHelp but the public should be aware of ur pathetic service. it is in their personal interest.@115821 @115850 @AmazonHelp What next??? #whenitwillbedone @AmazonHelp Advising everyone to keep away from such a pathetic company. Waisted my 5 weeks. @115821 @115850 #shameonyou @AmazonHelp Mail says 2 reschedule!! I’ve been doing it for 4"
+  },
+  {
+    "conversation_id": "amazonhelp_070538",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_TRACKING",
+    "confidence": 0.16790594208374426,
+    "customer_text": "@AmazonHelp so I got a notification that delivery was attempted at my warehouse but I've been here all day/the package fits in my mailbox. It's a prime item. @AmazonHelp There is absolutely no way delivery was attempted at 4:53 @AmazonHelp I was literally on Instagram live waiting for the package to arrive and it never did. Why am I even paying for prime?"
+  },
+  {
+    "conversation_id": "amazonhelp_070644",
+    "actual": "DELIVERY_TRACKING",
+    "predicted": "RETURN_REQUEST",
+    "confidence": 0.19954826506281614,
+    "customer_text": "@115850 Pickup Tracking ID 69956471561, no response from your agents for the return ?? @AmazonHelp I already did, its still say 'return started' since ages ?! @AmazonHelp Are you still looking into this, or will you take any action at all ? @AmazonHelp already did.It says will get bck in 24 hr but its been 48 hr. Wht a mess u folks are. If u dnt wnt 2take return tel me I will throw thm away @AmazonHelp Is your mentioned time frame in sync with planet earth or you work from Mars ? its been more t"
+  },
+  {
+    "conversation_id": "amazonhelp_071203",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_MISSING",
+    "confidence": 0.10829065276444018,
+    "customer_text": "@115830 I've received my Bruce Dickinson autobiography today and it isn't the Ltd edition black edged page version i ordered in July #help @AmazonHelp Thanks I've just emailed hope this gets sorted soon"
+  },
+  {
+    "conversation_id": "amazonhelp_071397",
+    "actual": "DELIVERY_LATE",
+    "predicted": "ORDER_STATUS",
+    "confidence": 0.18809197464089755,
+    "customer_text": "Ordered @125607 but in box is rin @71825 Service provider @115821 .I saved money to gift the phone to mom but when opened shocked https://t.co/Yw3vyKmPvn @AmazonHelp Than do something na please . @AmazonHelp Amazon is from now a company of fraud to me i will tell all my frends to never trust it @AmazonHelp Tommorrow i will file a case against you , i know its late but i cant loose full hope @AmazonHelp Mail me on my id check my order , trace it or do something , i have to register a case among y"
+  },
+  {
+    "conversation_id": "amazonhelp_072249",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.1397402431054455,
+    "customer_text": "#CheatedbyAmzon Ordered Oneplus 5T from Amazon on 21st Nov.Guess what i got a Double Diamond Chaipatti. Was waiting desperately for delivery (Delivered by FedEx), was so anxious that visited Fedex vendor center to collect and opened right there. #Amazon https://t.co/n2DPrl2XoT @115850 @115821 ... you better look into this.. @AmazonHelp Already sent a mail.. @AmazonHelp Mr. Hafiz from Amazon is saying he won't be able to help. What kind of response is that. Every time it's please wait for 72 hour"
+  },
+  {
+    "conversation_id": "amazonhelp_073655",
+    "actual": "ORDER_MODIFY",
+    "predicted": "ORDER_STATUS",
+    "confidence": 0.1875050364201001,
+    "customer_text": ".@115850 ORDER # 403-1563848-1833109 will take over a month to reach gujarat??? how ??? @AmazonHelp So you want me to cancel my order placed??? @119350 @AmazonHelp DM them.. @384052 @AmazonHelp Be hosiyaari DM ke liye follow karana padta hai pehle @119350 @AmazonHelp I have that option. Poor thing @384052 @AmazonHelp You rant so much . They have given you that privilege @119350 @AmazonHelp I speak point to point. I don't whine @384052 @AmazonHelp I don't whine. I fight for my right .. bloody 25 "
+  },
+  {
+    "conversation_id": "amazonhelp_074216",
+    "actual": "OTHER",
+    "predicted": "APP_USAGE",
+    "confidence": 0.10439743679408567,
+    "customer_text": "@120474 Hiya have been trying to buy tickets, get to the processing screen but then it won't progress and we have lost them?? @120474 The only ones that are left are priced at £70  even though we had two processing at the rate of £40 each???"
+  },
+  {
+    "conversation_id": "amazonhelp_074438",
+    "actual": "APP_USAGE",
+    "predicted": "OTHER",
+    "confidence": 0.23131650292535227,
+    "customer_text": "Ähm @116316? Ist das so gewollt? https://t.co/NVvI0aywQ4 @AmazonHelp Doch. Jedes 4.-5. mal reload kommt dieser Banner. Sieht aus als würde das Loadbalancing manchmal auf einen Server leiten, der hier die falsche Sprache hat @AmazonHelp Sieht dann so aus: https://t.co/JqrQ9j2Fiy"
+  },
+  {
+    "conversation_id": "amazonhelp_074830",
+    "actual": "OTHER",
+    "predicted": "APP_USAGE",
+    "confidence": 0.11355038515161073,
+    "customer_text": "Hey i answered all the questions correctly I also entered in vivo contest and i participated in every quiz but never won 😭💔 #iPhone8AppQuiz https://t.co/3pVqtSMTAr @115850 I've been trying so hard for this contest please choose me please @AmazonHelp Why not here?"
+  },
+  {
+    "conversation_id": "amazonhelp_074935",
+    "actual": "PRODUCT_ISSUE",
+    "predicted": "VIDEO_STREAMING",
+    "confidence": 0.1574050998237385,
+    "customer_text": "“It’s too bad she won’t live! ...then again, who does?” https://t.co/CxxK75BMhi @115830 deserves a spanking however. No bubble wrap on a movie. Size of the box is the same as the film box. Yikes!  Damaged corners https://t.co/fQH2Puz1wG @115830  https://t.co/T2VvVzs7Na"
+  },
+  {
+    "conversation_id": "amazonhelp_075953",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "VIDEO_STREAMING",
+    "confidence": 0.24778978190190187,
+    "customer_text": "@AmazonHelp one prime member in how many device can log in on prime video @AmazonHelp Thank you"
+  },
+  {
+    "conversation_id": "amazonhelp_076359",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_TRACKING",
+    "confidence": 0.16087797053783043,
+    "customer_text": "I am waiting on a book that Amazon shipped using neither UPS nor USPS. @AmazonHelp You didn't, but I've never heard of the carrier you used (ONTRAC) and it didn't come with the day's mail. I'm just unfamiliar with them, so I'm not sure when to expect it, I guess... @AmazonHelp Apparently, my package was delivered at 5:30 last night, even though I checked and there was nothing and originally, you said there’d be a delay. I’m very irritated and confused with your tracking info and choicr of carrie"
+  },
+  {
+    "conversation_id": "amazonhelp_078554",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.11901794400765102,
+    "customer_text": "@AmazonHelp Question about the Xbox one X preorder. Will it ship on 11/7/17 or will it ship before to arrive on 11/7/17? Thanks! @AmazonHelp I haven’t ordered it yet, so I’m inquiring before I waste the time and money. I’ll get it from GameStop if it won’t ship till 11/7."
+  },
+  {
+    "conversation_id": "amazonhelp_078660",
+    "actual": "OTHER",
+    "predicted": "APP_USAGE",
+    "confidence": 0.11081458866041011,
+    "customer_text": "Dear @115850 One of the worst service from you.. not expecting like this.. I'm deleted my account.. #only_name.. #service_worst.. @AmazonHelp Your delivery man and also coustmer executive so much careless... @AmazonHelp You call me on 8378994185.."
+  },
+  {
+    "conversation_id": "amazonhelp_079167",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.13683545724448634,
+    "customer_text": "@AmazonHelp I ordered this book yesterday and needed it ASAP! It’s prime and was meant to get it today and now not coming until Saturday! Another prime delivery not arriving when it says! @AmazonHelp  https://t.co/CCkz8VHrRl @AmazonHelp The link didn’t take me anywhere? But the email confirmation said as followed https://t.co/ddVndAjRWU"
+  },
+  {
+    "conversation_id": "amazonhelp_079396",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.13193984882358117,
+    "customer_text": "Thanks, @1702 and @118706 , I always like my nail polish to be delivered completely crushed with glass shards everywhere and smelling of chemicals. https://t.co/58sB2SMogu @677439 @1702 @118706 Love it. I got a package the other day from @115821 that had nothing in it 😒"
+  },
+  {
+    "conversation_id": "amazonhelp_079872",
+    "actual": "PAYMENT_ISSUE",
+    "predicted": "APP_USAGE",
+    "confidence": 0.1269283696893056,
+    "customer_text": "Wow, @115821 customer service is going downhill. I just had the worst experience, topped off by an absolutely crazy email from their rep. @AmazonHelp I was talking on IM about a price matching policy. The rep was kind of rude, then sent an email about credit card authorizations... @AmazonHelp Which had nothing to do with anything. She ended nutty email by saying Amazon would no longer respond to me on this matter."
+  },
+  {
+    "conversation_id": "amazonhelp_080321",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_MISSING",
+    "confidence": 0.20917627516677056,
+    "customer_text": "Amazon plane packed with donation of critical supplies landed earlier today in San Juan. Thank you to all the Amazonians who made it happen. https://t.co/w3ksl0SP25 @115851 Shambolic service.let me down..given my order to neighbor without informing me 3 times and cx service refused to help @115850 @AmazonHelp @AmazonHelp I have  shared the details . Thanks @AmazonHelp I was contacted by siri.. who promised me a call back yesterday still waiting for the same @AmazonHelp I responded to the email a"
+  },
+  {
+    "conversation_id": "amazonhelp_080505",
+    "actual": "DELIVERY_LATE",
+    "predicted": "APP_USAGE",
+    "confidence": 0.25095481604268416,
+    "customer_text": "Ça me surprend toujours comme #Amazon fait toujours miroiter des dates d’arrivée mirobolantes aux colis et comme finalement ils restent toujours bloqués quelque part et en retard. (Oui y a 3 toujours, c’est l’agacement) Genre là je commande un colis, et je m’étonne de voir que la date d’arrivée est carrément très proche. Mais je suis content. Le colis avance bien selon le suivi. Et hier, date d’arrivée normale, à 20h01 ils m’apprennent qu’il sera en retard ... :D @2600 une explication en DM sera"
+  },
+  {
+    "conversation_id": "amazonhelp_080571",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.2068680937315119,
+    "customer_text": "@AmazonHelp guys, pls share an update on this order and expedite delivery. https://t.co/sWlT0C0mr1 @AmazonHelp It is supposed to reach today by 5. Your delivery boy nbr is wrong. @AmazonHelp Its a delivery at offc and the same was mentioned while ordering. It should come by 5pm. Pls confirm."
+  },
+  {
+    "conversation_id": "amazonhelp_081358",
+    "actual": "DELIVERY_LATE",
+    "predicted": "REFUND_REQUEST",
+    "confidence": 0.1505923219673143,
+    "customer_text": "@115850 here is the post amazon India delet d from Facebook for the cheating they have done with us. #UnamazingAmazon #StopBuyingAmazonIn https://t.co/AUKhHrJ1aO @AmazonHelp You should worry more about providing a service. How does orderid matter when you have nicked the whole money and there is no refund? @AmazonHelp Latest Print label to pickup item 12 oct attached previous label saved for ref. to pickup item on 4 Oct'17. Have enough evidence for court https://t.co/U7xywLs68F"
+  },
+  {
+    "conversation_id": "amazonhelp_083627",
+    "actual": "APP_USAGE",
+    "predicted": "RETURN_REQUEST",
+    "confidence": 0.12775107685820544,
+    "customer_text": "@AmazonHelp @115850 #Customersatisfaction is much better way to gain business, than to spend money alone. #amazonindia  is losing it. https://t.co/fLDkPXM1pz @AmazonHelp Of Course. That is the reason we are approaching you. If you can't deliver product on time, then you should not accept the bookings."
+  },
+  {
+    "conversation_id": "amazonhelp_083916",
+    "actual": "DELIVERY_LATE",
+    "predicted": "PRODUCT_ISSUE",
+    "confidence": 0.2004448582146402,
+    "customer_text": "Looks like @115850 is straggling with delivery agents. Fake delivery status. No timely delivery @115821 @AmazonHelp @AmazonHelp Already reported. Now its 2nd time. @AmazonHelp Delayed on customer request? #Amazon #delivery guys can mark any reason they want. #scam https://t.co/87nyrvWx4s"
+  },
+  {
+    "conversation_id": "amazonhelp_083976",
+    "actual": "APP_USAGE",
+    "predicted": "DELIVERY_MISSING",
+    "confidence": 0.15765166251182905,
+    "customer_text": "So @115830 where is my parcel?! It appears to have disappeared. https://t.co/gBOR3PqZPO @AmazonHelp Missed is an understatement..."
+  },
+  {
+    "conversation_id": "amazonhelp_084122",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.15038398761488525,
+    "customer_text": "I HATE USPS. STOP GIVING MY PACKAGES TO THEM. WHY CANT I JUST HAVE UPS OR FEDEX EVER?! I wouldnt be paying for Amazon Prime if I wanted my packages in a WEEK. 😠😠😠😠 @118706 @115821 @AmazonHelp Yeah I had 2 items that should have been delivered today. But my USPS is crap and holds my packages too long before delivering. Everything Ive ordered from anywhere has taken longer than expected to be delivered to me."
+  },
+  {
+    "conversation_id": "amazonhelp_084933",
+    "actual": "APP_USAGE",
+    "predicted": "OTHER",
+    "confidence": 0.3252152078172622,
+    "customer_text": "Hey @AmazonHelp , ce produit est vendu pour un de vos fournisseur ou par Amazon directement ? https://t.co/KtCQ8bf13Z\n\nComment ce passe la garantie/SAV ? @AmazonHelp Donc, si je comprend bien, vous avez les stocks dans vos locaux ?\n\nSi problème il y a quelles sont les garantis dispo etc ? @AmazonHelp Aucune garantie donc ? Mise à part les 30 jours après ouvertures pour renvoyer si problème ? @AmazonHelp La garantie fabricant c'est celle de chez Samsung c'est ça ? Ou bien de chez Elec Tomorrow ? "
+  },
+  {
+    "conversation_id": "amazonhelp_085616",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DEVICE_ISSUE",
+    "confidence": 0.1977099370698476,
+    "customer_text": "Ten years ago today, we launched the first-ever Kindle. Happy 10th birthday @117634 and thank you to all the Kindle readers and authors! https://t.co/qelfniBSK1 @115851 @117634 I'm on my 3rd Kindle and have bought over 500 books. However, my latest, the VOYAGER has always had a clearly visible defect. it's dusky cloudy on top right section of the screen. design flaw? big dissapointment. please advise, thank you. \n\nSincerely, Scott @AmazonHelp Ordered on March 23, 2016  Order# 116-4081823-9779459"
+  },
+  {
+    "conversation_id": "amazonhelp_086721",
+    "actual": "OTHER",
+    "predicted": "APP_USAGE",
+    "confidence": 0.10710965113012945,
+    "customer_text": "Yo this is stupid I pre-order the Call of Duty WW2 PS4 Bundle off @115821 (Keep in mind I pre-ordered it) and it won't be here until the 6th @AmazonHelp November 6th @AmazonHelp Hello?"
+  },
+  {
+    "conversation_id": "amazonhelp_087361",
+    "actual": "OTHER",
+    "predicted": "RETURN_REQUEST",
+    "confidence": 0.10613177616971915,
+    "customer_text": "@115850. I Have ordered for Aukey wired earphones but received Aukey Bluetooth headphones instead. Pretty cool though but Plz check it! https://t.co/PEgU096GHk @115850 @115821 @115850 One more thing. When i ordered the earphone it was of rs.1349 and now it's 2487. Need assistance in that as well."
+  },
+  {
+    "conversation_id": "amazonhelp_087446",
+    "actual": "APP_USAGE",
+    "predicted": "OTHER",
+    "confidence": 0.28535847150107874,
+    "customer_text": "@AmazonHelp normal qu’on commander un livre qui devait être livré hier avant 20h et que finalement on doit aller le chercher dans un point relais alors que c livraison à domicile ! @AmazonHelp Non rien du tout un message pour dire de venir le chercher dans un point relais ! @AmazonHelp Je viens de le faire @AmazonHelp Nn rien mais cela ne changera pas le problème personne va me mener mon colis va falloir que j’y aille moi le récupérer @AmazonHelp Une personne vient de m’appeler va falloir quand "
+  },
+  {
+    "conversation_id": "amazonhelp_088598",
+    "actual": "DELIVERY_LATE",
+    "predicted": "PAYMENT_ISSUE",
+    "confidence": 0.11594683430849859,
+    "customer_text": "@115850  worse customer service. Purchased a  refrigerator on 21st nov and got a faulty piece. Took a refund in amazon pay account to buy a new one but not able to purchase. Support is giving just false promises. Worst @AmazonHelp My number is 9620053343. Please check the order. I am tried now dealing with you support. @AmazonHelp Done. @AmazonHelp I hope you get back soon not like your othee executives which are taking ages."
+  },
+  {
+    "conversation_id": "amazonhelp_090052",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "OTHER",
+    "confidence": 0.1299605361935232,
+    "customer_text": "@115821 @115850 @1404 y amazon is making fraud with people, price suddenlu Increases wen u checkout. https://t.co/sLtAmteUyz @115821 @115850 @1404 i was asking for showing different prize, bt wen i go to buy it , prize increases, y so"
+  },
+  {
+    "conversation_id": "amazonhelp_090187",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_MISSING",
+    "confidence": 0.20256306934029034,
+    "customer_text": "@AmazonHelp @115850 refer to order#408-3775987-1842723 for which I'm eligible for Rs2000 cashback, was supposed to be credited by Aug 11 @AmazonHelp @AmazonHelp @115850 since you're claiming that you've processed the cashback for order#408-3775987-1842723 give the txn ID &amp; date for same @AmazonHelp @AmazonHelp @115850 received no mail from you. Last mail claimed that CB has been processed. Where is the txn ID &amp; date for the same!"
+  },
+  {
+    "conversation_id": "amazonhelp_090967",
+    "actual": "OTHER",
+    "predicted": "ORDER_STATUS",
+    "confidence": 0.13074232168927516,
+    "customer_text": "@115830 had 2 messages yesterday and this morning saying my parcel couldn’t be delivered, I’ve been sat in the whole time and not one knock at the door. What’s that all about??? 🤷🏻‍♀️ @AmazonHelp Ones from dpd and ones Hermes. We’re on a new build estate and the postcode doesn’t come up so my guess is they couldn’t be bothered to find it 🤷🏻‍♀️ I’ve been here when they said they tried to deliver so they obviously didn’t 🤦🏻‍♀️"
+  },
+  {
+    "conversation_id": "amazonhelp_092026",
+    "actual": "DELIVERY_LATE",
+    "predicted": "RETURN_REQUEST",
+    "confidence": 0.1783078521242998,
+    "customer_text": "@AmazonHelp Please be informed that Returns experience is worst than ever I have faced. Still I have no update when will be pick up. https://t.co/y1bN4GIKoj @AmazonHelp Yesterday I have call to three time Customer care and they said don't worry pick up will be done EOD before 8PM. But it was not happen. @AmazonHelp Please see below order details and you can contact me via DM https://t.co/GKK2JWX1Sq"
+  },
+  {
+    "conversation_id": "amazonhelp_092928",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_MISSING",
+    "confidence": 0.103680866204881,
+    "customer_text": "@AmazonHelp Why is it so hard to communicate with the customer service representative? They do not  don’t understand what I am saying. Is there a language barrier here? I never had such horrible customer service in my life!"
+  },
+  {
+    "conversation_id": "amazonhelp_094587",
+    "actual": "APP_USAGE",
+    "predicted": "DEVICE_ISSUE",
+    "confidence": 0.1994204549579363,
+    "customer_text": "@115833 it says the routines is there but I don't see it in my app 😔 https://t.co/IOlhPeOob2 @AmazonHelp Ya I even tried reinstalling it. But I'm not crazy it is supposed to be there right?"
+  },
+  {
+    "conversation_id": "amazonhelp_094756",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DEVICE_ISSUE",
+    "confidence": 0.27958748768170005,
+    "customer_text": "@AmazonHelp why are my usual logon details coming up with this but only on my iPhone 8?! On Amazon and Kindle! https://t.co/cDFRsg1vkT @AmazonHelp It’s not just the app, it’s kindle, safari and the app! @AmazonHelp Now when I sign in using my same logon details it doesn’t link to my account, doesn’t show purchase history or my purchased books in cloud"
+  },
+  {
+    "conversation_id": "amazonhelp_095529",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.1653683875380761,
+    "customer_text": "*looks at calendar* @116090 https://t.co/dDTb09og0K @AmazonHelp There is no carrier info because it hasn't been shipped. In fact it still hasn't been shipped 2 days after it said it should have been delivered. @AmazonHelp No messages about delay. It says \"being shipped today\" but it also said that yesterday. I guess this is what you do to make people pay for Prime?"
+  },
+  {
+    "conversation_id": "amazonhelp_095815",
+    "actual": "OTHER",
+    "predicted": "PAYMENT_ISSUE",
+    "confidence": 0.17915056753404315,
+    "customer_text": "@115850 i need @115858 ipad 2017 is there any offer you can provide me? I saw it listed for 21000 during sale is it possible now @AmazonHelp Thank you."
+  },
+  {
+    "conversation_id": "amazonhelp_096340",
+    "actual": "APP_USAGE",
+    "predicted": "OTHER",
+    "confidence": 0.3064933993974014,
+    "customer_text": "¡Ya ha llegado https://t.co/RVrBkQgdSR - Series, Películas y mucho más! https://t.co/nQgBvGrG8G @123813 Lo quiero!!! @AmazonHelp 😢😢😢😢no puedo instalar  o descargar la app en mi pantalla  Solo en mi cel😢😢😢"
+  },
+  {
+    "conversation_id": "amazonhelp_097347",
+    "actual": "PAYMENT_ISSUE",
+    "predicted": "DELIVERY_MISSING",
+    "confidence": 0.16321476886444194,
+    "customer_text": "@AmazonHelp Pathetic service still now my product is not delivered no one came to deliver saying payment pending https://t.co/hd7TQIPgG2 @AmazonHelp i havent got email it shows that your service has become sad now"
+  },
+  {
+    "conversation_id": "amazonhelp_097564",
+    "actual": "APP_USAGE",
+    "predicted": "OTHER",
+    "confidence": 0.1742654486536058,
+    "customer_text": "@120465 \n早くApple TVでAmazonプライムビデオを見たくて仕方ない @120465 Amazonのすべてが神サービスです。今後もよろしくお願いします。"
+  },
+  {
+    "conversation_id": "amazonhelp_098928",
+    "actual": "APP_USAGE",
+    "predicted": "DEVICE_ISSUE",
+    "confidence": 0.16522985146469307,
+    "customer_text": "@37529 I have tried too many times to download your new album but @116935 ain’t letting me? I could 😭 @AmazonHelp All I got is “server error, item not found”"
+  },
+  {
+    "conversation_id": "amazonhelp_099261",
+    "actual": "APP_USAGE",
+    "predicted": "RETURN_REQUEST",
+    "confidence": 0.11480418530371445,
+    "customer_text": "#AmazonIndia: trying to add a product for selling. Your website is not accepting ISBN number for the product. I got this number from #ISBN @AmazonHelp I had an hour long chat with multiple seller support folks. Still no luck @AmazonHelp It’s 4 days now and no one called. Thanks.  @133462 How easy is it to as a new Book as product on your website."
+  },
+  {
+    "conversation_id": "amazonhelp_099830",
+    "actual": "ORDER_STATUS",
+    "predicted": "DELIVERY_MISSING",
+    "confidence": 0.14874808672252232,
+    "customer_text": "Pathetic delivery service by @115850 and I have been asked to wait every time I try to contact the customer care service for a refund. Expect better out of you guys and I have received a message saying that I have got my order when the courier executive made a call."
+  },
+  {
+    "conversation_id": "amazonhelp_099974",
+    "actual": "REFUND_REQUEST",
+    "predicted": "APP_USAGE",
+    "confidence": 0.11939472838584964,
+    "customer_text": "@AmazonHelp Twice in last month goods have not reached Locker destination. Seller now want me to wait another 10 days. Not happy. @AmazonHelp Thks. Will check link. 1st seller already issued refund. 2nd not so kind...yet.  My point though is goods going astray frm this location."
+  },
+  {
+    "conversation_id": "amazonhelp_102084",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.1479992764774667,
+    "customer_text": "@115850 after shopping online from last two day's still no update when'll you deliver finally? @AmazonHelp Yes you missed target date"
+  },
+  {
+    "conversation_id": "amazonhelp_103514",
+    "actual": "DELIVERY_LATE",
+    "predicted": "ACCOUNT_ACCESS",
+    "confidence": 0.48536553501131685,
+    "customer_text": "@115821 My account has been compromised despite two factor authentication - I’ve called to report but not sure the seriousness is understood @AmazonHelp I received two codes and an email notifying me of an account change - my pw has been changed @AmazonHelp Since my account has been compromised and the password changed I cannot do this @AmazonHelp Done"
+  },
+  {
+    "conversation_id": "amazonhelp_104211",
+    "actual": "OTHER",
+    "predicted": "APP_USAGE",
+    "confidence": 0.2722552336298933,
+    "customer_text": "@120533 j'aimais le prime, mais j'ai découvert l'envers du projet, je commende 3 trucs autre que des bouquins et je me retrouve avec 10jours de livraison alors que par la poste ça prendrais 2jours max, allez vous faire voir. je résilie. @AmazonHelp déjà commandé, je vous envoi les détails quand je l'aurais reçu, mais pour l'instant au mini ça me dis : \"commandé le 13, réception le 22\" on verras. quoi qu'il en sois, avec n'importe quel site et laposte je l'aurais eu le 16/17 max, sans payer le ma"
+  },
+  {
+    "conversation_id": "amazonhelp_104228",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "DELIVERY_MISSING",
+    "confidence": 0.13199114500370746,
+    "customer_text": "Bad shopping experience with @115850 .The product is showing as delivered in app but still it had been not delivered since past 2 days"
+  },
+  {
+    "conversation_id": "amazonhelp_104789",
+    "actual": "APP_USAGE",
+    "predicted": "OTHER",
+    "confidence": 0.30243301652538523,
+    "customer_text": "Je t'aime tellement fort @AmazonHelp. @AmazonHelp  https://t.co/GQv2NEo9PP @AmazonHelp Sur la page d'accueil c'est écrit depuis 2015 ! Mais je commande surtout depuis milieu de l'année dernière... 94e commande cette année... @AmazonHelp Ha ça pour être fidèle, je suis fidèle !\nSouvent je commande des trucs pour mon appartement, de l'audio ou de l'high tech. @AmazonHelp Souvent c'est des choses pour faire la cuisine ! Comme j'aime bien faire à manger ça aide ! Sinon oui, des fois j'achète de la d"
+  },
+  {
+    "conversation_id": "amazonhelp_104893",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.14126612200098584,
+    "customer_text": "@AmazonHelp I contacted Thrice and I got no proper response. And seriously this s the 4th time I'm facing such issue with amazon delivery!!"
+  },
+  {
+    "conversation_id": "amazonhelp_105193",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "RETURN_REQUEST",
+    "confidence": 0.19104629120474886,
+    "customer_text": "Purchased a watch from @115850 ...Same watch had different price on its tag and on the Box... Online discounts are a fraud.... Disgusting https://t.co/FVsO860TbF @115850 @115850 Why the different product Id's? I buy stuff from your website, so if I see two different prices for the same product, @AmazonHelp I have shown you the price tags, and the product id's. What else do you need? It is really shocking to see this callous ness."
+  },
+  {
+    "conversation_id": "amazonhelp_105307",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.1294089510775002,
+    "customer_text": "When @115821 tell u ur shit coming but it don't so ur just sad @AmazonHelp Today but it's 6:17 doubt u guys will come thru"
+  },
+  {
+    "conversation_id": "amazonhelp_106226",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.17645147690460775,
+    "customer_text": "Anyone ordering from @116090 Prime and getting information that your package is being shipped by Intelcom Courrier Canada: Be Warned. Still waiting on two deliveries, no slips from missed visits, and the company phones don't work. @AmazonHelp All I get is an email saying they couldn't deliver. I've been on the phone with them three times about the first parcel, changed the delivery address, nothing has worked. I spoke with Amazon last night, but tried calling courier again today and can't get th"
+  },
+  {
+    "conversation_id": "amazonhelp_108827",
+    "actual": "DELIVERY_LATE",
+    "predicted": "RETURN_REQUEST",
+    "confidence": 0.23910024315949446,
+    "customer_text": "@115850 I ordered an MI4 Phone and received a different product. \n\n#406-8163465-8665102\n\nPlease refer images. Ensure a return and delivery of correct product in next 48 hours or else expect an FIR, followed by Legal Action. \n\nThanks\nMehar Nazeer\n9711747938 @AmazonHelp Good joke. Your customer care team is making fool of customer and you are will set up to snatch our hard earned money. #snatcher https://t.co/eFmWcVjUqU @AmazonHelp I am fed-up with this pathetic service every time they want story "
+  },
+  {
+    "conversation_id": "amazonhelp_108994",
+    "actual": "APP_USAGE",
+    "predicted": "OTHER",
+    "confidence": 0.2674591135943825,
+    "customer_text": "Qd t'as commandé Covenant il y a 6 mois mais @120533  n'a toujours pas expédié ton livre alors que beaucoup l'ont reçu. Vive le prime https://t.co/MZthobIe33 @AmazonHelp Bonjour. Pas encore de suivi puisque celui-ci n'est pas encore parti alors que beaucoup l'ont reçu 😏 @AmazonHelp Honnêtement ? Je suis fatiguée de devoir les appelés toutes les semaines pour qu'on me dise : ah bon? On ne sait pas. Personne n'a reçu"
+  },
+  {
+    "conversation_id": "amazonhelp_109049",
+    "actual": "APP_USAGE",
+    "predicted": "RETURN_REQUEST",
+    "confidence": 0.13298700329484378,
+    "customer_text": "@115850 Are your call center not working 24/7? @AmazonHelp Called on your Customer Care Number, no transferring to Customer Care Executive, Just blah blah from recorded msg and phone gets disconnected\nhttps://t.co/1kHI1cXJE4 @AmazonHelp Just give me straight forward answer is your Customer Care number working 24/7 or is there any time limitations to contact them, @AmazonHelp What the Fuck, just called your Customer Care number 180030009009, the call not getting transferred to Customer Care mine,"
+  },
+  {
+    "conversation_id": "amazonhelp_109328",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_MISSING",
+    "confidence": 0.11512617312686114,
+    "customer_text": "It very worst experience with @115850, product is still not delivered while it in in destination's district since 16/10, https://t.co/wzmhi4OYP7 @115850 @12339 product is still not delivered while it was in destination district, really it's very worst experience with @115850 @AmazonHelp Estimated delivery date was 16-oct-2017 and it is extended while product was at destination district on 16-Oct'17. Very worst courier servi"
+  },
+  {
+    "conversation_id": "amazonhelp_110419",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.16587707333324533,
+    "customer_text": "@115830 @AmazonHelp When late and missing deliveries don't get sorted via the regular Contact Us channels... how to escalate? @AmazonHelp Part 5: Always told \"items which are marked as out for delivery will definitely be delivered by the end of today\"... they are NOT! @AmazonHelp Carrier: Amazon Shipping ... @AmazonHelp I was always told it would definitely be delivered... carrier was notified, he would deliver for 5pm. Has already been escalated, blablaa https://t.co/G1AawTepqz @AmazonHelp All "
+  },
+  {
+    "conversation_id": "amazonhelp_110619",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.151606167798922,
+    "customer_text": "@UPSHelp my package was out for delivery early in the am and myUPS said between 10:30am and noon but still not here. Where is it. Need it @UPSHelp @115817 @115821 HELLOOOOOO @AmazonHelp It finally came and I was missing an item. Very upset I needed this for my Halloween costume. 😭😭😭"
+  },
+  {
+    "conversation_id": "amazonhelp_111563",
+    "actual": "APP_USAGE",
+    "predicted": "DELIVERY_MISSING",
+    "confidence": 0.16083770258076466,
+    "customer_text": "@AmazonHelp Why offer same day delivery if it never happens? If I would have selected tomorrow would I️ still not receive my pkg for 4 days as you’re now “promising”? https://t.co/t2T6hoGHA4 @AmazonHelp  https://t.co/nrM40SciM7"
+  },
+  {
+    "conversation_id": "amazonhelp_111761",
+    "actual": "DELIVERY_LATE",
+    "predicted": "PAYMENT_ISSUE",
+    "confidence": 0.1521103936197838,
+    "customer_text": "Dear @115850 ordered 2 shoes from your site and made online payment. Later received a message saying the transaction was failed (1) @AmazonHelp No the timeline has not passed. I ordered the item on 27/10/17"
+  },
+  {
+    "conversation_id": "amazonhelp_112813",
+    "actual": "OTHER",
+    "predicted": "APP_USAGE",
+    "confidence": 0.3079838718327601,
+    "customer_text": "Alors @132988, on va avoir un TRÈS GROS PROBLÈME.\nMon père attendait mon colis aujourd'hui, voilà à quoi il a assisté. COMMENT C'EST POSSIBLE?\nLe paquet contient 700€ de materiel photo, et JE N'AI PAS SIGNÉ à la réception ni mon père. https://t.co/99FQAe6rQM @132988 Quand les livreurs ne sonne pas et disent qu'on est pas présent, okay, ça peut passer, mais ça, c'est totalement inadmissible !\nJe pense que votre livreur a également du inventer une signature ? @132988 POKE @132988 \nIl est 15h, on p"
+  },
+  {
+    "conversation_id": "amazonhelp_115856",
+    "actual": "OTHER",
+    "predicted": "VIDEO_STREAMING",
+    "confidence": 0.28642333735090103,
+    "customer_text": "Hannover gegen Stuttgart im Duell der Aufsteiger! Bundesliga am Freitag mit dem Eurosport Player bei #PrimeVideo. https://t.co/hd0JbvovGa @115825 Hallo Amazon,\nWhey you don’t answer me?\nPlease answer me because I have a problem.\nThank you \n__email__"
+  },
+  {
+    "conversation_id": "amazonhelp_115953",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.1283000449592865,
+    "customer_text": "@115830 you are disgrace sending customers emails that your package will be delivered then not delivering the package...shocking #BoycotAmazon @AmazonHelp @115830 @AmazonHelp your a joke that’s the same web page I went to for the customer service agent to hang up on me. How about find out who it was and get them to ring me back and apologise #BoycotAmazon"
+  },
+  {
+    "conversation_id": "amazonhelp_115958",
+    "actual": "OTHER",
+    "predicted": "RETURN_REQUEST",
+    "confidence": 0.2071514489133284,
+    "customer_text": "Hit ❤ or re-tweet to get notified when the OnePlus 5T sale begins, exclusively on Amazon. Stay tuned to get #ANewView. https://t.co/0Ci7j8Lsoo @285444 Thank you for your interest! You will be notified soon for the OnePlus 5T sale on Amazon.in @115850 Thank you @115850 😍😍😍"
+  },
+  {
+    "conversation_id": "amazonhelp_116154",
+    "actual": "VIDEO_STREAMING",
+    "predicted": "DEVICE_ISSUE",
+    "confidence": 0.1944224090755671,
+    "customer_text": "This is what it’s like watching @115940 on my @115821 Fire Stick... https://t.co/CYGFugXTt5 @AmazonHelp I actually uninstalled/reinstalled it. Thanks for responding. @hulu_support doesn’t seem to care."
+  },
+  {
+    "conversation_id": "amazonhelp_117662",
+    "actual": "DELIVERY_LATE",
+    "predicted": "OTHER",
+    "confidence": 0.2589089961980689,
+    "customer_text": "@120533  etant client chez vous en prenium depuis 2012 je n'avais j'usqu'a present aucun soucis . @AmazonHelp j attend encore aujourd'hui pour la livraison et je verrais après. pour ma part je pense que cela vien de Chronopost ."
+  },
+  {
+    "conversation_id": "amazonhelp_117717",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "OTHER",
+    "confidence": 0.3781288817797729,
+    "customer_text": "Hola @116928, llevo dos días con reclamaciones por caso distintos ( devolución y envio no recibido ) y los dos días sin recibir ni correo ni repuesta alguna. Nunca haía tenido ningún problema, pero de un tiempo a esta parte noto cierta variación en vuestra política... @AmazonHelp Acabo de responder a un compañero tuyo, imagino, la misma pregunta, vendedores extrernos y a traves de mails @AmazonHelp Eso es lo que he hecho, y sigo sin respuesta"
+  },
+  {
+    "conversation_id": "amazonhelp_117874",
+    "actual": "DELIVERY_LATE",
+    "predicted": "OTHER",
+    "confidence": 0.3533065714343872,
+    "customer_text": "Quand tu reçois des chaussons cheap au lieu des baskets que t'as commandé, que tu retournes l'article et qu'@120533 panique https://t.co/PolBlmE6H2 @AmazonHelp Rien de plus à dire, vous devriez avoir reçu l'article retourné ce jour et j'attends mon remboursement au lieu de ce mail toutes les heures. @AmazonHelp Mail aberrant de + puisqu'il pretend que le colis n'a pas été livré alors qu'il etait dans ma bal et que je l'ai retourné 😂 @AmazonHelp Community Manager ça paye bien ça? Parce que là on "
+  },
+  {
+    "conversation_id": "amazonhelp_120097",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "PAYMENT_ISSUE",
+    "confidence": 0.22006855188238972,
+    "customer_text": "@115850 \nWorst customers care , marking customer fools, giving  false information, to the customer.\nNeed help asap @AmazonHelp I didn't get the response yet, is this way to serve  customer, @AmazonHelp I replied on the same, I don't need your 100 rs gift card,\nI need Redmi 4a in my cart."
+  },
+  {
+    "conversation_id": "amazonhelp_121157",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_MISSING",
+    "confidence": 0.11953490442497078,
+    "customer_text": "@115821 @AmazonHelp your services for deliver have severely declined. #intelcom are a bunch of criminals. your call centre chat is even worse. @115851 @AmazonHelp Your chat customer service write one word answers and literally brush off customer concerns. I think Jafar copies and pastes responses over and over. No resolution. Cancelling prime. Never using Amazon again."
+  },
+  {
+    "conversation_id": "amazonhelp_123703",
+    "actual": "OTHER",
+    "predicted": "ORDER_STATUS",
+    "confidence": 0.16649385616731638,
+    "customer_text": "Amazon won't let me order my @119038 sweater 😢😢😢😢 @119038 And @AmazonHelp is not helpful at all.... @AmazonHelp .com"
+  },
+  {
+    "conversation_id": "amazonhelp_124930",
+    "actual": "OTHER",
+    "predicted": "PRODUCT_ISSUE",
+    "confidence": 0.11536920121317304,
+    "customer_text": "@115830 hey team, how do I complain about quality of goods? @AmazonHelp Bought 2xcat cube boxes £82 each, both chipped. Seller saying to expect chips! Not for that price pal! @AmazonHelp Hi Amazon, can someone please help me? Not impressed with your customer service, or the seller"
+  },
+  {
+    "conversation_id": "amazonhelp_125806",
+    "actual": "OTHER",
+    "predicted": "APP_USAGE",
+    "confidence": 0.11771786354578496,
+    "customer_text": "Hey @115830, can you tell me how to make a complaint please? Been messed about for a second day running, phone operative repeatedly avoided telling me how to complain and then I was cut off. I am absolutely fuming. 😠 @AmazonHelp So basically, I just want an email address or a postal address that I can submit a formal complaint to, please."
+  },
+  {
+    "conversation_id": "amazonhelp_125911",
+    "actual": "APP_USAGE",
+    "predicted": "PAYMENT_ISSUE",
+    "confidence": 0.10132285902652925,
+    "customer_text": "@AmazonHelp Is there an issue with @116935? Some of my tracks are now messed up. I deleted/redownloaded them, but there was no change."
+  },
+  {
+    "conversation_id": "amazonhelp_126590",
+    "actual": "VIDEO_STREAMING",
+    "predicted": "DEVICE_ISSUE",
+    "confidence": 0.11850100403509313,
+    "customer_text": "@9131 Hi, how can I change subtitles language on a Sony Android TV ? Thank you for your answer ! @AmazonHelp (it is for American Gods and my girlfriend needs French subs to understand everything)"
+  },
+  {
+    "conversation_id": "amazonhelp_127376",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_MISSING",
+    "confidence": 0.14642804045415797,
+    "customer_text": "@115850 false commitment on delivery, also mentioned wrong information, delivery guy never contacted me on Tuesday. How could u do that? https://t.co/UG4a7DfhhL @115850 Then they mentioned the issue has been escalated and it would delivered in next 2 hours....6:30 PM....still waiting..."
+  },
+  {
+    "conversation_id": "amazonhelp_128451",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.1386018096567381,
+    "customer_text": "@AmazonHelp @115821 automated chat says it will ship October 9th, yet your site indicates you’ll email me when you can estimate a delivery https://t.co/e3EqR9u0lu @AmazonHelp @115821 But I have yet to receive an email... also failing to fulfill orders for a product you’re selling through your treasure truck is crap"
+  },
+  {
+    "conversation_id": "amazonhelp_129221",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.13237696330341384,
+    "customer_text": "@115850 pthetic std of prime srvices .nobody hs any idea whr d pkg is, dat I hv alrdy paid for . Shame amazon! #407-64432331483510 @115850 Please make sure you live up to what you claim for and resolve as soon as possible !! Sick of rude services from delivery ppl! @AmazonHelp Still waiting for my phone!!! Will it be delivered today @115850"
+  },
+  {
+    "conversation_id": "amazonhelp_129468",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.18007339177444573,
+    "customer_text": "@115821 what's going on - 4 orders placed since 11/28 and all late? Why do we pay for prime and then not get 2 day shipping?? 2 orders for tomorrow deliver not even shipped yet?? @AmazonHelp Yes - you have been and are missing delivery dates - 2 orders on 11/28 missed delivery for 11/30 and 12/1.  2 orders that are still saying will be delivered by 8pm tomorrow have not shipped yet and I'm 99% sure I won't get them tomorrow. @AmazonHelp Can you give me a number or link to talk to someone past 1s"
+  },
+  {
+    "conversation_id": "amazonhelp_131022",
+    "actual": "OTHER",
+    "predicted": "ACCOUNT_ACCESS",
+    "confidence": 0.1444377610542931,
+    "customer_text": "@AmazonHelp looks legit.. https://t.co/CWG4YZpElX @AmazonHelp Yeah will do, that's what I thought.. @AmazonHelp I don't even have an account tied to that email address [or do I].. do you want my email tagged to my Amazon account? @AmazonHelp Sorted - that email isn't used for an Amazon account anyway!"
+  },
+  {
+    "conversation_id": "amazonhelp_131143",
+    "actual": "OTHER",
+    "predicted": "VIDEO_STREAMING",
+    "confidence": 0.12250555669092855,
+    "customer_text": "@AmazonHelp when will the sims 4 on Xbox one be available for preorder? @AmazonHelp Yeah I did notice that, do you have any idea when the physical copy of the game will be able to preorder?"
+  },
+  {
+    "conversation_id": "amazonhelp_131221",
+    "actual": "OTHER",
+    "predicted": "APP_USAGE",
+    "confidence": 0.13586461818910636,
+    "customer_text": "@AmazonHelp Told me to wait till 20th but still unsoved?"
+  },
+  {
+    "conversation_id": "amazonhelp_131429",
+    "actual": "RETURN_REQUEST",
+    "predicted": "PAYMENT_ISSUE",
+    "confidence": 0.19997804774590439,
+    "customer_text": "On my 4th support person trying to return an item. Apparently I’ve reach their “Leadership” @115821 https://t.co/3Nug1tL5xl @AmazonHelp First they sent a return email to the buyer, who is upset that their gift to us came broken. And then they offered to credit my gift card balance which is either taking a long time, or went to the person who bought us the gift?"
+  },
+  {
+    "conversation_id": "amazonhelp_132432",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_MISSING",
+    "confidence": 0.16467788325099306,
+    "customer_text": "@115850 Order # 405-9825991-9613965\nTimely delivered but worst service ever. After n number call no one came for Install on scheduled time @AmazonHelp Personal details shared on given link @AmazonHelp Nothing received as of now"
+  },
+  {
+    "conversation_id": "amazonhelp_132843",
+    "actual": "ORDER_STATUS",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.1501164987542452,
+    "customer_text": "@AmazonHelp hey why ur delivery agents does this every time place an order? Doesn’t seems like ordering next time. What the point in being Prime member &amp; requesting one day delivery? https://t.co/Ibm7XRsyrY @AmazonHelp I have done this, order id is visible clearly in the SS. Ask ur team to deliver time today. @AmazonHelp Hey i think m done with ur shopping site. No response to emails, item doesn’t deliver, call to ur CS are arrogant n ask me to wait for 2-3 days to get delivered. What crap s"
+  },
+  {
+    "conversation_id": "amazonhelp_133101",
+    "actual": "DELIVERY_LATE",
+    "predicted": "ACCOUNT_ACCESS",
+    "confidence": 0.13450548765861853,
+    "customer_text": "@AmazonHelp been hacked again with 48 hour you have clearly sold people detail. \n#productionmanager @AmazonHelp I can’t as my account has been hack @AmazonHelp I have tried your customer service are useless and keep telling me that I have to wait 24-48 hour"
+  },
+  {
+    "conversation_id": "amazonhelp_133105",
+    "actual": "ORDER_STATUS",
+    "predicted": "DELIVERY_MISSING",
+    "confidence": 0.1995624463937183,
+    "customer_text": "@AmazonHelp ordered on Wednesday. Selected free 1 day shipping and still hasn’t arrived. Don’t offer 1 day shipping if you can’t deliver https://t.co/vKToyFidbY @AmazonHelp Thanks for not replying. I still haven’t received my order. @AmazonHelp No it just tells me the original estimate. The 16th, is over a week of my original delivery date. And doesn’t fall into the prime standard of 2 days. I selected 1 day free shipping that was available. Am I to assume my package is lost and can’t be found"
+  },
+  {
+    "conversation_id": "amazonhelp_133109",
+    "actual": "DELIVERY_LATE",
+    "predicted": "OTHER",
+    "confidence": 0.2932018423098052,
+    "customer_text": "Bonjour @120533 je suis membre premium et je suis RAVIE de voir que mon livre PRÉCOMMANDÉ est arrivé avec un jour de retard ET est abîmé. @120533 Je n’aime pas commander mes livres chez vous de base mais alors là comptez sur moi pour ne plus jamais le faire. @AmazonHelp Le transporteur était La Poste je viens d’aller vérifier."
+  },
+  {
+    "conversation_id": "amazonhelp_133192",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.16881710766760116,
+    "customer_text": "@115830 @AmazonHelp When late and missing deliveries don't get sorted via the regular Contact Us channels... how to escalate? @AmazonHelp Part 5: Always told \"items which are marked as out for delivery will definitely be delivered by the end of today\"... they are NOT! @AmazonHelp Carrier: Amazon Shipping ... @AmazonHelp I was always told it would definitely be delivered... carrier was notified, he would deliver for 5pm. Has already been escalated, blablaa https://t.co/G1AawTepqz @AmazonHelp All "
+  },
+  {
+    "conversation_id": "amazonhelp_133210",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.15768090209872784,
+    "customer_text": "@115850 let me know wen u r goin 2 deliver my product. Its for diwali 😡😡😡😡 @AmazonHelp Order was placed on 7th. Let me knw hw much time u take to deliver 13 days As it will be arriving on 21st n check order"
+  },
+  {
+    "conversation_id": "amazonhelp_134317",
+    "actual": "APP_USAGE",
+    "predicted": "OTHER",
+    "confidence": 0.3331484382143745,
+    "customer_text": "Je Vous promets que si Je reçois pas Mon colis aujourd'hui je vais incendier votre service client @AmazonHelp @AmazonHelp Je vous laisse comprendre le soucis. Puis est-ce que 3 \"\"\"\"\"tentatives\"\"\"\" de livraison mène à un retour à l'expéditeur? Parce que le soucis vient de vous là, et pas moi https://t.co/Rpc7vND33Q @AmazonHelp Je l'ai signalé, j'espère juste être livré aujourd'hui @AmazonHelp Je suis client premium @AmazonHelp Elle n'était pas disponible en raison d'une forte demande du produit s"
+  },
+  {
+    "conversation_id": "amazonhelp_134637",
+    "actual": "OTHER",
+    "predicted": "RETURN_REQUEST",
+    "confidence": 0.12952602226562937,
+    "customer_text": "Hey @AmazonHelp why can't i buy things with prime anymore?  It's all pantry and fresh and all I want to do is buy things with Prime. @AmazonHelp I tried talking to your customer service and they don't seem to know their ass from a hat @AmazonHelp Do you not have a central customer service department?  Why can't I just order things with Prime anymore? @AmazonHelp I don't want to pay for 5000 subscription services.  I just want to buy things with Prime like I used to.  Why do you not want my busin"
+  },
+  {
+    "conversation_id": "amazonhelp_134724",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.12627328077114833,
+    "customer_text": "@AmazonHelp I have already done it. No avail @AmazonHelp Yes you did get in touch with me to tell me.the product is misplaced and won't reach me\n.if only this was told to me on 18th, .."
+  },
+  {
+    "conversation_id": "amazonhelp_135737",
+    "actual": "ORDER_MODIFY",
+    "predicted": "ORDER_STATUS",
+    "confidence": 0.34769895658142314,
+    "customer_text": "@115850 by mistake I cancel my order can u pls revert back and delivered to me asap. @115850 Order # 408-0365818-9451558  pls arrange delivery of my order by mistake it has been canceled by me 2day morning but I need this asap."
+  },
+  {
+    "conversation_id": "amazonhelp_135886",
+    "actual": "OTHER",
+    "predicted": "DEVICE_ISSUE",
+    "confidence": 0.10846696691030316,
+    "customer_text": "Thanks for the update @117634 I can now see the time as im reading, and not get lost in a book 😂 #guilty #bookworm @AmazonHelp Agreed! :) just means there's no excuse for forgetting things now 😂😂"
+  },
+  {
+    "conversation_id": "amazonhelp_135968",
+    "actual": "OTHER",
+    "predicted": "REFUND_REQUEST",
+    "confidence": 0.13308961974447212,
+    "customer_text": "@AmazonHelp possibly the worst customer service of all time @AmazonHelp 280 characters isn’t enough @AmazonHelp Don’t think your customer service is capable to be honest. @AmazonHelp Could I have a contact number for your head office? @AmazonHelp Your customer service can’t seem to answer my question when I have asked it the guts of 20 times @AmazonHelp My bank card was used on a different account without my knowledge @AmazonHelp I have and they didn’t"
+  },
+  {
+    "conversation_id": "amazonhelp_136599",
+    "actual": "PAYMENT_ISSUE",
+    "predicted": "RETURN_REQUEST",
+    "confidence": 0.14992443593436228,
+    "customer_text": "@115850 why prices on product doesn’t match with listing price? Clear case of cheating... https://t.co/YSqGJQTOCh @AmazonHelp That means consumer has to pay extra even if its an issue from vendor. Aside i agreed to pay delivery charges but that doesn’t mean product product should be sold more than MRP."
+  },
+  {
+    "conversation_id": "amazonhelp_137223",
+    "actual": "DELIVERY_LATE",
+    "predicted": "APP_USAGE",
+    "confidence": 0.14991926772801825,
+    "customer_text": "Does Amazon customer service think it’s okay to lie to customers just to keep them happy? Really not impressed and i used to love Amazon. @AmazonHelp @AmazonHelp Item still not here. I understand the original point was I missed the delivery. I am just sick of going to live chat to be lied by each advisor to try and keep me happy, I prefer an honest response  it makes things easier in the long run."
+  },
+  {
+    "conversation_id": "amazonhelp_137322",
+    "actual": "RETURN_REQUEST",
+    "predicted": "PAYMENT_ISSUE",
+    "confidence": 0.2438964285512195,
+    "customer_text": "Got an Amazon gift card for my birthday and had trouble redeeming it. @116090 has been literally useless as my friend and I have tried to get help resolving the issue. Trash responses and continually pawning off the issue. So freaking disappointed. Step it up, Amazon. @AmazonHelp At first I was escalated to the Gift Card team, who then responded by telling me it was a store purchased gift card (it wasn’t) and to return to the store. When I advised them of this they said communication needed to c"
+  },
+  {
+    "conversation_id": "amazonhelp_137410",
+    "actual": "ORDER_STATUS",
+    "predicted": "APP_USAGE",
+    "confidence": 0.11085111132332046,
+    "customer_text": "I just got an email from @115821 that I ordered screen protectors, then changed the email on my account. I did none of these things. I go to their website to talk to customer service and it asks me to sign in. What do?! @AmazonHelp I am currently at work right now, but I did click on the link and submit an email with the order number and current issue. It makes me a little uneasy that there's a possibility of it taking up to 12 hours for it to be reviewed. Thank you! @AmazonHelp I got 2 emails b"
+  },
+  {
+    "conversation_id": "amazonhelp_137684",
+    "actual": "PAYMENT_ISSUE",
+    "predicted": "RETURN_REQUEST",
+    "confidence": 0.11900317007296211,
+    "customer_text": "The iPhone fest is here! Shop between 30th November and 9th December to avail an instant cashback of ₹2000 on HDFC Credit and Debit cards. https://t.co/pcvigjbpBK https://t.co/BJ9M1AKCyc @115850 Suggesting people don't buy mobiles from Amazon specially Mi products. They are delivering refurbished devices. Be aware of this. I am one of the victim lost 12K because of this. Device dead and service center not claimed the warranty. Says already opened @AmazonHelp All things shared with ur team. It's "
+  },
+  {
+    "conversation_id": "amazonhelp_137738",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "VIDEO_STREAMING",
+    "confidence": 0.17908490298091137,
+    "customer_text": "@116618 Question:  where does Amazon Video interface show you the last item you partially viewed ??? @AmazonHelp Thanks for the quick response!  \nAllow me to re-phrase:  it would be wonderful if there was a \"Recently Watched\" category.  If you get interrupted while watching a title and can't remember the name to resume.  TYVM"
+  },
+  {
+    "conversation_id": "amazonhelp_137841",
+    "actual": "OTHER",
+    "predicted": "ORDER_STATUS",
+    "confidence": 0.13251085343642902,
+    "customer_text": "Order # 408-9746877-3993920 issues never resolve, money never comes back, executive don't provide proper resolution @115850 @115821 @AmazonHelp I will wait. Assurance won't work @AmazonHelp Been over an hour. No one calls @AmazonHelp Your delivery boy suggests that he delivered the product to someone in my society. That's not right. I'm paying penalty for non-paying bank @AmazonHelp Please provide me the link @AmazonHelp i did..no one called"
+  },
+  {
+    "conversation_id": "amazonhelp_138087",
+    "actual": "ORDER_STATUS",
+    "predicted": "DELIVERY_MISSING",
+    "confidence": 0.2702997657971058,
+    "customer_text": "@115850 My  Order# 404-4244805-4392323 shows as Delivered on 03 Nov 2017, but I have still not received it!! Kindly revert urgently. @AmazonHelp Any feedback? @AmazonHelp Issue resolved. Item delivered today. Thank you."
+  },
+  {
+    "conversation_id": "amazonhelp_138817",
+    "actual": "OTHER",
+    "predicted": "PAYMENT_ISSUE",
+    "confidence": 0.26364378408332506,
+    "customer_text": "@115821 hi. I signed up for the months free trial but you've taken the £7.99 from my account? @AmazonHelp Last Friday 6th October"
+  },
+  {
+    "conversation_id": "amazonhelp_139380",
+    "actual": "OTHER",
+    "predicted": "ORDER_STATUS",
+    "confidence": 0.20864904261656073,
+    "customer_text": "Order No. - 171-1286331-4709929\n@115850 Are you going to dispatch this order ?? @AmazonHelp The status is still \"preparing for dispatch\" since 4 days. @AmazonHelp I have a function to attend on 29th. What if i don't get that delivered. Am getting updates of other orders, except this one. @AmazonHelp Now the Delivery date is changed to 1st December. Great Job Amazon for fooling customers. 👍"
+  },
+  {
+    "conversation_id": "amazonhelp_140353",
+    "actual": "DELIVERY_MISSING",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.17512871630724347,
+    "customer_text": "Guess who gave this seller a surprise visit during the festive season? https://t.co/gJbrl4XjQZ @115850 Register for sending Half order and missing component sell? #justasking @115851 and after the series of sorry and apologise ???? @AmazonHelp @115851 knows that can you please ask him if he have time to say sorry again @115850 @AmazonHelp @115851 can you please do this time for me I did 100+ time and got only sorry you know the incidence right @115851 @AmazonHelp @115851 please teach some managm"
+  },
+  {
+    "conversation_id": "amazonhelp_140683",
+    "actual": "DEVICE_ISSUE",
+    "predicted": "ACCOUNT_ACCESS",
+    "confidence": 0.373641794436451,
+    "customer_text": "@117634 - I'm having real difficulty accessing my Kindle account and nobody can seem to help me. \n\nMy dad used his email address from his previous job to start the Kindle account but has now forgotten the password. He no longer has access to that email address. Please help! @AmazonHelp When I click on \"call me\" it gives me an error in Firefox and nothing happens in Chrome. I've adjusted settings as instructed. \n\nCould I maybe DM you a number so that you can get someone to call me? @AmazonHelp We"
+  },
+  {
+    "conversation_id": "amazonhelp_143508",
+    "actual": "OTHER",
+    "predicted": "DEVICE_ISSUE",
+    "confidence": 0.16846569127924094,
+    "customer_text": "@AmazonHelp Will the magazine be available anytime soon?"
+  },
+  {
+    "conversation_id": "amazonhelp_143707",
+    "actual": "DELIVERY_LATE",
+    "predicted": "OTHER",
+    "confidence": 0.287447116000588,
+    "customer_text": "Si dovrebbero vietare le spedizione con #GLS, meglio le Regie Poste e Telegrafi. Capito @1811? @AmazonHelp quindi, forse sarebbe meglio evitare di appoggiarsi a corrieri così inaffidabili... guardate anche i riscontri da parte degli utenti... @AmazonHelp Grazie per il vostro interesse alle 23... :-)\nL'ordine è il n. 403-6614703-1101120 e secondo quanto indicato è stato spedito da Amazon."
+  },
+  {
+    "conversation_id": "amazonhelp_144131",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.153966649591992,
+    "customer_text": "@AmazonHelp @115850 I'm fedup waiting for your email...I need a resolution NOW @AmazonHelp I have mailed at 11 am itself!! Please do the needful and respond with a a proper resolution..What your people are sending is keep waiting!"
+  },
+  {
+    "conversation_id": "amazonhelp_144542",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.10877694919568065,
+    "customer_text": "@AmazonHelp you should change your Amazon domain in India to amazon.uk @AmazonHelp let it be, i am not going to use your services anymore as i had told your customer services people"
+  },
+  {
+    "conversation_id": "amazonhelp_144598",
+    "actual": "DELIVERY_LATE",
+    "predicted": "OTHER",
+    "confidence": 0.36425064875262403,
+    "customer_text": "@116875  y mi reembolso? Según me despistaron el 10 y no es verdad!!!! Nadie me da respuesta. @AmazonHelp Devolví una sudadera, ya está en su origen y en buen estado, se emitió el reembolso, en la página dice que está completado pero en mi cuenta no aparece y me llego un mail diciendo que había problemas con el mismo. @AmazonHelp Ya lo hice tres veces, y nadie me responde, mande tres correos y hablé con alguien en el chat. Nadie me da respuesta. @AmazonHelp No me contestaron los mails y en el ch"
+  },
+  {
+    "conversation_id": "amazonhelp_145756",
+    "actual": "OTHER",
+    "predicted": "RETURN_REQUEST",
+    "confidence": 0.13410580511192577,
+    "customer_text": "@115850 why can't I see the Mi redmi Y1 sale page. @AmazonHelp Thank you for the update."
+  },
+  {
+    "conversation_id": "amazonhelp_146991",
+    "actual": "OTHER",
+    "predicted": "RETURN_REQUEST",
+    "confidence": 0.12329137698882756,
+    "customer_text": "@149473 worst service experience by you In Fatehpur , Uttar Pradesh items shipped by @115850 \n\nWhile @12339 shipped item rcvd. @AmazonHelp pls dont ship my items via bluedart they have worst service i have ever seen. \ndelhivery is best for e-commerce shipments"
+  },
+  {
+    "conversation_id": "amazonhelp_147887",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.2087373002850077,
+    "customer_text": "You pay for your @117795 monthly without fail only for you to be failed by their services !! #PayingForNothing @115821 @115830 @AmazonHelp Supposed to get a product delivered on AmozonPrime last Tuesday, still hasn't been delivered! @AmazonHelp I was told it will be delivered today by 9 PM !"
+  },
+  {
+    "conversation_id": "amazonhelp_148824",
+    "actual": "APP_USAGE",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.12437552494014963,
+    "customer_text": "Thought my disabled wife could rely on @115821 for important purchases, but apparently guaranteed delivery doesn't mean what it used to. @AmazonHelp We had an important delivery for today, but it was deemed undeliverable bc of our gate, despite our getting your packages here for years. @AmazonHelp The gate is nothing new, and was never a problem before."
+  },
+  {
+    "conversation_id": "amazonhelp_148887",
+    "actual": "OTHER",
+    "predicted": "APP_USAGE",
+    "confidence": 0.1298292713040161,
+    "customer_text": "@AmazonHelp one of your parcel people just parked outside my house looked at my door and left I'm just wondering if he's driven off + @AmazonHelp with my parcel?? @AmazonHelp amazon logistics @AmazonHelp why the hell do I have to wait this long because of YOUR mistake which I told YOU about https://t.co/p7VXKfFsTd @AmazonHelp and I want a god damn good explanation as to why your driver thought it was a good idea to come to the outside of my house and @AmazonHelp text on his phone for god knows h"
+  },
+  {
+    "conversation_id": "amazonhelp_149752",
+    "actual": "OTHER",
+    "predicted": "APP_USAGE",
+    "confidence": 0.3074411239646983,
+    "customer_text": "@120533 Sérieux votre service de livraison c'est pas possible... Le livreur qui laisse un colis sans mon accord à quelqu'un de la résidence que je ne connais même... Le service #Prime me déçoit de plus en plus... @AmazonHelp @AmazonHelp Non pas encore, les autres fois j'ai déjà signalé et rien n'a changé ! @AmazonHelp C'est fait :)"
+  },
+  {
+    "conversation_id": "amazonhelp_150708",
+    "actual": "APP_USAGE",
+    "predicted": "PAYMENT_ISSUE",
+    "confidence": 0.11655363597422595,
+    "customer_text": "well. thanks so much, @115821, for sending me the wrong product when the one I actually ordered was selling out forever. @AmazonHelp why did you link me to your uk website @AmazonHelp since the one you sent me locked itself when it found the verizon sim card you were told not to ship it with @AmazonHelp *.com, not that that’s in any way relevant to my question"
+  },
+  {
+    "conversation_id": "amazonhelp_152421",
+    "actual": "DELIVERY_LATE",
+    "predicted": "ORDER_STATUS",
+    "confidence": 0.30642674002657944,
+    "customer_text": "When will I get my order @115850 @AmazonHelp @115851  #cheating still no update https://t.co/xzEcsCtKaE @AmazonHelp 3 days over my problem not resolved"
+  },
+  {
+    "conversation_id": "amazonhelp_152647",
+    "actual": "APP_USAGE",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.13780766625027235,
+    "customer_text": "Oh @115821 why is your delivery stumped by my building's gate? And why don't you ever call me when that happens? I'm just inside. @AmazonHelp Yes. USPS and FedEx get my packages delivered without issue.\nI really just want to be notified rather than given up on. @AmazonHelp Sorry, but should I be expecting further assistance or was that it? I still would like my items..."
+  },
+  {
+    "conversation_id": "amazonhelp_152727",
+    "actual": "OTHER",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.13550590110601482,
+    "customer_text": "Your service sucks @115850. #amazonprime is a scam. https://t.co/bFd9e0U7Tu @AmazonHelp I've spoken to about 5 representatives today. Don't intend to add 6th to the list of horror. One day delivery? Really? #WorstCustomerService @AmazonHelp I filled the form yesterday and still waiting for YOU to revert. 3rd day of #amazonprime delivery.#Joke @AmazonHelp Thanks Satish for sending the most unproductive message. Words like, you will get it at the earliest, not our intention, does not help."
+  },
+  {
+    "conversation_id": "amazonhelp_154111",
+    "actual": "APP_USAGE",
+    "predicted": "DELIVERY_LATE",
+    "confidence": 0.14139671266987985,
+    "customer_text": "@115851 @115850 pathetic response guys...seriously u have made me realise my mistake of purchasing a stuff through your site. No resolution since 2 weeks. Disgusted and cheated by amazon.... @AmazonHelp Your team has been working on it for last 14 days....how much more should i wait so that you appreciate my patience. @AmazonHelp @115851 @115850 @1840 this is the response i have got for last 2 weeks. I dont understand how long should i keep my phone unused...i fail to understand how long would i"
+  },
+  {
+    "conversation_id": "amazonhelp_154419",
+    "actual": "DELIVERY_LATE",
+    "predicted": "DELIVERY_MISSING",
+    "confidence": 0.1613349642738112,
+    "customer_text": "@AmazonHelp had a parcel out for nearly 36 hours \"arriving today\" 🤥please shed some light on this. Order # 206-9340904-3329131 @AmazonHelp Heard it all before yesterday, waited in my office for it until I received a message saying you attempted to deliver at 18:01 - I was still here....waiting. Nobody attempted anything. Wonder if that's what is going to happen today"
+  }
+]

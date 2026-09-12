@@ -1,0 +1,41 @@
+{
+  "processing_timestamp": "2026-09-09T20:13:21.980149",
+  "source_dataset": "C:\\Users\\DELL\\Desktop\\hiver\\archive\\twcs\\twcs.csv",
+  "source_file_size_bytes": 516508641,
+  "raw_row_count": 2811774,
+  "amazonhelp_tweet_count": 169840,
+  "amazon_customer_reply_pairs": 169287,
+  "reconstructed_conversation_count": 154976,
+  "conversation_length_distribution": {
+    "1_turn": 76962,
+    "2_turns": 8258,
+    "3_turns": 33475,
+    "4_turns": 4310,
+    "5_plus_turns": 31971
+  },
+  "average_conversation_length": 3.05,
+  "median_conversation_length": 2,
+  "percentage_multi_turn": 45.01,
+  "quality_category_counts": {
+    "A_very_short": 84165,
+    "B_customer_brand": 1055,
+    "C_multi_turn": 44593,
+    "D_substantive": 25163
+  },
+  "recommended_sample_sizes": {
+    "intent_discovery": 30000,
+    "agent_training": 20000,
+    "golden_evaluation_set": "150-250 (recommend manual selection from D category, 25163 available)",
+    "quick_experiments": 5000
+  },
+  "processing_heuristics": {
+    "conversation_start": "Customer tweet that AmazonHelp replied to",
+    "threading_method": "Follow in_response_to_tweet_id chain backwards, sort by timestamp",
+    "quality_categories": {
+      "A_very_short": "1 turn - no real conversation",
+      "B_customer_brand": "2 turns with both customer and brand",
+      "C_multi_turn": "3+ turns",
+      "D_substantive": "4+ turns with avg message length >50 chars and 2+ substantive responses"
+    }
+  }
+}

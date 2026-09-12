@@ -1,0 +1,20 @@
+{
+  "total_low_confidence": 968,
+  "sample_size": 100,
+  "categories": {
+    "genuinely_ambiguous": 0,
+    "insufficient_text": 4,
+    "conflicting_intents": 0,
+    "weak_evidence": 96,
+    "noise": 0,
+    "rule_issue": 0
+  },
+  "percentages": {
+    "genuinely_ambiguous": 0.0,
+    "insufficient_text": 4.0,
+    "conflicting_intents": 0.0,
+    "weak_evidence": 96.0,
+    "noise": 0.0,
+    "rule_issue": 0.0
+  }
+}

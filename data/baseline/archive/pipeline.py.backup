@@ -1,0 +1,611 @@
+#!/usr/bin/env python3
+"""
+Sprint 6: End-to-End Integration Pipeline
+
+Clean orchestration module for the complete customer service pipeline:
+1. Classify intent (TF-IDF + Logistic Regression)
+2. Retrieve similar cases (RAG with FAISS)
+3. Assess evidence quality
+4. Generate reply (Groq qwen/qwen3.8-27b) - only for AUTO_HANDLE
+5. Make escalation decision
+
+Output schema:
+{
+    "intent": "...",
+    "confidence": 0.0,
+    "decision": "AUTO_HANDLE | ESCALATE",
+    "reason": "...",
+    "draft_reply": "..." or null,
+    "evidence": [...],
+    "retrieved_case_ids": [...]
+}
+"""
+
+import json
+import os
+import sys
+import logging
+import joblib
+import numpy as np
+from sentence_transformers import SentenceTransformer
+import faiss
+from groq import Groq
+
+sys.stdout.reconfigure(encoding='utf-8')
+
+# =============================================================================
+# Configuration
+# =============================================================================
+
+# Base directory - assume script runs from project root
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
+
+RAG_INDEX_DIR = os.path.join(PROJECT_ROOT, 'data', 'rag')
+EMBEDDING_MODEL = 'all-MiniLM-L6-v2'
+CLASSIFIER_PATH = os.path.join(PROJECT_ROOT, 'data', 'baseline', 'baseline_model.joblib')
+TOP_K = 5
+GENERATION_MODEL = 'qwen/qwen3.8-27b'
+
+# Escalation thresholds (from sprint5_remediation)
+HIGH_RISK_INTENTS = {
+    'REFUND_REQUEST',
+    'PAYMENT_ISSUE',
+    'ACCOUNT_ACCESS',
+    'ORDER_MODIFY',
+}
+CONF_THRESHOLD = 0.25
+SIM_THRESHOLD = 0.3
+
+# =============================================================================
+# Logging Setup
+# =============================================================================
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger('pipeline')
+
+
+# =============================================================================
+# Component Loading
+# =============================================================================
+
+def load_api_key():
+    """Load Groq API key from file."""
+    key_path = os.path.join(PROJECT_ROOT, 'data', 'api_key.env')
+    if not os.path.exists(key_path):
+        logger.warning("API key file not found at %s", key_path)
+        return None
+    with open(key_path, 'r') as f:
+        for line in f:
+            line = line.strip()
+            if line.startswith('GROQ_API_KEY='):
+                return line.split('=', 1)[1].strip()
+    return None
+
+
+class PipelineComponents:
+    """Lazy-loaded pipeline components."""
+
+    def __init__(self):
+        self._classifier = None
+        self._rag_model = None
+        self._rag_index = None
+        self._rag_metadata = None
+        self._groq_client = None
+        self._loaded = False
+
+    def load(self):
+        """Load all components."""
+        if self._loaded:
+            return
+
+        logger.info("Loading pipeline components...")
+
+        # Classifier
+        logger.info("Loading classifier from %s", CLASSIFIER_PATH)
+        self._classifier = joblib.load(CLASSIFIER_PATH)
+        logger.info("Classifier loaded with %d classes",
+                     len(self._classifier.classes_))
+
+        # RAG index (TRAIN only for production)
+        config_path = os.path.join(RAG_INDEX_DIR, 'config_train.json')
+        index_path = os.path.join(RAG_INDEX_DIR, 'faiss_index_train.bin')
+        metadata_path = os.path.join(RAG_INDEX_DIR, 'corpus_metadata_train.jsonl')
+
+        logger.info("Loading RAG index from %s", index_path)
+        self._rag_index = faiss.read_index(index_path)
+
+        logger.info("Loading RAG metadata from %s", metadata_path)
+        self._rag_metadata = []
+        with open(metadata_path, 'r', encoding='utf-8') as f:
+            for line in f:
+                self._rag_metadata.append(json.loads(line))
+        logger.info("RAG metadata loaded: %d cases", len(self._rag_metadata))
+
+        # RAG model
+        logger.info("Loading RAG embedding model: %s", EMBEDDING_MODEL)
+        self._rag_model = SentenceTransformer(EMBEDDING_MODEL)
+
+        # Groq client
+        api_key = load_api_key()
+        if api_key:
+            self._groq_client = Groq(api_key=api_key)
+            logger.info("Groq client initialized")
+        else:
+            logger.warning("Groq API key not found - reply generation disabled")
+
+        self._loaded = True
+        logger.info("All pipeline components loaded successfully")
+
+    @property
+    def classifier(self):
+        if not self._loaded:
+            self.load()
+        return self._classifier
+
+    @property
+    def rag_model(self):
+        if not self._loaded:
+            self.load()
+        return self._rag_model
+
+    @property
+    def rag_index(self):
+        if not self._loaded:
+            self.load()
+        return self._rag_index
+
+    @property
+    def rag_metadata(self):
+        if not self._loaded:
+            self.load()
+        return self._rag_metadata
+
+    @property
+    def groq_client(self):
+        if not self._loaded:
+            self.load()
+        return self._groq_client
+
+
+# Global components instance
+_components = PipelineComponents()
+
+
+def load_components():
+    """Load all components (legacy function for compatibility)."""
+    _components.load()
+    return _components
+
+
+# =============================================================================
+# Pipeline Stages
+# =============================================================================
+
+SYSTEM_PROMPT = """You are an Amazon customer service assistant. Generate helpful replies based on retrieved evidence.
+
+IMPORTANT:
+1. Only use information from the provided evidence.
+2. Do NOT invent policies, refund amounts, delivery dates, or facts not in the evidence.
+3. If evidence is insufficient or irrelevant, acknowledge the limitation.
+4. Be empathetic and professional.
+"""
+
+
+def classify(conversation_text, classifier):
+    """
+    Stage 1: Classify intent using TF-IDF + Logistic Regression.
+
+    Returns:
+        (intent, confidence)
+    """
+    logger.info("Stage 1: Classification")
+    logger.debug("  Input text: %s", conversation_text[:100])
+
+    try:
+        proba = classifier.predict_proba([conversation_text])[0]
+        predicted_class = classifier.classes_[np.argmax(proba)]
+        confidence = float(np.max(proba))
+
+        logger.info("  Predicted intent: %s (confidence: %.3f)",
+                    predicted_class, confidence)
+        return predicted_class, confidence
+
+    except Exception as e:
+        logger.error("  Classification failed: %s", str(e))
+        raise
+
+
+def retrieve_similar(query, model, index, metadata, top_k=5):
+    """
+    Stage 2: Retrieve similar cases using RAG.
+
+    Returns:
+        list of retrieved case dicts
+    """
+    logger.info("Stage 2: RAG Retrieval (top_k=%d)", top_k)
+    logger.debug("  Query: %s", query[:100])
+
+    try:
+        query_vec = model.encode([query]).astype('float32')
+        norm = np.linalg.norm(query_vec, axis=1, keepdims=True)
+        query_vec_norm = query_vec / norm
+        scores, indices = index.search(query_vec_norm, top_k)
+
+        results = []
+        for i, (score, idx) in enumerate(zip(scores[0], indices[0])):
+            if idx < len(metadata):
+                case = {
+                    'rank': i + 1,
+                    'conversation_id': metadata[idx]['conversation_id'],
+                    'primary_intent': metadata[idx]['primary_intent'],
+                    'customer_text': metadata[idx]['customer_text'],
+                    'similarity_score': float(score)
+                }
+                results.append(case)
+
+        avg_sim = np.mean([r['similarity_score'] for r in results]) if results else 0
+        logger.info("  Retrieved %d cases, avg similarity: %.3f",
+                    len(results), avg_sim)
+        logger.debug("  Top-1: %s (%.3f)",
+                     results[0]['conversation_id'] if results else 'none',
+                     results[0]['similarity_score'] if results else 0)
+
+        return results
+
+    except Exception as e:
+        logger.error("  Retrieval failed: %s", str(e))
+        raise
+
+
+def generate_reply(customer_text, intent, confidence, retrieved_cases, groq_client):
+    """
+    Stage 3: Generate reply using Groq LLM.
+    Only called when AUTO_HANDLE decision is made.
+
+    Returns:
+        draft_reply string or None on failure
+    """
+    logger.info("Stage 3: Reply Generation")
+
+    if not groq_client:
+        logger.warning("  Groq client not available - skipping generation")
+        return None
+
+    if not retrieved_cases:
+        logger.warning("  No retrieved cases - cannot generate grounded reply")
+        return None
+
+    # Build evidence text
+    evidence_text = ""
+    for i, case in enumerate(retrieved_cases):
+        evidence_text += f"""
+Case {i+1} (Intent: {case['primary_intent']}, Similarity: {case['similarity_score']:.2f}):
+Customer: {case['customer_text']}
+---
+"""
+
+    prompt = f"""Customer Issue: {customer_text}
+
+Detected Intent: {intent} (Confidence: {confidence:.2f})
+
+Retrieved Evidence:
+{evidence_text}
+
+Based on the evidence, generate a reply."""
+
+    try:
+        logger.debug("  Sending request to Groq...")
+        response = groq_client.chat.completions.create(
+            model=GENERATION_MODEL,
+            messages=[
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": prompt}
+            ],
+            temperature=0.3,
+            max_tokens=500
+        )
+
+        reply = response.choices[0].message.content
+        logger.info("  Reply generated successfully (%d chars)", len(reply))
+        return reply
+
+    except Exception as e:
+        logger.error("  Reply generation failed: %s", str(e))
+        return None
+
+
+def decide_escalation(intent, confidence, retrieved_cases):
+    """
+    Stage 4: Make escalation decision.
+
+    Policy:
+    - HIGH_RISK intent → ESCALATE
+    - confidence < 0.25 → ESCALATE
+    - avg_sim < 0.3 → ESCALATE
+    - Otherwise → AUTO_HANDLE
+
+    Returns:
+        {"decision": "AUTO_HANDLE|ESCALATE", "reason": "...", "risk_flags": [...]}
+    """
+    logger.info("Stage 4: Escalation Decision")
+
+    risk_flags = []
+
+    # Rule 1: High-risk intent
+    if intent in HIGH_RISK_INTENTS:
+        risk_flags.append(f"HIGH_RISK:{intent}")
+        logger.info("  Risk flag: HIGH_RISK (%s)", intent)
+
+    # Rule 2: Low confidence
+    if confidence < CONF_THRESHOLD:
+        risk_flags.append(f"LOW_CONF:{confidence:.3f}")
+        logger.info("  Risk flag: LOW_CONF (%.3f < %.2f)", confidence, CONF_THRESHOLD)
+
+    # Rule 3: Weak or no evidence
+    if not retrieved_cases:
+        risk_flags.append("NO_EVIDENCE")
+        logger.info("  Risk flag: NO_EVIDENCE")
+    else:
+        avg_similarity = np.mean([c['similarity_score'] for c in retrieved_cases])
+        if avg_similarity < SIM_THRESHOLD:
+            risk_flags.append(f"WEAK_EVIDENCE:avg={avg_similarity:.3f}")
+            logger.info("  Risk flag: WEAK_EVIDENCE (avg=%.3f < %.2f)",
+                        avg_similarity, SIM_THRESHOLD)
+
+    # Final decision
+    decision = "ESCALATE" if risk_flags else "AUTO_HANDLE"
+    logger.info("  Decision: %s", decision)
+
+    # Build reason string
+    if decision == "ESCALATE":
+        primary_reason = risk_flags[0]
+        reason = f"ESCALATE - {primary_reason}"
+        if len(risk_flags) > 1:
+            reason += f" (+{len(risk_flags)-1} other factors)"
+    else:
+        avg_sim = np.mean([c['similarity_score'] for c in retrieved_cases]) if retrieved_cases else 0
+        reason = f"AUTO_HANDLE - conf={confidence:.3f}, avg_sim={avg_sim:.3f}, intent={intent}"
+
+    return {
+        "decision": decision,
+        "reason": reason,
+        "risk_flags": risk_flags
+    }
+
+
+# =============================================================================
+# Main Pipeline Function
+# =============================================================================
+
+def run_pipeline(conversation_text, top_k=5, skip_generation=False):
+    """
+    Run the complete end-to-end pipeline.
+
+    Args:
+        conversation_text: Customer conversation text
+        top_k: Number of similar cases to retrieve
+        skip_generation: If True, skip LLM generation (for testing/faster runs)
+
+    Returns:
+        {
+            "intent": "...",
+            "confidence": 0.0,
+            "decision": "AUTO_HANDLE | ESCALATE",
+            "reason": "...",
+            "draft_reply": "..." or null,
+            "evidence": [...],
+            "retrieved_case_ids": [...]
+        }
+
+    Raises:
+        ValueError: If conversation_text is empty
+        Exception: For component failures
+    """
+    if not conversation_text or not conversation_text.strip():
+        raise ValueError("conversation_text cannot be empty")
+
+    logger.info("=" * 60)
+    logger.info("PIPELINE START: %s", conversation_text[:80])
+    logger.info("=" * 60)
+
+    # Load components
+    _components.load()
+    classifier = _components.classifier
+    rag_model = _components.rag_model
+    rag_index = _components.rag_index
+    rag_metadata = _components.rag_metadata
+    groq_client = _components.groq_client
+
+    # Stage 1: Classification
+    intent, confidence = classify(conversation_text, classifier)
+
+    # Stage 2: Retrieval
+    retrieved_cases = retrieve_similar(
+        conversation_text, rag_model, rag_index, rag_metadata, top_k
+    )
+
+    # Stage 4: Escalation decision (before generation - don't generate if ESCALATE)
+    escalation = decide_escalation(intent, confidence, retrieved_cases)
+    decision = escalation["decision"]
+
+    # Stage 3: Generate reply ONLY if AUTO_HANDLE
+    draft_reply = None
+    if decision == "AUTO_HANDLE" and not skip_generation:
+        draft_reply = generate_reply(
+            conversation_text, intent, confidence, retrieved_cases, groq_client
+        )
+        # If generation failed, still AUTO_HANDLE with no reply (human will review)
+        if draft_reply is None:
+            logger.warning("  Generation failed but decision is AUTO_HANDLE - allowing")
+    elif decision == "AUTO_HANDLE" and skip_generation:
+        logger.info("  Stage 3: Reply generation skipped (skip_generation=True)")
+
+    # Build response
+    response = {
+        "intent": intent,
+        "confidence": round(confidence, 4),
+        "decision": decision,
+        "reason": escalation["reason"],
+        "draft_reply": draft_reply,
+        "evidence": [
+            {
+                "conversation_id": case["conversation_id"],
+                "intent": case["primary_intent"],
+                "similarity_score": round(case["similarity_score"], 4),
+                "customer_text": case["customer_text"]
+            }
+            for case in retrieved_cases
+        ],
+        "retrieved_case_ids": [case["conversation_id"] for case in retrieved_cases]
+    }
+
+    logger.info("PIPELINE END: decision=%s, intent=%s, conf=%.3f",
+                decision, intent, confidence)
+    logger.info("=" * 60)
+
+    return response
+
+
+def validate_response(response):
+    """
+    Validate that a pipeline response has the correct schema.
+
+    Returns:
+        (is_valid, error_message)
+    """
+    required_fields = {
+        "intent": str,
+        "confidence": (float, int),
+        "decision": str,
+        "reason": str,
+        "draft_reply": (str, type(None)),
+        "evidence": list,
+        "retrieved_case_ids": list
+    }
+
+    for field, expected_type in required_fields.items():
+        if field not in response:
+            return False, f"Missing required field: {field}"
+        if not isinstance(response[field], expected_type):
+            return False, f"Field {field} has wrong type: {type(response[field])}"
+
+    if response["decision"] not in ("AUTO_HANDLE", "ESCALATE"):
+        return False, f"Invalid decision value: {response['decision']}"
+
+    if response["confidence"] < 0 or response["confidence"] > 1:
+        return False, f"Confidence out of range: {response['confidence']}"
+
+    if len(response["evidence"]) != len(response["retrieved_case_ids"]):
+        return False, "Evidence and retrieved_case_ids length mismatch"
+
+    return True, None
+
+
+# =============================================================================
+# Batch Processing
+# =============================================================================
+
+def run_pipeline_batch(conversations, top_k=5, skip_generation=False):
+    """
+    Run pipeline on a batch of conversations.
+
+    Args:
+        conversations: List of dicts with "conversation_id" and "text" keys,
+                      or list of strings (uses index as ID)
+        top_k: Number of cases to retrieve
+        skip_generation: Skip LLM generation
+
+    Returns:
+        List of response dicts
+    """
+    results = []
+    for i, conv in enumerate(conversations):
+        conv_id = conv.get("conversation_id", f"batch_{i}") if isinstance(conv, dict) else f"batch_{i}"
+        text = conv.get("text", conv) if isinstance(conv, dict) else conv
+
+        logger.info("Processing batch item %d: %s", i, conv_id)
+
+        try:
+            response = run_pipeline(text, top_k=top_k, skip_generation=skip_generation)
+            response["conversation_id"] = conv_id
+            response["pipeline_status"] = "success"
+        except Exception as e:
+            logger.error("Pipeline failed for %s: %s", conv_id, str(e))
+            response = {
+                "conversation_id": conv_id,
+                "pipeline_status": "error",
+                "error": str(e),
+                "intent": None,
+                "confidence": None,
+                "decision": None,
+                "reason": None,
+                "draft_reply": None,
+                "evidence": [],
+                "retrieved_case_ids": []
+            }
+
+        results.append(response)
+
+    return results
+
+
+# =============================================================================
+# Main / Testing
+# =============================================================================
+
+if __name__ == '__main__':
+    print("Loading pipeline components...")
+
+    test_cases = [
+        {
+            "id": "test_001",
+            "text": "My package was supposed to arrive yesterday but it's still not here. I'm very frustrated!",
+        },
+        {
+            "id": "test_002",
+            "text": "I want to return my order and get a refund. The item is damaged.",
+        },
+        {
+            "id": "test_003",
+            "text": "My Kindle screen is frozen and won't turn off. I've tried everything.",
+        },
+        {
+            "id": "test_004",
+            "text": "I was charged twice for my order",
+        },
+        {
+            "id": "test_005",
+            "text": "Hello?",
+        },
+    ]
+
+    for tc in test_cases:
+        print(f"\n{'='*70}")
+        print(f"Test: {tc['id']}")
+        print(f"Text: {tc['text']}")
+        print()
+
+        result = run_pipeline(tc['text'])
+
+        print(f"Intent: {result['intent']}")
+        print(f"Confidence: {result['confidence']:.3f}")
+        print(f"Decision: {result['decision']}")
+        print(f"Reason: {result['reason']}")
+        print(f"Evidence: {len(result['evidence'])} cases")
+        for e in result['evidence']:
+            print(f"  [{e['conversation_id']}] {e['intent']} ({e['similarity_score']:.3f})")
+
+        if result['draft_reply']:
+            print(f"\nDraft Reply ({len(result['draft_reply'])} chars):")
+            print(result['draft_reply'][:300])
+
+        is_valid, err = validate_response(result)
+        print(f"\nSchema valid: {is_valid}")
+        if err:
+            print(f"Validation error: {err}")
+
+        print(f"{'='*70}")

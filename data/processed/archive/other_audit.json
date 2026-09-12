@@ -1,0 +1,136 @@
+{
+  "total_other": 968,
+  "sample_size": 100,
+  "categories": {
+    "genuinely_unclassifiable": 53,
+    "obvious_existing_intent_missed": 19,
+    "noise": 1,
+    "non_english": 27,
+    "insufficient_context": 0,
+    "rule_failure": 0
+  },
+  "percentages": {
+    "genuinely_unclassifiable": 53.0,
+    "obvious_existing_intent_missed": 19.0,
+    "noise": 1.0,
+    "non_english": 27.0,
+    "insufficient_context": 0.0,
+    "rule_failure": 0.0
+  },
+  "obvious_missed_top_20": [
+    {
+      "conversation_id": "amazonhelp_112393",
+      "primary_intent": "OTHER",
+      "should_be": "DELIVERY_LATE",
+      "customer_text": "hey, @115821. quit using 3rd party (blank van) delivery companies to deliver stuff to my house. they leave packages outside my gate... on a busy street in a big city. come on. how many stolen packages"
+    },
+    {
+      "conversation_id": "amazonhelp_117195",
+      "primary_intent": "OTHER",
+      "should_be": "DELIVERY_LATE",
+      "customer_text": "they have managed to leave notes and not ring my buzzer, and just recently managed to “accidentally” send a package back to @115821 https://t.co/cuiem0xnbd @115821 even though they were supposed to re"
+    },
+    {
+      "conversation_id": "amazonhelp_090677",
+      "primary_intent": "OTHER",
+      "should_be": "DELIVERY_LATE",
+      "customer_text": "wow. really @115821 did you send me a used book? https://t.co/ynbdkvunud @115821 i mean, damn where’s the quality control of shipping @amazonhelp shipped by amazon fulfillment services. https://t.co/y"
+    },
+    {
+      "conversation_id": "amazonhelp_098611",
+      "primary_intent": "OTHER",
+      "should_be": "DELIVERY_LATE",
+      "customer_text": "@115850 what's the point of providing the delivery agent's number when they get away with keeping their phones switched off conveniently? @amazonhelp tried. the rep couldn't assist much. only shallow "
+    },
+    {
+      "conversation_id": "amazonhelp_090967",
+      "primary_intent": "OTHER",
+      "should_be": "DELIVERY_LATE",
+      "customer_text": "@115830 had 2 messages yesterday and this morning saying my parcel couldn’t be delivered, i’ve been sat in the whole time and not one knock at the door. what’s that all about??? 🤷🏻‍♀️ @amazonhelp ones"
+    },
+    {
+      "conversation_id": "amazonhelp_001869",
+      "primary_intent": "OTHER",
+      "should_be": "DELIVERY_LATE",
+      "customer_text": "@115850 worst service from amazon transportation service. they are expecting customer to be in office at 9 pm to collect package delivery @115850 @115850 ... today is the 2nd day... same story is goin"
+    },
+    {
+      "conversation_id": "amazonhelp_069506",
+      "primary_intent": "OTHER",
+      "should_be": "APP_USAGE",
+      "customer_text": "treat your inner child today. wishing you a #happychildrensday! https://t.co/wod6cueyaf @115850 where is #appguesswho  winners list 18-19sept ......today is 15 nov ...today was last day ...plz dont fo"
+    },
+    {
+      "conversation_id": "amazonhelp_114434",
+      "primary_intent": "OTHER",
+      "should_be": "ORDER_MODIFY",
+      "customer_text": "@115850 after creating business profile not able to change bill-to-party order wise. it's so stupid @amazonhelp got the help from your team. thanks"
+    },
+    {
+      "conversation_id": "amazonhelp_037908",
+      "primary_intent": "OTHER",
+      "should_be": "DELIVERY_LATE",
+      "customer_text": "@amazonhelp amazon logistics has screwed up my deliveries this weekend i ordered 2items 2 day dekivery supposed to receive them sunday"
+    },
+    {
+      "conversation_id": "amazonhelp_088580",
+      "primary_intent": "OTHER",
+      "should_be": "ORDER_MODIFY",
+      "customer_text": "@amazonhelp. i cancel my free trial and u guys still charge me...why? @amazonhelp yes i did ."
+    },
+    {
+      "conversation_id": "amazonhelp_102198",
+      "primary_intent": "OTHER",
+      "should_be": "DELIVERY_LATE",
+      "customer_text": "@amazonhelp trying to choose a parcelpoint in australia for delivery but there is no option for me to select one at checkout. help?"
+    },
+    {
+      "conversation_id": "amazonhelp_133210",
+      "primary_intent": "OTHER",
+      "should_be": "DELIVERY_LATE",
+      "customer_text": "@115850 let me know wen u r goin 2 deliver my product. its for diwali 😡😡😡😡 @amazonhelp order was placed on 7th. let me knw hw much time u take to deliver 13 days as it will be arriving on 21st n check"
+    },
+    {
+      "conversation_id": "amazonhelp_045148",
+      "primary_intent": "OTHER",
+      "should_be": "DELIVERY_LATE",
+      "customer_text": "@amazonhelp \namazon logistics is awful! amazon is hiring uber drivers to deliver packages - and these drivers aren’t even delivering package to houses - they are leaving piles of packages at community"
+    },
+    {
+      "conversation_id": "amazonhelp_143701",
+      "primary_intent": "OTHER",
+      "should_be": "DELIVERY_LATE",
+      "customer_text": "@115830 thanks for abysmal customer service. waiting for parcel to find out online that courier has been.  no one has been to my house. @amazonhelp i have contacted you twice to be told you stupid cou"
+    },
+    {
+      "conversation_id": "amazonhelp_007153",
+      "primary_intent": "OTHER",
+      "should_be": "DELIVERY_LATE",
+      "customer_text": "@115830 out for delivery since yesterday? can't be right surely https://t.co/lft06edzso @amazonhelp i have, not heard anything back!"
+    },
+    {
+      "conversation_id": "amazonhelp_072125",
+      "primary_intent": "OTHER",
+      "should_be": "DELIVERY_LATE",
+      "customer_text": "super ticked at @115821 for shipping this crap like this even though i asked for a cover box. way to ruin christmas. 😡😡😡😡 @115821 maybe @amazonhelp can help them reconsider their shipping packages at "
+    },
+    {
+      "conversation_id": "amazonhelp_011348",
+      "primary_intent": "OTHER",
+      "should_be": "DELIVERY_LATE",
+      "customer_text": "want to know when your order will reach you? track your order with just a click, only on amazon. https://t.co/oaqku4bzlu https://t.co/dpltzprd1f @115850 your delivery guy's are not able to locate the "
+    },
+    {
+      "conversation_id": "amazonhelp_036247",
+      "primary_intent": "OTHER",
+      "should_be": "DELIVERY_LATE",
+      "customer_text": "@115850 raised multiple request for pre-delivery of product as it is in delivery destination only, but request not entertained."
+    },
+    {
+      "conversation_id": "amazonhelp_086369",
+      "primary_intent": "OTHER",
+      "should_be": "ORDER_MODIFY",
+      "customer_text": "très déçu du lametric time commandé sur amazon durant le #blackfriday il ne démarre pas... retour chez @120533  en espérant un échange 😥 https://t.co/1x17ejiywd @amazonhelp bonsoir, en effet c'est ce "
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "model_type": "sentence_transformer",
+  "encoder_name": "all-MiniLM-L6-v2",
+  "embedding_dim": 384,
+  "classifier": "LinearSVC(C=1.0)",
+  "test_accuracy": 0.4777777777777778,
+  "correct": 258,
+  "total": 540
+}

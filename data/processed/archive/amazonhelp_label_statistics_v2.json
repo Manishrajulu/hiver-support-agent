@@ -1,0 +1,75 @@
+{
+  "total_conversations_processed": 2700,
+  "total_other": 1029,
+  "other_percentage": 38.1,
+  "primary_intent_distribution": {
+    "OTHER": 1029,
+    "DELIVERY_LATE": 522,
+    "APP_USAGE": 229,
+    "DEVICE_ISSUE": 173,
+    "RETURN_REQUEST": 153,
+    "ORDER_STATUS": 135,
+    "REFUND_REQUEST": 101,
+    "DELIVERY_MISSING": 87,
+    "VIDEO_STREAMING": 70,
+    "PAYMENT_ISSUE": 61,
+    "PRODUCT_ISSUE": 56,
+    "DELIVERY_TRACKING": 40,
+    "ACCOUNT_ACCESS": 35,
+    "ORDER_MODIFY": 9
+  },
+  "primary_intent_percentages": {
+    "OTHER": 38.1,
+    "DELIVERY_LATE": 19.3,
+    "APP_USAGE": 8.5,
+    "DEVICE_ISSUE": 6.4,
+    "RETURN_REQUEST": 5.7,
+    "ORDER_STATUS": 5.0,
+    "REFUND_REQUEST": 3.7,
+    "DELIVERY_MISSING": 3.2,
+    "VIDEO_STREAMING": 2.6,
+    "PAYMENT_ISSUE": 2.3,
+    "PRODUCT_ISSUE": 2.1,
+    "DELIVERY_TRACKING": 1.5,
+    "ACCOUNT_ACCESS": 1.3,
+    "ORDER_MODIFY": 0.3
+  },
+  "secondary_intent_frequencies": {
+    "APP_USAGE": 282,
+    "REFUND_REQUEST": 157,
+    "DEVICE_ISSUE": 119,
+    "ORDER_STATUS": 103,
+    "RETURN_REQUEST": 86,
+    "ACCOUNT_ACCESS": 79,
+    "DELIVERY_MISSING": 55,
+    "PRODUCT_ISSUE": 54,
+    "PAYMENT_ISSUE": 52,
+    "DELIVERY_LATE": 36,
+    "VIDEO_STREAMING": 26,
+    "ORDER_MODIFY": 13
+  },
+  "modifier_frequencies": {
+    "DELIVERY_CARRIER": 346,
+    "PRIME_CUSTOMER": 190,
+    "MARKETPLACE": 165,
+    "SUBSCRIPTION": 79
+  },
+  "escalation_signal_frequencies": {
+    "FRUSTRATION_HIGH": 236,
+    "SERVICE_COMPLAINT": 156,
+    "PREVIOUS_CONTACT": 145,
+    "ESCALATION_REQUEST": 140
+  },
+  "language_distribution": {
+    "en": 2306,
+    "non_en": 391,
+    "unknown": 3
+  },
+  "confidence_distribution": {
+    "HIGH": 500,
+    "MEDIUM": 1171,
+    "LOW": 1029
+  },
+  "multi_intent_count": 735,
+  "multi_intent_percentage": 27.2
+}

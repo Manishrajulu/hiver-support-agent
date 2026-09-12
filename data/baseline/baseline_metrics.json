@@ -1,0 +1,18 @@
+{
+  "majority_baseline": {
+    "accuracy": 0.35,
+    "macro_precision": 0.024999999999999998,
+    "macro_recall": 0.07142857142857142,
+    "macro_f1": 0.037037037037037035,
+    "weighted_f1": 0.1814814814814815,
+    "majority_class": "OTHER"
+  },
+  "tfidf_lr": {
+    "accuracy": 0.5611111111111111,
+    "balanced_accuracy": 0.5411059354813718,
+    "macro_precision": 0.4676513289124299,
+    "macro_recall": 0.5411059354813718,
+    "macro_f1": 0.48970271561233786,
+    "weighted_f1": 0.5652592012821944
+  }
+}

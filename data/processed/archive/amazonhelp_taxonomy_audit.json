@@ -1,0 +1,176 @@
+{
+  "previous_candidate_themes": {
+    "DELIVERY_PROBLEM": {
+      "current_count": 920,
+      "what_it_represents": "Issues with package delivery, tracking, late deliveries, lost packages",
+      "classification": "PRIMARY_INTENT",
+      "too_broad": false,
+      "too_narrow": false,
+      "overlaps_with": [
+        "ORDER_ISSUE",
+        "PRIME_MEMBERSHIP"
+      ],
+      "recommended_treatment": "KEEP",
+      "notes": "Well-defined intent. May need sub-intents: LATE_DELIVERY, MISSING_DELIVERY, TRACKING_ISSUE, CARRIER_ISSUE"
+    },
+    "ORDER_ISSUE": {
+      "current_count": 835,
+      "what_it_represents": "Order status, modifying/canceling orders, order numbers",
+      "classification": "PRIMARY_INTENT",
+      "too_broad": true,
+      "too_narrow": false,
+      "overlaps_with": [
+        "DELIVERY_PROBLEM",
+        "REFUND"
+      ],
+      "recommended_treatment": "SPLIT",
+      "notes": "Mixed with delivery. ORDER_STATUS is distinct from ORDER_MODIFICATION/CANCELLATION"
+    },
+    "TECHNICAL_ISSUE": {
+      "current_count": 740,
+      "what_it_represents": "App/website problems, streaming issues, device problems",
+      "classification": "PRIMARY_INTENT",
+      "too_broad": true,
+      "too_narrow": false,
+      "overlaps_with": [
+        "ACCOUNT_ISSUE"
+      ],
+      "recommended_treatment": "SPLIT",
+      "notes": "APP_ISSUE dominates (70%). DEVICE_ISSUE and VIDEO_STREAMING are distinct sub-intents"
+    },
+    "PRODUCT_ISSUE": {
+      "current_count": 575,
+      "what_it_represents": "Product quality, wrong item, damaged, defective",
+      "classification": "PRIMARY_INTENT",
+      "too_broad": false,
+      "too_narrow": false,
+      "overlaps_with": [
+        "RETURN_EXCHANGE"
+      ],
+      "recommended_treatment": "KEEP",
+      "notes": "Clear customer problem: received defective/wrong product"
+    },
+    "ACCOUNT_ISSUE": {
+      "current_count": 479,
+      "what_it_represents": "Login problems, account locked/closed/suspended",
+      "classification": "PRIMARY_INTENT",
+      "too_broad": false,
+      "too_narrow": false,
+      "overlaps_with": [
+        "TECHNICAL_ISSUE",
+        "CONTACT_REQUEST"
+      ],
+      "recommended_treatment": "KEEP",
+      "notes": "Clear intent. May overlap with login-related TECHNICAL"
+    },
+    "PRIME_MEMBERSHIP": {
+      "current_count": 436,
+      "what_it_represents": "Prime subscription, renewal, cancellation, Prime benefits",
+      "classification": "CONTEXT_MODIFIER",
+      "too_broad": false,
+      "too_narrow": false,
+      "overlaps_with": [
+        "DELIVERY_PROBLEM",
+        "REFUND"
+      ],
+      "recommended_treatment": "RECLASSIFY",
+      "notes": "Often a context modifier, not primary intent. Customer problem is usually delivery/refund, not Prime itself."
+    },
+    "CUSTOMER_SERVICE_QUALITY": {
+      "current_count": 353,
+      "what_it_represents": "Complaints about service quality, no response, rudeness",
+      "classification": "SENTIMENT_SIGNAL",
+      "too_broad": false,
+      "too_narrow": false,
+      "overlaps_with": [
+        "CONTACT_REQUEST",
+        "ESCALATION"
+      ],
+      "recommended_treatment": "SIGNAL",
+      "notes": "Not a customer intent - this is sentiment/escalation signal for routing decisions"
+    },
+    "CONTACT_REQUEST": {
+      "current_count": 945,
+      "what_it_represents": "Customer asking to be called/emailed/DMed, requesting to speak to someone",
+      "classification": "ESCALATION_SIGNAL",
+      "too_broad": true,
+      "too_narrow": false,
+      "overlaps_with": [
+        "CUSTOMER_SERVICE_QUALITY",
+        "ACCOUNT_ISSUE"
+      ],
+      "recommended_treatment": "SIGNAL",
+      "notes": "Not a customer intent - describes how customer wants to be supported. Should be used for escalation, not intent classification."
+    },
+    "PAYMENT_ISSUE": {
+      "current_count": 335,
+      "what_it_represents": "Billing problems, credit card issues, gift cards",
+      "classification": "PRIMARY_INTENT",
+      "too_broad": false,
+      "too_narrow": false,
+      "overlaps_with": [
+        "REFUND",
+        "ACCOUNT_ISSUE"
+      ],
+      "recommended_treatment": "KEEP",
+      "notes": "Clear customer problem with payment"
+    },
+    "REFUND": {
+      "current_count": 262,
+      "what_it_represents": "Money refund requests, refund status, reimbursement",
+      "classification": "PRIMARY_INTENT",
+      "too_broad": false,
+      "too_narrow": false,
+      "overlaps_with": [
+        "PAYMENT_ISSUE",
+        "RETURN_EXCHANGE"
+      ],
+      "recommended_treatment": "KEEP",
+      "notes": "Clear customer problem. Often overlaps with RETURN but distinct ask."
+    },
+    "RETURN_EXCHANGE": {
+      "current_count": 256,
+      "what_it_represents": "Returning items, exchanges, replacements",
+      "classification": "PRIMARY_INTENT",
+      "too_broad": false,
+      "too_narrow": false,
+      "overlaps_with": [
+        "REFUND",
+        "PRODUCT_ISSUE"
+      ],
+      "recommended_treatment": "KEEP",
+      "notes": "Clear customer problem. Customer wants to return/exchange item."
+    }
+  },
+  "problem_summary": {
+    "too_broad_categories": [
+      "ORDER_ISSUE",
+      "TECHNICAL_ISSUE"
+    ],
+    "reclassified_as_signals": [
+      "CUSTOMER_SERVICE_QUALITY",
+      "CONTACT_REQUEST"
+    ],
+    "reclassified_as_modifiers": [
+      "PRIME_MEMBERSHIP"
+    ],
+    "needs_splitting": [
+      "DELIVERY_PROBLEM"
+    ],
+    "needs_merging": [],
+    "overlapping_pairs": [
+      [
+        "DELIVERY_PROBLEM",
+        "ORDER_ISSUE"
+      ],
+      [
+        "REFUND",
+        "PAYMENT_ISSUE"
+      ],
+      [
+        "PRODUCT_ISSUE",
+        "RETURN_EXCHANGE"
+      ]
+    ]
+  }
+}

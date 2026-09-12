@@ -1,0 +1,16 @@
+{
+  "old_distribution": {
+    "non_en": 2683,
+    "en": 17
+  },
+  "new_distribution": {
+    "en": 2306,
+    "non_en": 391,
+    "unknown": 3
+  },
+  "problem_identified": "Non-English regex patterns matched common English words: que, si, der, del, pour, est, etc.",
+  "fix_applied": "Use non-Latin script detection + distinctive non-English word list instead of common word patterns",
+  "new_en_count": 2306,
+  "new_non_en_count": 391,
+  "new_unknown_count": 3
+}

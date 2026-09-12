@@ -1,0 +1,7 @@
+{
+  "original_accuracy": 0.6944444444444444,
+  "cleaned_accuracy": 0.7055555555555556,
+  "change_pp": 1.1111111111111183,
+  "best_dataset": "data/processed/amazonhelp_labeled_conversations_v21_phase6c.jsonl",
+  "cleanup_helped": true
+}

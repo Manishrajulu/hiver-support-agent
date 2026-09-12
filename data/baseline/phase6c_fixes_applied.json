@@ -1,0 +1,32 @@
+[
+  {
+    "id": "amazonhelp_044843",
+    "old": "OTHER",
+    "new": "DELIVERY_LATE"
+  },
+  {
+    "id": "amazonhelp_106326",
+    "old": "OTHER",
+    "new": "DELIVERY_LATE"
+  },
+  {
+    "id": "amazonhelp_001910",
+    "old": "OTHER",
+    "new": "DELIVERY_MISSING"
+  },
+  {
+    "id": "amazonhelp_100946",
+    "old": "OTHER",
+    "new": "DELIVERY_MISSING"
+  },
+  {
+    "id": "amazonhelp_075709",
+    "old": "OTHER",
+    "new": "DELIVERY_MISSING"
+  },
+  {
+    "id": "amazonhelp_072249",
+    "old": "OTHER",
+    "new": "DELIVERY_LATE"
+  }
+]

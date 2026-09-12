@@ -1,0 +1,86 @@
+{
+  "ACCOUNT_ACCESS": {
+    "precision": 0.3333,
+    "recall": 0.2857,
+    "f1-score": 0.3077,
+    "support": 7
+  },
+  "APP_USAGE": {
+    "precision": 0.6562,
+    "recall": 0.4773,
+    "f1-score": 0.5526,
+    "support": 44
+  },
+  "CANCELLATION": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "DELIVERY_LATE": {
+    "precision": 0.7451,
+    "recall": 0.6972,
+    "f1-score": 0.7204,
+    "support": 109
+  },
+  "DELIVERY_MISSING": {
+    "precision": 0.6786,
+    "recall": 0.5588,
+    "f1-score": 0.6129,
+    "support": 34
+  },
+  "DELIVERY_TRACKING": {
+    "precision": 0.75,
+    "recall": 0.375,
+    "f1-score": 0.5,
+    "support": 8
+  },
+  "DEVICE_ISSUE": {
+    "precision": 0.7308,
+    "recall": 0.5588,
+    "f1-score": 0.6333,
+    "support": 34
+  },
+  "ORDER_STATUS": {
+    "precision": 0.6667,
+    "recall": 0.3704,
+    "f1-score": 0.4762,
+    "support": 27
+  },
+  "OTHER": {
+    "precision": 0.738,
+    "recall": 0.9235,
+    "f1-score": 0.8204,
+    "support": 183
+  },
+  "PAYMENT_ISSUE": {
+    "precision": 0.6071,
+    "recall": 0.7391,
+    "f1-score": 0.6667,
+    "support": 23
+  },
+  "PRODUCT_ISSUE": {
+    "precision": 0.5714,
+    "recall": 0.3636,
+    "f1-score": 0.4444,
+    "support": 11
+  },
+  "REFUND_REQUEST": {
+    "precision": 0.5333,
+    "recall": 0.6154,
+    "f1-score": 0.5714,
+    "support": 13
+  },
+  "RETURN_REQUEST": {
+    "precision": 0.6842,
+    "recall": 0.8387,
+    "f1-score": 0.7536,
+    "support": 31
+  },
+  "VIDEO_STREAMING": {
+    "precision": 0.6667,
+    "recall": 0.4,
+    "f1-score": 0.5,
+    "support": 15
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "ACCOUNT_ACCESS": {
+    "precision": 0.4,
+    "recall": 0.5714285714285714,
+    "f1-score": 0.47058823529411764,
+    "support": 7.0
+  },
+  "APP_USAGE": {
+    "precision": 0.41025641025641024,
+    "recall": 0.36363636363636365,
+    "f1-score": 0.3855421686746988,
+    "support": 44.0
+  },
+  "CANCELLATION": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "DELIVERY_LATE": {
+    "precision": 0.49056603773584906,
+    "recall": 0.49056603773584906,
+    "f1-score": 0.49056603773584906,
+    "support": 106.0
+  },
+  "DELIVERY_MISSING": {
+    "precision": 0.42857142857142855,
+    "recall": 0.5806451612903226,
+    "f1-score": 0.4931506849315068,
+    "support": 31.0
+  },
+  "DELIVERY_TRACKING": {
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1-score": 0.5,
+    "support": 8.0
+  },
+  "DEVICE_ISSUE": {
+    "precision": 0.7333333333333333,
+    "recall": 0.6470588235294118,
+    "f1-score": 0.6875,
+    "support": 34.0
+  },
+  "ORDER_STATUS": {
+    "precision": 0.5121951219512195,
+    "recall": 0.7777777777777778,
+    "f1-score": 0.6176470588235294,
+    "support": 27.0
+  },
+  "OTHER": {
+    "precision": 0.8110236220472441,
+    "recall": 0.544973544973545,
+    "f1-score": 0.6518987341772152,
+    "support": 189.0
+  },
+  "PAYMENT_ISSUE": {
+    "precision": 0.47058823529411764,
+    "recall": 0.6956521739130435,
+    "f1-score": 0.5614035087719298,
+    "support": 23.0
+  },
+  "PRODUCT_ISSUE": {
+    "precision": 0.3,
+    "recall": 0.2727272727272727,
+    "f1-score": 0.2857142857142857,
+    "support": 11.0
+  },
+  "REFUND_REQUEST": {
+    "precision": 0.375,
+    "recall": 0.6923076923076923,
+    "f1-score": 0.4864864864864865,
+    "support": 13.0
+  },
+  "RETURN_REQUEST": {
+    "precision": 0.4727272727272727,
+    "recall": 0.8387096774193549,
+    "f1-score": 0.6046511627906976,
+    "support": 31.0
+  },
+  "VIDEO_STREAMING": {
+    "precision": 0.6428571428571429,
+    "recall": 0.6,
+    "f1-score": 0.6206896551724138,
+    "support": 15.0
+  },
+  "accuracy": 0.5611111111111111,
+  "macro avg": {
+    "precision": 0.4676513289124299,
+    "recall": 0.5411059354813718,
+    "f1-score": 0.48970271561233786,
+    "support": 540.0
+  },
+  "weighted avg": {
+    "precision": 0.6027388787761278,
+    "recall": 0.5611111111111111,
+    "f1-score": 0.5652592012821944,
+    "support": 540.0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "phase": "E",
+  "accuracy": 0.6981481481481482,
+  "correct": 377,
+  "total": 540,
+  "delta_vs_phaseC": -0.013,
+  "delta_vs_phase6": -0.0067,
+  "changes_applied": 20,
+  "errors_total": 163,
+  "errors_ambiguous": 49,
+  "errors_genuine_mistake": 114,
+  "errors_low_example": 0,
+  "conclusion": "Taxonomy cleanup hurt accuracy - retain Phase C"
+}
